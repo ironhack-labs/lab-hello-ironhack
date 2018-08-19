@@ -1,0 +1,24 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.Back{
+  background-color: black;
+}
+
+.Left{
+  float: left;
+}
+
+.Right{
+  float: right;
+}
+
+.Below{
+  position: relative;
+  display: block;
+  margin-top: 200px;
+}
