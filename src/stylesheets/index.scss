@@ -1,0 +1,15 @@
+body {
+  //   background-color: #1f2535;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  fill: black;
+}
+
+.header {
+  background: url("../../public/react-logo.svg"), #1f2535;
+  height: 100vh;
+}
