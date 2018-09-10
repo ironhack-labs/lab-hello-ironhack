@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.border{
+border: solid 1px black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-blue{
+    background-color: #1f2332;
+    color: white;
+    height: 500px;
+
+}
+
+.content{
+    height: 200px
+}
+
+.img img{
+    width: 40%
+}
+
+.card {
+    margin: 2%
+}
