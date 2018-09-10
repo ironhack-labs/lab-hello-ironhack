@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', black, sans-serif;
+    font-size: 25px;
 }
 .border{
-border: solid 1px black;
+border: solid 1px red;
 }
 
 .cards {
@@ -16,11 +17,15 @@ border: solid 1px black;
     background-color: #1f2332;
     color: white;
     height: 500px;
+    padding: 10% 0 0 20%;
 
 }
 
 .content{
-    height: 200px
+    flex-direction: row;
+    font-size: 15px;
+    height: 200px;
+    margin: 2%
 }
 
 .img img{
