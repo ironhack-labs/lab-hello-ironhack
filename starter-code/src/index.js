@@ -1,31 +1,3 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import "./index.css";
-
-// class App extends React.Component {
-//   render() {
-//     return <div>{/* Your application code */}</div>;
-//   }
-// }
-
-// class Header extends React.Component {
-//   render() {
-//     return <div>{/* Your application code */}</div>;
-//   }
-// }
-// class Content extends React.Component {
-//   render() {
-//     return <div>{/* Your application code */}</div>;
-//   }
-// }
-// class Card extends React.Component {
-//   render() {
-//     return <div />;
-//   }
-// }
-
-/*..........*/
-
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -47,9 +19,9 @@ class App extends Component {
 class Navigation extends Component {
   render() {
     return (
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
+      <div className="navbar">
+        <img src="/images/ironhack-logo.svg" alt="" />
+        <img src="/images/menu-top.svg" alt="" />
       </div>
     );
   }
@@ -58,13 +30,16 @@ class Navigation extends Component {
 class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>Say hello to ReactJS</h1>
-        <p>
-          You will learn a Frontend framework from scratch, to become a Ninka
-          Developer
-        </p>
-        <button>Awesome!</button>
+      <div className="header">
+        <div className="container">
+          <h1>Say hello to ReactJS</h1>
+          <p>
+            You will learn a Frontend framework from scratch, to become a Ninja
+            Developer
+          </p>
+          <br />
+          <button>Awesome!</button>
+        </div>
       </div>
     );
   }
@@ -74,16 +49,16 @@ class Content extends Component {
   render() {
     return (
       <div className="content">
-        <Card src="" title="Declarative">
+        <Card src="/images/icon1.png" title="Declarative">
           React makes it painless to create interactive UIs.
         </Card>
-        <Card src="" title="Components">
+        <Card src="/images/icon2.png" title="Components">
           Build encapsulated components that manage their state.
         </Card>
-        <Card src="" title="Single-Way">
+        <Card src="/images/icon3.png" title="Single-Way">
           A set of immutable values are passed to the component's.
         </Card>
-        <Card src="" title="JSX">
+        <Card src="/images/icon4.png" title="JSX">
           Satically-typed designed to run on modern browsers.
         </Card>
       </div>
@@ -93,10 +68,10 @@ class Content extends Component {
 class Card extends Component {
   render() {
     return (
-      <div>
+      <div class="singlecard">
         <img src={this.props.src} alt="" />
         <h2>{this.props.title}</h2>
-        {this.props.children}
+        <p> {this.props.children}</p>
       </div>
     );
   }

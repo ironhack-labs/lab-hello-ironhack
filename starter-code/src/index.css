@@ -1,6 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+
+* {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .content {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding: 10% 10%;
+  height: 40vh;
+}
+
+.header {
+  height: 60vh;
+  background-color: #1f2535;
+  width: 90vw;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: #1f2535;
+  width: 90vw;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar > img {
+  size: 90%;
+  /* padding-top: 2%; */
+}
+
+.container {
+  width: 50vw;
+  height: 30vh;
+  max-width: 60vh;
+}
+
+.container > p {
+  color: white;
+  font-weight: 20;
+  font-size: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+  max-width: 35vh;
+  padding-bottom: 5%;
+}
+
+button {
+  padding: 4% 8%;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 4%;
+}
+
+.singlecard > h2 {
+  padding-bottom: 3%;
+}
+
+.singlecard > p {
+  max-width: 70%;
+  font-size: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.singlecard > h2,
+.singlecard > p {
+  padding-left: 7%;
 }
