@@ -1,0 +1,73 @@
+.navbar
+{
+  background-color: #222233 !important;
+  color: white;
+  padding: 3% 7%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.navbar .logo
+{
+  width: 50px;
+} 
+.navbar .ironhack-logo
+{
+  width: 80px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link
+{
+  color: white;
+}
+.jumbotron
+{
+  background-color: #222233 !important;
+  color: white;
+  text-align: left;
+  height: 100vh;
+  border-radius: 0;
+}
+.jumbotron-inner
+{
+  position: relative;
+  left: 50px;
+  top: 200px;
+  width: 70%;
+}
+.jumbotron-inner h1
+{
+  font-size: 70px;
+  font-weight: bold;
+}
+.jumbotron-inner p
+{
+  font-weight: lighter;
+  padding-bottom: 40px;
+}
+.card, .card-body, .card-deck
+{
+  margin: 0;
+}
+.card-deck
+{
+  padding: 10% 6%;
+}
+.card-deck .card
+{
+  border-width: 0;
+  text-align: left;
+}
+.card-deck .card .card-body p
+{
+  font-weight: lighter;
+}
+.card-deck .card .card-body h5
+{
+  font-size: 26px;
+  font-weight: bolder;
+}
+.card-deck .card img
+{
+  width: 50%;
+}
