@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-one {
+    background-color: #202634;
+    height: 700px;
+    color: white;
+    padding: 85px;
+}
+
+.menu-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-one-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.title-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.5px; 
+}
+
+.title-text {
+    margin-top: 50px;
+}
+
+.title-description {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "Open Sans";
+}
+
+.title-description-element {
+    width: 380px;
+}
+
+.button {
+    width: 200px;
+    height: 65px;
+    color: #202634;
+    background-color: white;
+    border: white 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.react-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.react-logos-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.react-one {
+    width: 155px;
+    margin: 10px -100px 10px 10px;
+}
+
+.react-logos-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.react-two {
+    width: 350px;
+    margin: 10px 150px 10px 0px;
+}
+
+.section-two {
+    background-color: white;
+    height: 400px;
+    color: black;
+    padding: 70px;
+}
+
+.section-two-elements {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-two-columns {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    width: 25%;
+}
+
+.icons {
+    width: 155px;
+}
+
+.title-two-description {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Open Sans";
+    padding: 0px 45px 0px 0px;
+}
+
+.title-two {
+    font-size: 30px;
+    font-family: "Open Sans";
+    line-height: 1px; 
+    color: #202634;
+    margin: 20px 0px 10px 0px;
+}
+
