@@ -1,0 +1,77 @@
+#body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topdiv{
+  background-color: #0a2e68;
+  width: 100%;
+  height: 500px;
+  
+}
+
+#header{
+  padding-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ironhacklogo{
+  margin-left: 8vw;
+}
+
+#menutop{
+  margin-right: 8vw;
+}
+
+#sayhello{
+  color: white;
+  font-size: 30px;
+}
+
+#middlesection h4{
+  color: white;
+  width: 15vw;
+}
+
+#middlesection button{
+  color: #0a2e68;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+#middlesection{
+  margin-left: 8vw;
+  margin-top: 17vh;
+  width: 20vw;
+}
+
+#bottomdiv img{
+  width: 10vw;
+  height: 20vh;
+}
+
+#bottomdiv h2{
+  color: #0a2e68;
+  margin-left: 1vw;
+  padding: none;
+}
+
+#bottomdiv p{
+  color: #575d66;
+  width: 10vw;
+  margin-left: 1vw;
+}
+
+#bottomdiv{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon{
+  margin-right: 5vw;
+}
