@@ -14,8 +14,8 @@ div.top > button{
 }
 
 div.top > h1{
-  padding-right: 70vw;
-  font-size: 50px;
+  /* padding-right: 70vw; */
+  font-size: 80px;
   padding-top: 30vh;
   padding-left: 5vw;
 }
@@ -50,5 +50,18 @@ button{
 .logo{
   position: absolute;
   left: 9vw;
-  top: 9vh;
+  top: 13vh;
+}
+
+.menu{
+  position: absolute;
+  top: 13vh;
+  right: 9vw;
+}
+
+.react-logo{
+  position: absolute;
+  right: 20vw;
+  top: 30vh;
+  height: 60vh;
 }

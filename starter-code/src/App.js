@@ -15,11 +15,19 @@ class App extends Component {
       <img src="/images/ironhack-logo.svg"/>
       </div>
 
+      <div className = "menu">
+      <img src="/images/menu-top.svg"/>
+      </div>
+
+            <div className = "react-logo">
+      <img src="/images/react-logo.svg"/>
+      </div>
+
 
       </div>
 
       <div className="top">
-        <h1> Say hello to ReactJS</h1>
+        <h1> Say hello to <br/> ReactJS</h1>
         <p>You will learn a Frontend framework from scratch,
           to become a Ninka Developer.
         </p>
