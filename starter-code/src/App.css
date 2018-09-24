@@ -1,0 +1,40 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+  background: #222222;
+  color: white;
+}
+
+div.top > button{
+  background: #222222;
+  color: grey;
+}
+
+div.top > h1{
+  padding-right: 70vw;
+  font-size: 50px;
+  padding-top: 30vh;
+  padding-left: 5vw;
+}
+
+div.top > p{
+  font-size: 18px;
+  padding-left: 5vw;
+  padding-right: 75vw;
+}
+
+div.top > button{
+  margin-left: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+  background: white;
+  color: #222222;
+  font-size: 20px;
+}
+
+button{
+  padding: 15px 25px 15px 25px;
+}
