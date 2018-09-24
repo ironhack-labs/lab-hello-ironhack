@@ -1,0 +1,41 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(26, 26, 100);
+  margin: 0;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 4.5em;
+}
+
+.services {
+  padding-top: 10vh;
+  background-color: white;
+}
+
+.main-div{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  color: white;
+}
+
+.logo {
+  height: 80px;
+}
+
+.myBtn {
+  height: 10vh;
+  width: 15vw;
+  font-size: 1.5em;
+}
+
+.react-logo { 
+  background-image: url('/images/react-logo.svg');
+  background-repeat: repeat;
+}
+
+.menu {
+  height: 20px;
+}
