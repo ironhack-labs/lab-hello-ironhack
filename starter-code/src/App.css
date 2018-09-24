@@ -4,12 +4,12 @@
 }
 
 .top{
-  background: #222222;
+  background: #1f2535;
   color: white;
 }
 
 div.top > button{
-  background: #222222;
+  background: #1f2535;
   color: grey;
 }
 
@@ -31,10 +31,24 @@ div.top > button{
   margin-top: 3vh;
   margin-bottom: 10vh;
   background: white;
-  color: #222222;
+  color: #1f2535;
   font-size: 20px;
 }
 
 button{
   padding: 15px 25px 15px 25px;
+}
+
+.all-cards{
+  display: flex;
+}
+
+.card{
+  padding-right: 5vw;
+}
+
+.logo{
+  position: absolute;
+  left: 9vw;
+  top: 9vh;
 }
