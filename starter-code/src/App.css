@@ -54,6 +54,73 @@
       position: absolute;
      padding-left: 700px;
      padding-top: 150px;
-     
-
   }
+
+  #second-image {
+      height: 200px;
+  }
+
+  .whatever-tree {
+      position: absolute;
+      padding-left: 500px;
+      padding-top: 350px;
+  }
+
+  #third-image {
+      height: 250px;
+  }
+
+  .iron-logo {
+      position: absolute;
+      bottom: 740px;
+  }
+
+  .whatever-four {
+      position: absolute;
+      padding-left: 1100px;
+  }
+
+
+  #fourth-image {
+      height: 200px;
+  }
+
+  .whatever-fifth {
+      position: absolute;
+      padding-left: 1100px;
+      padding-top: 200px;
+  }
+  #fifth-image {
+      height: 200px;
+  }
+
+  .whatever-sixth {
+      position: absolute;
+      padding-left: 1100px;
+      padding-top: 380px;
+  }
+
+  #sixth-image {
+      height: 200px;
+  }
+
+
+  .second-page {
+      display: flex;
+      padding-top: 300px;
+      /* justify-content: center; */
+      justify-content: space-evenly;
+  }
+
+
+/* 
+  #for-space {
+      display: flex;
+      justify-content: space-between;
+  }
+   */
+
+
+   .push-it {
+       margin-bottom: 100px;
+   }
