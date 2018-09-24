@@ -1,0 +1,69 @@
+.App {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ironlogo {
+  max-height: 100%;
+}
+
+.topNav {
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+.topDiv {
+  background-color:#252a30;
+  height: 40vw;
+  color: white;
+}
+.topDiv h1{
+  font-size: 6vw;
+  margin-top: 5vw;
+  margin-left: 1vw;
+}
+.topDiv p{
+  font-size: 1.2vw;
+  font-weight: 100;
+  width: 20vw;
+  margin-left: 2vw;
+}
+
+.topDiv button{
+  padding: 1vw 2vw;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  font-size: 1.5vw;
+}
+.container {width:100%;max-width:none;padding:0;}
+
+.dumbProtons {
+  background-image: url('/images/react-logo.svg');
+  background-repeat: repeat;
+  height: 30vw;
+}
+
+.bottomDiv {
+  height: 40vw;
+}
+
+.bottomDiv .row{
+  margin-top: 10vw;
+  justify-content: space-around;
+}
+
+.bottomDiv .col-2{
+  text-align: center;
+}
+
+.bottomDiv .col-2 h3{
+  max-width: 100%;
+}
+
+.bottomDiv .col-2 p{
+  font-weight: 100;
+  max-width: 100%;
+}
+
+.top-container{
+  justify-content: space-around;
+}
