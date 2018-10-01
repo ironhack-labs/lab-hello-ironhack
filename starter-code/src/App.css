@@ -1,0 +1,59 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+.App{
+  background-color:#272539;
+  width: 100vw;
+  height: 100vh;
+  color: white; 
+}
+.Header{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.Header *{
+  margin: 0;
+  margin-bottom:0;
+  margin-left:50px;
+  margin-right:50px; 
+}
+
+.Body{
+  width: 50%;
+  height: 100vh;
+  margin-top: 5%;
+  margin-left: 50px;
+}
+
+.Body h1{
+  font-size: 5rem;
+}
+.Body p{
+  font-size: 2rem;
+}
+
+Body button{
+  border-radius:5px;
+  font-size: 1rem;
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+}
+.Logitos{
+  width: 100vw;
+  display: flex;
+  height: 50vh;
+  margin-top: 0;
+  flex-grow: 1;
+  color: black;
+  text-align: center;
+}
+
+.Logitos div {
+  width: 25%;
+  
+}
