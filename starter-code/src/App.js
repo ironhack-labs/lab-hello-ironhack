@@ -41,7 +41,7 @@ export class App extends Component {
         <div classname="icon">
           <img src="./images/icon4.png"></img>
           <h2>JSX</h2>
-            <p>Statically-typed, designed to run on modern browsers.</p>
+            <p>Statically-typed, designed to run on modern browsers. </p>
         </div>
       </div>
       </div>
