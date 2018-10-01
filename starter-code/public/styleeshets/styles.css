@@ -1,0 +1,57 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main {
+	background-color: #1f2535;
+	padding: 3rem 5rem;
+	background-image: url('../images/react-logo.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 30px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero p {
+	width: 400px;
+	font-size: 1.25rem;
+	font-weight: normal;
+	margin-bottom: 50px;
+	color:#fff;
+}
+
+.hero button {
+	padding: 20px 30px;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #fff;
+}
+
+.footer {
+	width: 90%;
+	margin: 80px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.footer div {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+.footer h3 {
+	font-size: 1.5rem;
+}
