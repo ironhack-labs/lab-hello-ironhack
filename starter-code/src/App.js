@@ -6,7 +6,6 @@ export class App extends Component {
     return (
       <div id="body">
         <div id="top">
-          {/* div superior */}
           <div id="header">
           <div id="logo">
             <img src="./images/ironhack-logo.svg"></img>
@@ -23,9 +22,7 @@ export class App extends Component {
         <p>You will learn a Fronted framework from scratch, to becaome an Ninka Developer</p>
         <button>Awesome!</button>
         </div>
-
         <div id="bottom">
-          {/* div inferior */}
           <div classname="icon">
           <img src="./images/icon1.png"></img>
           <h2>Declarative</h2>
