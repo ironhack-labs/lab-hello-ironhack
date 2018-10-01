@@ -1,0 +1,59 @@
+* {
+  margin: 0 ;
+  padding: 0;  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.App{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+header > * {
+  margin: 0;
+}
+
+.Body{
+  width: 50%;
+  color: white;
+  margin-left: 50px;
+  margin-top: 5%;
+}
+
+.Body > h1 {
+  font-size: 5rem;
+}
+
+.Body > p {
+  font-size: 2rem;
+}
+
+.Body > button{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 20%;
+  height: 50px;
+  border-radius: 7px;
+}
+
+.logos{
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  background-color: white;
+  flex-grow: 1;
+}
+
+.logos > div{
+  width: 23%;
+  text-align: center;
+}
