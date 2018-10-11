@@ -1,0 +1,36 @@
+.top {
+    background-image: url("/images/react-logo.svg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: navy;
+    color: whitesmoke;
+    padding-bottom: 10%;
+}
+
+.h1 {
+    font-size: 65px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.p {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.img1 {
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.img2 {
+    
+    margin-top: 2%;
+    margin-left: 85%;
+}
+
+.button {
+    background-color: whitesmoke;
+    margin-left: 10%;
+}
