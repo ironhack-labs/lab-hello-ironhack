@@ -1,4 +1,48 @@
 .arriba {
-    background-color: #1f2535;
+	background-color: #1f2535;
     color: white;
+    height: 350px;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	/* background-image: url('images/react-logo.svg'); */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left : 20;
+    padding-right: 20;
+    overflow: hidden;
+}
+
+li {
+	display: inline;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background-color: #fff; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+.text {
+    margin: 4% 10.5%;
+    line-height: 2.5;
+}
+
+.menu {
+    float: right;
+}
+
+.title {
+    font-size: 3rem;
 }
