@@ -1,0 +1,15 @@
+.cards{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    width: 18%;
+}
+
+.card-img{
+    width: 60%;
+}
