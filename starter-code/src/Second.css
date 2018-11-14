@@ -1,0 +1,8 @@
+.second {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    justify-content:center;
+}

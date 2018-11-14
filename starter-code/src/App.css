@@ -1,0 +1,29 @@
+.header{
+    background-color: #1f2435;
+}
+
+.navbar {
+    margin: 10px;
+}
+
+.nav img {
+    text-align: center;
+    padding: 14px 16px;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 90px;
+    margin: 5%;
+    letter-spacing: -1px;
+    display: block;
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 21px;
+    margin: 5%;
+    font-weight: 300;
+    display: block;
+}
