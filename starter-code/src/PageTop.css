@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* background-image: url('../public/images/react-logo.svg') */
+    background-color: #232838;
+    height: 100vh;
+    padding: 20px 100px;
+    font-family: sans-serif;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    color: white;
+    font-size: 2em;
+    width: 40%;
+    margin-top: 10%;
+}
+
+.btn{
+    border: none;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.7em;
+    border-radius: 3px;
+} 
