@@ -26,8 +26,8 @@
     display: flex;
 }
 
-div{
-    padding: 10px;
+.divFooter{
+    padding: 20px;
 }
 
 .App {
