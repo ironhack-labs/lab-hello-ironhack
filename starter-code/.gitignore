@@ -1,2 +1,7 @@
-#node_modules
+# node_modules
 node_modules
+
+# Exercise example
+layout.png
+
+.DS_Store
