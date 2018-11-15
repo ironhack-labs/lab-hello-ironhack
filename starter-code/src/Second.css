@@ -1,8 +1,22 @@
 .second {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .block {
-    justify-content:center;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.second > .block > h2 {
+    margin: 2% 10%;
+}
+
+.second > .block > p {
+    margin: 2% 10%;
+    color: gray;
+}
+
+.second > .block > img {
+    max-width: 182px;
 }
