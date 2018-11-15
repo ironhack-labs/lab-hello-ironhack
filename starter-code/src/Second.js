@@ -21,7 +21,7 @@ class Second extends Component{
                     <p>A set of immutable values are passed to the components.</p>
                 </div>
                 <div className='block'>
-                    <img src="images/icon3.png"></img>
+                    <img src="images/icon4.png"></img>
                     <h2>JSX</h2>
                     <p>Statically-typed, designed to run on modern browsers.</p>
                 </div>

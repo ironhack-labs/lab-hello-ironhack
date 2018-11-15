@@ -12,7 +12,9 @@ class First extends Component{
                 <div className='content'>
                     <div>
                         <h1>Say hello to ReactJS</h1>
-                        <p>You will learn a Frontend framework from scratch, to became a Ninja Developer</p>
+                        <p>You will learn a Frontend </p>
+                        <p> framework from scratch, </p>
+                        <p>to became a Ninja Developer.</p>
                         <button className='button'>Awesome!</button>
                     </div>
                     <div>
