@@ -15,7 +15,7 @@ class Footer extends Component{
                 <div className='divFooter'>
                     <img src="images/icon2.png" alt=""/>
                     <h2>Components</h2>
-                    <p>Buil encapsulated
+                    <p>Build encapsulated
                     components that
                     manage their state</p>
                 </div>
