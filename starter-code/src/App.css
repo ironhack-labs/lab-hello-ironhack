@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+ }
+
+.logoUno{
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.logoDos{
+    margin-left: 80%;
+}
+.portada{
+    background-color: #1f2535;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 15px 32px;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.letraTit{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 50%;
+    padding-top: 5%;
+    font-size: 4rem;
+    color: white;
+    text-align: left;
+
+}
+
+.letraTxt{
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 50%;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+}
+.cards{
+    display: flex;
+    align-items: baseline;
+    margin:  12% 0 10% 0;
+    padding: 0 0 0 14%;
+    width: 80%;
+}
+.img_S{
+    width: 40%;
+}
+.text_Card{
+    font-size: 20px;
+    width: 59%;
+}
