@@ -14,7 +14,7 @@ body{
     color: white;
     padding: 3% 5%;
     position: relative;
-    /*background-image: 'images/react-logo.svg'*/
+    overflow: hidden;
 }
 
 .main-text{
