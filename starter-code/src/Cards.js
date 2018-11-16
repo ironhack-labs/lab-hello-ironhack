@@ -3,7 +3,6 @@ import declarative from '../public/images/icon1.png';
 import components from '../public/images/icon2.png';
 import singleWay from '../public/images/icon3.png';
 import jsx from '../public/images/icon4.png';
-import '../public/css/cards.css';
 
 class Cards extends Component {
   render() {
