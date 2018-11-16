@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './PageTop.css'
-// import PageBottom from './PageBottom'
+//import PageBottom from './PageBottom'
 
 class Top extends Component {
     render() {
