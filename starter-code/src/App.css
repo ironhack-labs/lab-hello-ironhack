@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+}
+
+.nav-content {
+    margin: 0.5% 1%;
+}
+
+#section1 {
+    height: 100vh;
+    color: white;
+    display: flex;
+    background-color: black;
+    background-image: url("/images/react-logo.svg");
+}
+
+
+#container1 {
+    width: 100%;
+    margin: 5%;
+    height: 50vh;
+}
+
+#container1 h1 {
+    font-size: 5em;
+    width: 50%;
+    font-family: Fjalla One;
+}
+
+#container1 p {
+    font-family: roboto;
+    width: 35%;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+#btn {
+    margin-top: 3%;
+}
+
+#btn button {
+    font-family: fjalla One;
+    font-size: 1.5em;
+    border: 1px solid white;
+    width: 13%;
+    height: 9vh;
+    border-radius: 0.2em;
+    background-color: white;
+}
+
+#section2 {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+#section2 h3 {
+    font-size: 2em;
+    font-family: Fjalla One;
+}
+
+#section2 p {
+    font-family: roboto;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.container2 {
+    display: flex;
+    text-align: center;
+    margin: 0 4%;    
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
