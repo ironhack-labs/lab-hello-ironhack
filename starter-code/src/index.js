@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.js";
+import Nav from "./Nav.js";
+import Sec1 from "./Sec1.js";
+import Sec2 from "./Sec2.js";
 
 ReactDOM.render(
-  <App />,
+	<main>
+		<Nav/>
+		<Sec1/>
+		<Sec2/>
+	</main>,
+
   document.getElementById("root")
 );
