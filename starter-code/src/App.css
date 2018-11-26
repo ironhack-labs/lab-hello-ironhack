@@ -1,0 +1,25 @@
+* {
+  font-family: 'times'; 
+}
+
+div {
+  border: 1px solid red;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.App {
+  background-image: url('/images/react-logo.svg');
+  background-color: #1f2535;
+  height: 450px;
+  margin: 0 80px;
+}
+
+.header {
+  color:white;
+  font-size: 20px;
+  width: 45%;
+}
