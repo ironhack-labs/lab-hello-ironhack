@@ -1,0 +1,35 @@
+.header .text {
+  background-color: #1f2435;
+  color: white;
+  background-size: cover;
+  background-repeat: none;
+  height: 700px;
+  font-size: 30px;
+
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.header h1 {
+  font-size: 100px;
+}
+button {
+  border-radius: 5px;
+  height: 70px;
+  width: 200px;
+  font-size: 30px;
+}
+img {
+  padding: 0;
+  /* background-color: rgb(31, 36, 53); */
+  /* height: 200px;
+  width: 200px;
+  padding-top: 200px; */
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgb(31, 36, 50);
+}

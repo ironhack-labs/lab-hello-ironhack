@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.js";
+import Header from "./Header.js";
+import Section from "./section.js";
+import Nav from "./Nav.js";
 
 ReactDOM.render(
-  <App />,
+  <section>
+    <Nav />
+    <Header />
+    <Section />
+  </section>,
   document.getElementById("root")
 );
