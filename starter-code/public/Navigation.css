@@ -1,0 +1,12 @@
+nav {
+  position: fixed;
+  margin: 0;
+  padding: 10px 50px;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(24,27,40);
+}

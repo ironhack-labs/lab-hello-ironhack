@@ -1,0 +1,7 @@
+.card {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+}
