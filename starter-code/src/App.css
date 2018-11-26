@@ -1,0 +1,25 @@
+.front-panel-nav {
+  height: 50px;
+  background-color: darkblue;
+}
+
+.front-panel-main {
+  height: 500px;
+  background-image: url(/images/react-logo.svg);
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.front-panel-cards {
+  display: flex;
+  text-align: center;
+}
+
+.front-panel-cards-tile {
+  max-width: 100px;
+  margin: 0 auto;
+  font-size: 1em; 
+}
+
