@@ -1,0 +1,41 @@
+/* .app{
+    
+
+    
+} */
+.awesome-button{
+    background-color: white;
+    color:#1F2436;
+    border-radius: 4px;
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-section{
+    background-color: #1F2436;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+
+}
+
+
+.icons-list{
+    display: flex;
+
+    
+
+}
+
+.icon-box{
+    display: inline-block;
+    color:#1F2436;
+
+}
