@@ -1,0 +1,87 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #112749;
+}
+
+.whole-wrap {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 80px;
+}
+
+header {
+  background-color: #112749;
+}
+
+.whole-wrap nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.whole-wrap .head {
+  width: 400px;
+  height: 400px;
+  color: white;
+  padding: 0 30px;
+}
+
+.whole-wrap .head h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  font-weight: 800;
+}
+
+.whole-wrap .head h3 {
+  width: 300px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.whole-wrap .head button {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #112749
+}
+
+/* -------------------- */
+
+.wrapper-menu {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.pres-menu {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-cat {
+  width: 200px;
+}
+
+.menu-cat img {
+  width: 125px;
+  margin-bottom: 0;
+}
+
+.menu-cat h5 {
+  font-size: 23px;
+  margin-bottom: 0px;
+  color: #112749
+}
+
+.menu-cat p {
+  font-size: 14px;
+  color: grey;
+  width: 125px;
+}
