@@ -1,0 +1,62 @@
+body{
+    margin : 0;
+}
+.header{
+    background-image: url("/images/react-logo.svg");
+    background-color: #24292e;
+    width : 100%;
+    height: 550px;
+}
+
+nav{
+    display : flex;
+    justify-content: space-between;
+}
+
+nav img{
+    margin : 30px 50px;
+}
+
+.catch{
+    margin : 30px;
+    width : 40%;
+}
+
+.catch h1{
+    font-size: 5rem;
+    color: white;
+    margin : 10px;
+}
+
+.catch p{
+    font-size: 2rem;
+    color: white;
+}
+
+.catch a{
+    background-color: white;
+    border-radius: 3px;
+    padding : 20px 30px;
+    color :  #24292e;
+    font-weight: bold;
+    font-size : 1.5rem;
+}
+
+.content{
+    display : flex;
+    justify-content: space-around;
+    margin : 50px;
+
+}
+.one-item{
+    width : 15%;
+    margin : 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.one-item img{
+    width : 150px;
+}
+
