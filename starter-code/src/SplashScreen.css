@@ -1,0 +1,33 @@
+.splash {
+    background-color: #1e2435;
+    color: white;
+    font-size: 2.5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* width: 850px; */
+    /* padding: 8rem 0 0 30rem; */
+}
+
+.content {
+    width: 850px;
+    padding-top: 10%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(196, 196, 196);
+    margin-bottom: 3rem;
+}
+
+button {
+    background-color: white;
+    color: #1e2435;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    /* outline: none; */
+    border: 0px;
+}

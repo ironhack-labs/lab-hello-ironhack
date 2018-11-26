@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e2435;
+    padding: 50px;
+}
+
+.menu-icon {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu-line {
+    height: 5px;
+    width: 50px;
+    background-color: white;
+}
+
+.menu-line:nth-of-type(2){
+    width: 30px;
+}

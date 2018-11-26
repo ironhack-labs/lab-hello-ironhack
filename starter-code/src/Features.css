@@ -1,0 +1,24 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin: 100px auto;
+}
+
+.features > div {
+    width: 200px;
+
+}
+
+img {
+    width: 150px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3, p {
+    margin-left: 17px;
+}
