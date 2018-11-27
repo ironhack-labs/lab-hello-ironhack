@@ -1,0 +1,9 @@
+.container {
+    margin: 150px 0 100px 50px;
+    width: 19%;
+    display: inline-flex;
+}
+
+p {
+    font-size: 1.3em;
+}
