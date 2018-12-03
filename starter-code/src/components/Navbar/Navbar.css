@@ -1,0 +1,17 @@
+.Navbar{
+  display:flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.logo{
+  height: 60%;
+  margin-left: 20px;
+  /* margin-left:10px; */
+}
+
+.menu{
+  margin-right: 20px;
+  height: 15%;
+}

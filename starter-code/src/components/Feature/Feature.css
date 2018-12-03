@@ -1,0 +1,9 @@
+.Feature{
+  width: 15%;
+}
+
+.Feature h2{
+  margin-bottom: 10px;
+}
+
+.Feature p{color:grey}
