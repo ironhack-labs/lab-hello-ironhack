@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Icons{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 100px 50px;
+    justify-content: center;
+}
+
+.icons4{
+    width: 40%;
+    height: 40%;
+}
+h4,p{
+    font-family: Arial, Helvetica, sans-serif
+}
+h4{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(99, 98, 98);
+}
+.indiviual{
+    text-align: justify;
+    width: 20%;
+    margin: 0 25px;
+    display: block;
+}
