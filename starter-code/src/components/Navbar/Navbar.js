@@ -5,7 +5,8 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="Navbar">
-        <h1> This will be the navbar </h1>
+        <img src="/images/ironhack-logo.svg" alt="ironhack-logo"/>
+        <img src="/images/menu-top.svg" alt="menu-top"/>
       </div>
     );
   }

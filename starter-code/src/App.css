@@ -1,0 +1,10 @@
+.blue-section {
+    background-color: #1f2535;
+    color:white;
+}
+
+.white-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
