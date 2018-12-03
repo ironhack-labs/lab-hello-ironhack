@@ -1,0 +1,17 @@
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article{
+  width: 15vw;
+  height: 33vh;
+  padding: 8vh 1vw;
+}
+.article img{
+  width: 10vw;
+}
+.article p{
+  width: 12vw;
+  font-size: normal;
+}
