@@ -39,3 +39,15 @@ button {
   font-weight: 800;
   font-size: 16px;
 }
+
+.noHeader {
+    color: black;
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+    justify-content: space-evenly
+}
+
+.noHeader p {
+    color: black;
+}

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
+import  Section from "./components/section/section.js"
 // import menu from "./images/menu-top.svg";
+
 
 class App extends Component {
   render() {
@@ -17,6 +19,9 @@ class App extends Component {
           Developer.
         </p>
         <button onClick>Awesome!</button>
+        
+        <Section/>
+       
       </div>
     );
   }
