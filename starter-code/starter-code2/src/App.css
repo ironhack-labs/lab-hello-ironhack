@@ -1,0 +1,85 @@
+.one {
+  background-color: #282c34;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.App-logo {
+  margin-left: 4%;
+}
+
+.App-header {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.titleStyle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-top: 3%;
+  width: 40%;
+}
+
+h1 {
+  color: white;
+  font-size: 12vh;
+  margin-bottom: 0;
+}
+
+.mainText {
+  color: white;
+  width: 50%;
+  font-size: 26px;
+}
+
+header {
+  height: 10vh;
+}
+
+.awesome {
+  padding: 1%;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.two {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logoSections {
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+}
+
+.logoHeaders {
+  color: #282c34;
+  margin-bottom: 0;
+}
+
+.logoDetails {
+  color: gray;
+}
+
+.footerHeader {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 12%;
+}
+
+
+
+
+
