@@ -1,0 +1,19 @@
+.Card {
+  padding: 1rem;
+}
+h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  font-size: 1.78rem;
+  color: #262638;
+}
+.Card img {
+  margin-left: -1rem;
+}
+.Card p{
+  margin-top: 0;
+  color: #262638;
+  font-weight: 100;
+  font-size: 1.2rem;
+  letter-spacing: 0.025rem;
+}

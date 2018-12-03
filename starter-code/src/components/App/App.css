@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+.App {
+  
+}
+body {
+margin: 0px;
+font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: #262638;
+  color: white;
+  padding: 1.5rem 2rem 5rem 4rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/react-logo.svg);
+  background-repeat: no-repeat repeat;
+  background-position: right;
+
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  flex-grow: 1;
+  max-width: 35rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 5.5rem;
+  line-height: 6rem;
+  margin-bottom: 0;
+}
+header p {
+  font-size: 1.45rem;
+  font-weight: 100;
+  max-width: 20rem;
+  margin-top: .5rem;
+}
+header a {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  background-color: white;
+  color:#262638;
+  width: fit-content;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+section {
+  padding: 6rem 4rem;
+  display: flex;
+  justify-content: center;
+}
