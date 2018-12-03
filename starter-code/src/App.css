@@ -1,0 +1,24 @@
+.App {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 27, 40);
+    background-image: url('/images/react-logo.svg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+}
+
+#mini-items-container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    width: 80%;
+}

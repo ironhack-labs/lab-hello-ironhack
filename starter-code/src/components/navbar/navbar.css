@@ -1,0 +1,17 @@
+.Navbar{
+    height: 80px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+
+}
+#menu-top{
+    height: 50px;
+    width: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}

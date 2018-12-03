@@ -1,0 +1,17 @@
+.mainTitle{
+    margin:12rem 3rem;
+    width:30%;
+}
+.mainTitle h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+}
+
+.mainTitle h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width:50%;
+}

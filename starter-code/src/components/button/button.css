@@ -1,0 +1,12 @@
+.Button{
+    margin:12rem 3rem;
+}
+.Button button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 27, 40);
+    border-radius:4px;
+    padding: 0.5rem; 
+    width: 12%;
+    height: 60px;
+    font-size: 1.6rem;
+}
