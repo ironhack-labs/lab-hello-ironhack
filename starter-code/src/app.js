@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import ListItem from "./components/items/items";
+import Header from "./components/header/header";
 
 class App extends Component {
   items = [
@@ -25,6 +26,17 @@ class App extends Component {
       imgUrl: "/images/icon4.png"
     }
   ];
+  header= [
+    { 
+      logoUrl:'/images/ironhack-logo.svg',
+      menu:"/images/menu-top.svg",
+      title: "Say Hello To ReactJS",
+      description: "You Will learn a frontend framework from scratch to become a ninja developer",
+      
+      
+    },
+  ];
+
 
   constructor() {
     super();
@@ -32,6 +44,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div class="headerStyle">
+
+      </div>
         {this.items.map((item, index) => {
           return (
             <ListItem
