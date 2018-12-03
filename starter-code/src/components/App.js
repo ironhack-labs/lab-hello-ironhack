@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import NavBar from "./nav-bar/Nav"
 import Header from "./Header/header"
 import Section from "./Section/section"
+import './App.css'
+
 
 const iconosTexto = [
   {
@@ -32,7 +34,9 @@ class App extends Component {
       <div>
       <NavBar />
       <Header />
+      <div className="section">
       {iconosTexto.map(array =><Section img={array.image} title={array.title} p={array.text}></Section>)}
+      </div>
       </div>
     );
   }
