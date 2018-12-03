@@ -8,7 +8,7 @@ class Button extends Component{
     }
     render(){
         return(
-            <div>
+            <div className="button">
                 <button>Awesome!</button>
                 </div>
         )

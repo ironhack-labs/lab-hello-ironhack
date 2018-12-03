@@ -7,7 +7,7 @@ class Title extends Component{
     }
 render(){
     return (
-    <div>
+    <div className="title">
         <h1>Say hello to reactJS</h1>
         <p>ñwJEF ÑOquwef oHWEFOI WÑOEFH QWIehfñlHSAF ÑOashef oñawehfs ahs fsh FHseli.</p>
     </div>

@@ -1,0 +1,10 @@
+.button{
+    color: #1f2535;
+    padding: 2% 5% 10% 5%;
+}
+.button button{
+    padding: 2% 4%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
