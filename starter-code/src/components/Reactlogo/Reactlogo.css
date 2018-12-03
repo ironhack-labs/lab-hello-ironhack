@@ -1,0 +1,44 @@
+.logos-react{
+    display: flex;
+}
+
+.logos-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.logos-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 20%
+}
+
+.logo1{
+    margin-left: 20px
+}
+
+.logo2{
+    margin-left: 350px;
+    margin-bottom: -50px;
+    width: 250px;
+}
+
+.logo3{
+    width: 250px;
+    margin-left: 175px;
+}
+
+.logo4{
+    width: 150px;
+    margin-bottom: 20%;
+}
+
+.logo5{
+    width: 150px;
+    margin-bottom: 20%;
+}
+
+.logo6{
+    width: 150px
+}

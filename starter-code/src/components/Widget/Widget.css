@@ -1,0 +1,17 @@
+.widgets{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.widgets h3{
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.widgets p{
+    margin-top: -15%;
+}
+
+.widgets img{
+    margin-left: -10%;
+}
