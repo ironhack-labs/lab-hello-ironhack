@@ -1,0 +1,17 @@
+
+.navbar {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.linkNav {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type:none;
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: #008080;
+  color: #fff;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.App {
+  font-size: 4vw;
+}
+
+
