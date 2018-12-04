@@ -1,0 +1,82 @@
+/* Text Not Responsive */
+
+body{
+  margin: 0;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.white{
+  color: white;
+}
+
+.upperContainer{
+  background-color: #1F2535;
+  width: 70%;
+  margin: 0 auto;
+  height: 340px;
+}
+
+.lowerContainer{
+  height: 200px;
+
+}
+
+.textContainer{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.textContainer h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin: 30px 0 0 0;
+  width: 45%;
+}
+
+.textContainer button{
+  width: 18.3%;
+  height: 35px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.textContainer p{
+  font-size: 0.6rem;
+  width: 30%;
+  margin-top: 0px;
+}
+
+.lowerContainer{
+ width: 58%;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+.articleContainer{
+  width: 16%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.articleContainer img{
+  width: 100%;
+}
+
+.articleContainer h2 {
+  font-size: 0.7rem;
+  margin:5px 0 0 8px;
+}
+
+.articleContainer p{
+  margin: 5px 0 0 8px;
+  font-size: 0.42rem;
+  width: 100%;
+}
