@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.backg {
+  background: url("/images/react-logo.svg") right top no-repeat,
+    url("/images/react-logo.svg") center no-repeat,
+    url("/images/react-logo.svg") right bottom no-repeat;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(9, 9, 36, 0.9);
+  height: 600px;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  margin: 2% 5% 0;
+}
+
+h4 {
+  margin: 2% 5% 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  margin: 0 5%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 10%;
+  color: rgba(9, 9, 36, 0.9);
+}
+
+section {
+  width: 15%;
+}
