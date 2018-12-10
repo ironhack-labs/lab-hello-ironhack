@@ -1,0 +1,65 @@
+* {
+  background-color: #212838;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.top-container {
+  background-color: #212838;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perro {
+  width: 50%;
+  padding-top: 100px;
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.perro p {
+  background-color: #212838;
+  color: white;
+}
+
+.perro button {
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #212838;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.bottom-container {
+  padding: 100px 10px;
+  width: 100%;
+  background-color: white;
+  color: #212838;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-container {
+  background-color: white;
+  color: #212838;
+  width: 20vw;
+}
+
+.card-container h3, p {
+  background-color: white;
+  color: #212838;
+}
