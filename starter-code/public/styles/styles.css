@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav *{
+    margin: 1rem;
+}
+.tittle{
+    color: rgb(255,255,255);
+    font-size: 4rem;
+}
+.main-div{
+    background-color: #252439;
+
+}
+
+.subtittle{
+    color: rgb(255,255,255);
+    font-size: 1.4rem;
+    font-weight: lighter;
+    width: 30vw;
+}
+.landing{
+    width: 50vw;
+    margin: 1.5rem;
+}
+
+button{
+    background-color: rgb(255,255,255);
+    border-radius: 5px;
+    height: 40px;
+    margin: 3rem 0 3rem 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: rgb(255,255,255);
+    margin: 2rem;
+}
+.cards *{
+    background-color: rgb(255,255,255);
+}
+.cards img{
+    width: 100px;
+}
+.card {
+    margin: 4em 1em 4em 1em;
+    flex: 0 1 20%;
+    color: #252439;
+}
+.white{
+    background-color: rgb(255,255,255);
+
+}
