@@ -1,6 +1,10 @@
 .container{
+  background: url('/images/react-logo.svg') right top no-repeat,
+  url('/images/react-logo.svg') center no-repeat,
+  url('/images/react-logo.svg') right no-repeat;
   background-color: #272746;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .navbar{
   display: flex;
