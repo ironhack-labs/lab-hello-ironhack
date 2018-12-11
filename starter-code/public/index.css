@@ -1,0 +1,32 @@
+
+*{
+  margin: 0px;
+}
+
+.container{
+  padding-top: 45%;
+  padding-left: 40px;
+  display: felx;
+  flex-direction: column;
+  justify-content: center;
+  height: 800px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+}
+h1{
+  display: flex;
+  font-size: 4em;
+}
+
+p{
+  font-size: 1.3em;
+}
+
+
+#iconContainer{
+  display: flex;
+  flex-flow: nowrap;
+  align-content: space-around;
+
+}
