@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+button{width: 15rem;
+height: 3rem;}
+ #navbar{
+    width:100%;
+    height: 4rem;
+    background-color:blue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+ }
+ #land-container{
+    width:100%;
+    height:40rem;
+    background-color:blue;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+ }
+}
+}
+#cuadroscontainer{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    justify-self: flex-end;
+    background-color: red;
+}
+.cuadros{
+    display: flex;
+    flex-flow: column wrap;
+    color:black;
+    width:20%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+}
+.info-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
