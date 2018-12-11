@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+.principal{
+    background: url('/images/react-logo.svg')right top no-repeat,
+    url('/images/react-logo.svg') center no-repeat,
+    url('/images/react-logo.svg') left bottom no-repeat,
+    url('/images/react-logo.svg') right bottom no-repeat;
+    background-color: rgba(9,9,36,.8);
+    color:white;
+    width:100vw;
+    height: 800px;
+    padding: 0;
+    margin: 0
+}
+
+.nav{
+    width:100%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.iron{
+    margin-left: 10%
+}
+
+.iron img{
+    width:100px
+}
+
+.hambur{
+    margin-right: 10%
+}
+
+.hambur img{
+    width:100px
+}
+
+.principal h1{
+    font-size: 5em
+}
+
+.secundario{
+    padding: 10%;
+    width: 80%;
+}
+
+.boton{
+    font-size: 1.2em;
+    background-color: white;
+    margin:25px 0;
+    padding: 10px 25px;
+    border-radius: 10px
+}
+
+.iconitos{
+    padding: 0 15%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.iconito-box{
+    margin: 0 10%;
+    flex: 1 1 20%
+}
