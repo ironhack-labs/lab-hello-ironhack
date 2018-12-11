@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+button{width: 15rem;
+height: 3rem;}
+
+#navbar{
+    width:100%;
+    height: 4rem;
+    background-color:darkslateblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+
+}
+
+#land-container{
+    width:100%;
+    height:40rem;
+    background-color:darkslateblue;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+
+}
+#land-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+}
+#land-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+#cuadroscontainer{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    justify-self: flex-end;
+    background-color: white;
+}
+.cuadros{
+    display: flex;
+    flex-flow: column wrap;
+    color: gray;
+    width:20%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.info-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+.info-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
