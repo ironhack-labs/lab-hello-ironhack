@@ -1,0 +1,59 @@
+.container{
+  background-color: #272746;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo{
+  width:600px;
+  font-size:90px;
+  color: white;
+}
+.info{
+    width:400px;
+    font-size: 30px;
+    color:white;
+    font-weight:100;
+}
+.boton{
+  width:180px;
+  height:80px;
+  border-radius: 8px;
+  background-color: lightgray;
+  font-size:20px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.reacts{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap
+  
+}
+.parte2{
+  display:flex;
+  /* flex-wrap:wrap; */
+  align-content: space-around;
+  width:100vw;
+  height:40vh;
+  background-color: white;
+}
+h4{
+  background-color:white;
+  text-align: center;
+}
+p{
+  background-color:white;
+  text-align: center;
+}
+.card{
+  height:200px;
+  width:100px;
+  margin:100px;
+}
+
+ 
