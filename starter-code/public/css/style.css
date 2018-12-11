@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.parent{
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-item{
+    margin-left: 1em;
+    padding: 10px;
+}
+
+.right-item{
+    margin-right: 1em;
+    padding: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon{
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+}
+
+.icon img{
+    width: 130px;
+}
+
+.header{
+    padding: 3em;
+    background-image: url('/images/react-logo.svg');
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+.header h1{
+    font-size: 4em;
+    width: 45%;
+}
+
+.header p{
+    width: 45%;
+    margin-top: -45px;
+    margin-bottom: 45px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.boton{
+    border: 1px solid white;
+    padding: 1em;
+    width: 150px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+}
