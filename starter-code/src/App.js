@@ -31,31 +31,49 @@ class SectionOne extends Component {
   }
 }
 
+class Item extends Component {
+  render() {
+    return (
+      <div class="col-4">
+        <img src={this.props.info.img} alt="" />
+        <h2>{this.props.info.h2}</h2>
+        <p>{this.props.info.p}</p>
+      </div>
+    );
+  }
+}
+
 class SectionTwo extends Component {
   render() {
+    const info = [
+      {
+        img: "./images/icon1.png",
+        h2: "Declarative",
+        p: "React makes it painless to create interactive UIs"
+      },
+      {
+        img: "./images/icon2.png",
+        h2: "Components",
+        p: "Build encapsulated components that manage their state."
+      },
+      {
+        img: "./images/icon3.png",
+        h2: "Single-Way",
+        p: "A set of immutable values are passed to the component's"
+      },
+      {
+        img: "./images/icon4.png",
+        h2: "JSX",
+        p: "Statucally-typed designed to run on modern browsers"
+      }
+    ];
     return (
       <div className="sectionTwo">
         <div class="row">
-          <div class="col-4">
-            <img src="./images/icon1.png" alt="" />
-            <h2>Declarative</h2>
-            <p>React makes it painless to create interactive UIs</p>
-          </div>
-          <div class="col-4">
-            <img src="./images/icon2.png" alt="" />
-            <h2>Components</h2>
-            <p>Build encapsulated components that manage their state.</p>
-          </div>
-          <div class="col-4">
-            <img src="./images/icon3.png" alt="" />
-            <h2>Single-Way</h2>
-            <p>A set of immutable values are passed to the component's</p>
-          </div>
-          <div class="col-4">
-            <img src="./images/icon4.png" alt="" />
-            <h2>JSX</h2>
-            <p>Statucally-typed designed to run on modern browsers</p>
-          </div>
+        <Item info={info[0]} />
+        <Item info={info[1]} />
+        <Item info={info[2]} />
+        <Item info={info[3]} />
         </div>
       </div>
     );
