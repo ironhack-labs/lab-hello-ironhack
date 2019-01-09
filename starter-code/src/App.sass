@@ -1,0 +1,116 @@
+html, body, #root
+  width: 100%
+  height: 100vh
+  padding: 0
+  margin: 0
+  color: #1f2535
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+  //font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+#root
+  .app
+    width: 100%
+    section
+      .content
+        width: 90%
+        margin: 0 auto
+        padding: 3rem 0 10rem
+      &.firstSection
+        background-color: #1f2535
+        color: white
+        .content
+          nav
+            &.navbar
+              display: flex
+              flex-flow: row nowrap
+              align-items: center
+              justify-content: space-between
+          header
+            &.header
+              //width: 40%
+              h1
+                &.headerTitle
+                  margin: 6rem 0 0
+                  font-size: 6rem
+              h2
+                &.headerSubtitle
+                  //width: 50%
+                  font-size: 1.5rem
+                  font-weight: 300
+                  margin-bottom: 4rem
+              button
+                outline: none
+                border: none
+                border-radius: .3rem
+                &.headerBtn
+                  font-size: 1.5rem
+                  font-weight: 600
+                  padding: 1.4rem
+
+      &.secondSection
+        .content
+          margin-top: 6rem
+          display: flex
+          flex-flow: row wrap
+          justify-content: space-between
+          align-items: flex-start
+          .item
+            width: 20%
+            .itemTitle
+              font-size: 2rem
+              font-weight: 600
+              margin: .3rem 0 .3rem 1.2rem
+            .itemDescription
+              font-size: 1.3rem
+              font-weight: 100
+              margin-left: 1.2rem
+
+
+
+@media (max-width: 1024px)
+
+  #root
+    .app
+      section
+        &.firstSection
+          .content
+            header
+              &.header
+                width: 80%
+
+        &.secondSection
+          .content
+            .item
+              text-align: center
+              width: 40%
+
+
+@media (max-width: 900px)
+
+  #root
+    .app
+      section
+        &.firstSection
+          .content
+            header
+              &.header
+                width: 100%
+                h1
+                  &.headerTitle
+                    margin: 4rem 0 0
+                    font-size: 4rem
+                h2
+                  &.headerSubtitle
+                    font-size: 1rem
+                    margin-bottom: 2rem
+                button
+                  &.headerBtn
+                    padding: 1rem
+
+        &.secondSection
+          .content
+            margin-top: 4rem
+            justify-content: center
+            .item
+              margin-top: 2rem
+              width: 70%
