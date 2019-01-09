@@ -12,10 +12,10 @@ font-family: 'Open Sans', sans-serif; */
   display: flex;
   flex-flow: column nowrap;
   background-color: #1F2534;
-  
-  font-family: Arial, Helvetica, sans-serif;
 }
-
+.viewPort{
+  height: 768px;
+}
 .header{
   display: flex;
   flex-flow: row nowrap;
@@ -26,33 +26,36 @@ font-family: 'Open Sans', sans-serif; */
 .sectionOne{
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   padding: 2em 4em;
-  margin-top: 5em;
-  margin-bottom: 2em;
-
-  height: 100vh;
-}
-
-.sectionOne h1,.sectionOne p,.sectionOne a{
   color: white;
   font-family: 'Lato', sans-serif;
 }
 
-.sectionOne h1{
+.sectionOne .welcomeText{
+ display: flex;
+ flex-flow: column nowrap;
+ width:550px;
+}
+
+.sectionOne .welcomeText h1{
   font-weight: 900;
   font-size: 6em;
-  
 }
 
-.sectionOne p{
+.sectionOne .welcomeText p{
   font-weight: 100;
-  font-size: 1em;
   font-size: 1.3em;
-  padding: 0.9em 0;
+  padding: 0.5em 0;
+  width: 400px;
 }
 
-.sectionOne a{
+.sectionOne .callAction{
+ display: flex;
+ padding: 4em 0em 0em 0em;
+}
+
+.sectionOne .callAction a{
   text-decoration: none;
   color:#1F2534;
   font-weight: 600;
@@ -62,7 +65,19 @@ font-family: 'Open Sans', sans-serif; */
 
   border-radius: 0.25em;
   padding: 1em 0.5em;
-  margin-top: 4.5em;
+  width: 6em;
+}
+
+.sectionOne .callAction a:hover{
+  text-decoration: none;
+  color:#1F2534;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: white;
+
+  border-radius: 0.25em;
+  padding: 1em 0.5em;
   width: 6em;
 }
 
@@ -73,7 +88,6 @@ font-family: 'Open Sans', sans-serif; */
   justify-content: center;
   background-color: white;
   padding: 2em 4em;
-  height: 100%;
 }
 
 .sectionTwo h2, .sectionTwo p {
