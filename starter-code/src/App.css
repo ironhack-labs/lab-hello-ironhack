@@ -1,4 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,600,900');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+*{
+  margin: 0
+}
+
 .App {
-  margin: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #1F2534;
+  
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 2em 4em;
+}
+
+.sectionOne{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  padding: 2em 4em;
+  margin-top: 5em;
+  margin-bottom: 2em;
+
+  height: 100vh;
+}
+
+.sectionOne h1,.sectionOne p,.sectionOne a{
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.sectionOne h1{
+  font-weight: 900;
+  font-size: 6em;
+  
+}
+
+.sectionOne p{
+  font-weight: 100;
+  font-size: 1em;
+  font-size: 1.3em;
+  padding: 0.9em 0;
+}
+
+.sectionOne a{
+  text-decoration: none;
+  color:#1F2534;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: white;
+
+  border-radius: 0.25em;
+  padding: 1em 0.5em;
+  margin-top: 4.5em;
+  width: 6em;
+}
+
+.sectionTwo{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 2em 4em;
+  height: 100%;
+}
+
+.sectionTwo h2, .sectionTwo p {
+  color:#1F2534;
+  font-family: 'Lato', sans-serif;
+}
+
+.sectionTwo p {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+
+.sectionTwo .row{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 4em 1em;
+  width: 100%;
+}
+
+.sectionTwo .row .col-4{
+  width: 25%;
+  padding: 0em 1em;
+  text-align: left;
+}
+
+.sectionTwo .row .col-4 img{
+  width: 50%;
 }
