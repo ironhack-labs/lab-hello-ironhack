@@ -1,0 +1,67 @@
+p , h1 , h2{
+	margin:2px
+}
+
+.general{
+padding: 0px;
+  margin: 0px;
+}
+.white{
+	color: white
+}
+.background{
+	background-color: rgb( 30,  37, 53);
+	
+}
+.nav{
+	display:flex;
+	color: white;
+	justify-content: space-between;
+padding: 5% 10% 
+}
+.atomBack{
+	width: 50%;
+	height: 100%;
+display: inline-block
+}
+.flexCards{
+	display:flex;
+flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-top:100px;
+	margin-bottom:100px
+}
+.card{
+color:  rgb( 30,  37, 53);
+width: 10%;
+display:flex;
+align-items: flex-start;
+flex-direction:column;
+margin:30px
+}
+.button{
+  background-color: white;
+  border: none;
+  color:  rgb( 30,  37, 53);
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  border-radius: 5px
+}
+.text{
+margin-left: 10%;
+margin-right:10%;
+	width: 30%;
+	height: 100%;
+	display: inline-block
+}
+.text h1{ 
+	font-size:70px;
+}
+.text p{ 
+	font-size:21px;
+}
