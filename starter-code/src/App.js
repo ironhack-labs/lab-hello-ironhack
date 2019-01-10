@@ -6,10 +6,18 @@ import INFO from "./config.js";
 
 class App extends Component {
   render() {
+    let icons = [];
+    for (let i = 0; i <= 5; i++ ) {
+      let index = (i < 10 ? "0" + (i + 1) : (i + 1));
+      icons.push(<img key={index} className={"icon" + index} src={"../../images/react-logo.svg"} alt=""/>);
+    }
     return (
       <div className="app">
 
         <section className="firstSection">
+          <div className="iconsBox">
+            {icons}
+          </div>
           <div className="content">
             <NavBar/>
             <header className="header">

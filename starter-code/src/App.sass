@@ -15,9 +15,44 @@ html, body, #root
         width: 90%
         margin: 0 auto
         padding: 3rem 0 10rem
+
       &.firstSection
+        position: relative
+        overflow: hidden
         background-color: #1f2535
         color: white
+        .iconsBox
+          position: absolute
+          top: 0
+          height: 100%
+          width: 100%
+          z-index: 0
+          img
+            position: absolute
+            &.icon01
+              width: 17rem
+              top: 3em
+              right: 25rem
+            &.icon02
+              width: 13rem
+              top: 20rem
+              right: 20rem
+            &.icon03
+              width: 13rem
+              top: 30rem
+              right: 30rem
+            &.icon04
+              width: 10rem
+              top: 10em
+              right: -3rem
+            &.icon05
+              width: 10rem
+              top: 20em
+              right: -3rem
+            &.icon06
+              width: 10rem
+              top: 30em
+              right: -3rem
         .content
           nav
             &.navbar
@@ -26,15 +61,15 @@ html, body, #root
               align-items: center
               justify-content: space-between
           header
+            position: relative
+            z-index: 1
             &.header
-              //width: 40%
               h1
                 &.headerTitle
                   margin: 6rem 0 0
                   font-size: 6rem
               h2
                 &.headerSubtitle
-                  //width: 50%
                   font-size: 1.5rem
                   font-weight: 300
                   margin-bottom: 4rem
