@@ -1,0 +1,24 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: darkblue;
+    color: white;
+}
+
+.button {
+    border-radius: 4px;
+}
+
+.section {
+    margin: 40px;
+}
+
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+}
+
