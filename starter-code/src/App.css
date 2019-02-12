@@ -1,0 +1,71 @@
+h1 {
+  font-size: 4vw;
+}
+
+h6 {
+  font-size: 2vw;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.background {
+  height: 80vh;
+  background-image: url("/images/react-logo.svg");
+  background-color: #132542;
+  color: white;
+  padding: 3% 5%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: right;
+  clear: left;
+}
+
+.content {
+  margin-top: 10%;
+}
+
+.content h1,
+p {
+  margin: 0;
+}
+
+button {
+  margin-top: 5%;
+  padding: 2%;
+  border-radius: 5px;
+  font-size: 2vw;
+}
+
+.bottomrow {
+  width: 100vw;
+  margin-left: 3%;
+}
+
+.icon {
+  width: 23%;
+  float: left;
+  padding: auto 5%;
+}
+
+.icon p {
+  color: gray;
+  font-size: 1.5vw;
+  margin-right: 2%;
+}
