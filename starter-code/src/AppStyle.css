@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.container-blue {
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #262639;
+  background-image: url(/images/react-logo.svg);
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  margin-top: 15%;
+}
+
+p {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+}
+
+a {
+  background-color: #fff;
+  border-radius: 3px;
+  color: #262626;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none !important;
+}
+
+.button-link {
+  margin: 100px 0;
+}
+
+.container-white {
+  width: 100%;
+  margin-top: 2%;
+  color: #262626;
+  background-color: #fff;
+}
