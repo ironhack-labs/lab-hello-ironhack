@@ -1,0 +1,79 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box ;
+  font-family: sans-serif;
+}
+
+nav {
+  background-image: url("/images/react-logo.svg");
+  background-color: #1F2535;
+  color: white;  
+  margin: 0px;
+  padding: 0px;
+  height: 650px;
+
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  text-align: initial;
+
+}
+
+h2 {
+  margin-top: 0px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-left: 22px;
+
+}
+
+h3 {
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: 100;
+  max-width: 300px;
+  text-align: initial;
+}
+
+p {
+  max-width: 200px;
+  margin-left: 22px;
+  margin-left: 22px;
+
+}
+
+.menu-top {
+  float: right;
+  padding: 30px 60px 0px 0px;
+}
+
+.icon-iron {
+  padding: 20px 0px 0px 40px;
+}
+
+.container {
+  text-align: justify;
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+.aw-btn {
+  color:  #1F2535;
+  height: 60px;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.compCards {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin: 130px 60px 100px 60px;
+}
