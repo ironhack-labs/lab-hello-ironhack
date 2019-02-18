@@ -1,0 +1,45 @@
+body {
+  background: #202635 url("/images/react-logo.svg") no-repeat fixed center;
+  margin: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  margin: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 80px;
+}
+
+text {
+  font-size: 25px;
+  color: lightgray;
+  width: 30%;
+}
+
+button {
+  background-color: white;
+  color: #202635;
+  width: 180px;
+  height: 70px;
+  border-radius: 6px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+img {
+  width: 40px;
+}
