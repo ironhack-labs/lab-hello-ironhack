@@ -1,0 +1,11 @@
+.SmallAtom {
+    width: 20%;
+    display: block;
+    align-self: rigth;    
+}
+
+.SmallAtom img{
+    width: 150px;
+    align-content: flex-end
+}
+

@@ -1,0 +1,56 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.main{
+    background-color: rgb(37, 37, 56);
+    
+    height: 600px
+}
+
+h1  {
+    color: white;
+    font-size: 50px
+}
+
+h2{
+    color:gray;
+}
+
+.products{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 150px;
+}
+
+.slogan {
+    width: 22%;
+    margin: 60px;
+    align-items: baseline;
+    margin: 20px;
+}
+
+
+.atom {
+    width: 15%;
+    display: float;
+    margin: 0px;
+    
+}
+
+
+.centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 30px
+}
