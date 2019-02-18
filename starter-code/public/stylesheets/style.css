@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* cette classe sera utilisée pour centrée horizontalement et verticalement  */
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+/* __________________NAVBAR___________________*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f2535;
+}
+
+li {
+  float: left;
+}
+
+li img {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#burger-menu {
+  float: right;
+  width: 50px;
+}
+
+#logo-ih {
+  width: 50px;
+}
+
+/* __________________Section 1___________________*/
+
+.section1 {
+  display: block;
+  align-items: center;
+  background-color: #1f2535;
+  color: white;
+  width: 100%;
+  padding-left: 30%;
+  height: 400px;
+}
+
+.section1 h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.section1 p {
+    padding-top: 20px;
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 60px;
+
+}
+
+.section1 button {
+    height: 60px;
+    padding: 15px;
+    background-color: white;
+    color: #1f2535;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+/* __________________FEATURES___________________*/
+
+#features-bloc {
+    display: inline;
+}
+
+.feature-bloc {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+
+.feature-bloc h1 {
+    font-size: 20px;
+}
+
+.feature-bloc p {
+    font-size: 15px;
+}
+
