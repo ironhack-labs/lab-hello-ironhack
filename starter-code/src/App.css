@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.padding1 {
+  padding: 30px 0 0 60px; 
+}
+
+.padding1.padding2 {
+  padding: 0 60px; 
+}
+
+
+.margin1 {
+  margin-left: 60px;
+  margin-top: 40px
+}
+
+.bgColor1 {
+  background-color: #1F2535;
+  color: white;
+}
+
+.right {
+  margin: 10px 0 auto auto;
+}
+
+.containerRow {
+  flex-direction: row;
+  display: flex;
+}
+
+.containerColumn {
+  flex-direction: column;
+  display: flex;
+}
+
+.imgSize1 {
+  width: 100px;
+  height: 100px;
+}
+
+.imgSize2 {
+  width: 100%;
+}
+
+.btn1 {
+  color: #1F2535;
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.cardContainer1 {
+  width: 200px;
+  margin-right: 50px;
+}
+
+.cardMargin1 {
+  margin: 0 0 15px 22px;
+}
+
+.cardMain1 {
+  margin: 150px auto;
+}
+
+.container1 {
+  height: 800px;
+}
+
+.fontSize1 {
+  font-size: 28px;
+}
+
+.fontSize2 {
+  font-size: 20px;
+}
+
+.container2 {
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 120px;
+  padding: 20px;
+  color: #1F2535;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fontColor1 {
+  color: #A5A5A5;
+}
