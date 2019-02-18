@@ -8,7 +8,7 @@ export class Home extends React.Component {
           <h1> Say hello to <div>ReactJS</div></h1>
           <p>
             You will learn a frontend framework <div> from scratch, to become a Ninja
-            developer.</div>
+            developer. </div> 
           </p>
           <button> Awesome! </button>
         </div>

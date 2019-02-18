@@ -32,25 +32,25 @@ export class Features extends React.Component {
 
     return (
       <div id="features-bloc center">
-        <div class="feature-bloc ">
+        <div className="feature-bloc">
           <img src={feature1.src} />
           <h1>{feature1.title}</h1>
           <p>{feature1.description}</p>
         </div>
 
-        <div class="feature-bloc ">
+        <div className="feature-bloc ">
           <img src={feature2.src} />
           <h1>{feature2.title}</h1>
           <p>{feature2.description}</p>
         </div>
 
-        <div class="feature-bloc ">
+        <div className="feature-bloc ">
           <img src={feature3.src} />
           <h1>{feature3.title}</h1>
           <p>{feature3.description}</p>
         </div>
 
-        <div class="feature-bloc ">
+        <div className="feature-bloc ">
           <img src={feature4.src} />
           <h1>{feature4.title}</h1>
           <p>{feature4.description}</p>
@@ -59,4 +59,3 @@ export class Features extends React.Component {
     );
   }
 }
-
