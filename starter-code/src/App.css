@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: #1f2535;
+}
+p {
+  color: grey;
+}
+.section1 {
+  background-image: url("/images/react-logo.svg");
+  background-color: #1f2535;
+}
+.titles {
+  color: white;
+}
+
+.section2 {
+  display: flex;
+}
+.album-container {
+  display: flex;
+  flex-direction: row;
+}
+.section1 {
+  height: 500px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.but {
+}
