@@ -1,0 +1,18 @@
+.Box {
+    
+}
+
+.Box img {
+    width: 100px;
+    height: 100px;
+}
+
+.Box h1 {
+    color: rgb(31, 36, 54);
+    font-size: 10px;
+}
+
+.Box p {
+    color: rgb(31, 36, 54);
+    font-size: 8px;
+}
