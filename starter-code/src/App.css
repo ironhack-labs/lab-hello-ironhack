@@ -13,6 +13,7 @@ p {
   color: grey;
 }
 .section1 {
+  padding: 30px;
   background-image: url("/images/react-logo.svg");
   background-color: #1f2535;
 }
@@ -47,6 +48,7 @@ h1 {
   font-size: 20px;
 }
 .text {
+  max-width: 400px;
   margin: 60px;
   padding: 60 px;
 }
