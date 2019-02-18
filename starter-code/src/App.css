@@ -1,0 +1,33 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .top{
+    background-color: #1F2535;
+    padding: 40px;
+    color: white;
+    background-image: url("/images/react-logo.svg");
+  }
+  .bottom{
+    display:flex;
+  }
+
+  .navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  a{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #1F2535;
+    font-weight: bold;
+    text-decoration : none;
+  }
