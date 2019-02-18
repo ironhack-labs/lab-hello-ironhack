@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: #1F2535;
+  height: 90vh;
+}
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+}
+
+.header-content{
+  background-image: url(/images/react-logo.svg);
+  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5%;
+  padding-top: 50px;
+
+}
+
+.header-content h1{
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 1.1em;
+}
+
+.header-content p{
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.header-content a{
+  color: #1F2535;
+  font-weight: 800;
+  background-color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.blurbs{
+  padding: 100px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blurb{
+  margin: 5%;
+}
