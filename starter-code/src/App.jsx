@@ -5,6 +5,12 @@ function App() {
   return (
     <div className="App">
       <section className="container-blue">
+
+        <nav className="navbar navbar-light bg-transparent">
+          <img src="/images/ironhack-logo.svg" alt="ironhack logo" width="50" height="50" />
+          <img src="/images/menu-top.svg" alt="ironhack logo" width="30" height="30" />
+        </nav>
+
         <div className="row text-center">
           <div className="col-12 col-md-12">
             <h1 className="display-3">Hello ReactJS</h1>
