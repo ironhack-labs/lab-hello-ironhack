@@ -1,0 +1,55 @@
+#sectionOne {
+  color: white;
+  background-image: url("/images/react-logo.svg");
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 5%;
+}
+
+/* #navbar {
+  background-image: url("/images/menu-top.svg");
+} */
+.App img {
+  margin-left: 5%;
+}
+#title {
+  margin-top: 5%;
+  font-size: 28px;
+  width: 250px;
+  margin-left: 5%;
+}
+
+#content {
+  color: white;
+  margin-left: 5%;
+  width: 230px;
+  font-size: 20px;
+}
+
+#btn {
+  margin-left: 5%;
+  margin-top: 1%;
+  font-size: 22px;
+  padding: 1%;
+}
+
+#images {
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+#images img {
+  width: 150px;
+}
+
+.iconContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+#img {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
