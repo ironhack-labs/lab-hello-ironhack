@@ -28,7 +28,7 @@ p {
   flex-direction: row;
 }
 .section1 {
-  height: 500px;
+  height: 400px;
 }
 
 h1 {
@@ -41,10 +41,12 @@ h1 {
 }
 
 .but {
+  margin-top: 50px;
   padding: 20px;
   border-radius: 5px;
   font-size: 20px;
 }
 .text {
+  margin: 60px;
   padding: 60 px;
 }
