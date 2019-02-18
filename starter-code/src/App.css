@@ -1,0 +1,88 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  background-color: #1f2535;
+}
+
+.part1 {
+  padding-left: 6%;
+}
+
+.top {
+  padding: 4% 6% 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2535;
+}
+
+h1 {
+  margin-top: 8%;
+  margin-bottom: 0;
+  font-size: 4em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  margin-top: 2%;
+  font-size: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: white;
+  color: #1f2535;
+  height: 56px;
+  border-radius: 10px;
+  width: 120px;
+  font-size: 1.2em;
+}
+
+.white-part {
+  background-color: white;
+  height: 100%;
+}
+
+img.imgpart2 {
+  width: 60%;
+}
+
+.onglets {
+  display: flex;
+  justify-content: space-between;
+  width: 22%;
+  flex-direction: column;
+}
+
+.icon {
+  margin: 6%;
+  display: flex;
+  padding-top: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  justify-content: space-between;
+  height: 100%;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.4em;
+  color: #1f2535;
+  margin: 2% 0;
+}
+
+.text2 {
+  margin: 0;
+}
