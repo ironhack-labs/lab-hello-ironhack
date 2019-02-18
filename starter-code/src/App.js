@@ -1,18 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
+import Columns from "./Columns";
 
 class App extends Component {
   render() {
-    function columns(image, title, text) {
-      return (
-        <columns className="column">
-          <img src={image} />
-          <h1> {title} </h1>
-          <p>{text}</p>
-        </columns>
-      );
-    }
-
     return (
       <div>
         <div className="section1">
@@ -37,26 +28,27 @@ class App extends Component {
           </div>
         </div>
         <div className="section2">
-          {columns(
-            "/images/icon1.png",
-            "Declative",
-            "React makes it painless to create interactive Uls."
-          )}
-          {columns(
-            "/images/icon2.png",
-            "Components",
-            "Build encapsulated components that manage their state."
-          )}
-          {columns(
-            "/images/icon3.png",
-            "Single-Way",
-            "A set of inmutable values are passed to the component´s."
-          )}
-          {columns(
-            "/images/icon4.png",
-            "JSX",
-            "Statically-typed, designed to run on modern browsers."
-          )}
+          <Columns
+            image="/images/icon1.png"
+            title="Declative"
+            text="React makes it painless to create interactive Uls."
+          />
+
+          <Columns
+            image="/images/icon2.png"
+            title="Components"
+            text="Build encapsulated components that manage their state."
+          />
+          <Columns
+            image="/images/icon3.png"
+            title="Single-Way"
+            text="A set of inmutable values are passed to the component´s."
+          />
+          <Columns
+            image="/images/icon4.png"
+            title="JSX"
+            text="Statically-typed, designed to run on modern browsers."
+          />
         </div>
       </div>
     );
