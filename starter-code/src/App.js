@@ -26,19 +26,21 @@ class App extends Component {
           <div id="images">
             <div className="iconContent">
               <img src="/images/icon1.png" />
-              <p>Declarative</p>
+              <h2>Declarative</h2>
+              <p>React makes it painless to create interactive UIs.</p>
             </div>
             <div className="iconContent">
               <img src="/images/icon2.png" />
-              <p>Component</p>
+              <h2>Component</h2>
+              <p>Build encapsulated components that manage their state.</p>
             </div>
             <div className="iconContent">
               <img src="/images/icon3.png" />
-              <p>Single Way</p>
+              <h2>Single Way</h2>
             </div>
             <div className="iconContent">
               <img src="/images/icon4.png" />
-              <p>JSX</p>
+              <h2>JSX</h2>
             </div>
           </div>
         </section>
