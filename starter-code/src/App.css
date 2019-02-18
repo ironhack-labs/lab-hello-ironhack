@@ -1,0 +1,33 @@
+.App {
+  background-color: #1F2535;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 70%;
+  padding: 5%;
+}
+.menu{
+  display: flex;
+  align-content: right;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title{
+  font-size: 68px;
+  width: 22%;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.text-p{
+  font-size: 20px;
+  width: 17%;
+}
+.boton{
+  border-radius: 5%;
+  height: 70px;
+  width: 180px;
+  font-size: 25px;
+  margin-top: 100px;
+}
