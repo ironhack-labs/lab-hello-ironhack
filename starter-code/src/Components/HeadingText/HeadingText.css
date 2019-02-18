@@ -1,0 +1,18 @@
+.heading-text {
+    color: white;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.heading-text h1 {
+   font-weight: 700;
+   line-height: 1em;
+   font-size: 5em;
+   margin-bottom: 2%;
+}
+
+.heading-text p {
+    font-weight: 100;
+    font-size: 1.9em;
+    line-height: 1.2em;
+}

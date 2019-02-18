@@ -1,0 +1,17 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+.nav-im-left{
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.nav-im-right{
+    margin-top: 2%;
+    margin-right: 8%;
+}
