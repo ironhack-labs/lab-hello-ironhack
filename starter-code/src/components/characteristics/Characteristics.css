@@ -1,0 +1,9 @@
+.characteristics-container {
+  display: flex;
+  justify-content: space-around;
+ background-color: white;
+}
+
+.characteristic{
+  padding: 30px;
+}

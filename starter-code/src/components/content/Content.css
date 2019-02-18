@@ -1,0 +1,34 @@
+body {
+  background-color: #1F2535;
+}
+
+.container-father{
+background-image: url("/images/react-logo.svg");
+width: 100vw;
+height: 700px;
+}
+
+
+.title{
+  color: white;
+  font-size: 100px;
+  width: 51vh;
+  padding-left: 60px;
+}
+
+
+.text{
+  color: white;
+  font-size: 40px;
+  padding-left: 60px;
+  width: 20vw;
+}
+.button{
+  width: 160px;
+  border-radius: 5px;
+  height: 53px;
+  font-size: 27px;
+  background: white;
+  font-weight: bold;
+  margin-left: 60px;
+}
