@@ -36,9 +36,8 @@ class App extends Component {
                 </div>
 
             </div>
-
-            <ShowProduct/>
-                        
+            
+            <ShowProduct/>        
       </div>
       
     );
