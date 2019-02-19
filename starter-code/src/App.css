@@ -18,11 +18,6 @@ h2{
     color:gray;
 }
 
-.products{
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-}
 
 button {
     background-color: white;
