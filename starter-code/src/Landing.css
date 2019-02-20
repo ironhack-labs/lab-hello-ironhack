@@ -1,0 +1,15 @@
+.Landing {
+  margin: 0;
+}
+
+#intro {
+  width: 100vw;
+  height: 80vh;
+  color: #FFFFFF;
+  background-color: #222222;
+  /* background-image: url('./images/menu-top.svg'); */
+}
+
+.awesome {
+  width: 33vw;
+}
