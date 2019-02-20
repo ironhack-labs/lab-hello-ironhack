@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1F2535;
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+}
+
+.App  {
+  padding: 0 100px ;
+}
+
+.NavBar {
+  padding: 1rem;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.Footer {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.Footer {
+  background-color: white;
+  color: black !important;
+}
+
+.burger {
+  float: right;
+}
