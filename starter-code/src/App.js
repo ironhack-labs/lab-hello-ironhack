@@ -9,7 +9,7 @@ class App extends Component {
           <ul>
             <li>
               <div className="">
-                <img src="images/ironhack-logo.svg" className="ironLogo"></img>
+                <img src="images/ironhack-logo.svg" className="ironLogo" />
                 <h1> Say hello to ReactJS </h1>
                 <p className="pSection1">
                   You will learn a Frontend framework from scratch, to become an
@@ -20,14 +20,14 @@ class App extends Component {
                 <button className="button-l"> Awesome! </button>
               </div>
             </li>
-          
-          <li>
-            <div className="logo-react">
-              <img src="images/react-logo.svg" className="react-logo"/>
-              <img src="images/react-logo.svg" className="react-logo1"/>
-              <img src="images/react-logo.svg" className="react-logo1"/>
-            </div>
-          </li>
+
+            <li>
+              <div className="logo-react">
+                <img src="images/react-logo.svg" className="react-logo" />
+                <img src="images/react-logo.svg" className="react-logo1" />
+                <img src="images/react-logo.svg" className="react-logo1" />
+              </div>
+            </li>
           </ul>
         </div>
         <div className="section2">
