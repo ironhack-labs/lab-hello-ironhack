@@ -1,0 +1,59 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section1{
+  background-color: rgb(31, 36, 54);
+  color: #FFF;
+  height: 80vh;
+  padding-left: 10vh;
+}
+.section2{
+  height: 60vh;
+  padding: 8vh;
+}
+body{
+  margin: 0;
+}
+ul
+{
+  margin: 0;
+  display:flex;  
+  list-style:none;
+}
+ h1{
+   margin-top: 4vh;
+   margin-bottom: 6vh;
+   font-weight: bold; 
+   font-size: 5rem; 
+   width: 60%;
+ }
+
+.pSection1{
+  width: 60%;
+  font-size: 1.5rem;
+}
+.react-logo{
+  width: 30vh;
+  height: 30vh;
+}
+.react-logo1{
+  width: 25vh;
+  height: 25vh;
+}
+.logo-react{
+  display: flex;
+  flex-direction: column;
+}
+.section2 > ul > li {
+  margin: 4vh;
+}
+.ironLogo{
+  margin: 5vh;
+  width: 7vh;
+}
+.button-l{
+ width: 20%;
+ border-radius: 5px;
+ height: 6vh;
+ font-size: 1.5rem;
+}
