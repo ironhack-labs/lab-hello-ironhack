@@ -1,15 +1,70 @@
-.Landing {
+/* Generales */
+body {
+  font-family: sans-serif;
   margin: 0;
+}
+
+/* Navbar */
+
+/* Sección principal */
+h1 {
+  margin: 0;
+  font-size: 50pt;
+  font-weight: bolder;
+  line-height: 100%;
 }
 
 #intro {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   color: #FFFFFF;
-  background-color: #222222;
+  background-color: #1f2535;
   /* background-image: url('./images/menu-top.svg'); */
 }
 
 .awesome {
+  padding: 20vh 8vw;
   width: 33vw;
+}
+
+.awesome p {
+  margin: 2vh 0;
+  font-size: 20pt;
+  font-weight: lighter;
+}
+
+.awesome button {
+  margin: 8vh 0 0;
+  padding: 3vh 2vw;
+  background-color: #FFFFFF;
+  color: #1f2535;
+  border-radius: 2px;
+  border: 1px solid white;
+  font-size: 16pt;
+  font-weight: bolder;
+}
+
+/* Última sección */
+
+.cards {
+  padding: 20vh 0 10vh;
+  margin: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-item {
+  height: 65vh;
+  width: 20%;
+  color: #1f2535;
+}
+
+h2 {
+  font-size: 26pt;
+  font-weight: bolder;
+}
+
+.card-item p {
+  font-size: 16pt;
 }
