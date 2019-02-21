@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 *{
   margin: 0;
   padding: 0;
@@ -6,21 +9,49 @@
 
 .blue-section{
   background: #1F2535;
+  display: flex;
+  flex-direction: column;
 }
 .navbar{
   height: 200px;
   display: flex;
   justify-content: space-between;
-  margin:  0 60px 0 60px; 
-  
+  margin: 0px 150px 0px 150px;
 }
 
 .text{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .multiple-logos{
   display: flex;
   flex-direction: row;
+}
+
+#title{
+  font-size: 80px;
+  padding-left: 10%;
+  font-family: 'Francois One', sans-serif;
+}
+
+.intro-text{
+  font-size: 20px;
+  margin: 20px 0px 0px 150px;
+}
+
+.btn{
+  background: white;
+  color: #1F2535;
+  border-radius: 3px;
+  margin: 0px 0px 50px 150px;
+}
+
+#element{
+  text-align: left;
+  margin: 80px;
+}
+
+#element p, h3{
+  margin-left: 30px;
 }
