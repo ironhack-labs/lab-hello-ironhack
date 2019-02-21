@@ -1,0 +1,57 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .imgs-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+  
+  .imgs-bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 60px;
+    text-align: center;
+  }
+
+  .bgd{
+      background-color:  #1F2534;
+      color: #fff;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+.txt{
+    color: rgb(118, 115, 115);
+}
+
+.button{
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.react-logos-md{
+   width: 191px; 
+}
+
+
+.react-logos-sm{
+    width: 125px; 
+    display: flex;
+ }
+
+ .react{
+     display: flex;
+ }
