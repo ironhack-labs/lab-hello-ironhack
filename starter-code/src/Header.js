@@ -4,8 +4,8 @@ import "./app.css";
 class Header extends Component {
     render() {
       return (
-        <section>
-            <nav className="first-container">
+        <section className ="top">
+            <nav className="firstContainer">
                 <img className="navElement" src="./images/ironhack-logo.svg"></img>
                 <img className="navElement" src="./images/menu-top.svg"></img>
             </nav>
@@ -13,7 +13,7 @@ class Header extends Component {
             <main id="wrapper">
                 <h1>Say Hello to React</h1>
                 <p>Ble Blo Blu Ble Blo Blu Ble Blo Blu Ble Blo Blu Ble Blo Blu Ble Blo Blu</p>
-                <button>
+                <button class="btn">
                     Awesome!
                 </button>
             </main>          

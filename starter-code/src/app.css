@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+
+.top{
+    background-color: #1F2535;
+    height: 70vh;
+    width: 100%;
+    align-content: space-around;
+}
+
+.firstContainer{
+    display: flex;
+    width: 100%;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+
+.navElement{
+    width: 3rem;
+    margin: 1rem;
+}
+
+#wrapper{
+    width: 30%;
+    margin-left: 2rem;
+}
+
+#wrapper h1{
+    margin-top: 0;
+    font-size: 6rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+#wrapper p{
+    font-size: 1.2rem;
+    width: 80%;
+    color: white;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrapper button{
+    font-size: 1.5rem;
+    width: 15rem;
+    background-color: white;
+    color: #1F2535;
+    font-weight: 200;
+    border: 0px;
+    box-shadow: 0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footerList{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listItem{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    list-style:none;
+}
+
