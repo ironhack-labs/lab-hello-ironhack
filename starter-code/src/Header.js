@@ -13,7 +13,7 @@ class Header extends Component {
             <main id="wrapper">
                 <h1>Say Hello to React</h1>
                 <p>Ble Blo Blu Ble Blo Blu Ble Blo Blu Ble Blo Blu Ble Blo Blu Ble Blo Blu</p>
-                <button class="btn">
+                <button className="btn">
                     Awesome!
                 </button>
             </main>          
