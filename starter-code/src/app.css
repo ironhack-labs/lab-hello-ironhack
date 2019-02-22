@@ -57,14 +57,13 @@ body{
 .footerList{
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .listItem{
     text-decoration: none;
     text-align: center;
     margin-right: 2rem;
-    margin-left: 2rem;
     list-style:none;
 }
 

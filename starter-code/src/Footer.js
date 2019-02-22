@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./app.css";
 
 class Footer extends Component {
-    i = 1
     listItems = [{title: "Declarative", text: "jlfihqild jqwhdqwhdkj jhwqdljkqwdiu kjbjkdglasgd", img: `./images/icon${this.i++}.png`},{title: "Components", text: "jlfihqild jqwhdqwhdkj jhwqdljkqwdiu kjbjkdglasgd",img: `./images/icon${this.i++}.png`}, {title: "Single Way", text: "jlfihqild jqwhdqwhdkj jhwqdljkqwdiu kjbjkdglasgd",img: `./images/icon${this.i++}.png`}, {title: "JSX", text: "jlfihqild jqwhdqwhdkj jhwqdljkqwdiu kjbjkdglasgd",img: `./images/icon${this.i++}.png`}]
     render() {
       return (
