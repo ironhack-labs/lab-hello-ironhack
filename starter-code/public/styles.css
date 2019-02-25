@@ -1,0 +1,76 @@
+body, html, body *{
+    margin:0
+}
+#root{
+    height:100%;
+    width:100%
+}
+.nav{
+    background-color: rgb(31,37,53);
+    width:100%;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav *{
+    padding:0 5vw;
+}
+.section1 {
+    background-color: rgb(31,37,53);
+    background-image: url('./images/react-logo.svg');
+    width:100%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.title *{
+    color:white;
+}
+
+h1{
+    font-size: 8em
+}
+.title{
+    width: 40%;
+    padding:0 5vw;
+}
+.section1 a{
+    padding:0 5vw;
+}
+.section1 h3{
+    width:60%;
+    font-size: 2em;
+}
+button{
+    color:rgb(31,37,53);
+    background-color: white;
+    padding:1vw;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:90vh;
+    width:100%
+}
+h2{
+    color:rgb(31,37,53);
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-size: 1.5em;
+    color: slategray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card{
+    width:15%
+}
