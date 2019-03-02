@@ -1,13 +1,14 @@
 import React from 'react'; 
+import './App.css';
 
 
 class Menu extends React.Component {
     render(){
       return (
-        <div>
-          <img src="../public/images/ironhack-logo.svg"/>
-          <img src="../public/images/menu-top.svg"/>
-          <img src="../public/images/react-logo.svg"/>
+        <div className='menu'>
+          <img src="./images/ironhack-logo.svg"/>
+          <img src="./images/menu-top.svg"/>
+          <img src="./images/react-logo.svg"/>
         </div>
       );
     }
