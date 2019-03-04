@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.Header {
+  color: white;
+  width: 40%;
+  padding-left: 60px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.Header h2 {
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+.Header span {
+  font-size: 1.5rem;
+}
+
+.header-button {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 8px 10px 8px;
+}
+
+.menu {
+  float: right;
+}
+
+
+.Landing {
+  background-color: rgb(28, 32, 44); 
+}
+
+.Navbar {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Icons {
+  padding-left: 110px;
+  padding-right: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Icons img {
+  width: 110px;
+}
+
+.Icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Icon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Icon3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Icon4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Icons p {
+  padding-left: 15px;
+  padding-right: 5px;
+}
