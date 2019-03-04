@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+.NavContainer {
+  background: rgb(31, 37, 53);
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  padding: 1% 5%;
+}
+
+.MainContainer {
+  background: rgb(31, 37, 53);
+}
+
+.NavIcons {
+  height: 90%;
+}
+
+.NavIcons img {
+  display: block;
+  max-height: 100%;
+}
+
+.MainContainer {
+  height: 445px;
+  color: #ffffffe3;
+}
+
+.MainCard {
+  width: 42%;
+  height: 70%;
+  position: relative;
+  top: 19%;
+  left: 6%;
+}
+
+.MainCard h1 {
+  font-size: 3.1rem;
+}
+
+.MainCard p {
+  font-weight: 100;
+  color: #ffffffa6;
+}
+
+.MainCard button {
+  height: 17%;
+  width: 45%;
+  font-size: 1rem;
+  color: #232a3b;
+  border-radius: 3px;
+  margin-top: 11%;
+  background: #ffffffe3;
+  font-weight: 600;
+}
+
+.Footer {
+  display: flex;
+  height: 396px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.IconCards {
+  color: #242b3b;
+  height: 50%;
+  width: 19%;
+}
+
+.IconCards div {
+  height: 50%;
+}
+
+.IconCards div img {
+  max-height: 100%;
+}
+
+.IconCards h3 {
+  margin: 15% 0 0;
+  letter-spacing: 1px;
+}
+
+.IconCards p {
+  margin: 5% 0 0;
+  font-size: 0.9rem;
+  color: #242b3b87;
+}
