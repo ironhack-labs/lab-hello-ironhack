@@ -1,0 +1,29 @@
+body{
+  height: 1000px;
+}
+.logo{
+  position: absolute;
+  left: 20;
+}
+
+.menu{
+  position: absolute;
+  right: 10;
+}
+
+.main{
+  background-color: gray;
+  height: 600px;
+}
+.picture{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  text-align: center;
+}
+.eachPice{
+  width: 15vw;
+  text-align: center;
+}
+
+
