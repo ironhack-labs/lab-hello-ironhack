@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 40px;
+}
+
+.App2 {
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+/* body{
+  background-color: #1F2436;
+} */
+
+.bg1{
+  margin: 0;
+  background-color: #1F2436;
+}
+
+.bg2{
+  /* background-color: #0E0E0E; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  padding: 15px 20px;
+  margin: 40px 0;
+  background-color: white;
+  color: #1F2436;
+  text-align: center;
+  border-radius: 5%;
+  font-size: 25px;
+}
+
+.menu{
+  float: right;
+}
+
+h1{
+  padding-top: 110px;
+  font-size: 60px;
+}
+
+.sub-text{
+  font-size: 30px;
+}
+
+.sub-text2{
+  font-size: 26px;
+
+}
+
+.text{
+  width: 40%;
+}
+
+.icon{
+  float: left;
+}
+
+h3{
+  font-size: 35px;
+}
