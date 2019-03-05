@@ -1,19 +1,18 @@
 body{
   height: 1000px;
-}
-.logo{
-  position: absolute;
-  left: 20;
+ 
 }
 
-.menu{
-  position: absolute;
-  right: 10;
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
-
 .main{
   background-color: gray;
-  height: 600px;
+  height: 700px;
 }
 .picture{
   display: flex;
@@ -26,4 +25,21 @@ body{
   text-align: center;
 }
 
-
+.word{
+  margin-inline-start: 5vw;
+}
+.word h1{
+  font-size: 8vw;
+  width: 45vw;
+}
+.word p{
+  font-size: 2vw;
+  width: 30vw;
+  margin-top: -20vh;
+}
+button{
+  padding: 1vw;
+  font-size: 2vw;
+  border-radius: 10px;
+  margin-top: 2vh;
+}

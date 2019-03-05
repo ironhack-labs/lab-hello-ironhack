@@ -51,27 +51,31 @@ class App extends Component {
       );
 
       const nav = (
-        <nav>
-          <div className="logo">
+        <nav className="nav">
+       
           <img src="../images/ironhack-logo.svg"></img>
-          </div>
-         <div className="menu">
+        
+       
            <img src="../images/menu-top.svg"></img>
-           </div>
+       
         </nav>
       );
 
       
     return (
    
-      <div className ="word">
+      <div className ="react">
       
       <div className="main">
-      
+      <br></br>
       {nav}
+      <div className="word">
       <h1>Say hello to ReactJS</h1>
       <p>you will learn front Freamework from scratch, to become a geed developer.</p>
       {button}
+      </div>
+      
+     
       </div>
 
   
