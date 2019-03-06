@@ -19,8 +19,8 @@ class App extends Component {
           <div className="mainContent container">
             <h1> Say hello to ReactJS </h1>
             <small>
-              You will learn a Frontend framework from scratch, to become a Ninka
-              Developer.
+              You will learn a Frontend framework from scratch, 
+              to become a Ninka Developer.
             </small>
             <br></br>
             <button>Awesome!</button>

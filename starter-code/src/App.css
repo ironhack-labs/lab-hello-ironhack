@@ -18,15 +18,11 @@ button {
 
 h1 {
   font-size: 3em;
-  width: 60%;
+  width: 70%;
 }
 
-h1, small, button {
-  margin: 20px;
-}
-
-p {
-  width: 30%;
+small {
+  margin: 10px 0px;
 }
 
 .App {
@@ -51,8 +47,8 @@ p {
 
 .Columns {
   display: flex;
-  text-align: center;
-  justify-content: space-around;
+  /* text-align: center; */
+  justify-content: space-between;
 }
 
 .Columns img {
@@ -60,18 +56,19 @@ p {
 }
 
 .fourColumns {
-  justify-items: auto;
+  /* justify-items: auto; */
+  margin: 0px 10px;
 }
 
 .mainContent {
   padding: 50px;
 }
 
-/* #nav {
+#nav {
   display: flex;
 
-} */
-/* 
+}
+
 #nav img {
   justify-items: space-around;
-} */
+}
