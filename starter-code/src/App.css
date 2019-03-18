@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+
+    background: black;
+    color: white;
+}
+.iron{
+    display: flex;
+justify-content: flex-start
+
+}
+.burguer{
+    display: flex;
+    justify-content:flex-end;
+    
+
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.boton{
+    margin: 30px;
+    padding: 10px;
+    background: white;
+    font-size: 10px;
+
+
+}
+.main{
+
+    margin: 50px;
+    
+
+}
+.seccion{
+
+display: flex;
+justify-content: space-around;
+text-align: center;
+flex-direction: row;
+}
