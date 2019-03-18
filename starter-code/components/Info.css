@@ -1,0 +1,15 @@
+.infobox {
+  padding: 120px 60px;
+  font-size: 18px;
+  
+}
+
+.infobox h2 {
+  color: rgb(31,37,53);
+  font-family: 'Roboto', sans-serif;
+}
+
+.infobox p {
+  color: rgb(31,37,53);
+  font-family: 'Montserrat', sans-serif;
+}

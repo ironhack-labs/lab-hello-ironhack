@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  
+  height: 650px;
+  background-color: rgb(31,37,53);
+  padding: 30px 80px;
+
+}
+
+header h1,p {
+  color: white;
+}
+
+header h1 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 80px;
+  font-size: 90px;
+}
+header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+
+section{
+  display:flex;
+  /* height: 400px; */
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+button {
+  padding: 25px 40px;
+  margin-top: 60px;
+  background-color: #FFFFFF;
+  color: rgb(31,37,53);
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+header {
+  /* background-color: red; */
+  background-image: 
+  url("/images/react-logo.svg"), 
+  url("/images/react-logo.svg"), 
+  url("/images/react-logo.svg"), 
+  url("/images/react-logo.svg"), 
+  url("/images/react-logo.svg"), 
+  url("/images/react-logo.svg");
+  background-position:
+    88% 10%, /* this positions the first image */
+    85% 70%,
+    65% 95%,
+    105% 55%,
+    105% 20%,
+    105% 90%;
+  background-size: 
+    25%, 
+    17%, 
+    17%, 
+    10%, 
+    10%, 
+    10%;
+  background-repeat: no-repeat;
+}
