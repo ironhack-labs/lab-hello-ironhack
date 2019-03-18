@@ -1,0 +1,45 @@
+.App{
+    margin: 0;
+    padding: 0;
+    background:  rgb(177, 43, 43);  
+    color:white ;
+
+}
+.logo-ironhack{
+    float: left;
+}
+.logo-menu, .logo-react{
+    float: right;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2rem;
+}
+.button-react{
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-size: 2rem;
+}
+.main-react{
+    margin: 50px;
+}
+.section-react{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    text-align: center;
+
+}
