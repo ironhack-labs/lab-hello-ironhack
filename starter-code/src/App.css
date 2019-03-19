@@ -1,0 +1,52 @@
+.element-margin {
+  margin: 0;
+}
+.background-dark{
+  background-color: #1F2535;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.iron-logo {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+h1{
+  margin: 0;
+  font-size: 70px;
+}
+
+header {
+  height: 500px;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+.header-text{
+  font-size: 25px;
+  margin: 0;
+  font-weight: 100px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
