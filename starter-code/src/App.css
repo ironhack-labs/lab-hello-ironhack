@@ -1,0 +1,47 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1F2535;
+  }
+  nav{
+    padding:50px;
+    
+  }
+  nav div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .Container{
+      background:#FFF;
+      display:flex;
+      text-align: center;
+  }
+  .Container h3{
+      color:#1F2535;
+  }
+
+  .Container div{
+      padding:10px;
+  }
+
+nav p{
+    color:#fff;
+    font-size: 1.5rem;
+}
+h1{
+    color:#FFF;
+    font-size: 6rem;
+}
+
+button{
+    background: #fff;
+    padding:20px;
+    border-radius:5px;
+    color:#1F2535;
+    font-weight: bold;
+    font-size: 1rem;
+}
+  
