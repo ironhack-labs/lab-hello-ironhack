@@ -1,0 +1,14 @@
+.main {
+  color: white;
+  max-width: 500px;
+  text-align: left;
+}
+
+.main h1 {
+  font-size: 4rem;
+}
+
+.main h4 {
+  max-width: 330px;
+  font-size: 1.5rem;
+}
