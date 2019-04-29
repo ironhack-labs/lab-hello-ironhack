@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./button.css";
+import "./button.css";
 
 export default function button() {
   return <button className="btn"> Awesome!</button>;

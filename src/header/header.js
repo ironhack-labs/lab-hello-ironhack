@@ -1,7 +1,7 @@
 import React from "react";
-import "./Ironhack.css";
+import "./header.css";
 
-export default function Ironhack() {
+function Ironhack() {
   return (
     <div className="header">
       <img alt="ironhack" className="ironhack" src="./img/ironhack-logo.svg" />
@@ -9,3 +9,5 @@ export default function Ironhack() {
     </div>
   );
 }
+
+export default Ironhack;

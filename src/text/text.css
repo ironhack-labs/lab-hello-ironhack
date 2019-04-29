@@ -1,5 +1,12 @@
 .text {
-  margin: 50px;
-  max-width: 500px;
+  margin-left: 50px;
   text-align: left;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: 20px;
 }
