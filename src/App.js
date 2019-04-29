@@ -13,31 +13,31 @@ function App() {
         <Header />
         <Text />
         <Button />
-      </div>
-      <div className="react-logo">
-        <Logo />
-      </div>
 
-      <div class="Icon-Container">
+        <div className="react-logo">
+          <Logo />
+        </div>
+      </div>
+      <div class="icon-Container">
         <Icon
-          img="../images/icon1.png"
+          img="../img/icon1.png"
           title="Declarative"
-          description="React makes it painless to create interactive UIs."
+          txt="React makes it painless to create interactive UIs."
         />
         <Icon
-          img="../images/icon2.png"
+          img="./img/icon2.png"
           title="Components"
-          description="Build encapsulated components that manage their state!"
+          txt="Build encapsulated components that manage their state."
         />
         <Icon
-          img="../images/icon3.png"
+          img="./img/icon3.png"
           title="Single-Way"
-          description="A set of immutable values are passed to the components."
+          txt="A set of immutable values are passed to the components."
         />
         <Icon
-          img="../images/icon4.png"
+          img="./img/icon4.png"
           title="JSX"
-          description="Statically-type, design to run on modern browsers."
+          txt="Statically-type, design to run on modern browsers."
         />
       </div>
     </div>
