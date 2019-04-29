@@ -1,0 +1,13 @@
+.imageIcons {
+  max-width: 99%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+}
+
+.icon {
+  margin: 10px;
+  border-radius: 2%;
+  cursor: pointer;
+}

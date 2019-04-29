@@ -2,6 +2,7 @@ import React from 'react'
 import Main from './main/main'
 import Header from './header/header'
 import Button from './button/button'
+import Imageicons from './imageicons/imageicons'
 
 import './App.css'
 
@@ -11,6 +12,7 @@ function App () {
       <Header />
       <Main />
       <Button />
+      <Imageicons />
     </div>
   )
 }
