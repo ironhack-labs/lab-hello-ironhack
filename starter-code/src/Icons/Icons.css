@@ -1,0 +1,22 @@
+.second-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-image {
+  height: 8rem;
+  width: 8rem;
+}
+
+.text {
+  font-weight: lighter;
+}
+
+.list {
+  padding: 2.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+}
