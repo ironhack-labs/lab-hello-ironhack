@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+.NavBg {
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.header {
+    background-color: #282c34;
+    min-height: 90vh;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    width: 30vw;
+    padding: 100px 50px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 20px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 3% 0;
+}
+.articles{
+    display: flex;
+    justify-content: center;
+    margin: 10% 3%;
+    padding: 0 3%;
+}
