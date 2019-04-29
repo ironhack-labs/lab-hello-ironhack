@@ -1,6 +1,11 @@
 import React from "react";
 import "./react-logo.css";
 
-export default function logo() {
-  return <img alt="pic" className="react" src="./img/react-logo.svg" />;
+function Logo({ react }) {
+  return (
+    <div className="logo-react">
+      <img alt="reactl" className="react" src={react} />
+    </div>
+  );
 }
+export default Logo;

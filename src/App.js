@@ -15,12 +15,12 @@ function App() {
         <Button />
 
         <div className="react-logo">
-          <Logo />
+          <Logo react="./img/react-logo.svg" />
         </div>
       </div>
       <div class="icon-Container">
         <Icon
-          img="../img/icon1.png"
+          img="./img/icon1.png"
           title="Declarative"
           txt="React makes it painless to create interactive UIs."
         />
