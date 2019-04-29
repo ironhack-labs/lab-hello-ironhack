@@ -1,16 +1,16 @@
-.App {
+.appcenter {
   text-align: center;
 }
 
-.App {
+.appcenter {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
-  padding: 0 50px;
-  margin: 0;
+  padding: 20px 50px 50px;
+  margin: 0 40px;
 }
 
 /* .App-logo {

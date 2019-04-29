@@ -6,9 +6,11 @@
 
 .main h1 {
   font-size: 4rem;
+  margin: 100px 0 0;
 }
 
 .main h4 {
   max-width: 330px;
   font-size: 1.5rem;
+  margin: 0 0 30px;
 }
