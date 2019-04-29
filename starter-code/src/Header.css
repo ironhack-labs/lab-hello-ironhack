@@ -1,0 +1,8 @@
+.Header{
+  background-color: #262539;
+  background-image: url('/images/react-logo.svg');
+  background-repeat: repeat space;
+  padding: 60px;
+  padding-top: 20px;
+  color: #FAFAFA;
+}

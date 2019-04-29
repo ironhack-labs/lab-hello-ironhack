@@ -1,0 +1,32 @@
+.Main{
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.Main > .title{
+  font-size: 72px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.Main > .description{
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.Main > .button{
+  padding: 20px;
+  color: #111;
+  background-color: #FAFAFA;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline;
+  border-radius: 5px;
+  font-weight: bold;
+  align-self: baseline;
+  margin-top: 30px;
+}

@@ -1,0 +1,30 @@
+.Feature{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 400px;
+}
+
+.Feature img{
+  width: 100px;
+  height: 100px;
+}
+
+.Feature h3{
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #111;
+  margin: 0;
+}
+
+.Feature p{
+  width: 75%;
+  color: #333;
+  font-size: 16px;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 5px;
+}
