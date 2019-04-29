@@ -1,7 +1,7 @@
 import React from 'react'
 import './main.css'
 
-export default function foo (props) {
+export default function main (props) {
   return (
     <div className='main'>
       <h1>Say Hello to REACTJS </h1>
