@@ -1,0 +1,68 @@
+
+body {
+  margin: 0 auto;
+}
+.top-container {
+  height: 65vh;
+  background-color: #242a38;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 30px;
+}
+
+
+.menu {
+  display: flex;
+  margin-right: 30px;
+}
+
+.title {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.title > h3 {
+  color: white;
+}
+.title > h1 {
+  margin-bottom: 0;
+  font-size: 80px;
+  color: white;
+}
+
+.title > button {
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 10%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.options {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 45vh;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.columns > h4 {
+  font-size: 25px;
+}
+
+.columns > p {
+  font-size: 18px;
+  color: grey;
+}
+
