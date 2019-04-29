@@ -1,0 +1,5 @@
+.cardContainer {
+    height: 60vh;
+    display: flex;
+    padding: 0 10vw;
+}

@@ -1,0 +1,33 @@
+.container {
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    margin-left: 10vw; 
+    align-items: center;
+}
+
+.container > div {
+    width: 30vw;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container h1 {
+    font-size: 4.5rem;
+    font-weight: 700; 
+}
+
+.container p {
+    width: 25vw;
+    font-size: 1.5rem; 
+    line-height: 2rem;
+}
+
+.container button {
+    margin-top: 10vh; 
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 5px; 
+    cursor: pointer;
+    color: #342D7E;
+}

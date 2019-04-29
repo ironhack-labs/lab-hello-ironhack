@@ -1,0 +1,30 @@
+.card {
+    width:20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card img{
+    width: 60%;   
+}
+
+.card h2 {
+    margin-top: 2vh;
+    font-size: 1.7rem;
+    font-weight:700;
+    display: flex;
+    justify-content: flex-start; 
+    width: 60%;
+}
+
+.card p {
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start; 
+    width: 60%;
+    margin-top: 2vh;
+    line-height: 1.5rem;
+}
