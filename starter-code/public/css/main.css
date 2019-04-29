@@ -1,0 +1,57 @@
+body {
+  background-image: url("../images/react-logo.svg");
+  background-color: #242a38;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 5%;  
+}
+
+h1 {
+  color: white;
+  width: 35%;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+p {
+  color: gainsboro;
+  font-size: 20px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 50px;
+  border-radius: 7%;
+  border: none;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.CardContainer {
+  display: flex;
+  background-color: white;
+  margin: 50px;
+  padding: 50px 10% 0;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  margin-left: 2.5%;
+}
+
+.card>img {
+  margin: 10px -15px;
+}
