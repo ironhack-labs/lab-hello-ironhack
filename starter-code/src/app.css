@@ -1,0 +1,15 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+
+body{
+    background: rgba(31, 37, 53, 0.924);
+    background-image: url('/images/react-logo.svg'), url('/images/react-logo.svg'), url('/images/react-logo.svg');
+    background-repeat: no-repeat;
+    background-position: 800px 0px, 330px 100px, 600px, 300px;
+    background-size: 15%, 20%, 30%;
+    font-family: 'Roboto', sans-serif;
+
+}
