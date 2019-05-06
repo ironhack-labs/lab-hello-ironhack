@@ -1,0 +1,73 @@
+
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+#main-section {
+  background-color: #1f2535;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+.title {
+  margin-top: 100px;
+  width: 50%;
+  color: whitesmoke;
+  text-align: left;
+  padding: 0 35px;
+}
+
+.title h1 {
+  font-size: 3em;
+}
+
+.title p {
+  font-size: 1em;
+  width: 200px;
+}
+
+.btn {
+  width: 150px;
+  height: 60px;
+  background-color: #fff;
+  color: #1f2535;
+  border: none;
+  margin: 35px;
+  border-radius: 5px;
+}
+
+.boxes-component {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.boxes-component .box {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.boxes-component .box figure {
+  margin: 0;
+}
+
+.boxes-component .box h3 {
+  color: #1f2535;
+  font-size: 1.6em;
+  margin: 10px 0;
+}
+
+.boxes-component .box p {
+  width: 160px;
+  margin: 0;
+}
