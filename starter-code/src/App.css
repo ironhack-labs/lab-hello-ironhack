@@ -1,0 +1,27 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #home{
+      background-color: gray;
+      height: 500px;
+      color: white;
+  }
+  #navBar{
+      background-color: black;
+  }
+  .imgMenu{
+    float: right;
+    padding-top: 5px;       
+  }
+
+  .logoColumn{
+      display: flex;
+      float: right;
+      flex-direction: column;
+  }
+
+  .logoMedium{
+    position: absolute;
+    margin-left: 70%; 
+  }
