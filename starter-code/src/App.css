@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;  
+  text-align: center;   
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sct-father {
+  position: relative;
+  background-color: #2F4F4F;   
+  height: 600px;
+}
+
+.logo {
+  /* background-image: url(./public/images/react-logo.svg); */
+    height: 100px;  
+    position: absolute;
+    width: 100px;   
+    left: 3%;
+    top: 5%;
+}  
+
+.menu {
+  height: 50px;  
+  position: absolute;
+  width: 50px;
+  right: 5%;
+  top: 5%;
+}
+
+.content {
+  position: absolute;
+  width: 30%;  
+  left: 10%;
+  top: 30%;
+  text-align: left;
+  color: white;
+}
+
+.content > h1 {
+  font-size: 50px;
+  font-weight: bold; 
+}
+
+.content > button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+.react-logo {
+  position: absolute;
+  top: 4%;
+}
+
+.react-logo-2 {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  height: 20%; 
+}
+
+.react-logo-3 {
+  position: absolute; 
+  top: 45%;
+  right: 0;
+  height: 20%; 
+}
+
+.react-logo-4 {
+  position: absolute; 
+  top: 70%;
+  right: 0;
+  height: 20%; 
+}
+
+.react-logo-5 {
+  position: absolute;
+  top: 45%;
+  right: 20%;
+  height: 30%; 
+}
+
+.react-logo-6 {
+  position: absolute; 
+  top: 60%;
+  right: 35%;
+  height: 30%; 
+}
+
+.sct-father2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: inline-block;
+  align-self: flex-start;
+}
