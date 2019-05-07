@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0 auto;
+}
+
+#hero-section{
+    background-color: #1f2534;
+    color: white;
+}
+#hero-container{
+    margin: 0 auto;
+    width: 900px;
+    padding-bottom: 120px
+}
+#hero-container h1{
+ font-size: 4em;
+ padding-top: 80px
+ 
+}
+#hero-container a {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #222;
+    margin-top: 40px;
+    display: inline-block
+}
+
+#box-container{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+#box-container h3{
+    color: #222
+}
+#box-container p{
+    color: #777
+}
