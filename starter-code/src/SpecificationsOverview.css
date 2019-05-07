@@ -1,0 +1,9 @@
+.SpecificationsOverview {
+  padding: 60px 60px; 
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.SpecificationsOverview div {
+  max-width: 180px;
+}

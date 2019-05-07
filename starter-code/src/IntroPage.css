@@ -1,0 +1,29 @@
+.introPage {
+  background-color: rgb(24, 24, 24); 
+  padding: 20px 60px;
+  color: white; 
+  min-height: 80vh;
+}
+
+.introPage h1 {
+  font-size: 400%;
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+.introPage p {
+  font-size: 150%;
+  max-width: 400px;
+}
+
+/* Button homepage */
+.introPage a {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
