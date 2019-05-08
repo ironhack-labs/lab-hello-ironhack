@@ -1,0 +1,12 @@
+.Menu {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+  height:5vh
+}
+
+.Menu img{
+  margin-left: 85px;
+}
