@@ -1,0 +1,16 @@
+.elements {
+width: 15%;
+text-align: left;
+padding:40px;
+margin:20px;
+color: #1F253F;
+}
+
+ .elements h1 {
+  font-size: 22px;
+}
+
+.elements img {
+  margin-left: -15px;
+  width: 134px;
+}

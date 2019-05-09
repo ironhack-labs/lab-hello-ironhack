@@ -1,0 +1,24 @@
+
+
+.main-text {
+padding-top: 100px 0px 0px;
+margin-bottom: 0px;
+color: white;
+}
+
+h1 {
+font-size: 61px;
+}
+
+
+p {
+font-size: 18px;
+}
+
+button {
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 5%;
+  font-size: 20px;
+  color: #1F253F;
+}
