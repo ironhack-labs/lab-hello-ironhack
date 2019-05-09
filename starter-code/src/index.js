@@ -37,12 +37,17 @@ function App() {
       <div> 
         <Navbar />
         <div className="cuadro">
+          <div className="content-cuadro">
           <h1>Say hello to</h1>
           <h1> ReactJs</h1>
           <h2>You will learn a </h2>
           <h2>framework from scratch, to </h2>
           <h2>become a Ninka Developer </h2>
-          <h3 className='boton'> Awesome!</h3>          
+          <div className='boton'>
+            <h3 >Awesome!</h3>
+          </div>             
+          </div>
+
         </div>
       </div>
       <div className="cont2">

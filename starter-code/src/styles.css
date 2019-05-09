@@ -35,7 +35,7 @@
 .ihlogo{
   height: 45px;
   width: 45px;
-  margin: 0 0 0 80px;
+  margin: 0 0 0 150px;
 }
 
 .menu{
@@ -51,8 +51,13 @@
   background-color: #08284E;
   color: white;
   padding: 60px 80px 100px 80px;
-
   height: 35vh;
+  margin: 0 0;
+  width: 100%;
+}
+
+.content-cuadro{
+  margin: 0 75px;
 }
 
 .contents{
@@ -61,6 +66,7 @@
 }
 
 .boton{
+  display: flex;
 
   margin-top: 30px;
   width: 150px;
@@ -70,14 +76,16 @@
   background-color: white;
   font-size: 20px;
   color:black;
+  align-content: center;
 }
 
 .cont2{
   display:flex;
-  align-content: center
+  align-content: center;
+  margin: 40px 70px;
 }
 
 .cuadrito{
   width: 25%;
-
+  margin: 0px 70px;
 } 
