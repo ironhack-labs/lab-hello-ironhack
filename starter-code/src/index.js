@@ -1,5 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Parent from "./components/parent"
+import Child from "./components/child"
 
 function App() {
 	const view = {
@@ -45,7 +47,6 @@ function App() {
 
 		</div>
 	)
-
 }
 
 const rootElement = document.getElementById("root");
