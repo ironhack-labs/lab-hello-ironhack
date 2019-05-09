@@ -2,6 +2,8 @@ const path = require("path");
 const webpack = require("webpack");
 const bundlePath = path.resolve(__dirname, "dist/");
 
+const PUBLIC_URL = './public/';
+
 module.exports = {
   entry: "./src/index.js",
   module: {

@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+.navbar{
+  height: 60px;
+  background-color: #08284E;
+}
+
+.uk-navbar{
+  display: flex;
+  position: relative;
+}
+
+.uk-navbar-center{
+  display: flex;
+  align-items: center;
+}
+
+.uk-navbar-center-right{
+  top: 0;
+  position: absolute;
+}
+
+.uk-navbar-center-left{
+  top: 0;
+  position: absolute;
+}
+
+.uk-navbar-nav{
+  display: flex;
+}
+
+.ihlogo{
+  height: 45px;
+  width: 45px;
+  margin: 0 0 0 80px;
+}
+
+.menu{
+  height: 45px;
+  margin: 0 0 0 1350px;;
+
+}
+
+
+
+.cuadro{
+  display: block;
+  background-color: #08284E;
+  color: white;
+  padding: 60px 80px 100px 80px;
+
+  height: 35vh;
+}
+
+.contents{
+  display: block;
+  justify-content: center;
+}
+
+.boton{
+
+  margin-top: 30px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 20px;
+  color:black;
+}
+
+.cont2{
+  display:flex;
+  align-content: center
+}
+
+.cuadrito{
+  width: 25%;
+
+} 
