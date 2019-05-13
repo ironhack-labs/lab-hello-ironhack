@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding-top: 30px;
+    background-color:#1F2535;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+span{
+    color: gray;
+    font-size: 20px
+}
+
+
+.menu-top{
+    display: flex;
+    float: right;
+}
+
+
+.nav{
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title-container{
+    display: flex;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title{
+    width: 50%;
+    font-size: 8vw;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.subtitle-container{
+    width: 35vw;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+button{
+    width: 200px;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.wrapper{
+    background-color: white;
+    margin: 0;
+    margin-top: 75px;
+    width: 100%;
+    
+}
+.row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.details-container{
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    padding: 10px;
+    width: 25%;
+}
+
+.column img{
+width: 15vw
+}
