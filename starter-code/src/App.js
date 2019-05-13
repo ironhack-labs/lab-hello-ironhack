@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import ironhackLogo from './ironhack-logo.svg';
 import menuTop from './menu-top.svg'
+import reactLogo from './react-logo.svg'
 import './App.css';
 
 
@@ -23,6 +24,7 @@ function App() {
         <button href="#" class="button">
           Awesome!
         </button>
+        <img src = {reactLogo}></img>
         </header>
       <body>
         <div className = "cards">
