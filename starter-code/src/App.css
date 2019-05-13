@@ -36,7 +36,7 @@
 .App-header {
   margin: 0;
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -76,12 +76,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .boxes {
+  margin-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  font-size: 20px;
+  height: 400px;
+}
+
+.content-titles {
+  font-size: 30px;
+  font-weight: bolder;
 }
 /* @keyframes App-logo-spin {
   from {

@@ -43,16 +43,24 @@ function App() {
       <div className="content-main">
         <div className="boxes">
           <img className="content-pic" src={decpic} alt="" />
+          <p className="content-titles">Declarative</p>
+          <span>React makes it painless to create interactive UIs.</span>
         </div>
         <div className="boxes">
           <img className="content-pico" src={comppic} alt="" />
+          <p className="content-titles">Components</p>
+          <span>Build encapsulated components that manage their states.</span>
         </div>
         <div className="boxes">
           <img className="content-pic" src={singlepic} alt="" />
+          <p className="content-titles">Single-Way</p>
+          <span>A set of immutable values are passed to the components.</span>
         </div>
 
         <div className="boxes">
           <img className="content-pic" src={jsxpic} alt="" />
+          <p className="content-titles">JSX</p>
+          <span> Statically typed, designed to run on modern browsers. </span>
         </div>
       </div>
     </div>
