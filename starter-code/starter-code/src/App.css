@@ -1,0 +1,75 @@
+.App {
+  text-align: left;
+  
+  height: 400px;
+  display: flow-root;
+  margin: 20px;
+}
+.App p {
+  opacity: 0.6;
+  width: 300px;
+}
+.App h1 {
+  width: 300px;
+}
+.App img {
+  
+  float: right;
+}
+.react-logo-sm {
+  opacity: 0.9;
+  float: right;
+  width: 20%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2.5vmin); 
+  color: white;
+  
+}
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.nav-dropdown {
+  float: right;
+  margin: 20px;
+  
+}
+.logo-ironhack {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.btn {
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1em;
+  margin: 20px;
+}
+.footer-images {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 100%;
+  background-color: white;
+  color: black;
+
+}
+
+.footer-images p {
+  opacity: 0.6;
+  font-size: 0.6em;
+}
