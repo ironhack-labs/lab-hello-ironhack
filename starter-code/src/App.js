@@ -29,7 +29,16 @@ function App() {
           <button type="button" class="btn btn-primary btn-lg">
             Awesome!
           </button>
+
+            <img class = "atoms1" src="./images/react-logo.svg" alt="reactlogo"/>
+            <img class = "atoms2" src="./images/react-logo.svg" alt="reactlogo"/>
+            <img class = "atoms3" src="./images/react-logo.svg" alt="reactlogo"/>
+            <img class = "atoms4" src="./images/react-logo.svg" alt="reactlogo"/>
+            <img class = "atoms5" src="./images/react-logo.svg" alt="reactlogo"/>
+            <img class = "atoms6" src="./images/react-logo.svg" alt="reactlogo"/>
+        
         </div>
+
       </header>
 
       <div class="row">

@@ -20,6 +20,46 @@ nav {
   margin-top: 70px;
   margin-left:40px;
 }
+.atoms1{
+  position: absolute;
+  bottom: 22em;
+  left: 22em;
+}
+.atoms2{
+  position: absolute;
+  bottom: 16em;
+  left: 37em;
+  width: 9em;
+  height: 9em;
+}
+.atoms3{
+  position: absolute;
+  bottom: 11em;
+  left: 27em;
+  width: 7em;
+  height: 7em;
+}
+.atoms4{
+  position: absolute;
+  bottom: 24em;
+  left: 52.25em;
+  width: 6em;
+  height: 6em;
+}
+.atoms5{
+  position: absolute;
+  bottom: 17.5em;
+  left: 52.25em;
+  width: 6em;
+  height: 6em;
+}
+.atoms6{
+  position: absolute;
+  bottom: 11em;
+  left: 52.25em;
+  width: 6em;
+  height: 6em;
+}
 .h1, h1 {
   font-size: 5rem;
 }
