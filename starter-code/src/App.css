@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+h1{
+  margin-right:70vw;
+  margin-left:5vw;
+  text-align: left;
+}
+p{
+  font-weight:200;
+}
+.info{
+  margin-right:65vw;
+  margin-left:5vw;
+  margin-top:-20px;
+  text-align: left;
+}
+.navbar{
+  background-color: #282c34;
+  display:flex;
+  justify-content: space-between;
+  padding:2vh 5vw;
+}
+.images{
+  display:flex;
+  flex-direction:row;
+  padding:10vh 10vw;
+}
+.App-article{
+  align-content: center;
+}
+.button{
+  margin-left: 4vw;
+  margin-right: 90vw;
+  height: 10vh;
+  width: 12vw;
+  border-radius: 3px;
+  font-size: large;
+  font-weight: 500;
+}
