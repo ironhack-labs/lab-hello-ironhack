@@ -2,23 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -56,4 +39,23 @@
 .center{
   display: block;
   padding-top: 15vh;
+}
+
+.button {
+  border-radius: 5px;
+  color: #050505;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 11px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#menu {
+  float: right;
+  padding:10px;
+}
+
+#logo{
+  float: left;
+  padding:10px;
 }

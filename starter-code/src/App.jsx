@@ -4,19 +4,26 @@ import './images/icon1.png'
 import './images/icon2.png'
 import './images/icon3.png'
 import './images/icon4.png'
-
+import logo from './images/ironhack-logo.svg'
+import menu from './images/menu-top.svg'
 
 class App extends React.Component {
   render() {
     return (
       <div>
 
+
         <div id='section1'>
+
+          <img src={logo} id='logo' />
+          <img src={menu} id='menu' />
+
           <div class='center'>
+
             <h1> Say hello to ReactJS</h1>
             <p>You will learn a Frontend frameworkrom scratch, to become a Ninka developer.</p>
 
-            <button>Awesome!</button>
+            <button class='button'>Awesome!</button>
           </div>
         </div>
 
