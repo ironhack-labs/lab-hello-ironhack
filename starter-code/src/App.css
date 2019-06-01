@@ -1,0 +1,74 @@
+header {
+    background-color:  #1f2535;
+    height: 600px;
+}
+
+.background{
+    background-image: url("/images/react-logo.svg");
+    height: 500px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url("/images/ironhack-logo.svg");
+}
+
+.leftIcon{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rightIcon{
+    position: absolute;
+    display: block;
+    margin-left: 95%;
+    margin-top: 2%;
+}
+
+h1{
+    color:white;
+}
+
+.title{  
+    margin-left: 15%;
+    height: 100px;
+    width: 200px;
+}
+
+*{
+    /* border: 1px black solid; */
+}
+
+.row-lm{
+    height: 30%;
+}
+
+.subtitle{
+    font-size: 60%;
+    color:white;
+    margin-left: 15%;
+    height: 80px;
+    width: 200px;
+}
+
+.awsomeButton{
+    margin-left: 15%;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.icon-containeer{
+    margin-left:10%;
+    display: flex;
+    height: 400px;
+}
+
+.icon {
+    width: 200px;
+    margin-left: 2%;
+}
