@@ -1,0 +1,14 @@
+nav {
+  background: #202536;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+.menu{
+  width: 15px;
+}
+
+.logo{
+  width: 27px;
+}
