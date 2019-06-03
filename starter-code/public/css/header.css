@@ -1,0 +1,17 @@
+.header {
+    background: #252525;
+    color: white;
+    height: 100vh;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header div>a {
+    color: white;
+}
+
+
+.left {
+    width: 50%;
+}
