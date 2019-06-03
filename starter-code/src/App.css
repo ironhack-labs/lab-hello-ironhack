@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(20, 20, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    height: 800px;
+    background-image: url(/images/react-logo.svg)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 80px;
+}
+h1{
+    font-size: 6em;
+}
+.title p{
+    font-size: 1.7em;
+    font-weight: 300;
+    width: 60%;
+}
+.title a{
+    font-size: 2em;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 80px 0;
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(20, 20, 93);
+}
+.title{
+    width: 50%;
+    margin-left: 80px;
+
+}
+
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+article{
+    width: 20%;
+}
+
+article p{
+    width: 70%;
+    font-weight: 100;
+}
