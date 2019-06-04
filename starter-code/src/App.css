@@ -1,0 +1,77 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ironhackLogo {
+  padding: 40px 0 0 0;
+}
+
+.menu-top {
+  float: right;
+  margin: 50px 75px 0 0;;
+}
+.reactLogo {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8 );
+  background-image: url(http://127.0.0.1:5500/starter-code/public/images/react-logo.svg)
+}
+
+.reactLogo, h1 p {
+  color: white;
+  padding-left: 75px;
+
+}
+
+h1 {
+  font-size: 5em;
+  width: 600px;
+  font-weight: 900;
+  margin: 150px 0 0;
+}
+
+.reactLogo p {
+  line-height: 1.5;
+  font-size: 1.5em;
+  /* background-color: aquamarine; */
+  width: 320px;
+  margin: 0;
+}
+
+button {
+  margin: 50px 0 0 0;
+  padding: 20px;
+  font-size: 1.5em;
+  border-radius: 8px;
+}
+
+.container {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+article {
+  width: 15%;
+}
+article h2 {
+  color: rgba(0, 0, 0, 0.8 );
+  margin-bottom: 10px;
+}
+
+article p {
+  width: 80%;
+  color: gray;
+  margin-top: 0;
+}
