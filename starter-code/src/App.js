@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import "./App.css"
 
+import Articles from "../components/articles"
+
 class App extends Component {
 
 
@@ -26,37 +28,10 @@ class App extends Component {
 
         <section className="details">
 
-          <article>
-            <header>
-              <img src="./images/icon1.png" />
-              <h3>Declarative</h3>
-            </header>
-            <p>React makes it painless to create interactive Uls.</p>
-          </article>
-
-          <article>
-            <header>
-              <img src="./images/icon2.png" />
-              <h3>Componenets</h3>
-            </header>
-            <p>Build encapsulate components that manage their state.</p>
-          </article>
-
-          <article>
-            <header>
-              <img src="./images/icon3.png" />
-              <h3>Single-way</h3>
-            </header>
-            <p>Asset of inmutable values are passed to the components.</p>
-          </article>
-
-          <article>
-            <header>
-              <img src="./images/icon4.png" />
-              <h3>JSX</h3>
-            </header>
-            <p>Statically-typed, designed to run on modern browsers</p>
-          </article>
+          <Articles pic="./images/icon1.png" title="Declarative" description="React makes it painless to create interactive Uls." />
+          <Articles pic="./images/icon2.png" title="Components" description="Build encapsulate components that manage their state." />
+          <Articles pic="./images/icon3.png" title="Single-way" description="Asset of inmutable values are passed to the components." />
+          <Articles pic="./images/icon4.png" title="JSX" description="Statically-typed, designed to run on modern browsers" />
 
         </section>
       </main>
