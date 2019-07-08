@@ -1,0 +1,42 @@
+body {
+  background-color: #04043c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: white;
+  color: #04043c;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.h1hello {
+  margin-top: 15%;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  height: 400;
+}
+
+.h1reactJs {
+  font-size: 6 rem;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Foot {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
