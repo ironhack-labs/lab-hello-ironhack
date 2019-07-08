@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: white;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App .big-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 50px;
+  background: #1f2535 url("/images/react-logo.svg");
+}
+
+.App .big-block {
+  width: 50%;
+}
+
+.App .title {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.App .subtitle {
+  width: 55%;
+}
+
+.App .nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+button {
+  margin: 20px 0px;
+  font-weight: bold;
+  padding: 10px;
+  background: white;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.App .foofoo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+}
+.App .foo {
+  flex-direction: column;
+  text-align: center;
+  color: #1f2535;
+}
+
+.App .foo img {
+  max-width: 100px;
+}
+
+.App footer {
+  margin-top: 70px;
+}
