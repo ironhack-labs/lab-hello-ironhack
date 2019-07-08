@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:200,400,800&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: rgb(33, 33, 66);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ironhackLogo {
+  width: 100px;
+  padding: 10px;
+}
+
+.topbutton {
+  width: 80px;
+  padding: 20px;
+}
+
+.bigContainer {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  color: white;
+}
+
+.article1 h1 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.article1 h3 {
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.awesomeButton {
+  padding: 15px;
+  left: 50px;
+  width: 200px;
+  height: 60px;
+  font-size: 40px;
+  background-color: white;
+  border: black 2px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: rgb(33, 33, 66);
+  text-align: center;
+}
+
+.awesomeButton a:visited {
+  color: rgb(33, 33, 66);
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.iconsBottom {
+  width: 200px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.boxy {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  text-align: left;
+}
+
+.titleBottom {
+  font-size: 30px;
+  margin: 0;
+}
+
+.textBottom {
+  font-size: 16px;
+}
