@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+
+}
+
+
+.App {
+  background: #1F2535;
+  height: 1000px;
+  color: white;
+  display: flex;
+}
+
+
+/* Flex Containers */
+.FlexLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%
+}
+
+.FlexRight {
+  display: flex;
+  flex-direction: row;
+
+  width: 50%;
+}
+
+.FlexRightLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 70%;
+}
+
+.FlexRightRight {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  width: 30%;
+}
+
+.EndContainerFlex {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.container1 {
+  width: 18%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.container2 {
+  width: 18%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.container3 {
+  width: 18%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.container4 {
+  width: 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+
+}
+
+
+
+/* Logos and Titles and Paragraphs and Button */
+
+.MainTitle {
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  width: 60%;
+  font-size: 6em;
+  margin-bottom: 10px;
+  margin-left: 100px;
+
+}
+
+.Text {
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 1em;
+  font-weight: thin;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  margin-left: 100px;
+  margin-bottom: 70px;
+
+
+
+}
+
+.Text1,
+.Text2,
+.Text3,
+.Text4 {
+  color: #646464;
+  font-size: 1em;
+}
+
+.Title1,
+.Title2,
+.Title3,
+.Title4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 0px;
+  color: #1F2535;
+
+
+
+
+}
+
+
+.Electron1 {
+
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 380px;
+  margin-right: 120px;
+}
+
+
+.Electron2 {
+  background-repeat: no-repeat;
+
+  margin-left: 120px;
+
+
+
+}
+
+
+.Electron3 {
+  background-repeat: no-repeat;
+
+  margin-right: 220px;
+
+}
+
+.Electron4 {
+
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+
+.Electron5 {
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+
+
+}
+
+
+.Electron6 {
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+
+}
+
+.Logo {
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.MenuLogo {
+  margin-bottom: 260px;
+  margin-right: 80px;
+}
+
+
+.Button {
+  color: #1F2535;
+  font-size: 2em;
+  height: 90px;
+  width: 220px;
+  margin-left: 100px;
+  border-radius: 5px;
+
+}
