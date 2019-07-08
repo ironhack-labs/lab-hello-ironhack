@@ -1,0 +1,60 @@
+body {
+  background-color: #1f2535;
+}
+
+.navBar {
+  margin-top: 0;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.quote {
+  color: white;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.title {
+  font-size: 5rem;
+  width: 40%;
+  margin-bottom: 0%;
+}
+
+.quote {
+  font-size: 2rem;
+  width: 40%;
+}
+
+.btn {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 3px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: inherit;
+  background-color: white;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
