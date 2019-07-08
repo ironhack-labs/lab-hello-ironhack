@@ -3,6 +3,8 @@
     flex-flow: row nowrap; 
     justify-content: space-between; 
     align-items: center; 
+    height: 30vh;
+    margin: 0 15vh; 
   }
 
 .container{
@@ -12,10 +14,17 @@
     align-items: flex-start;
     width: 25vw; 
     margin: 0;
-    padding: 3vh; 
+    padding: 1vh; 
+    height: 25vh;
 }
 
-.p{
-    font-size: 0.8rem; 
-    color: darkgray; 
+p{
+    font-size: 1rem; 
+    color: rgb(24, 23, 23); 
+    margin : 0.5vh 0; 
+}
+
+.img{
+    height: 15vh; 
+    width: 15vh;
 }
