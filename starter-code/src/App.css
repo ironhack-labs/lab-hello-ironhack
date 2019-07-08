@@ -56,7 +56,7 @@
 }
 
 .container1 {
-  width: 18%;
+  width: 22%;
 
 
   display: flex;
@@ -70,7 +70,7 @@
 }
 
 .container2 {
-  width: 18%;
+  width: 22%;
 
 
   display: flex;
@@ -84,7 +84,7 @@
 }
 
 .container3 {
-  width: 18%;
+  width: 22%;
 
 
   display: flex;
@@ -98,7 +98,7 @@
 }
 
 .container4 {
-  width: 18%;
+  width: 22%;
 
   display: flex;
   flex-direction: column;
@@ -145,7 +145,7 @@
 .Text3,
 .Text4 {
   color: #646464;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .Title1,
