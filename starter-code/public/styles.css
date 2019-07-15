@@ -1,0 +1,49 @@
+.navBarImg{
+  background-color: rgba(3, 0, 32, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding : 3%
+}
+.bodyMain{
+  background-color: rgba(3, 0, 32, 0.8);
+  background-image: url("/images/react-logo.svg");
+  color: white;
+}
+h1{
+  font-size: 100px;
+  
+}
+.bodyMain p{
+  font-size: 25px;
+  font-weight: lighter;
+}
+.bodyText{
+  width: 30%;
+  padding: 40px;
+}
+.buttonBody{
+  height: 70px;
+  width: 150px;
+  border-radius: 10%;
+  font-size: 20px;
+
+}
+.pBody{
+  width: 60%;
+  padding-bottom: 15%;
+  
+  
+}
+
+.footerElement{
+  width: 25%;
+  
+}
+.footer{
+  display: flex;
+  padding: 10%;
+}
+.footerElement p{
+  width: 40%;
+  color: grey;
+}
