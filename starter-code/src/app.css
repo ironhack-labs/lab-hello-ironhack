@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+.NavBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 50px;
+  padding-left: 80px;
+
+}
+
+.BodyMain{
+  color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 40vw;
+  padding-left: 80px;
+
+
+}
+
+.bgimage{
+  background-image: url("/images/react-logo.svg");
+  background-size: auto;
+  background-repeat: inherit;
+  background-color: rgba(31, 37, 53, 0.959);
+}
+
+
+.FooterElement{
+
+  display: flex;
+  flex-direction: column;
+max-width: 100px;
+
+  
+
+}
+
+.Footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
