@@ -43,3 +43,37 @@
   margin-bottom: 60px;
   border-radius: 5px;
 }
+
+.footerbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.footerbar img {
+  width: 100px;
+  margin-top: 50px;
+}
+
+.footerbar h4 {
+  color: #1f2535;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.footerbar p {
+  color: #d8d9dd;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+
+.react-widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 170px;
+}
