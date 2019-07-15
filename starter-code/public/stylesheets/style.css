@@ -1,0 +1,65 @@
+
+*{
+  background-color: darkblue;
+}
+
+.header{
+  height: 15vh;
+}
+
+.bodyReact{
+  width: 500px;
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  padding-bottom: 60px;
+}
+.subTitle{
+  font-size: 30px;
+  text-decoration: none;
+  width: 400px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 10px 100px;
+
+}
+
+.awesomeBtn{
+  color: darkblue;
+  background-color: white;
+  padding: 15px;
+  border-style: none;
+  border-radius: 5px;
+  
+}
+
+.reactFooter{
+  background-color: white; 
+  height: 50vh; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.reactFeatures{
+  padding: 50px;
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: 182px;
+  flex-direction: column;
+  background-color: white;
+
+}
+
+.reactFeatures h2{
+  background-color: white;
+}
+
+.reactFeatures p{
+  background-color: white;
+}
