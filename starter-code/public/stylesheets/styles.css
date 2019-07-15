@@ -1,0 +1,37 @@
+.Navbar {
+    background: #1F2535;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.header {
+    padding: 50px;
+    color: white;
+    background:rgb(31, 37, 53);
+    background-image: url('/images/react-logo.svg');
+    background-repeat: repeat-x;
+}
+
+.header button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: #1F2535;
+    background: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    font-size:13px;
+}
+
+.footer-elem {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
