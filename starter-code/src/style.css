@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  font-family: Arial;
+}
+
+.intro {
+ background-color: rgb(31, 37, 52);
+ height: 80vh;
+ color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.intro-text{
+display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ padding: 20px 200px 20px 100px;
+ height: 40vh;
+ width: 25%;
+
+}
+
+button {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  width: 13%;
+  text-align: center;
+}
