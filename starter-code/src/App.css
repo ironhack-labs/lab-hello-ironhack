@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url('/images/react-logo.svg');
+  background-color: #00061b;
+  color: white;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #00061b;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 18px;
+}
+
+
+.wrapper {
+  display: flex;
+  margin: 30px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper p {
+  margin: auto;
+  width: 65%;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 16px 20px;
+}
+.wrapper .card {
+  text-align: center;
+}
+.intro h1 {
+  font-size: 5em;
+  width: 60%;
+}
+.intro h2 {
+  font-size: 2em;
+  width: 60%;
+}
