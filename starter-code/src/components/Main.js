@@ -4,12 +4,6 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <nav>
-                    <div className='nav-wrapper'>
-                        <img src='http://www.sclance.com/pngs/rick-sanchez-png/rick_sanchez_png_1169896.jpg'></img>
-                        <h1>Welcome to the Rickest page on the web</h1>
-                    </div>
-                </nav>
                 <section className='section-one'>
                     <div className='section-wrapper'>
                         <div>
@@ -54,9 +48,6 @@ export default class Main extends Component {
                         <img src='https://nerdist.com/wp-content/uploads/2019/03/cyborg-pickle-rick-362019-1200x676.jpg' />
                     </div>
                 </section>
-                <footer>
-                    <p>&copy; 2015 Pickle Rick, Inc.</p>
-                </footer>
             </div>
         )
     }
