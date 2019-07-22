@@ -16,9 +16,10 @@ body\ {
 }
 
 header {
-  background: #1e2434;
-  /* background: url('/images/react-logo.svg');
-  background-repeat: no-repeat; */
+  background-color: #1e2434;
+  background-image: url('/images/react-logo.svg');
+  background-position: 50% 30px;
+  /* background-repeat: repeat-x; */
   height: 100vh;
 }
 
