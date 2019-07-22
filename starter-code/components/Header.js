@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import Button from './Button';
 
 class Header extends Component {
   render() {
@@ -7,7 +8,7 @@ class Header extends Component {
         <div className="intro">
           <h1>Say Hello to ReactJS</h1>
           <h2>You will learn a front end framework from scratch to become a ninja developer</h2>
-          <a href="#"><button className="btn" type="button">Awesome!</button></a>
+          <Button />
         </div>
       </header>
     );
