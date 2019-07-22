@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.fundo {
+  background-image: url('/images/menu-top.svg')
+}
+
+.menuSuperior {
+  background-color: #1F2535;
+  height: 100vh;
+  background-image: url('/images/react-logo.svg');
+  background-repeat: repeat;
+  background-size: 10%;
+}
+
+.cardHolder {
+  display:flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.cardHolder div {
+  width: 15%;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.cardHolder h3 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cardHolder h5 {
+  margin-top: 0;
+  padding-top: 0;
+  color: grey;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.ironhackLogo {
+  margin: 20px 0 0 80px;
+}
+
+.menuTop {
+  float: right;
+  margin: 40px 80px 0 0;
+}
+
+.menuTexto {
+  color: white;
+  margin: 150px 0 0 80px;
+  width: 40%;
+}
+
+.menuTexto h1 {
+  font-size: 6em;
+}
+
+.menuTexto h3 {
+  margin-top: 0;
+  width: 60%;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.menuTexto a {
+  background-color: white;
+  color: #1F2535;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin-top: 100px;
+  padding: 14px 20px 14px 20px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.8);
+  border-style: solid;
+  border-radius: 8px;
+}
