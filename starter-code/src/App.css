@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.principal {
+  background-color: #1e2535;
+  background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg");
+  background-repeat: no-repeat;
+  background-size: 300px, 250px, 200px, 140px, 140px, 140px;
+  background-position: 70% 6%, 80%, 55% 80%, 98% 40%, 98% 70%, 98% 95%;
+  padding: 30px 75px;
+}
+.principal h1 {
+  color: white;
+  font-size: 90px;
+  line-height: 90px;
+}
+
+.principal p{
+  color: white;
+  font-size: 25px;
+}
+
+.principal button {
+  background-color: white;
+  color: #1e2535;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  margin: 70px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin-top: 70px;
+  width: 40%;
+}
+
+.Icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 110px 75px;
+}
+
+.icon {
+  width: 20%;
+}
