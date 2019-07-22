@@ -1,0 +1,11 @@
+.card-image > img{
+  width: 300px;
+  border-radius: 8px;
+}
+.card {
+  width: 330px;
+}
+.Cards {
+  display: flex;
+  justify-content: center;
+}
