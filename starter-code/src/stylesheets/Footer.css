@@ -1,0 +1,14 @@
+.footer {
+  height: 100px;
+  background-color: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none
+}
+.footer li {
+  list-style-type: none;
+  padding: 0 15px;
+}
