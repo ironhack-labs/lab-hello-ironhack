@@ -1,0 +1,48 @@
+body {
+  background-color: #1f2535;
+  color: white;
+}
+
+#img {
+  width: 100px;
+  height: 100px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 10%;
+}
+
+.logo2 {
+  padding-right: 10%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding-left: 10%;
+}
+
+.h1 {
+  font-size: 150px;
+  margin-bottom: 0 !important;
+}
+
+.p {
+ font-size: 60px;
+ margin-top: 0 !important;
+ margin-bottom: 80px !important;
+}
+.btn {
+    font-size: 60px;
+    height: 150px;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+}
