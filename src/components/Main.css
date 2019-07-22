@@ -1,0 +1,26 @@
+h4 {
+  margin-top: 40px;
+}
+
+.dark {
+  background-color: #333;
+  color: white;
+}
+
+.pad {
+  padding: 40px;
+}
+
+.green {
+  color: lawngreen;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
