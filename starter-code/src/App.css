@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  font-family: 'Helvetica', sans-serif;
+  background-color: rgb(31, 37, 53);
+  background-image: url(/images/react-logo.svg);
+  background-repeat: repeat;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  padding: 0 5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.hero-text {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+}
+
+.hero-text p {
+  width: 50%;
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.hero-btn {
+  margin-top: 4rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 8rem 3rem;
+}
+
+.card {
+  font-family: 'Helvetica', sans-serif;
+  display: inline-block;
+  width: 15%; 
+}
+
+.card h3 {
+  margin-left: 1rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: 600; 
+  color: rgba(0,0,0,0.9);
+}
+
+.card p {
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+  color: rgba(0,0,0,0.65);
+  font-weight: 100;
+  letter-spacing: 0.06rem;
+}
