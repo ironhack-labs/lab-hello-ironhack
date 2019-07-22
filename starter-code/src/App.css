@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background-color: #1f2535;
+  background-image: url("/images/react-logo.svg");
+  padding: 1% 5%;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  width: 30px;
+  height: 30px;
+}
+.react-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  color: white;
+  font-size: 1.5em;
+  padding: 2%;
+  width: 43%;
+}
+.react-main h1{
+  font-size: 5em;
+  margin: 0px;
+}
+.react-main p{
+  width: 50%;
+}
+.awesome{
+  background-color: white;
+  color: #1f2535;
+  text-align: center;
+  padding: 2%;
+}
+
+.section-icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.row-icons{
+  width: 20%;
+  text-align: left;
+  /* display: flex;
+  justify-content: flex-start; */
+
+}
+.row-icons h4,
+.row-icons p{
+  padding-left: 5%;
+  width: 30%;
+}
