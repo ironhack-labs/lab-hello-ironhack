@@ -1,0 +1,11 @@
+.background-react {
+  background-color: #1F2535;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
