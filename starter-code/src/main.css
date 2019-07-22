@@ -1,0 +1,12 @@
+.top{
+  background-color: #61dafb;
+  color: black;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+#title{
+  margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.foot{
+  background-color: #61dafb;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.foot *{
+  color: black;
+}
+.options{
+  list-style: none;
+  margin: 15px 0;
+}
+.thanks{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
