@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-div{
+  background-image: url('/tron.gif');
+  /* background-color: black; */
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.title-div h3{
+  font-size: 2em;
+  color: red;
+}
+
+#title{
+  display: flex;
+  font-size: 1.5em;
+  color: red;
+}
+
+.links{
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.section-title{
+  color: rgb(0, 44, 240);
+  font-size: 1.5em;
+}
+
+.list li{
+  list-style-type: circle;
+}
+
+.list li::before{
+  color: red;
+}
+
+.list li a{
+  text-decoration: none;
+  color: rgb(194, 194, 4);
+  font-weight: bold;
+  padding: 2px;
+}
+
