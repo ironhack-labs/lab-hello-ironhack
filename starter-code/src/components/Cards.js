@@ -6,7 +6,7 @@ class Cards extends Component {
   card() {
     return (
       <div className="card">
-        <div className="card-title">More catchy info</div>
+        <div className="card-title">Used by Instagram, Netflix, Paypal, Apple and many more.</div>
         <div className="card-image">
           <img src="/images/card.jpg" alt="card"/>
         </div>
@@ -14,7 +14,7 @@ class Cards extends Component {
         asymmetrical. Taiyaki cliche man bun pickled williamsburg, gochujang meggings pitchfork la croix green 
         juice prism sustainable. Heirloom polaroid chartreuse, food truck copper mug 
         hexagon kogi lomo mlkshk messenger bag thundercats. Microdosing vegan whatever vaporware chia gochujang. </div>
-        <div className="card-footer"> <button href="#">Link</button></div>
+        <div className="card-footer"> <a href="#">Link</a></div>
       </div>
     )
 

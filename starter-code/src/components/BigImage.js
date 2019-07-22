@@ -5,7 +5,7 @@ class BigImage extends Component {
   callToActionButton() {
     return (
       <div className="button-wrapper">
-        <a class="effect1" href="#">
+        <a className="effect1" href="#">
           Let's Go!
           <span class="bg" />
         </a>

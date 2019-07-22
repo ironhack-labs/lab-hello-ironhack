@@ -1,9 +1,10 @@
 .card-image > img{
   width: 300px;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .card {
   width: 330px;
+  margin: 0 15px;
 }
 .Cards {
   display: flex;
