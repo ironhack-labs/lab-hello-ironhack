@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500, 700&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+    margin: 0;
+  
+  }
+.header-bg {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url('/images/react-logo.svg') no-repeat #1f2535;
+    height: 100vh;
+    width: 100%;
+    min-height: 550px;
+}
+h1 {
+  margin-block-start: 0;
+}
+.menu {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-around;
+  height: calc(100% - 90px);
+}
+
+
+
+
+.header h1{
+  font-size: 80px;
+  width: 50%;
+  min-width: 506px;
+  margin: 0;
+  z-index: 4;
+}
+.header h2{
+  font-size: 22px;
+  width: 30%;
+  font-weight: 100;
+  min-width: 300px;
+  line-height: 1.4;
+  z-index: 4;
+}
+.header a{
+  padding: 20px 40px;
+  background: white;
+  color: #1f2535;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 40px 0;
+  z-index: 4;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 180px;
+}
+.feature img{
+  margin-left: -20px;
+}
+.feature h3{
+  font-size: 24px;
+  margin: 0;
+  color: #1f2535;
+}
+
+.feature p{
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.4;
+  color: gray;
+}
+
+.header::before{
+  content: '';
+  background: url(/images/react-logo.svg) no-repeat;
+  position: absolute;
+  background-size: contain;
+  z-index: 99999;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  top: 20vh;
+}
+.elements::before{
+  content: '';
+  background: url(/images/react-logo.svg) no-repeat;
+  position: absolute;
+  background-size: contain;
+  z-index: 99999;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  top: 40vh;
+}
+.feature::before{
+  content: '';
+  background: url(/images/react-logo.svg) no-repeat;
+  position: absolute;
+  background-size: contain;
+  z-index: 99999;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  top: 60vh;
+}
+.App::before {
+  content: '';
+  background: url(/images/react-logo.svg) no-repeat;
+  position: absolute;
+  background-size: contain;
+  z-index: 2;
+  width: 400px;
+  height: 400px;
+  top: 30vh;
+  left: 50%;
+}
