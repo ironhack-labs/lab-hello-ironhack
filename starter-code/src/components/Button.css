@@ -1,0 +1,17 @@
+.App-button{
+    padding-left: 8vw;
+    padding-top: 30px;
+}
+
+.App-button button{
+    border: none;
+    padding: 25px;
+    background-color: white;
+    color: #282c34;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
