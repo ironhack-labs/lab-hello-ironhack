@@ -1,0 +1,7 @@
+.nav {
+    background-color: rgb(25, 33, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 4%;
+  }

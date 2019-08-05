@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8% 0 5% 0;
+  }
+  
+.card {
+    width : 15%;
+    padding-left: 5%;
+}
+  
+.card-text {
+    padding-left: 7%;
+}
