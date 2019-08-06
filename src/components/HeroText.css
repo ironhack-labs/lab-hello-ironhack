@@ -1,0 +1,8 @@
+.HeroText p {
+  font-size: 22px;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-left: 70px;
+  width: 30%;
+  margin-top: 5px;
+  color: white;
+}

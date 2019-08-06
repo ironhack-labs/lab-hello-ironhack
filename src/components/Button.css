@@ -1,0 +1,11 @@
+.Button button {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  width: 13%;
+  height: 60px;;
+  font-size: 18px;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-left: 70px;
+  margin-top: 35px;
+}
