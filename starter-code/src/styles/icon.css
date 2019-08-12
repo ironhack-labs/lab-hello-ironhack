@@ -1,0 +1,20 @@
+
+.margen{
+    padding-top: 80px;
+}
+.img_icon{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.title{
+    font-size: 25px;
+    color: #363636;
+    text-align: left;
+}
+.subtitle{
+    font-size: 18px;
+    color:silver;  
+    text-align: left; 
+}
