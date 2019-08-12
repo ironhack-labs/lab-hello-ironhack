@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+header {
+  color: white;
+  background-color: #1F2535;
+  text-align: left;
+  background-image: url("/../images/react-logo.svg")
+}
+.hero {
+  padding: 150px 10px;
+}
+
+
+h1 {
+  font-size: 5em;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+a {
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.7em;
+  padding: 20px;
+  margin-top: 50px;
+}
