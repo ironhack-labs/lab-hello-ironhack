@@ -1,0 +1,55 @@
+.root{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  height: 650px;
+  width: 100%;
+  background-color: #22243B;
+  
+}
+.app img ul li:nth-child(1){
+  height: 30px;
+  width: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul li{
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.content{
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+.content h1{
+  color: #fff;
+  font-size: 60px;
+}
+.content h4{
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  margin-top: 0%;
+  line-height: 20px;
+}
+.content button{
+  padding: 20px 7px;
+  width: 140px;
+  border-radius: 4px;
+  margin-top: 5%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.images{
+  margin-top: 5%;
+}
+.textImages{
+  padding-left: 10%;
+}
