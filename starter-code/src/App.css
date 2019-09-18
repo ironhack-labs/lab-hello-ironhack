@@ -1,0 +1,74 @@
+.App {
+  margin: 0;
+  max-width: 1280px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1B2332;  
+  padding: 33px 80px;
+  height: 600px;
+}
+
+nav {
+  display: flex;
+}
+
+.ham {
+  position: absolute;
+  right: 80px;
+}
+
+.content {
+  max-width: 450px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 86px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+button {
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-top: 20px;
+  
+}
+
+.icon-row {
+  display: flex;
+  width: 100%;
+}
+
+.icon-row div {
+  text-align: left;
+  width: 80%;
+  padding: 30px;
+}
+
+main h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+main p {
+  color: #777;
+  font-size: 22px;
+  font-weight: 300;
+  margin-left: 20px;
+}
