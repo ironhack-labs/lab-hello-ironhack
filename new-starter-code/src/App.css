@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background-color: #1f2535;
+  background-image: url("/images/react-logo.svg");
+  padding: 1% 5%;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+  margin-left: 30px;
+}
+
+.menu-item {
+  width: 30px;
+  height: 30px;
+}
+
+.react-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  color: white;
+  font-size: 1.5em;
+  padding: 2%;
+  width: 43%;
+}
+
+.react-main h1{
+  font-size: 4em;
+  margin: 0px;
+}
+
+.react-main p {
+  width: 50%;
+}
+
+.awesome{
+  background-color: white;
+  color: #1f2535;
+  text-align: center;
+  padding: 3%;
+  border-radius: 4px;
+}
+
+.awesome p {
+  width: 20px;
+}
+
+.section-icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.row-icons{
+  width: 20%;
+  text-align: left;
+}
+
+.awesome3 {
+  width: 50px;
+}
+
+.center {
+  text-align: left;
+}
+
+.text {
+  margin-left: 20px;
+}
