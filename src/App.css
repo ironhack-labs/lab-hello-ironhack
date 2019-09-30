@@ -1,0 +1,29 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+#cards {
+  display: flex;
+}
+
+#content {
+  display: flex;
+  padding: 50px;
+}
+
+main {
+  background-color:blue;
+  color: white;
+  height: 90vh;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
