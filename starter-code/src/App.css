@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+  padding: 0;
+}
+
+
+#Ironhack-logo {
+  float: left;
+  margin-left: 5%;
+}
+
+#Ironhack-menu-tab {
+  float: right;
+  margin-right: 5%;
+}
+
+.intro {
+  width: 45%;
+  margin-right: 50%;
+}
+
+.intro h1 {
+  font-size: calc(50px + 6vmin);
+}
+
+.intro p {
+  padding: 0 20%;
+  margin-bottom: 10%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.App-bottom p {
+  padding: 0 25%;
+}
+
