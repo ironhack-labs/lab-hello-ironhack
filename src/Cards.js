@@ -33,7 +33,7 @@ class Cards extends Component {
       <div id="cards">
         {
           carding.map((cardinfo, i) => {
-            return <div>
+            return <div class="card">
               <img src={cardinfo.image}></img>
               <h2>{cardinfo.words}</h2>
               <p>{cardinfo.sentence}</p>

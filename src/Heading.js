@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 
-let ironhacklogo = "images/ironhack-logo.svg"
-let menutop = "images/menu-top.svg"
+let ironhacklogo = "./images/ironhack-logo.svg"
+let menutop = "./images/menu-top.svg"
 
 
 class Heading extends Component {
@@ -14,7 +14,6 @@ class Heading extends Component {
       </header>
     )
   }
-
 }
 
 
