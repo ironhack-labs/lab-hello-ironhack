@@ -1,0 +1,29 @@
+.fatherMain {
+  background-image: url('/images/react-logo.svg');
+  background-color: rgba(7, 4, 46, 0.8);
+  color: whitesmoke;
+  height: 100%;
+}
+
+.fatherMain h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  width: 40%;
+  /* margin-top: 80px; */
+  padding: 120px 0  0 60px;
+}
+
+.fatherMain h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 20%;
+  padding: 0 0 10px 60px;
+}
+
+.fatherMain button {
+  height: 40px;
+  width: 100px;
+  margin: 10px 0 50px 60px;
+  border-radius: 5px;
+  border: none;
+}
