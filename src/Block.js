@@ -26,12 +26,12 @@ const blocksArr = [
 class Block extends Component {
   render() {
     return (
-        <div id="cards" class="row">
+        <div id="blocks" class="row">
         {
           blocksArr.map((block, i) => {
             return <div class="block col">
               <img src={block.image} alt=""></img>
-              <h2>{block.words}</h2>
+              <h4>{block.words}</h4>
               <p>{block.sentence}</p>
               </div>
           })

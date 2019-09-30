@@ -16,10 +16,13 @@ class Splash extends Component {
                 <p>You will learn a Frontend framework from scratch, to become a Ninja Developer.</p>
                 <Button />
             </div>
-            <div>
-                <img src={background} alt="React Logo"/>
-                <img src={background} alt="React Logo"/>
-                <img src={background} alt="React Logo"/>
+            <div class="logos">
+                <img src={background} alt="React Logo" id="logo1"/>
+                <img src={background} alt="React Logo" id="logo2"/>
+                <img src={background} alt="React Logo" id="logo3"/>
+                <img src={background} alt="React Logo" id="logo4"/>
+                <img src={background} alt="React Logo" id="logo5"/>
+                <img src={background} alt="React Logo" id="logo6"/>
             </div>
         </div>
       </main>
