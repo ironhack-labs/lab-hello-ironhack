@@ -1,0 +1,16 @@
+.info p {
+  color: rgb(79, 75, 75);
+  margin-left: 0;
+  font-size: 20px;
+}
+.info h4 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.info {
+  margin-right: 20px;
+}
+.info :nth-last-child() {
+  margin-right: 0;
+}

@@ -1,0 +1,44 @@
+.presentation {
+  background: rgb(31, 37, 53);
+  background-image: url("/images/react-logo.svg");
+  height: 100vh;
+  width: 100%;
+}
+.presentation ul {
+  display: flex;
+
+  justify-content: space-between;
+}
+.presentation li {
+  padding: 25px 100px;
+}
+.presentation img {
+  width: 50px;
+}
+.presentation h1,
+p {
+  color: white;
+}
+.presentation h1,
+p, button {
+  margin-left: 100px;
+}
+.presentation h1 {
+  padding-top: 75px;
+  padding-right: 400px;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+.presentation p {
+  font-size: 30px;
+  font-weight: lighter;
+  padding-right: 850px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.presentation button {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5%;
+}
