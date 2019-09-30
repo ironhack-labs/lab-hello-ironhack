@@ -1,0 +1,42 @@
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+  }
+
+  #menu{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .app{
+    display: flex;
+}
+  button {
+    background-color: white; 
+    border-radius: 18px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  body {
+      background-color: #1d212f
+  }
+
+
+  h1 {
+      color: white;
+  }
+
+  p{
+      color: white;
+  }
+  
