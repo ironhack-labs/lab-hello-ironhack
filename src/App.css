@@ -27,8 +27,9 @@ header {
 }
 
 #blocks {
-  justify-content: space-around;
-  width: 100vw;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .block {

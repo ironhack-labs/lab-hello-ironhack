@@ -16,7 +16,7 @@ class Splash extends Component {
                 <p>You will learn a Frontend framework from scratch, to become a Ninja Developer.</p>
                 <Button />
             </div>
-            <div class="logos">
+            <div className="logos">
                 <img src={background} alt="React Logo" id="logo1"/>
                 <img src={background} alt="React Logo" id="logo2"/>
                 <img src={background} alt="React Logo" id="logo3"/>
