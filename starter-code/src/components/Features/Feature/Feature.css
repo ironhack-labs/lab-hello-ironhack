@@ -1,0 +1,12 @@
+.Feature { margin: 0 6rem }
+
+  .Feature p, .Feature h3 { padding: 0 2rem }
+    
+    .Feature p {
+      font-size: 2rem;
+      margin-top: 1rem;  
+    }
+    .Feature h3 {
+      font-size: 4rem;
+      margin-top: 2rem;
+    }
