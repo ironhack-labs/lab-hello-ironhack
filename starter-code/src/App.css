@@ -1,0 +1,46 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.flex-container {
+  display: flex;
+  
+}
+
+.flex-container > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#menu{
+  float:right;
+}
+strong{
+
+  text-align: center;
+}
+
+.white{
+  color:white;
+}
+h1{
+font-size: 60px;
+
+}
+.content{
+
+  background-image: url('/images/react-logo.svg');
+  background-color: rgb(31,37,53);
+  height:500px;
+  padding:100px;
+}
+
+#logo{
+  width:100px;
+  height: 100px;
+}
