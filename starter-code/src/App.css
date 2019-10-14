@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.imagebg {
+  background-image: url("/images/react-logo.svg");
+  background-color: rgb(31, 37, 53);
+  height: 800px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  height: 20%;
+  color: white;
+}
+
+.headerTitle {
+  height: 80%;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.headerTitle > p {
+  color: white;
+  font-size: 25px;
+
+}
+
+.headerTitle > a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 25px 20px;
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 80px 0;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.InfoDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 120px 120px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.cardInfo {
+  width: 15%;
+}
+
+.cardInfo > p {
+  font-size: 25px;
+}
