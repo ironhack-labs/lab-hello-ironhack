@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
+import Card from "./card.js";
 
 class App extends Component {
   render() {
     return (
+    <div className="site">
       <div className="home">
         <div className="header">
           <img src="images/ironhack-logo.svg" />
@@ -16,6 +18,8 @@ class App extends Component {
         <div className="fake-btn"> 
           <span>Awesome!</span>
         </div>
+        </div>
+        <Card />
       </div>
     );
   }

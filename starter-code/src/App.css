@@ -30,3 +30,13 @@ span{
   padding: 15px;
   border-radius: 5px;
 }
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 70px;
+}
+
+.card{
+  width: 20%;
+}
