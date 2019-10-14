@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.home{
+  background-color:#1f2535;
+  padding: 30px 70px 100px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.title{
+  padding-top: 150px;
+  padding-bottom:100px ;
+  color:white;
+  width: 40%;
+}
+
+span{
+  background-color: #fff;
+  color:#1f2535;
+  padding: 15px;
+  border-radius: 5px;
+}
