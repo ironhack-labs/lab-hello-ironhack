@@ -1,0 +1,14 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+}
+.flex {
+  display: flex;
+  /*Must!!!! on the container, in order to turn it to flex*/
+
+  justify-content: center;
+}
+.logoMenu {
+  justify-content: space-between;
+}
