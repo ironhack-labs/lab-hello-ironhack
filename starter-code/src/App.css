@@ -1,0 +1,21 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex-wrap: wrap;
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
