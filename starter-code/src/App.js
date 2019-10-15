@@ -10,21 +10,31 @@ class App extends Component {
   render() {
 
     const ironImage = "/images/ironhack-logo.svg"
-    // const icon1 = "/images/icon1.png";
-    // const icon2 = "/images/icon2.png";
-    // const icon3 = "/images/icon3.png";
-    // const icon4 = "/images/icon4.png";
 
-    const images = ["/images/icon1.png", "/images/icon2.png", "/images/icon3.png", "/images/icon4.png"]
+    const data = [
 
+      {
+        image: "/images/icon1.png",
+        text: "React makes it painless to create interactive UI.",
+        title: "Declarative"
+      },
+      {
+        image: "/images/icon2.png",
+        text: "Build encapsulated components that manage their state.",
+        title: "Components"
+      },
+      {
+        image: "/images/icon3.png",
+        text: "A set of immutable values...",
+        title: "Single-Way"
+      },
+      {
+        image: "/images/icon4.png",
+        text: "Statically typed...",
+        title: "JSX"
+      },
 
-
-    // const data =[
-    //   {images: }
-    //   {}
-    //   {}
-    //   {}
-    // ]
+    ]
 
     const user = {
       firstName: 'Fairouz',
@@ -33,31 +43,34 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Jumbotron>
-          <img src={ironImage} width="100" height="100" />
+        <Jumbotron >
+          <div className="darkB">
+            <img src={ironImage} width="100" height="100" />
 
-          <h1 className="" className="display-3"> Say hello to ReactJS  </h1>
+            <h1 className="" className="display-3"> Say hello to ReactJS  </h1>
 
-          <div>
-            <p className="lead">You will learn a Frontend framework from scratch, to become an {user.firstName} Developer.
+            <div>
+              <p className="lead">You will learn a Frontend framework from scratch, to become an {user.firstName} Developer.
             </p>
-            <hr className="my-2" />
-          </div>
-          <p className="lead">
-          </p>
+              <hr className="my-2" />
+            </div>
+            <p className="lead">
+            </p>
 
-          <Button color="primary">Awesome!</Button>
+            <Button color="primary">Awesome!</Button>
+          </div>
         </Jumbotron>
+
 
         <CardGroup>
 
-          {images.map(element => {
+          {data.map(element => {
             return <Card body className="text-center">
               <CardBody>
-                <img src={element} width="100" height="100" />
-                <CardTitle>Declarative</CardTitle>
+                <img src={element.image} width="100" height="100" />
+                <CardTitle>{element.title}</CardTitle>
                 <CardText>
-                  <small className="text-muted">React makes it painless to create interactive UI.</small>
+                  <small className="text-muted">{element.text}</small>
                 </CardText>
               </CardBody>
             </Card>
@@ -72,8 +85,6 @@ class App extends Component {
               </CardText>
             </CardBody>
           </Card> */}
-
-
 
 
           {/* <Card body className="text-center">
