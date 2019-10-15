@@ -1,0 +1,97 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.App {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.App-header{
+    height: 100vh;
+    background: #212142;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 50px;;
+}
+.logoImg{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.awesomeBlock{
+    background-color: rgb(230, 230, 230);
+    color: #212142;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+h3{
+    color: white;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+.middleClass{
+    margin:100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #212142;
+}
+.middleClass>div{
+    width:180px;
+}
+.middleClass>div>img{
+    width:100px;
+}
+
+.react-logo1{
+    width:250px;
+    position: absolute;
+    top: 30px;
+    right: 270px;
+}
+.react-logo2{
+    width:200px;
+    position: absolute;
+    top: 240px;
+    right: 140px;
+}
+.react-logo3{
+    width:200px;
+    position: absolute;
+    top: 300px;
+    right: 340px;
+}
+.react-logo4{
+    width:120px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+.react-logo5{
+    width:120px;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+.react-logo6{
+    width:120px;
+    position: absolute;
+    top: 400px;
+    right: 0px;
+}
