@@ -1,0 +1,24 @@
+.appNavContainer {
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(31, 37, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appNav {
+    margin: 20px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+.menu {
+    width: 40px;
+}

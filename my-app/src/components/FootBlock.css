@@ -1,0 +1,22 @@
+.appFootBlock {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appFootBlock img{
+    margin: -12px;
+    width: 160px;
+}
+
+.appFootBlock h1{
+    margin: 25px 0 7px 0;
+ }
+
+.appFootBlock p{
+   margin: 0;
+   width: 100%;
+   font-size: 1.2em;
+   font-weight: lighter;
+}

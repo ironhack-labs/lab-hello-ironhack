@@ -1,0 +1,39 @@
+.appHeaderContainer {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 37, 53);
+}
+
+.appHeader {
+    margin: 0;
+    width: 85%;
+    height: 100%;
+}
+
+.appHeader h1{
+    margin: 120px 0 0 0;
+    width: 50%;
+    font-size: 6em;
+    color: white;
+}
+
+.appHeader p{
+    margin: 0;
+    width: 30%;
+    font-size: 1.8em;
+    color: white;
+    font-weight: lighter;
+}
+
+.appHeader button{
+    margin: 70px 0 0 0;
+    padding: 25px;
+    border-radius: 4px;
+    font-size: 1.8em;
+    background-color: white;
+
+}

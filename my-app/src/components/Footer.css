@@ -1,0 +1,14 @@
+.appFooterContainer {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appFooter {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
