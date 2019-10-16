@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #1f2535;
+}
+
+.navbar {
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    padding: 0px 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
