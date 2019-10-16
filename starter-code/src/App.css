@@ -1,0 +1,69 @@
+.Header {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f2534;
+  height: 600px;
+}
+
+.HeaderImage {
+
+}
+
+.TextBlock {
+  margin-top: 80px;
+  margin-left: 170px;
+}
+
+.TextBlock > h1 {
+  font-size: 3.5rem;
+}
+
+.TextColor {
+  color: #fff;
+  
+}
+
+.Paragraph {
+  font-weight: 100;
+}
+
+.ButtonBlock {
+  margin-top: 60px;
+  margin-left: 170px;
+}
+
+.Button {
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 7%;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.Logo {
+  margin-top: 15px;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 200px;
+}
+
+.Cards img {
+  height: 130px;
+}
+
+.Cards h3 {
+  font-size: 1.5rem;
+}
+
+.Cards p {
+  color: #8d919b;
+}
