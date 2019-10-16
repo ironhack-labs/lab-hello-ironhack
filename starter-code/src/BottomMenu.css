@@ -1,0 +1,24 @@
+.icons-container {
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* background-color: white; */
+    /* text-decoration: none; */
+    justify-content: space-around;
+}
+
+.icon-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-item h1 {
+    color: #1D2131
+}
+
+.icon-item p {
+    color: black;
+    font-weight: lighter;
+}

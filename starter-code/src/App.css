@@ -1,0 +1,18 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(139, 143, 155) 50px;
+    background-color: #1D2131;
+    background-image: url('/images/react-logo.svg'), url('/images/react-logo.svg');
+    background-repeat: repeat, no-repeat, repeat, repeat-y;
+    background-position: 0 0;
+    background-size: 3px 3px cover;
+  }
+
+  .header-container {
+    margin: 80px
+  }
+
+  .bottomMenu-container {
+    background-color: white;
+  }

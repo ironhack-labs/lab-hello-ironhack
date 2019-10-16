@@ -1,0 +1,39 @@
+.headerText {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textH1 {
+    font-size: 4em;
+}
+
+.textH1-container {
+    width: 400px;
+}
+
+
+.textH2-container {
+    width: 300px;
+}
+.headerText p {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+
+.buttonHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 70px;
+    border: 2px white solid;
+    border-radius: 5px;
+    background-color: white;
+    color: #1F2535;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
