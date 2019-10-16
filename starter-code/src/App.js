@@ -45,20 +45,22 @@ class App extends Component {
       <div className="App">
         <Jumbotron >
           <div className="darkB">
-            <img src={ironImage} width="100" height="100" />
+            <div className="container">
+              <img src={ironImage} width="75" height="75" />
+              <h1 className="display-3"> Say hello to ReactJS  </h1>
 
-            <h1 className="" className="display-3"> Say hello to ReactJS  </h1>
 
-            <div>
               <p className="lead">You will learn a Frontend framework from scratch, to become an {user.firstName} Developer.
             </p>
               <hr className="my-2" />
-            </div>
-            <p className="lead">
-            </p>
+              <p className="lead">
+              </p>
 
-            <Button color="primary">Awesome!</Button>
+
+              <Button className="button" color="primary" size="lg">Awesome!</Button>
+            </div>
           </div>
+
         </Jumbotron>
 
 
@@ -75,57 +77,6 @@ class App extends Component {
               </CardBody>
             </Card>
           })}
-
-          {/* <Card body className="text-center">
-            <CardBody>
-              <img src={icon1} width="100" height="100" />
-              <CardTitle>Declarative</CardTitle>
-              <CardText>
-                <small className="text-muted">React makes it painless to create interactive UI.</small>
-              </CardText>
-            </CardBody>
-          </Card> */}
-
-
-          {/* <Card body className="text-center">
-            <CardBody>
-              <img src={icon1} width="100" height="100" />
-              <CardTitle>Declarative</CardTitle>
-              <CardText>
-                <small className="text-muted">React makes it painless to create interactive UI.</small>
-              </CardText>
-            </CardBody>
-          </Card>
-
-          <Card body className="text-center">
-            <CardBody>
-              <img src={icon2} width="100" height="100" />
-              <CardTitle>Components</CardTitle>
-              <CardText>
-                <small className="text-muted">Build encapsulated components that manage their state.</small>
-              </CardText>
-            </CardBody>
-          </Card>
-
-          <Card body className="text-center">
-            <CardBody>
-              <img src={icon3} width="100" height="100" />
-              <CardTitle>Single-Way</CardTitle>
-              <CardText>
-                <small className="text-muted">A set of immutable values...</small>
-              </CardText>
-            </CardBody>
-          </Card>
-
-          <Card body className="text-center" style={{ backgroundColor: '#ffffff' }}>
-            <CardBody>
-              <img src={icon4} width="100" height="100" />
-              <CardTitle>JSX</CardTitle>
-              <CardText>
-                <small className="text-muted">Statically typed...</small>
-              </CardText>
-            </CardBody>
-          </Card> */}
 
         </CardGroup>
 

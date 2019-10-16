@@ -1,15 +1,22 @@
-* {
-  background-color: grey;
-}
-
 p {
   color: white;
 }
 
 h1 {
   color: white;
-  background-color: grey;
+  background-color: rgb(32, 37, 52);
 }
 
 .darkB {
+  background-color: rgb(32, 37, 52);
+  height: 400px;
+}
+
+.container {
+  text-align: left;
+  margin-left: 0;
+}
+
+.button {
+  background-color: white;
 }
