@@ -19,30 +19,41 @@ class App extends Component {
       {
         title: "Com",
         description:
-          "voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod ",
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam ",
         image: "/images/icon2.png"
       },
       {
         title: "Single",
         description:
-          "tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam ",
         image: "/images/icon3.png"
       },
       {
         title: "JSX",
         description:
-          "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam ",
         image: "/images/icon4.png"
       }
     ];
 
     return (
       <div className="App">
-        <div class="logoMenu">
-          <img src="/images/ironhack-logo.svg" class="logo" />
-          <img src="/images/menu-top.svg" class="menu" />
+        <div class="backgroundimage">
+          <div class="logoMenu">
+            <img src="/images/ironhack-logo.svg" class="logo" />
+            <img src="/images/menu-top.svg" class="menu" />
+          </div>
+          <div class="top">
+            <h1> Say hello to ReactJS</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam
+            </p>
+            <button>Awesome</button>
+          </div>
         </div>
-        <h1>Hello</h1>
+
         <div class="flex">
           {liste.map(e => {
             return (
