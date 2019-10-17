@@ -1,0 +1,51 @@
+body {
+  font-size: 34px;
+}
+
+.blue-container {
+  background-color: rgb(18, 18, 80);
+}
+
+.text-container {
+  margin: 0 100px;
+}
+
+.text-container > h1,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  margin-bottom: 150px;
+  color: black;
+  border-radius: 4px;
+  padding: 25px 25px;
+  font-size: 25px;
+  font-weight: 2px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  padding-top: 100px;
+}
+
+.icones {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px 50px 100px;
+}
+
+.icones > div > p {
+  color: rgba(20, 19, 19, 0.61);
+}
+
+.icone-react {
+  display: flex;
+}
