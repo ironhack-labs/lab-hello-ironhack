@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 
-class Button extends Component {
+class NavBar extends Component {
   render() {
-    const { text, bClass } = this.props;
+    const { parentClass, logoClass, logoSrc, menuClass, menuSrc } = this.props;
+
     return (
-      <div className={this.props.aClass}>
-        <button className={bClass}>{text}</button>
+      <div className={parentClass}>
+        <img src={logoSrc} className={logoClass} />
+        <img src={menuSrc} className={menuClass} />
       </div>
     );
   }
 }
 
-export default Button;
+export default NavBar;
