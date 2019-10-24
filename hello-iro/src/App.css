@@ -1,9 +1,13 @@
 .App {
-  padding: 40px 7%;
+  /* padding: 40px 7%; */
 }
 
 .presentation-div {
   width: 50%;
+  padding: 2%;
+}
+
+.card-description {
   padding: 2%;
 }
 .presentation-btn {
@@ -12,45 +16,48 @@
 .presentation-title {
   color: white;
   font-size: 80px;
-  margin-left: -50px;
   display: flex;
 }
 
 .presentation-description {
   color: white;
 }
-header,
-.background {
+header {
+  padding: 40px 7%;
+
   background-color: #1f2535;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .hero {
   background-color: white;
   color: black;
   margin-top: 20px;
-  margin-left: -50px;
   display: flex;
-  flex-wrap: no-wrap;
-  padding: 2% 1%;
+  flex-wrap: wrap;
+  padding: 2% 2%;
+  text-align: center;
+  justify-content: center;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.button {
-  padding: 2% 2%;
-  margin-left: 10px;
-}
 
 .App-logo {
   height: 40vmin;
-}
-.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
 }
 
 .App-header {
@@ -62,8 +69,4 @@ header,
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }

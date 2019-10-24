@@ -12,8 +12,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="App background">
-      <header>
+    <div className="App">
+      <header className="background">
         <NavBar
           parentClass="background navbar"
           logoClass="background"
@@ -21,14 +21,14 @@ const App = () => {
           menuClass="background"
           menuSrc={imgScr}
         ></NavBar>
-      </header>
-      <Presentation
-        title="Say hello to ReactJS"
-        description="You will learn a frontEnd
+        <Presentation
+          title="Say hello to ReactJS"
+          description="You will learn a frontEnd
         framework from scratch,
         to become an Ninka developer"
-        buttonTittle="Awesome"
-      />
+          buttonTittle="Awesome"
+        />
+      </header>
       <div className="hero">
         <Card
           img={icon1}
@@ -45,7 +45,11 @@ const App = () => {
           title="Single-way"
           description="A set of immutable values are passed to the components"
         />
-        <Card img={icon4} title="JSX" description="Statically typed" />
+        <Card
+          img={icon4}
+          title="JSX"
+          description="A set of immutable values are passed to the componen"
+        />
       </div>
     </div>
   );
