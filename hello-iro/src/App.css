@@ -2,6 +2,36 @@
   padding: 40px 7%;
 }
 
+.presentation-div {
+  width: 50%;
+  padding: 2%;
+}
+.presentation-btn {
+  padding: 4% 5%;
+}
+.presentation-title {
+  color: white;
+  font-size: 80px;
+  margin-left: -50px;
+  display: flex;
+}
+
+.presentation-description {
+  color: white;
+}
+header,
+.background {
+  background-color: #1f2535;
+}
+.hero {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  margin-left: -50px;
+  display: flex;
+  flex-wrap: no-wrap;
+  padding: 2% 1%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
