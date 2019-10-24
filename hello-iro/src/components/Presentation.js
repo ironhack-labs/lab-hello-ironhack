@@ -5,7 +5,7 @@ const Presentation = props => {
     <div className="presentation-div">
       <h1 className="presentation-title">{props.title}</h1>
       <p className="presentation-description">{props.description}</p>
-      <button className="presentation-btn">{props.buttonTittle}</button>
+      <button className="presentation-btn">{props.titleBtn}</button>
     </div>
   );
 };

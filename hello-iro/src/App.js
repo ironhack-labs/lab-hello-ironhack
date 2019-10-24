@@ -26,7 +26,7 @@ const App = () => {
           description="You will learn a frontEnd
         framework from scratch,
         to become an Ninka developer"
-          buttonTittle="Awesome"
+          titleBtn="Awesome!"
         />
       </header>
       <div className="hero">
