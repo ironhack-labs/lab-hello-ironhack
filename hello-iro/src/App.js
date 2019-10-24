@@ -6,7 +6,7 @@ import Button from "./components/Button";
 import NavBar from "./components/NavBar";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header>
@@ -24,6 +24,6 @@ function App() {
       <Button aClass="red " bClass="blue button" text="Awesome!"></Button>
     </div>
   );
-}
+};
 
 export default App;
