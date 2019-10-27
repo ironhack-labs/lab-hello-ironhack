@@ -1,0 +1,148 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav,
+.Main {
+  background-color: #1f2534;
+  padding: 20px 200px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+nav .Iron {
+  height: 100px;
+}
+
+nav .Menu {
+  height: 30px;
+}
+
+.Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main h1 {
+  padding-top: 100px;
+  font-size: 10em;
+  color: whitesmoke;
+}
+
+.Main p {
+  margin-top: -80px;
+  font-size: 3em;
+  width: 600px;
+  color: rgb(206, 201, 201);
+}
+
+.Left {
+  justify-content: left;
+  width: 100%;
+}
+
+button {
+  background-color: whitesmoke;
+  color: #1f2534;
+  font-size: 2em;
+  border-radius: 10px;
+  padding: 30px;
+  font-weight: bold;
+  margin: 80px 0 120px;
+}
+
+.Right {
+  display: flex;
+  width: 100%;
+}
+
+.Right img {
+  filter: contrast(120%);
+  display: block;
+}
+
+.RightA {
+  margin-top: -160px;
+}
+
+.RightB {
+  justify-content: right;
+}
+
+.React1 {
+  height: 500px;
+}
+
+.React2 {
+  padding: 80px 0 0 200px;
+  height: 400px;
+}
+
+.React3 {
+  margin: -70px 0 -20px -120px;
+  height: 400px;
+}
+
+.React4, .React5, .React6 {
+  height: 300px;
+}
+
+.React4 {
+  padding: 80px 0 0 200px;
+}
+
+.React5 {
+  padding: 80px 0 0 100px;
+}
+
+.React6 {
+  padding: 80px 0 0 200px;
+}
+
+.Cards .Card {
+  margin: 0;
+  text-align: left;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 200px 100px;
+}
+
+.Card {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.Card img {
+  width: 300px;
+  height: 300px;
+}
+
+.Card h2 {
+  color: #1f2535;
+  font-size: 3em;
+  margin: 10px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.Card p {
+  width: 300px;
+  margin: 0;
+  color: grey;
+  font-size: 2em;
+  margin-left: 30px;
+}
