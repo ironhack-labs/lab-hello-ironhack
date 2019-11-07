@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  width: 600px;
+  margin: 10px 75px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.main-content {
+  background-color: #3E4049;
+  background-image: url("/images/react-logo.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  margin: 0 auto;
+  height: 650px;
+  color: white;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > img {
+  width: 60px;
+  margin: 5px 75px;
+}
+
+.main-paragraph {
+  font-size: 1.5rem;
+  margin: 10px 75px;
+  width: 300px;
+  color: RGBA(255, 255, 255, 0.6);
+}
+
+.minor-paragraphs {
+  margin-left: 20px;
+  color: RGBA(0, 0, 0, 0.5);
+  margin-top: -10px;
+}
+
+.button-division {
+  margin-top: 75px;
+}
+
+.main-button {
+  background-color: #fff;
+  text-decoration: none;
+  margin-left: 75px;
+  padding: 30px 40px;
+  color: #3E4049;
+  font-weight: 700;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.minor-cards {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 180px;
+}
+
