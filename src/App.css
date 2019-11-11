@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700&display=swap');
+/* font-family: 'Montserrat', sans-serif; 700
+font-family: 'Lato', sans-serif; 300 */
+
+body {
+    margin: 0%;
+}
+
+.top {
+    background-color: #1F2535;
+    color: white;
+    height: 600px;
+    /* background-image: url('images/react-logo.svg'); */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding-top: 20px;
+}
+
+.intro {
+    /* border: 1px solid red; */
+    margin: 100px 50px 50px;
+    width: 600px;
+}
+
+.intro h1 {
+    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro h3 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+.intro button {
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 24px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 350px;
+}
+
+.info {
+    /* border: 1px solid blue; */
+    width: 150px;
+}
+
+.info img {
+    width: 100px;
+}
+
+.info h3 {
+    color: #1F2535;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info p {
+    color: #7E7E7E;
+    font-family: 'Lato', sans-serif;
+}
+
