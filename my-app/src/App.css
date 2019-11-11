@@ -1,0 +1,30 @@
+.Ironhack-logo {
+  height: 30px;
+}
+.header {
+  background-image: url(./images/react-logo.svg);
+  background-size: contain;
+  background-color: black;
+  color: #fff;
+}
+.header-menu {
+  padding: 10px 50px;
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+
+.features{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.feature{
+  padding: 10px;
+  margin: 10px;
+  width: 25vw;
+  box-sizing: border-box;
+}
