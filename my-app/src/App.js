@@ -1,10 +1,11 @@
 import React from "react";
 import ironhackLogo from "./images/ironhack-logo.svg";
 import menuTop from "./images/menu-top.svg";
-import declarative from "./images/icon1.png"
-import components from "./images/icon2.png"
-import single from "./images/icon3.png"
-import jsx from "./images/icon4.png"
+import declarative from "./images/icon1.png";
+import components from "./images/icon2.png";
+import single from "./images/icon3.png";
+import jsx from "./images/icon4.png";
+import reactlogo from "./images/react-logo.svg";
 import "./App.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <section className="header">
         <div className="header-menu">
           <img src={ironhackLogo} className="Ironhack-logo" alt="logo" />
-          <img src={menuTop} className="Ironhack-logo" alt="logo" />
+          <img src={menuTop} className="menu-icon" alt="logo" />
         </div>
         <div className="header-message">
           <h1>Say hello to React JS</h1>
