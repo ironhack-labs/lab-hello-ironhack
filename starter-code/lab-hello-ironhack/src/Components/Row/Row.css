@@ -1,0 +1,22 @@
+.row-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 5vw;
+  /* margin: 3vh 0; */
+}
+
+.card {
+  align-content: center;
+}
+.card-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-self: flex-start;
+  align-self: flex-start; */
+  text-align: left;
+  width: 100%;
+}

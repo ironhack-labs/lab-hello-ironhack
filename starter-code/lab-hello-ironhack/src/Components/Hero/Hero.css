@@ -1,0 +1,29 @@
+.hero {
+  text-align: left;
+  padding: 5vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: flex-end;
+  color: white;
+  letter-spacing: 2px;
+}
+.hero-title {
+  font-size: 9vh;
+  margin-bottom: -2vh;
+}
+.hero-text {
+  font-size: 3vh;
+  font-weight: 200;
+  margin-bottom: 4rem;
+}
+.hero-button {
+  font-size: 2rem;
+  /* text-align: center; */
+  border-radius: 5%;
+  font-weight: 500;
+  height: 45rem;
+  width: 15rem;
+  margin-bottom: 4rem;
+}

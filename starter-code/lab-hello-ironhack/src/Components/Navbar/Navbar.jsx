@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
+import "./Navbar.css";
 class Navbar extends Component {
-    render() {
-        console.log(`render is running for Navbar class`);
+  render() {
+    console.log(`render is running for Navbar class`);
 
-        return (
-            <nav>
-                <img src="/images/ironhack-logo.svg" alt="" />
-                <h1>Ironhack</h1>
-                <h2>Menu</h2>
-            </nav>
-        );
-    }
+    return (
+      <nav className="navbar">
+        <img src="/images/ironhack-logo.svg" alt="" />
+        <img src="/images/menu-top.svg" alt="" />
+      </nav>
+    );
+  }
 }
 
 export default Navbar;
