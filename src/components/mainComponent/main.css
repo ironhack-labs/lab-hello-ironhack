@@ -1,0 +1,78 @@
+
+h1 {
+    font-size: 80px;
+}
+h1, p {
+    color: white;
+}
+.header {
+   height: 70vh;
+    background-color:rgba(7, 7, 22, 0.822);
+   
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+    margin-right: 30px;
+}
+.top-left {
+    height: 6vh;
+    width: 5vw;  
+}
+.menu-top-right {
+    height: 5vh;
+    width: 3vw;  
+    margin-right: 50px;
+}
+.welcome-content {
+    height: 20vh;
+    margin-top: 1%;
+    width: 30vw;
+    padding-left: 60px;
+    line-height: 1;
+}
+.welcome-content p {
+    width: 20vw;
+    margin-top: -40px;
+}
+.welcome-content button {
+    margin-top: 50px;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mainContent {
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    
+}
+.det {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 10vw;
+    height: 15vh;
+    line-height: 1;
+}
+.det h3, .det p {
+    color: rgba(7, 7, 22, 0.822);
+}
+.det p {
+    margin-top: -10px;
+}
