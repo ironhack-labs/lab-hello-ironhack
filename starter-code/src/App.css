@@ -9,6 +9,7 @@ body {
     margin-left: 50px;
     margin-top: 200px;
     height: 600px;
+    background-image: url("/images/react-logo.svg");
 }
 
 .infoPage {
