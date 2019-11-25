@@ -1,0 +1,14 @@
+.card-info {
+    text-align: left;
+    width: 230px;
+    font-size: 20px;
+}
+
+.card-info h3, p {
+    margin-left: 20px;
+}
+
+.card-info h3 {
+    font-size: 30px;
+}
+
