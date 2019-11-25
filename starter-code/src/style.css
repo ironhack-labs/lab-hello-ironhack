@@ -1,0 +1,100 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.top {
+    background: rgb(36, 48, 69);
+    color: white;
+    height: 700px;
+    width: 75%;
+    
+}
+
+.logo {
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.react {
+    display: flex;
+    margin-top: 200px;
+}
+
+.top-logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    padding-left: 80%;
+    padding-top: 40px;
+}
+
+
+.landing {
+    margin-left: 100px;
+    width: 400px;
+}
+
+
+h1 {
+    font-size: 5rem;
+   margin-top: 125px;
+   margin-bottom: 0px;
+
+}
+
+.learn {
+    width: 300px;
+   margin-top: 0px;
+   margin-bottom: 80px;
+   font-weight: lighter;
+}
+
+a {
+    color: rgb(36, 48, 69);
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 7px;
+    font-weight: bold
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    /* background: rgb(237, 240, 242); */
+    background: white;
+    color: rgb(46, 51, 59);
+    height: 550px;
+    width: 75%
+}
+
+.symbols {
+display: flex;
+margin-top: 50px;
+flex-direction: column;
+width: 170px;
+margin-left: 60px;
+align-content: space-between;
+justify-content: center;
+}
+
+.h2-low {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: lighter;
+}
