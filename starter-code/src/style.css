@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    /* background-image: url("../public/images/react-logo.svg"); */
+  }
+  
+  .sectionOne {
+      background-color: rgb(32, 37, 52);
+      height: 700px;
+      padding: 10px 50px 10px;
+  }
+  .navBar {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .middle {
+      display: flex;
+      flex-direction: row;
+
+  }
+  .heading {
+    color: white;
+    font-size: 4rem;
+  }
+
+  .pSecOne {
+      color: white;
+      font-size: 1.4rem;
+  }
+
+  .imagesBackground {
+      margin: 0vh 10vh 5vh;
+       display: flex;
+      flex-direction: column; 
+      /* border: 1pt solid black; */
+      width: 50%;
+  }
+
+  .imagesBackground .a{
+    align-self: flex-start;
+
+}
+.imagesBackground .b{
+    align-self: flex-end;
+
+}
+.imagesBackground .a{
+    align-self: flex-start;
+    margin-left: -4vh;
+
+}
+  .imgRight {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30vh;
+    margin-right: -5vh;
+  }
+  .myButton {
+      margin-top: 10vh;
+	box-shadow:inset 0px 1px 3px 0px #d1d9ee;
+	background:linear-gradient(to bottom, #e5eaf3 5%, #dce1e7 100%);
+	background-color:white;
+	border-radius:5px;
+	border:1px solid #e1e4ec;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(32, 37, 52);
+	font-size:15px;
+	font-weight:bold;
+	padding:20px 23px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9faab8 5%, #99a0ad 100%);
+	background-color:#ccd3dd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.sectionTwo {
+    padding: 1vh 10vh 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.petitCarre {
+    margin-top: 6vh;
+    width: 20%;
+    text-align: left;
+    /* border: 1pt solid black; */
+}
+
+.petitCarre > img {
+    text-align: left;
+    /* border: 1pt solid black; */
+    /* width: 50px; */
+    /* height: 50px; */
+    padding-left: -10px ;
+    margin-left: -2vh ;
+    margin-bottom: -2vh ;
+}
+
+
+.petitCarre > h1 {
+    color: rgb(32, 37, 52);
+    font-size: 2.5rem;
+    margin-bottom: -2vh;
+    /* border: 1pt solid black; */
+}
+
+.petitCarre > p {
+    width: 80%;
+    /* border: 1pt solid black; */
+}
