@@ -32,13 +32,13 @@ body {
 
 .hero-container {
   background-image: url('../public/images/react-logo.svg'), url('../public/images/react-logo.svg'), url('../public/images/react-logo.svg');
-  background-size: 320px 300px, 160px 140px, 160px 140px;
-  background-position: 60% -15%, 60% 75%, 100%, 150%;
+  background-size: 100% 45%, 50% 35%, 55% 45%;
+  background-position: 60% 0%, 60% 100%, 125%, 150%;
   background-repeat: no-repeat;
 }
 
 .hero {
-  margin: 10em 5em 5em;
+  margin: 8em 5em 5em;
   /* display: flex; */
   /* flex-direction: column; */
   width: 40%;
@@ -46,6 +46,7 @@ body {
 }
 
 .title {
+  margin-top: 3em;
   font-size: 5rem;
   word-wrap: break-word;
 }
