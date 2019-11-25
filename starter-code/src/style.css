@@ -1,0 +1,105 @@
+h1 {
+    color: white;
+
+    font-size: 8vw;
+    width: 35%;
+
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.blockOne {
+    background-color: rgb(31, 35, 50);
+    height: 55vw;
+    padding: 5%;
+}
+
+p {
+    color: gray;
+    font-size: 2.5vw;
+    max-width: 45%;
+    font-weight: lighter;
+    position: relative;
+    /* margin-top: -4vw; */
+    margin-top: -2rem;
+}
+
+button {
+    width: 180px;
+    height: 60px;
+    border-radius: .4em;
+    color: rgb(31, 35, 50);
+    font-size: 1.3em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.blockTwo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+
+
+}
+
+@media (max-width: 600px) {
+    .blockOne {
+        background-color: rgb(31, 35, 50);
+        height: 60vw;
+        padding: 5%;
+    }
+
+    .blockTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 100%;
+    }
+
+    img {
+        text-align: center;
+
+
+    }
+}
+
+img {
+    text-align: center;
+    max-width: 60%;
+
+}
+
+.one,
+.two,
+.three,
+.four {
+    text-align: center;
+    padding: 2%;
+    width: 25%;
+    /* border: solid black; */
+}
+
+h4 {
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 2em;
+    font-weight: normal;
+}
+
+.blockTwo p {
+    font-size: 1em;
+    text-align: left;
+    max-width: 100%;
+    /* border: solid black; */
+}
