@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.heading {
+  color: white;
+  margin-left: 20px;
+}
+.button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px 32px;
+  font-weight: bolder;
+  margin-bottom: 3%;
+  margin-left: 20px;
+}
+p {
+  font-size: 20px;
+  margin-left: 20px;
+  color: gray;
+}
+.logo {
+  color: black;
+}
+.container {
+  display: flex;
+}
+.logo1 {
+  position: absolute;
+  /* Adjust these values accordingly */
+  left: 95%;
+}
