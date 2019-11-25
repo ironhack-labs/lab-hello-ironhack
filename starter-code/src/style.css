@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  background-color: #1f2435;
+}
+
+.topDiv {
+  padding: 4vh 4vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  color: white;
+  width: 40vw;
+}
+header > h1 {
+  font-size: 3.5rem;
+}
+header > h2 {
+  font-weight: lighter;
+  font-size: 1rem;
+  margin-bottom: 8vh;
+  width: 25vw;
+}
+header > a {
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 5px;
+  color: #1f2435;
+  font-size: 1.2rem;
+}
+
+section {
+  background-color: white;
+  padding: 10vh 7vw;
+  margin-top: 10vh;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexColum {
+  width: 15vw;
+  color: #1f2435;
+}
+
+.flexColum > img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.flexColum > h3 {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin-left: 2vw;
+}
+.flexColum > p {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  margin-left: 2vw;
+}
