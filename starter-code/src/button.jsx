@@ -3,6 +3,8 @@ import "./styles.css";
 
 export default function HeaderMain() {
     return (
-        <button>Awesome</button>
+        <div className="blue">
+        <button className="button">Awesome!</button>
+        </div>
     );
   }
