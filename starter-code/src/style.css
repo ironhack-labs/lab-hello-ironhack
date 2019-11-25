@@ -1,0 +1,47 @@
+#intro {
+  color: white;
+  background-color: midnightblue;
+  height: 600px;
+  /* background-image: url("../images/react-logo.svg"); */
+}
+
+#ironhack-logo {
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#box-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.boxes {
+  height: auto;
+  width: auto;
+}
+
+.box-image {
+  height: 150px;
+  width: 150px;
+}
+
+#ingress {
+  width: 250px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+#heading {
+  margin-left: 50px;
+}
+
+button {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
