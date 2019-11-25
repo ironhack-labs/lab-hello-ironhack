@@ -46,16 +46,18 @@ button {
   padding-left: 5%;
 }
 .icon-container {
-  padding: 5%;
+  padding-top: 3%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .icons {
   padding-top: 1%;
 }
 .icons p {
-  padding-left: 4%;
+  padding-left: 7%;
 }
 .icons h3 {
-  padding-left: 4%;
+  padding-left: 7%;
 }
