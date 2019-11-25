@@ -1,0 +1,31 @@
+.main {
+    background: rgb(43, 43, 65);
+    height: 100vh;
+}
+
+#title {
+    color: white;
+    font-size: 70px;
+    width: 50%;
+    padding: 80px 80px 0px;
+    display: inline-block;
+    margin: 0px;
+}
+
+#subtitle1 {
+    color: white;
+    padding: 0px 80px;
+    width: 30%;
+    font-size: 20px;
+}
+
+
+#btn {
+    height: 50px;
+    width: 130px;
+    background: white;
+    color: black;
+    margin: 70px 80px;
+    font-size: 15px;
+    border-radius: 5px;
+}

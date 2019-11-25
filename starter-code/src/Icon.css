@@ -1,0 +1,19 @@
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+#one-icon {
+    margin: 30px;
+    background: black;
+}
+
+#subtitle{
+    margin: 0px 50px;
+    font-size: 3    0px;
+}
+
+
+#legend{
+    margin: 0px 50px;
+}
