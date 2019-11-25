@@ -7,9 +7,9 @@ const iconSize = "100px";
 
 const nav = (
   <nav className="navbar">
-    <img src="./images/ironhack-logo.svg" alt="" />
+    <img src="./images/ironhack-logo.svg" alt="Ironhack Logo" />
     <button className="navbar-btn">
-      <img src="./images/menu-top.svg" alt="" />
+      <img src="./images/menu-top.svg" alt="Menu" />
     </button>
   </nav>
 );
