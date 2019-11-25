@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-top: 5rem;
+  width: 40rem;
+}
+
+.heading {
+  height: 30rem;
+  padding: 5rem;
+}
+
+.heading > p {
+  width: 20rem;
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+
+.heading > div {
+  padding: 1rem;
+  width: 9rem;
+  border-radius: 10px;
+}
+
+.heading > div > h2 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  padding: 5rem;
+  justify-content: space-around;
+}
+
+.flex > div > p {
+  width: 10rem;
+  padding: 2rem 0;
+}
