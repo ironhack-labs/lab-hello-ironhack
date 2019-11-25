@@ -1,0 +1,71 @@
+.rootClass{
+    background-image: url(/images/react-logo.svg);
+    background-repeat: repeat;
+    background-color: rgba(31,37,54);
+    padding: 30px 50px 0 100px;
+}
+.bodyClass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+
+.headerClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerClass{
+    color: white;
+}
+
+.paragraph{
+    font-weight: 100;
+    font-size: x-large;
+    width: 300px;
+}
+
+.headerSize{
+    font-weight: bold;
+    font-size: 5vw;
+    width: 400px;
+}
+
+.buttonClass {
+    border-radius: 0.5vw;
+    height: 50px;
+    width: 120px;
+    margin: 50px 0 0 0;
+}
+
+.bigfont{
+    font-size: larger;
+}
+
+/* components to render the bottom of the webpage */
+.collectionClass{
+    padding: 30px 50px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 15vh 15vw 0 0;
+}
+
+.imgPictureTextClass{
+    width: 150px;
+}
+
+.pictureTextClass{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.textPictureTextClass{
+    width: 140px;
+}
