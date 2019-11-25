@@ -39,10 +39,23 @@ body {
 
 .hero {
   margin: 8em 5em 5em;
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 40%;
   height: 75vh;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    width: 70%;
+  }
+  .hero-container {
+    background-image: url('../public/images/react-logo.svg'), url('../public/images/react-logo.svg');
+    background-position: 75% 0%, 75% 75%;
+  }
+
+  .card {
+    min-width: 100px;
+    padding: 2em 0;
+  }
 }
 
 .title {
@@ -79,9 +92,12 @@ button {
 }
 
 .cards {
+  background: #FFF;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: auto;
+  padding-bottom: 4em;
 }
 
 .card {
