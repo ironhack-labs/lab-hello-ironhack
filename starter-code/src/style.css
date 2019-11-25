@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2535;
+  display: flex;
+  height: 500px;
+}
+
+.header-content {
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 50%;
+  margin-right: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin-top: 25%;
+  margin-bottom: 0%;
+}
+
+.header p {
+  margin-top: 0%;
+  color: white;
+}
+
+.white-box {
+  margin-top: 5rem;
+}
+
+.white-box span {
+  background-color: white;
+  font-weight: 700;
+  padding: 0.6rem;
+  border-radius: 8%;
+}
+
+.article-container {
+  margin: 5%;
+  display: flex;
+}
+
+.text-box {
+    padding-left: 10%;
+}
