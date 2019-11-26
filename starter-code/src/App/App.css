@@ -1,0 +1,21 @@
+section {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header {
+    /* background-image: url("./images/react-logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #1F2535;
+}
+
+.presentation {
+    padding: 100px 0px;
+}
+
+.cardsBox {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,21 @@
+.card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 40px;
+}
+
+.card-block img {
+    width: 200px;
+    margin-left: -20px;
+}
+
+.card-block h3 {
+    font-size: 25px;
+    color: #1F2535;
+    font-weight: 500;
+}
+
+.card-block p {
+    color: grey;
+}

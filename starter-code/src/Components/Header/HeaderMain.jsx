@@ -1,11 +1,13 @@
 import React from 'react'
-import Logo from "./../Header/Header-components/Logo"
+import Brand from './Header-components/Brand'
+import MenuIcon from './Header-components/MenuIcon'
+import './HeaderMain.css';
 
 export default function HeaderMain() {
     return (
         <header>
-            <Logo />
-            sdfsdfdsfz
+            <Brand />
+            <MenuIcon />
         </header>
     )
 }

@@ -1,0 +1,18 @@
+.title-text {
+    padding: 0 40px;
+    margin-top: 10%;
+}
+
+.title-text h1 {
+    color: white;
+    font-size: 100px;
+    line-height: 90px;
+}
+
+.title-text p {
+    color: white;
+    max-width: 30%;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 20px 0 60px 0;
+}
