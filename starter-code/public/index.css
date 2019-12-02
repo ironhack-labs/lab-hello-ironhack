@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-image: url(./images/react-logo.svg);
+    background-color: #1e2336;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+section {
+    width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: 6rem 4rem;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+h2 {
+    width: 20vw;
+    display: block;
+    color: white;
+    font-weight: thin;
+    line-height: 1.5rem;
+}
+
+a {
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1e2336;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0;
+}
