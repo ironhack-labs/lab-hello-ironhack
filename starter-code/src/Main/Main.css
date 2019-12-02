@@ -1,0 +1,34 @@
+.ajuste{
+    background-image: url("/images/BG_Atom.png");
+    background-size: cover;
+}
+#main-container {
+    margin-left: 60px;
+    margin-bottom:80px;
+}
+
+h1{
+    font-size: 70px;
+    width: 30%;
+    margin-bottom: 0;
+    color: white;
+}
+
+#main-paragraph{
+    font-size: 25px;
+    width:25%;
+    color: white;
+}
+
+#awesome {
+    background: white;
+    width: 9%;
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #1F2438;
+}

@@ -1,0 +1,15 @@
+#elements-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.element {
+    width: 22%;
+}
+
+.little-paragraph {
+    font-size: 20px;
+    width: 60%;
+}
