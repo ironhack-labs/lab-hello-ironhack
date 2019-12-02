@@ -1,0 +1,18 @@
+
+.principal {
+  background-color: #1f2536;
+  height: 100vh;
+  color: white;
+  background-image: url(/images/react-logo.svg);
+  background-repeat: no-repeat;
+  background-position: right
+  
+}
+
+.Section {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+

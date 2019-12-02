@@ -1,0 +1,19 @@
+.package { 
+    margin: 100px 50px;
+    display: block;
+    justify-content: space-between;
+}
+
+h3, p { 
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 1.3em;
+    color: grey;
+}
