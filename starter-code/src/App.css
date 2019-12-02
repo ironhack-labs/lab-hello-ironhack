@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 5rem;
+}
+
+main {
+    color: white;
+    background-image: 
+    url('/images/react-logo.svg'),
+        url('/images/react-logo.svg'),
+        url('/images/react-logo.svg');
+    background-repeat: 
+    no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 
+    80% 6rem,
+        85% 35rem,
+       70% 55rem;
+    background-size: 
+    30rem,
+        26rem,
+        24rem;
+    background-color: rgba(31,37,53, .9);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25rem;
+    padding-left: 5rem;
+}
+
+h1 {
+    font-size: 8rem;
+    width: 50%;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    width: 50%;
+    font-weight: 100;
+    margin-bottom: 8rem;
+}
+
+.button {
+    text-decoration: none;
+    color: #1f2535;
+    font-size: 2.3rem;
+    font-weight: 600;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: .5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+}
+
+.card img {
+    object-fit: contain;
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+.card h3 {
+    color: #1f2535;
+    font-size: 3.2rem;
+    line-height: 5rem;
+}
+
+.card p {
+    color: #666;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15rem 5rem;
+    width: 100%;
+}
