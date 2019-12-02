@@ -10,11 +10,11 @@ import Features from "./features/Features";
 export default class App extends React.Component {
     render() {
         return (
-            <div>
+            <main>
                 <Menu></Menu>
                 <Hero></Hero>
                 <Features></Features>
-            </div>
+            </main>
         );
     }
 }

@@ -1,7 +1,108 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+    max-width: 960px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    position: absolute;
+    top: 0;
+    right:0;
+    left: 0;
+    padding: 24px;
+}
+
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 #hero{
     background-color: #1e2435;
+    height: 90vh;
+    display: flex;
+    padding: 24px;
+    color: white;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+
+#hero .react-logo-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#hero .react-logo{
+    background-image: url("/images/react-logo.svg");
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hero .container{
+    z-index: 9999;
+}
+
+#hero h1{
+    font-size: 5rem;
+    max-width: 32rem;
+    margin-bottom: 0;
+}
+
+#hero p{
+    font-size: 2rem;
+    font-weight: 100;
+    max-width: 32rem;
+    margin-bottom: 4rem;
+}
+
+#hero button {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 8px;
+    color: #1e2435;
 }
 
 #features{
     background: white;
+}
+
+#features .container{
+    display: flex;
+    padding: 8rem 24px;
+    color: #1e2435;
+}
+
+#features .item{
+    margin: 0 16px;
+}
+
+#features h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#features p{
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #666
 }
