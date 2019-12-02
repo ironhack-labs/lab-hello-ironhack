@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/images/react-logo.svg");
+  background-color: #1f2435;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
+  margin-left: 7%;
+  margin-top: 10%;
+}
+
+.nav {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+h2 {
+  color: grey;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.img-react {
+  margin-top: 50%;
+}
+
+.text1 {
+  margin-left: 15px;
+  font-size: 24px;
+  color: black;
+}
+
+.text2 {
+  margin-left: 15px;
+  margin-bottom: 50%;
+  font-size: 16px;
+  color: silver;
+}
