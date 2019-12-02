@@ -1,9 +1,12 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
-  height: 40vmin;
+  position: absolute;
+  top: 1em;
+  bottom: auto;
+  left: 1em;
 }
 
 .App-header {
@@ -11,12 +14,31 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  justify-content: left;
+  font-size: 4em;
   color: white;
+}
+
+article {
+  margin: 1em 0.5em;
+  /* padding-top: 0.25em; */
+  height: fit-content;
+  width: 50%;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+section {
+  background-color: white;
+  height: fit-content;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+
+  /* font-size: 4em; */
 }

@@ -1,0 +1,28 @@
+.Components-image {
+  height: 2em;
+  width: 2em;
+}
+
+.Components-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* height: ; */
+  text-align: center;
+  height: fit-content;
+}
+
+.Components-article {
+  color: #282c34;
+  margin: 0.15em;
+  height: fit-content;
+}
+
+.Components-article p {
+  font-size: 0.25em;
+}
+
+.Components-article h4 {
+  font-size: 0.5em;
+  margin: 0 0;
+}

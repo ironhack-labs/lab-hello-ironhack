@@ -1,0 +1,14 @@
+.Button a {
+  display: block;
+  width: 6em;
+  height: 1.5em;
+  background: white;
+  padding: 0.1em;
+  text-align: center;
+  border-radius: 0.25em;
+  color: black;
+  font-size: 0.5em;
+  /* position: absolute; */
+  text-decoration: none;
+  margin-top: 2em;
+}

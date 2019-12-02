@@ -1,7 +1,11 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-
-import './App.css';
+import React, { Component } from "react";
+import logo from "./ironhack-logo.svg";
+import "./App.css";
+import JSX from "./JSX.jsx";
+import SingleWay from "./SingleWay.jsx";
+import Declarative from "./Declarative.jsx";
+import Components from "./Components.jsx";
+import Button from "./Button.jsx";
 
 class App extends Component {
   render() {
@@ -9,17 +13,20 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <article>
+            <h1>Say hello to ReactJS</h1>
+            <p>
+              You will learn a Frontend framework from scratch, to become a
+              Ninja Developer. <Button />
+            </p>
+          </article>
+
+          <section>
+            <Declarative />
+            <Components />
+            <SingleWay />
+            <JSX />
+          </section>
         </header>
       </div>
     );
