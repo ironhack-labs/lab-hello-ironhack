@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  padding: 10px 50px;
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  color: white;
+}
+
+.Content {
+  padding: 0px 50px;
+  background-color: #282c34;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("/images/react-logo.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20em;
+}
+
+.Content h1 {
+  margin-bottom: 0px;
+}
+
+.Content p {
+  margin: 0px 0px 50px 0px;
+}
+
+.Content button {
+  background-color: white;
+  color: #282c34;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.footer {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.rambo{
+  width: 180px;
+}
+.rambo img{
+  width: 150px;
+  display: block;
+  align-items: start
+}
+
+.footer h2 p{
+  color: #282c34;
+}
+
+.App-link {
+  color: #09d3ac;
+}
