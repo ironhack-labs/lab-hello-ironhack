@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+#hero {
+  background-color: #1F2435;
+  margin: auto;
+  width: 95%;
+  height: 90vh;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 6px 4px;
+  width: fit-content;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.title {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.sub-title {
+  color: #d2d2d2;
+}
