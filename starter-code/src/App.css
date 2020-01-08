@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: solid 2px red; 
+}
+
+nav {
+  background-color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
