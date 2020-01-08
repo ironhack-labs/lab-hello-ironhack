@@ -1,0 +1,57 @@
+/* General */
+
+body {
+  max-width: 800px;
+}
+
+* {
+  font-family: "Sans";
+}
+
+/* Components */
+
+.header {
+  height: 500px;
+  background-color: #1f2435;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.hero {
+  padding-top: 120px;
+  margin-left: 20px;
+  width: 250px;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar img {
+  margin: 20px;
+}
+
+/* Hero */
+
+.hero-title {
+  color: #fff;
+}
+
+.hero-text {
+  color: #fff;
+}
+
+.cta {
+  width: 75px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 3px;
+
+}
