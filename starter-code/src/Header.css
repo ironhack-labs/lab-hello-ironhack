@@ -1,0 +1,22 @@
+.headContainer{
+    padding: 20px 0;
+    margin-left: 5%;
+    width: 45%;
+    font-size: 2.3rem;
+}
+
+.headContainer p {
+    width: 90%;
+    font-size: 2rem;
+    color: #6A6D7E;
+}
+
+.headContainer button{
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #FEFFFF;
+    color: #1D2333;
+}
