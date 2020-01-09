@@ -1,4 +1,5 @@
 .listContainer {
+    padding-top: 25px;
     width: 90%;
     margin: auto;
     display: flex;

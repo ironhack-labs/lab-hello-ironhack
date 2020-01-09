@@ -1,5 +1,5 @@
 .headContainer{
-    padding: 20px 0;
+    padding: 40px 0;
     margin-left: 5%;
     width: 45%;
     font-size: 2.3rem;
@@ -12,7 +12,7 @@
 }
 
 .headContainer button{
-    margin-top: 20px;
+    margin-top: 40px;
     width: 30%;
     height: 50px;
     font-size: 1.5rem;

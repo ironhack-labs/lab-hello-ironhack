@@ -1,3 +1,14 @@
-.Item-container{
-    width: 20%;
+.itemContainer{
+    padding: 0 10px;
+}
+
+.itemContainer h4{
+    color: #1D2333;
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+.itemContainer p{
+    color: #6A6D7E;
+    font-size: 1.3rem;
 }
