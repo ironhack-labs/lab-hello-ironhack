@@ -40,6 +40,16 @@ Our project needs to have two important packages that are necessary for compilin
 But don't worry, we took care of it. As well as of `webpack.config.js` file. :heavy_check_mark:
 
 
+#### Running the App
+
+To start the app you run 
+
+  ```
+  npm run webpack
+  ```
+
+And visit https://localhost:3000
+
 ### Iteration 2 - React Creation
 
 You are ready to start creating your React app. First, add the packages you need (**react@16.3.2 react-dom@16.3.2**). And then create an `index.js` file (refer to the lesson to see where this file suppose to be).
