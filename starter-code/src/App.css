@@ -1,0 +1,19 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-color: #1E2535 ;
+  height: 800px;
+  padding: 20px 40px;
+  color: white;
+}
+
+.section-text{
+
+}
+
+h1{
+  font-weight: 900;
+}
