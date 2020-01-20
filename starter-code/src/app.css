@@ -1,0 +1,35 @@
+
+#landing {
+    background-color: darkblue;
+    color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+#main {
+    margin: 0 5vw;   
+    width: 30%; 
+}
+
+h1{
+    font-size: 50px;
+}
+
+#button-awesome {
+    padding: 1vw;
+}
+
+nav {
+    padding-top: 5vh;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5vw;
+}
+
+#icons{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+}
