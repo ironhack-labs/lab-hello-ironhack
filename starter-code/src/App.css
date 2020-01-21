@@ -5,15 +5,29 @@
 
 .container{
   background-color: #1E2535 ;
-  height: 800px;
+  height: 600px;
   padding: 20px 40px;
   color: white;
 }
 
 .section-text{
+  margin-top: 100px;
+}
 
+.content{
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+.content img{
+  max-width: 125px;
 }
 
 h1{
-  font-weight: 900;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+h6{
+  font-weight: 100;
 }
