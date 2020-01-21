@@ -1,0 +1,50 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.start {
+  background-color: #1F2535;
+  background-image: url("/images/react-logo.svg");
+  height: 700px;
+}
+
+.half {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.half h1,
+.half p {
+  color: #ffffff;
+}
+
+.half h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  margin-top: 200px;
+}
+
+.half p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.button {
+  color: #1F2535;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+  color: #1F2535;
+  margin-top: 60px;
+}
