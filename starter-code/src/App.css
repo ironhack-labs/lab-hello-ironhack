@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: rgb(25, 25, 39);
+  color: white;
+  padding: 1em;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.nav-bar {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content a {
+  background-color: white;
+  border-radius: 1px;
+  text-decoration: none;
+  color: black;
+  padding: 9px;
+}
+
+.content {
+  width: 400px;
+  padding-top: 80px;
+}
+
+.content h1 {
+  font-size: 70px;
+}
+
+.content p {
+  color: lightgray;
+  font-size: 20px;
+  width: 300px;
+}
