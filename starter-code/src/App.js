@@ -35,7 +35,7 @@ class App extends Component {
       <div className="format-details">
       <img src="/images/icon4.png" alt="illustrative image 1" />
       <h3> JSX</h3>
-      <p> Statically-typed designed to run on modern browsers.</p>
+      <p> Statically-typed, designed to run on modern browsers.</p>
       </div>
       </div>
       </div>
