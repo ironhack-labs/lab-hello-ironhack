@@ -1,51 +1,43 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
     render() {
         const element = (
-            <div>
-                <div>
-                    <div className="images">
-                        <img src="/images/ironhack-logo.svg" alt="dasd"/>
-                        <img src="/images/menu-top.svg" alt=""/>
+            <div className="container">
+                <div className="navbar">
+                    <div className="logo"><img src="/images/ironhack-logo.svg" alt="" /></div>
+                    <div><img src="/images/menu-top.svg" alt="" /></div>
+                </div>
+                <div className="body-top">
+                    <h1>Say hello to ReactJS</h1>
+                    <h2>You will learn a Frontend framework from strach, to becaome an Ninka Developer,</h2>
+                </div>
+                <div className="button-container">
+                    <a href="#" className="button">Awesome!</a>
+                </div>
+                <div className="body-middle">
+                    <div className="cards">
+                        <img className="cards-img" src="/images/icon1.png" />
+                        <h3>Declative</h3>
+                        <p>React makes it painless to create interactive UIs</p>
                     </div>
-                    <div>
-                        <h1 className="h1">Say hello to ReactJs
-                        </h1>
-                        <h2 className="h2">You will learn a Frontend framework from scratch, to become an Ninja Developer</h2>
+                    <div className="cards">
+                        <img className="cards-img" src="/images/icon2.png" />
+                        <h3>Components</h3>
+                        <p>Builds encapsulated components that manage their slate</p>
                     </div>
-
-                    <div className="botao">
-                        <a href="#" className="botao">Awesome!</a>
+                    <div className="cards">
+                        <img className="cards-img" src="/images/icon3.png" />
+                        <h3>Single-Way</h3>
+                        <p>A set immutable values are passed to component's</p>
+                    </div>
+                    <div className="cards">
+                        <img className="cards-img" src="/images/icon4.png" />
+                        <h3>JSX</h3>
+                        <p>Statilly-typed, designed to run on the modern browsers</p>
                     </div>
                 </div>
-
-                <div className="list">
-                    <div>
-                        <img src="/images/icon1.png" alt=""/>
-                        <h2>Declarative</h2>
-                        <p>React makes it</p>
-                    </div>
-                    <div>
-                        <img src="/images/icon2.png" alt=""/>
-                        <h2>Components</h2>
-                        <p>React makes it</p>
-
-                    </div>
-                    <div>
-                        <img src="/images/icon3.png" alt=""/>
-                        <h2>Single-Way</h2>
-                        <p>React makes it</p>
-
-                    </div>
-                    <div>
-                        <img src="/images/icon4.png" alt=""/>
-                        <h2>JSX</h2>
-
-                    </div>
-                </div>
-
             </div>
         );
         return (
