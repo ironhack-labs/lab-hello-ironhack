@@ -6,8 +6,8 @@ class App extends Component {
         const element = (
             <div className="container">
                 <div className="navbar">
-                    <div className="logo"><img src="/images/ironhack-logo.svg" alt="" /></div>
-                    <div><img src="/images/menu-top.svg" alt="" /></div>
+                    <div className="logo"><a href="#"><img src="/images/ironhack-logo.svg" alt="" /></a></div>
+                    <div><a href="#"><img src="/images/menu-top.svg" alt="" /></a></div>
                 </div>
                 <div className="body-top">
                     <h1>Say hello to ReactJS</h1>
