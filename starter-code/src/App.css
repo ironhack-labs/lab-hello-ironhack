@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.Navbar{
+    background-color:#1F2535;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;   
+}
+.Hero{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5em;
+    background-color: #1F2535;
+    height: 60em;
+    background-image: url('/images/react-logo.svg');
+}
+.Hero h1{
+    margin-top: 0;
+    color: white;
+    font-size: 5em;
+    padding-top: 2em;
+}
+.Hero p{
+    color: white;
+    font-size: 2em;
+}
+button{
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: white;
+    color:#1F2535;
+    padding: 1em 1em 1em 1em;
+    border-radius: .5em;
+}
