@@ -1,0 +1,35 @@
+.Footer .pics {
+    color: black;
+    margin-top: 80px;
+    background-color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .Footer .colum {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: -90px;
+  
+  }
+  
+  .Footer img {
+    height: 45%;
+    width: 60%;
+    
+  }
+  
+  .Footer h3 {
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  
+  .Footer p {
+    width: 70%;
+    margin-top: -20px;
+    color: rgb(189, 187, 187);
+    font-size: 18px;
+  }
