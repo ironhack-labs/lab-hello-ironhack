@@ -21,7 +21,7 @@ h1 {
 }
 
 h3 {
-  font-size: 4.2em;
+  font-size: 2em;
 }
 
 .nav-bar {
@@ -33,6 +33,7 @@ h3 {
 .link-btn {
   color: black;
   background-color: white;
+  font-size: 1.5em;
   font-family: "Roboto Condensed";
   text-align: center;
   text-decoration: none;
@@ -44,16 +45,28 @@ h3 {
   color: white;
   background-color: #1f2535;
   background-image: url("/images/react-logo.svg");
+  background-repeat: round space;
   height: 500px;
+  padding: 30px 50px;
+}
+
+.header h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 #general-info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 300px;
+  padding: 50px 50px;
 }
 
-/* .App {
-    margin: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-  } */
+#general-info article {
+  width: 200px;
+}
