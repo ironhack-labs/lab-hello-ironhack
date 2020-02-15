@@ -1,0 +1,69 @@
+.navBar{
+    width: 100%;
+    height: 50px;
+    background: blue;
+    padding: 10px
+}
+
+.menu{
+position: absolute;
+right: 0px;
+padding-top: 10px;
+padding-right: 10px
+}
+
+
+body{
+    margin: 0px;
+    padding: 0 px;
+}
+
+.fold-1{
+    width: 100%;
+    height: 100vh;
+    background: blue;
+}
+
+h1{
+    font-size: 6em;
+    color: #fff ;
+    line-height: 60px
+}
+
+.button-lg{
+    width: 200px;
+    height: 70px;
+    background: #fff;
+    color: blue
+}
+
+.contenido{
+    padding: 2em
+}
+
+p{
+    color: #fff
+}
+
+
+.card-interna{
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+
+.icon{
+    width: 100px;
+    height: auto;
+}
+
+.blue{
+    color: blue !important;
+}
+
+.card{
+    width: 900px;
+    margin: 0 auto;
+}
