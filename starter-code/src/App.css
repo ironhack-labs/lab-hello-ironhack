@@ -1,0 +1,126 @@
+* {
+    margin: 0
+}
+
+.Background {
+    background-color: #222b55;
+}
+
+.Header {
+    color: white;
+    padding: 100px 60px 100px 80px;
+    width: 600px;
+    margin-left:20px;
+    margin-right: 20px
+}
+.DisplayHeader {
+    display:flex
+}
+.Text {
+    font-size: 25px;
+    font-weight: lighter;
+    width: 370px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.Title {
+    font-size: 70px;
+    line-height: 90px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.Nav {
+    display: flex;
+    width: 100;
+    justify-content: space-between;
+    padding: 25px 60px 0px 80px;
+    margin-bottom: 0px;   
+}
+
+.Button {
+    background-color: white;
+    height: 80px;
+    width: 180px;
+    border-radius: 5px;
+    border:none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.Icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:100px;
+    padding: 130px 20px 30px 20px
+}
+
+.Item {
+    text-align: left;
+
+}
+
+.ItemTitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left:10px
+}
+
+.ItemText {
+    color:#33373a;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding-left:10px;
+}
+
+.TextBox {
+    width: 210px;
+}
+
+.ReactLogoSmall {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 40px;
+}
+
+.SmallLogos {
+    padding-top:200px;
+    padding-left: 100px;
+    /* align-items: flex-end; */
+
+}
+.BigLogo {
+    padding-right: 100px;
+}
+
+.MediumLogo {
+    width: 250px;
+    height: 250px
+}
+
+.MediumLogo1 {
+    padding-left:100px
+}
+
+
+.MediumLogo3 {
+    padding-right: 100px;
+    margin: 0
+}
+
+.DisplayLogo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:0;
+
+}
+
+.WidthLogos {
+    width: 80vh;
+} 
