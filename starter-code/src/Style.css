@@ -1,0 +1,55 @@
+* {
+  background-color: blue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.mainText {
+  padding-top: 10vh;
+  padding-left: 7vh;
+  box-sizing: content-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  color: brown;
+}
+
+#textTitle {
+  color: chartreuse;
+  box-sizing: border-box;
+  width: 20%;
+}
+
+#buttonTitle {
+  box-sizing: border-box;
+}
+
+button {
+  padding-top: 100px;
+  box-sizing: border-box;
+  color: darkviolet;
+  background-color: deeppink;
+  padding: 15px 32px;
+}
+
+.imageBox {
+    box-sizing: content-box;
+  padding-top: 5vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.hallo123 p {
+    box-sizing: content-box;
+    color: plum
+/* padding-right: 10vh */
+;}
+
+.imageBox :first-child {
+    /* padding-left: 10vh; */
+}
