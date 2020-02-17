@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-content {
+  background-color: #233042;
+  width: 100vw;
+  height: 65vh;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  max-width: 80vw;
+  height: 20vh;
+  max-width: 80vw;
+  margin-left: 10vw;
+}

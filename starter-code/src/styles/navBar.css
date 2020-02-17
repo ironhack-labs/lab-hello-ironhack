@@ -1,0 +1,15 @@
+#logo-id {
+  margin-left: 5vw;
+  height: 5vh;
+}
+#menu-id {
+  margin-right: 5vw;
+  height: 2vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+}

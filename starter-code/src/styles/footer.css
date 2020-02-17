@@ -1,0 +1,21 @@
+.footer-element {
+  display: flex;
+  flex-direction: column;
+}
+.footer-h5 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 2vh;
+}
+.footer-h6 {
+  color: black;
+  font-size: 15px;
+  width: 50%;
+}
+.img-container {
+  max-width: 40%;
+}
+.img-container img {
+  height: 100%;
+  width: 100%;
+}

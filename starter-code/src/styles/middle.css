@@ -1,0 +1,33 @@
+#h1-content {
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  width: 30vw;
+  padding-bottom: 3vh;
+}
+#h4-content {
+  font-family: Arial;
+  font-weight: 50;
+  color: white;
+  font-size: 20px;
+  width: 20vw;
+  margin-bottom: 6vh;
+}
+#awesome-btn {
+  background-color: white;
+  color: #233042;
+  height: 8vh;
+  width: 8vw;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.middle-content {
+  width: 100vw;
+  height: 35vh;
+  padding-left: 5vw;
+  margin-top: 7vh;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
