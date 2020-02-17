@@ -29,6 +29,13 @@ const descriptions = [
   }
 ];
 
+
+// Malheuresment ça ne fonctionne pas-------------------------------------------------------------
+// const parseObject = box => Object.keys(box).reduce((acc,key) => acc + `${key}=${box[key]}`,"")
+// const allBoxes = descriptions.map(box => ( `<DescriptionBlock ${parseObject(box)}/>`))
+// -----------------------------------------------------------------------------------------------
+
+
 export default function App() {
   return (
     <React.Fragment>
@@ -37,16 +44,14 @@ export default function App() {
           <Logo />
           <Sandwich />
         </nav>
-        <section className="main">
+        <div id="main-content">
           <Text />
           <Button />
-        </section>
+        </div>
       </div>
       
-      <div className="img-boxes center">
-        {descriptions.map(a => (
-          <DescriptionBlock source={a.source} title={a.title} text={a.text} />
-        ))}
+      <div id="img-boxes" className="center">
+        {descriptions.map(description=> <DescriptionBlock source={description.source} title={description.title} text={description.text} />)}
       </div>
     </React.Fragment>
   );
