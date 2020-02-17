@@ -1,0 +1,16 @@
+.infos {
+    width: 25%;
+    padding: 100px 20px;
+}
+
+.infos img {
+    width: 100px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.infos h3 {
+    padding-bottom: 8px;
+    width: 100%;
+}
+
