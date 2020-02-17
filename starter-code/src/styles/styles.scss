@@ -1,0 +1,22 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 2rem;
+    height: 60vh;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: white;
+}
+
+.subtitle {
+    color: lightgray;
+}
