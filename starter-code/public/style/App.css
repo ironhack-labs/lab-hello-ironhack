@@ -1,0 +1,124 @@
+* {
+    margin: 0
+}
+
+.Background {
+    background-color: #182044;
+}
+
+.Header {
+    color: white;
+    padding: 100px 60px 100px 80px;
+    width: 600px;
+    margin-left:20px;
+    margin-right: 20px
+}
+.HeaderPart {
+    display:flex
+}
+.Text {
+    font-size: 25px;
+    width: 370px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+       
+}
+
+.Title {
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 900;
+}
+
+.NavBar {
+    display: flex;
+    width: 100;
+    justify-content: space-between;
+    padding: 25px 60px 0px 80px;
+    margin-bottom: 0px;   
+}
+
+.Button {
+    background-color: white;
+    height: 70px;
+    width: 160px;
+    border-radius: 10px;
+    border:none;
+    font-size: 25px;
+    font-weight: bold;
+    color:#182044;
+}
+
+.Icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:100px;
+    padding: 130px 20px 30px 20px
+}
+
+.Item {
+    text-align: left;
+
+}
+
+.ItemTitle {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left:10px
+}
+
+.ItemText {
+    
+    line-height: 1.5;
+    margin-top: 10px;
+    padding-left:10px;
+}
+
+.TextBox {
+    width: 210px;
+}
+
+.DisplayLogo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:0;
+
+}
+
+.WidthLogos {
+    width: 80vh;
+}  
+
+.Logo0 {
+    width: 240px;
+    height: 240px
+}
+
+.Logo1 {
+    padding-left:100px
+}
+
+
+.Logo3 {
+    padding-right: 100px;
+    margin: 0
+}
+
+.Logo4 {
+    width: 135px;
+    height: 135px;
+    margin-bottom: 40px;
+}
+
+.Logo5 {
+    padding-top:200px;
+    padding-left: 100px;  
+
+}
+
+.Logo6 {
+    padding-right: 100px;
+}
+
+
