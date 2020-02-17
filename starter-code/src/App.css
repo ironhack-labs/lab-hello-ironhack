@@ -1,0 +1,28 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+/* h1 {
+    color: white;
+} */
+
+.holder {
+    color: white;
+}
+
+.mainPage {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconHolder {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
