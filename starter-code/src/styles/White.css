@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 7rem 0;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.footer-item h2{
+    margin-bottom: 0;
+}
+
+.footer-item p{
+    font-weight: lighter;
+}
