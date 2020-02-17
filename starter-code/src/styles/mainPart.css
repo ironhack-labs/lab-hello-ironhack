@@ -1,0 +1,25 @@
+.mainPart{
+    color:white;
+    margin:0;
+    height: 80vh;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    font-size:200%;
+}
+
+.awesome{
+    color:#1C1E31;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10vh;
+}
+
+.mainPart p{
+    margin-top: 0;
+    margin-bottom: 10vh;
+}
+
+.mainPart h1{
+    margin-bottom: 0;
+}
+
