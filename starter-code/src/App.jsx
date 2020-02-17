@@ -3,7 +3,7 @@ import Logo from "./components/Logo";
 import Sandwich from "./components/Sandwich";
 import Text from "./components/Text";
 import Button from "./components/Button";
-import Img from "./components/Img";
+import DescriptionBlock from "./components/DescriptionBlock";
 import "./styles/App.css";
 
 const descriptions = [
@@ -42,9 +42,10 @@ export default function App() {
           <Button />
         </section>
       </div>
-      <div className="imgBoxes grid">
+      
+      <div className="img-boxes center">
         {descriptions.map(a => (
-          <Img source={a.source} title={a.title} text={a.text} />
+          <DescriptionBlock source={a.source} title={a.title} text={a.text} />
         ))}
       </div>
     </React.Fragment>

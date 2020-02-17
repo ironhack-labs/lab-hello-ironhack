@@ -3,17 +3,21 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
 }
 
 #text{
     margin-bottom: 5vh;
-    color: white
+    color: white;
+
 }
 
 .background{
 padding: 5vw 5vw;
 background-color: rgb(31, 37, 53);
+background-image: url("/images/react-logo.svg");
+background-position: right;
+background-size: 40%;
+background-repeat: repeat-y;
 }
 
 
@@ -33,6 +37,7 @@ h1{
 
 .main p{
     font-size: 2em;
+
 }
 
 button {
@@ -47,35 +52,27 @@ button {
     width: 13vw;
 }
 
-.img-box img{
-    margin: 0;
-}
-
-.imgBoxes{
-    margin: 15vh 0;
-    justify-content: space-between;
-    width: 100vw;
-}
-
-.grid{
-    margin-left: 2vw;
+.img-boxes{
+    margin: 10vh 1vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 5vw;
-    
+    justify-items: center;
 }
 
 @media only screen and (max-width: 450px) {
-.grid{
-    margin-left: 15vw;
-}
 
 .img-box{
-    width: 80%;
-}
-#text{
-    font-size: .5em;
+    width: 50vw;
 }
 
+#text{
+    font-size: .5em;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    width: 60%;
+}
 
 }
