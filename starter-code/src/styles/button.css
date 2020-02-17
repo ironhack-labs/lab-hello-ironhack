@@ -1,0 +1,9 @@
+button {
+    height: 8vh;
+    width: 20vh;
+    background-color: white;
+    color: rgb(23, 23, 54);
+    font-size: 2em;
+    border-radius: 0.2em;
+    margin-top: 7vh;
+}

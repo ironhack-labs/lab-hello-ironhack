@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(23, 23, 54);
+    height: 80vh;
+    color: white;
+    padding: 7vh
+}
+
+nav {
+    display : flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size : 5em;
+    width : 50%
+}
+
+.title-parag {
+    font-size: 1.5em;
+    font-weight: lighter;
+    width : 30%
+}
+
