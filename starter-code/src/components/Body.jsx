@@ -7,7 +7,7 @@ export default function Body(props){
     return (
       <div className="BodyMe">
             <BodyText texte="Say Hello to ReactJS !" paragraphe="Lorem .... Lorem .... Lorem .... Lorem ...."/>
-            <BodyButton link="https://www.atomisation.net" name="awesome" bgcolor="white" color="white"/>
+            <BodyButton link="https://www.atomisation.net" name="awesome" bgcolor="gray" color="yellow"/>
       </div>
     );               
 }
