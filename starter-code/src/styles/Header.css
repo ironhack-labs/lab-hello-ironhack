@@ -1,0 +1,26 @@
+.header {
+    height: 650px;
+    background-color: #27223C;
+    background-image: url(/images/react-logo.svg);
+    background-size: auto;
+    background-repeat: space;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header h1 {
+    width: 50%;
+    font-size: 5em;
+    line-height: 1.1em;
+}
+
+.header p {
+    margin-top: 20px;
+    width: 40%;
+    font-size: 1.5em;
+}
+
