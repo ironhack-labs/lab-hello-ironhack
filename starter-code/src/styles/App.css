@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  color: white;
+}
+
+.blue-bg {
+  background-image: url(https://cdn.hipwallpaper.com/i/16/68/JOva25.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 60px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 10%;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 100px;
+}
+
+.title p {
+  width: 30%;
+  font-size: 1.3rem;
+  color: #bdbdbd;
+}
+
+button {
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: white;
+  color: rgb(30, 36, 53);
+  font-size: 1.3rem;
+  border-radius: 3%/6%;
+  width: 200px;
+}
+
+.component-list {
+    box-sizing: border-box;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.component-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.component-title {
+    font-size: 1.3rem;
+    color: rgb(30, 36, 53);
+}
+
+.component-infos {
+    color: #8f8f8f;
+    /* color: rgb(76, 96, 147); */
+    font-family: "Geneva";
+    font-size: 0.9rem;
+}
+
+.component-image {
+    width: 130px;
+    height: auto;
+}
