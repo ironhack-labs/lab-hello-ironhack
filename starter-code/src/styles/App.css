@@ -1,0 +1,112 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: white;
+    
+}
+
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #292728;
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    border-bottom: white solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+    height: 80px;
+    width: 80px;
+}
+.menu-top {
+    margin-right: 50px;    
+}
+.hello{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+        
+}
+
+.BodyMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    background-color: #292728;
+    padding-bottom: 31px;
+}
+
+.BodyText {
+    margin-top: 10%;
+    width: 35%;
+    font-size: 50px;
+}
+
+.BodyMe p {
+    margin-top: 10%;
+    color: white;
+    width: 100%;
+    font-size: 37px    
+}
+    
+.BodyButton {
+    flex:1;
+    width: 45%;
+}
+
+.buttonWhite{
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 40px;    
+}
+
+.FooterMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70vh;
+    margin: auto;
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+.footerButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    margin: 20px;
+
+}
+
+.footerButton img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.footerButton h2{
+    font-size: 25px;
+    color: black;   
+    text-align: center;
+}
+.footerButton p {
+    font-size: 18px;
+    color: #0e0e4e;   
+    text-align: center;
+}
