@@ -1,0 +1,26 @@
+.card {
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    color: rgb(31, 40, 56);
+}
+
+.card img {
+    width: 40%;
+    align-content: center;
+    margin:0 30%;
+}
+
+.card div {
+    width: 60%;
+    text-align: center;
+    margin: 0 20%;
+}
+
+.card p {
+    font-size: .8em;
+}
+
+.card h2 {
+    font-size: 1.5em;
+}
