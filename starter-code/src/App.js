@@ -1,12 +1,14 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
-//import Nav from "./components/Nav"
+import Nav from "./components/Nav"
 import Feature from "./components/Feature"
 
 class App extends Component {
   render() {
     return (
-    <Fragment>
+      
+      <Fragment>
+      <Nav />
       <div className="app">
         <h1> Say hello to <br/> ReactJS </h1>
         <p>You will learn a Frontend 

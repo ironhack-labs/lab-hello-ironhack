@@ -4,7 +4,7 @@ class Nav extends Component {
     render() {
         return (
             <div className = "nav">
-              <img src="./images/ironhack-logo.svg" />
+              <img src="../images.ironhack-logo.svg" />
             </div>
         )
     }
