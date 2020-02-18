@@ -31,10 +31,10 @@ const descriptions = [
 
 
 // Malheuresment ça ne fonctionne pas-------------------------------------------------------------
-// const parseObject = box => Object.keys(box).reduce((acc,key) => acc + `${key}=${box[key]}`,"")
+// const parseObject = box => Object.keys(box).reduce((acc,key) => acc + `${key}=${box[key]} `,"")
 // const allBoxes = descriptions.map(box => ( `<DescriptionBlock ${parseObject(box)}/>`))
 // -----------------------------------------------------------------------------------------------
-
+console.log(parseObject(descriptions[0]))
 
 export default function App() {
   return (
