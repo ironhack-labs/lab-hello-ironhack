@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Main {
+  margin: 0;
+}
+
+.First-box {
+  background-color: #1f2535;
+  height: 100vh;
+}
+
+.Second-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.card-box {
+  padding: 5px;
+}
+
+.Nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 64px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 0 50px;
+}
+
+.text {
+  margin-top: 0;
+  color: #d3d3d3;
+  font-size: 24px;
+  padding: 0 50px;
+}
+
+.buttonHome {
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0 50px;
+}
