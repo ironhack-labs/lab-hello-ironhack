@@ -1,0 +1,15 @@
+.container-img {
+    width: 18%;
+    margin: 0 auto;
+}
+
+.container-img h1 {
+    font-size: 30px;
+    color: rgb(32, 37, 52);
+    margin: 0;
+}
+
+.container-img  {
+    font-size: 20px;
+    color: rgb(159, 159, 159);
+}
