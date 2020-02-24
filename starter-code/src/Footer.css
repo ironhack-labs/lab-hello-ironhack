@@ -1,0 +1,13 @@
+.footer {
+    display:flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.infoCard {
+    width: 15%;
+}
+
+.infoCard h3 {
+    font-size: 1.5rem;
+}

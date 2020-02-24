@@ -1,0 +1,67 @@
+.header {
+    background-color: #1F2535;
+    color: white;
+    height: 700px;
+    padding: 3rem;
+}
+
+.header h1 {
+    font-size: 5rem;
+    margin-top: 6rem;
+    width: 30%;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    width: 20%;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header button {
+    font-size: 3rem;
+}
+
+.logo {
+    position: absolute;
+}
+
+.big {
+    top: 40px;
+    left: 100vh;
+    width: 400px;
+}
+
+.small {
+    width: 200px;
+}
+
+.top {
+    top: 100px;
+    right: -60px;
+}
+
+.middle {
+    top: 300px;
+    right: -60px;
+}
+
+.bottom {
+    top: 500px;
+    right: -60px;
+}
+
+.down {
+    top: 500px;
+    right: 500px;
+}
+
+.up {
+    top: 400px;
+    right: 200px;
+}
