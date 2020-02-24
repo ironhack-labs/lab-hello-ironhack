@@ -7,7 +7,7 @@ export default class App extends React.Component {
     state = {};
     render() {
         return (
-            <div>
+            <div className="MainContainer">
                 <HeroBanner />
                 <ReactUSPs />
             </div>

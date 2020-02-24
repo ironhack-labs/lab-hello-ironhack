@@ -1,0 +1,77 @@
+.HeroBanner {
+    background-color: #1F2535;
+    color: white
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+#logo {
+    background-image: url("/images/ironhack-logo.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 80px;
+    width: 80px;
+}
+
+#menu {
+    background-image: url("/images/menu-top.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+}
+
+#banner-container {
+    padding: 0 40px 0 40px;
+}
+
+#banner-container h1 {
+    font-size: 90px; 
+    margin-top: 120px;
+    width: 50%
+}
+
+#banner-container p {
+    margin-top: 40px;
+    font-size: 1.8em;
+    color: lightgrey;
+    width: 30%;
+    font-weight: 100;
+}
+
+#banner-container button {
+
+    background-color: white;
+    color: #1F2535;
+    height: 70px;
+    width: 210px;
+    font-size: 1.8em;
+    font-weight: 500;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    outline: 4px solid white;
+    outline-offset: -4px;
+    background-color: #1F2535;
+    color: white
+}
+
+button:active {
+    transform: scale(0.99);
+}
