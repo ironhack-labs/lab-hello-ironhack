@@ -1,0 +1,46 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container{
+    background-image: url("http://localhost:3000/images/bg-react.png");
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin:20px 40px ;
+  }
+  .App-header{
+    margin-left: 40px;
+  }
+  #btn{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 40px;
+    background-color: white;
+    max-width: 70px;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  .second{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+
+  .second div img {
+    width: 100px;
+    height: auto;
+  }
+
+  .second div p {
+    text-align: justify;
+  }
