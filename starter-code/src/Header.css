@@ -6,10 +6,9 @@
 .container {
     width: 500px;
     margin-left: 80px;
-}
+} 
 
 h1 {
-    width: 500px;
     margin-top: 10px;
     font-size: 85px;
     color: #fff;
@@ -78,4 +77,4 @@ h1 {
     bottom: 50px;
     right: -40px;
     height: 120px;
-}
+}  

@@ -2,10 +2,11 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    width:100% !important;
 }
 
 .App {
     background-color: rgb(32, 37, 52);
-    background-size: cover;
-    height: 100vh;
+    width: 100%;
+   
 }
