@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+header {
+  width: 40%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: #1f2435;
+  color: white;
+  margin: 40px;
+  background-image: url('./react-logo.svg');
+}
+body h1 {
+  font-size: 4em
+}
+body p {
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.button {
+  padding: 20px;
+  background-color: white;
+  color: #1f2435;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none
+}
+
+.bg-white {
+  background-color: white;
+  padding-top: -20px;
+  margin-top: 100px;
+  margin-left: -40px;
+  margin-right: -40px;
+  display: flex;
+  color: #1f2435;
+}
+
+.bg-white article{
+width: 25%;
+text-align: center;
+padding: 100px 40px;
+}
+
+.bg-white img {
+  width: 30%;
+
+}
