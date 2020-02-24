@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    background-color: rgb(32, 37, 52);
+    height: 500px;
+    color: #fff;
+    padding: 100px;
+}
+
+.hero {
+    background-image: 
+        url('http://localhost:3000/images/react-logo.svg'),
+        url('http://localhost:3000/images/react-logo.svg'),
+        url('http://localhost:3000/images/react-logo.svg'),
+        url('http://localhost:3000/images/react-logo.svg'),
+        url('http://localhost:3000/images/react-logo.svg'),
+        url('http://localhost:3000/images/react-logo.svg');
+
+    background-repeat: no-repeat;
+    background-size: 300px, 220px, 220px, 100px, 100px, 100px;
+    
+    background-position: 
+        top 30px right 300px,
+        top 300px right 150px,
+        top 500px right 300px,
+        top 300px right -30px,
+        top 400px right -30px,
+        top 500px right -30px;
+}
+
+/* .hero > img {
+    position: absolute;
+}
+
+.logo-top-left {
+    top: 30px;
+    right: 300px;
+}
+
+.logo-top-left {
+    top: 30px;
+    right: 300px;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 20px;
+    width: 45%;
+    margin-bottom: 80px;
+}
+
+.intro-text button {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(32, 37, 52);
+}
+
+.features {
+    display: flex;
+    padding: 120px;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 20%;
+}
+
+.features h3 {
+    color: rgb(32, 37, 52);
+    font-size: 22px;
+}
+
+.features p {
+    color: rgb(198, 198, 198);
+}
