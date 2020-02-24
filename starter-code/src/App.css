@@ -1,0 +1,41 @@
+main{
+ 
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.bg-color{
+  background-color: rgb(53, 42, 63);
+  background-image: url('./react-logo.svg');
+  background-repeat: no-repeat;
+height: 700px;
+}
+
+.components{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  color: white;
+  font-size: 150px;
+  margin: 20px;
+}
+.white{
+  color:white;
+  margin: 20px;
+}
+
+a{
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10%;
+  margin: 20px;
+  padding: 20px;
+}
+
+
