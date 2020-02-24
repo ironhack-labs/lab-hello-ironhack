@@ -1,0 +1,27 @@
+main{
+    background-color: #1F2435;
+    padding: 100px;
+    background-image: url('/react-logo.svg');
+}
+
+h1{
+    color:white;
+    font-size: 75px;
+}
+
+main p {
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1F2435;
+    margin-top: 60px;
+    display: inline-block;
+}
