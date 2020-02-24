@@ -1,0 +1,74 @@
+.App {
+    margin: 0;
+}
+
+.react {
+    background-color: #29293d;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.ih-logo {
+    top: 0;
+    left: 0;
+}
+
+.menu-img {
+    top: 0;
+    right: 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.mid-info h1 {
+    color: white;
+    font-size: 100px;
+    width: 50%;
+}
+
+.mid-info p {
+    color: white;
+    width: 25%;
+    font-size: 30px;
+}
+
+.btn {
+    border-radius: 8px;
+    width: 220px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.react-logo {
+    height: 400px;
+}
+
+.icon-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.icon-info p {
+    font-size: 25px;
+}
