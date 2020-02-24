@@ -1,0 +1,26 @@
+.panel {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+.panel h1 {
+  font-size: 7rem;
+  margin: 2rem;
+}
+
+.panel p {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 2rem;
+}
+
+.panel button {
+  width: 10%;
+  height: 10%;
+  font-size: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+}

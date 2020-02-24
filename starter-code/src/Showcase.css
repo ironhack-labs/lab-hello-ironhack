@@ -1,0 +1,10 @@
+.showcase {
+  padding: 100px;
+  width: 15%;
+}
+
+.showcase img,
+.showcase h1,
+.showcase p {
+  padding: 10px;
+}
