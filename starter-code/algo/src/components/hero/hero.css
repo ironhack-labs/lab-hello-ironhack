@@ -1,0 +1,11 @@
+.hero{
+    background-color: #1f2535;
+    color: white;
+    padding: 150px 0;
+
+}
+.hero button{
+    background-color: white;
+    color: #1f2535;
+    padding:15px
+}
