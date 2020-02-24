@@ -1,0 +1,77 @@
+.front{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/images/react-logo.svg) botton right ,url(/images/react-logo.svg), url(/images/react-logo.svg);
+}
+.product{
+    width: 100vw;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    
+}
+
+nav{
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.menu {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.text>h1 {
+    font-size: 100px;
+
+}
+
+.text {
+    width: 40%;
+    margin-left: 50px;
+}
+
+
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vertical>img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo2  {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin-left: 250px;
+}
+
+.logo3  {
+    width: 200px;
+    height: 200px;
+}
+
+.middle {
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+}
