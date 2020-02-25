@@ -1,0 +1,31 @@
+.information {
+    color: white;
+    margin-top: 150px;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 90px;
+    margin-bottom: 0px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 28px;
+    color: lightgray;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+
+.button {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: light;
+    background-color: white;
+    color:  #1f2535;
+    padding: 25px;
+}
