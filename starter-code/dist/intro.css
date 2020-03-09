@@ -1,0 +1,29 @@
+.header-content {
+  max-width: 1200px;
+  margin: 100px auto 70px;
+  font-family: arial, sans-serif;
+}
+.header-content h1 {
+  font-size: 60px;
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+}
+.header-content p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 225px;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.header-content .button {
+  display: block;
+  color: #000;
+  border-radius: 5px;
+  display: inline-block;
+  background: #fff;
+  margin: 0;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px;
+}

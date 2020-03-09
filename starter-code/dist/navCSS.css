@@ -1,0 +1,34 @@
+nav {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.nav-inner {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+  width: 100%;
+}
+.nav-inner li {
+  list-style: none;
+}
+.nav-inner li img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.nav-inner li:first-child {
+  max-width: 100px;
+}
+
+.nav-inner li:last-child img {
+  width: 30px;
+}
