@@ -1,0 +1,45 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #202536;
+    width: max-content;
+  }
+h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.img-iron {
+    margin:30px 60px 150px 60px;
+}
+h1 {
+    margin: 50px;
+}
+p {
+    margin: 50px;
+}
+button {
+    margin: 50px;
+    padding:10px 20px
+}
+.secciones{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.secciones div{
+    max-width: 190px;
+    
+}
+.secciones h3{
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.secciones p{
+    color: black;
+    margin: 0;
+    max-width: 150px;
+
+} 
