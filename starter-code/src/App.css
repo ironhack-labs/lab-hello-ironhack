@@ -1,0 +1,37 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #202536;
+    padding: 70px;
+  }
+  .App p{
+      width: 200px;
+  }
+  .App button{
+      width: 150px;
+      height: 50px;
+      border-radius: 5px;
+      color: #202536;
+      font-size: 20px;
+  }
+  .sections{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 150px 0;
+  }
+  .sections section{
+      width: 15%;
+  }
+  h1{
+      font-size: 100px;
+      width: 50%;
+  }
+  p{
+      font-size: 20px;
+  }
+  h3{
+      font-size: 30px;
+  }
+  
