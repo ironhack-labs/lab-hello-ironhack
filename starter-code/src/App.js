@@ -8,7 +8,7 @@ class App extends Component {
       <img className="img-iron" src="/images/ironhack-logo.svg" alt=""/>
         <h1>Say hello to <br/> ReactJS</h1>
         <p>You will learn Frontend <br/>framework from scratch, to <br/>become an Ninja Developer</p>
-        <button>Awesome!</button>
+        <button className="button"> Awesome!</button>
         <div className="secciones">
             <div>
                 <img src="/images/icon1.png" alt=""/>

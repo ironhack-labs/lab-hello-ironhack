@@ -10,7 +10,7 @@ h1{
     font-size: 60px;
 }
 .img-iron {
-    margin:30px 60px 150px 60px;
+    margin:30px 60px 100px 60px;
 }
 h1 {
     margin: 50px;
@@ -18,9 +18,11 @@ h1 {
 p {
     margin: 50px;
 }
-button {
+.button {
     margin: 50px;
     padding:10px 20px
+    border: 2px solid red;
+    border-radius: 25px;
 }
 .secciones{
     background: white;
