@@ -1,0 +1,54 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: lightslategray;
+    height: 400px;
+    padding: 2em;
+   background-color: rgb(39, 41, 70);
+   position: relative;
+  }
+  .imageReact{
+    position: absolute;
+    padding-left: 100px;
+  }
+  .imageReact2{
+    position: absolute;
+    right: 100px;
+  }
+  .imageReact3{
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+  }
+  .navRe{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .Sections{
+  width: 150px;
+  font-size: 12px;
+  }
+  .allSections{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  color: black;
+  }
+  .title{
+  font-size: 40px;
+  width: 300px;
+  }
+  .subtitle{
+  font-size: 14px;
+  font-weight: 100;
+  width: 200px;
+ padding-bottom: 2em;
+  }
+  .button{
+  border-radius: 10px;
+  padding: 10px;
+  }
