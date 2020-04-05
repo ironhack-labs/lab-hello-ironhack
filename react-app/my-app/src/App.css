@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.body {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.principal-container {
+  background-color: #1E2435;
+  padding: 2% 6%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*****************
+***** NAVBAR *****
+*****************/
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*****************
+***** HEADER *****
+*****************/
+
+.header-title {
+  margin-top: 12rem;
+  font-size: 7rem;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.header-span {
+  color: white;
+  font-size: 2rem;
+}
+
+/*****************
+***** BUTTON *****
+*****************/
+
+.principal-container-button {
+  color: #1E2435;
+  border-radius: 0.3rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 2rem 1.4rem;
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+}
+
+.principal-container-button:active {
+  box-shadow: 1px 2px 1px rgb(46, 55, 80);
+  transform: translateY(4px);
+}
+
+.principal-container-buttonfocus {
+	outline: 0;
+}
+
+/******************
+****** LOGOS ******
+******************/
+
+.background-logos {
+  position: absolute;
+  display: flex;
+}
+
+/******************
+**** FUNCTIONS ****
+******************/
+
+.functions-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 5rem;
+  font-size: 1.5rem;
+}
+
+.features-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  width: 15rem;
+  margin-bottom: 8rem;
 }
 
-.App-link {
-  color: #61dafb;
+.features-box > img, .features-box > p {
+  margin:0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.features-box > h2 {
+  margin: 2rem 0 0 0;
 }
+
