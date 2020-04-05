@@ -1,0 +1,26 @@
+.Article-box {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 100px 0px;
+}
+
+.Article-image {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.Article-title {
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 10px 0px;
+}
+
+.Article-info {
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+

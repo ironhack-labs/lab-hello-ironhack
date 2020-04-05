@@ -1,0 +1,68 @@
+.App-header-block {
+  background-color: #282c34;
+  min-height: 80vh;
+  color: white;
+  padding: 50px;
+}
+
+.react-logo {
+  position: absolute;
+}
+
+.first{
+  right: 200px; 
+  width: 300px;
+  top: 10px;
+}
+
+.second{
+  right: 235px; 
+  width: 200px;
+  top: 250px;
+}
+
+.third{
+  right: 0px; 
+  width: 140px;
+  top: 100px;
+}
+
+.third-2 {
+  top: 250px;
+}
+
+.third-3 {
+  top: 400px;
+}
+
+.fourth{
+  right: 400px; 
+  width: 200px;
+  top: 400px;
+}
+
+.App-header {
+  width: 50%;
+}
+
+.App-subtitle {
+  width: 50%;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.App-title {
+  font-size: 80px;
+  line-height: 75px;
+  margin-block-end: 20px;
+} 
+
+.App-button {
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  color: #282c34;
+  margin-top: 40px;
+  font-weight: 600;
+}

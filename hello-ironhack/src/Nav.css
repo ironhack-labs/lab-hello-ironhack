@@ -1,0 +1,13 @@
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.App-logo {
+  width: 50px;
+}
+
+.App-menu {
+  width: 30px;
+}
