@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-flow: column;
+    padding: 0 15px;
+}
+.card h2 {
+    margin: 5px 0;
+    text-align: left;
+}
+.card img {
+    width: 130px;
+}
+.card p {
+    text-align: left;
+}
