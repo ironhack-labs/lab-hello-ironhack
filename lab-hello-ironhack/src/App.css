@@ -9,10 +9,37 @@
 
 .ironhack-logo {
   margin: 1.5rem 4rem;
+  cursor: pointer;
 }
 
 .home-menu {
-  margin-right: 4rem;
+  margin-right: 6rem;
+  cursor: pointer;
+}
+
+.home-description-box {
+  color: white;
+  margin-left: 4rem;
+  padding-bottom: 3rem;
+}
+
+.home-title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 3rem 0 1rem;
+}
+
+.home-description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .home-icons-section {

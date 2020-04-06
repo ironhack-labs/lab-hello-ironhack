@@ -6,9 +6,9 @@ function icon (props) {
   console.log(props);
   return (
     <div className="icons-box">
-      <img src={icons} className="" alt="logo" />
-      <h3 className="">{title}</h3>
-      <p>{description}</p>
+      <img src={icons} className="icons-image" alt="logo" />
+      <h3 className="icons-title">{title}</h3>
+      <p className="icons-description">{description}</p>
     </div>
   );
 }

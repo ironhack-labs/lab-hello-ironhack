@@ -11,11 +11,11 @@ class App extends Component {
             <img className="ironhack-logo" src="../images/ironhack-logo.svg" alt="logo"/>
             <img className="home-menu" src="../images/menu-top.svg" alt="menu"/>
           </nav>
-          <div className="home-description">
-            <h1>Say hello to <br/>ReactJs</h1>
-            <p>You will learn a Frontend <br/>framework from scratch, to <br/>become a Ninja Developer.</p>
+          <div className="home-description-box">
+            <h1 className="home-title">Say hello to <br/>ReactJs</h1>
+            <p className="home-description">You will learn a Frontend <br/>framework from scratch, to <br/>become a Ninja Developer.</p>
+            <button className="home-button">Awesome!</button>
           </div>
-          <button>Awesome!</button>
         </header>
         <section className="home-icons-section">
           <Icon icons={"../images/icon1.png"} title={"Declarative"} description={"React makes it painless to create interactive UIs."}/>
