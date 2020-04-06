@@ -1,0 +1,87 @@
+
+body{
+    margin: 0px;
+}
+
+.top{
+    padding-top: 30px;
+    padding-left: 90px;
+   background-color: rgb(43, 51, 75);
+   
+}
+.right{
+      padding-top: 30px;
+padding-right: 90px;
+    float: right;
+}
+
+
+.bogtext{
+margin-top: 150px;
+    padding-top: 30px;
+color: white ;
+font-size:90px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 50%;
+font-weight: 600;
+}
+
+.smalltext{
+
+margin-top: 10px;
+    padding-top: 30px;
+color: white ;
+width: 20%;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+        font-weight: 100 ;
+}
+
+.btn{
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 80px;
+
+margin-top: 80px;
+padding:20px;
+font-weight: 600;
+color:  rgb(43, 51, 75);
+font-size: 30px;
+}
+
+.bottom{
+    margin-top: 55px;
+margin-left: 20%;
+}
+
+.card{
+    width: 19%;
+    float: left;
+}
+
+.card-info{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-info h4{
+    margin-left: 20px;
+    margin-top: 10px;
+        margin-bottom: 10px;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(54, 58, 66);
+}
+
+.card-info p{
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 0px;
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(116, 116, 116);
+font-weight: 400;
+}
