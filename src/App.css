@@ -1,0 +1,74 @@
+html{font-size: 16px;}
+h1{font-size: 2rem;}
+h2{font-size: 1.5rem;}
+h3{font-size: 1rem;}
+p, span{font-size: 1rem;}
+i{font-size: 1.5rem;}
+img{max-width: 100%;}
+.fs-small{
+  font-size: 0.75rem;
+}
+.fs-big{
+  font-size: 2rem;
+}
+.fs-md{
+  font-size: 1.5rem;
+}
+.fc-white{
+    color: white;
+}
+.pl-md{
+    padding-left: 1.5rem;
+}
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.landing{
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 3rem;
+    width: 100%;
+}
+.features{
+    box-sizing: border-box;
+    padding: 3rem;
+}
+.header{
+    max-height: 10%;
+}
+.bc-grey{
+    background-color: #1F2435;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.justify-content-between { justify-content: space-between; }
+.button{
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: white;
+    font-weight: bold;
+} 
+
