@@ -1,3 +1,21 @@
-.header-homepage {
-  background-color: blue;
+.home-header {
+  background-color: #24292e;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ironhack-logo {
+  margin: 1.5rem 4rem;
+}
+
+.home-menu {
+  margin-right: 4rem;
+}
+
+.home-icons-section {
+  display: flex;
+  padding: 6rem;
 }
