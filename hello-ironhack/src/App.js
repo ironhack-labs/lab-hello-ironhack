@@ -1,40 +1,24 @@
 import React from 'react';
+import Header from './components/Header';
+import ReactLogos from './components/ReactLogos';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="/images/ironhack-logo.svg" className="App-logo" alt="logo" />
-        <img src="/images/menu-top.svg" className="App-menu-icon" alt="menu icon" />
-      </header>
+      <Header />
       <main className="App-main">
         <div className="App-main-left">
           <div>
-            <h1>
-                Say hello to ReactJS
-            </h1>
-            <p>
-              You will learn a Frontend framework from scratch, to become a Ninja Developer.
-            </p>
+            <h1>Say hello to ReactJS</h1>
+            <p>You will learn a Frontend framework from scratch, to become a Ninja Developer.</p>
           </div>
-          <button className="App-button">
-            Awesome!
-          </button>
+          <button className="App-button">Awesome!</button>
         </div>
         <div className="App-main-right">
-          <div class="div-1">
-            <img alt="React logo" src="/images/react-logo.svg" />
-          </div>
-          <div class="div-2">
-            <img alt="React logo" src="/images/react-logo.svg" />
-            <img alt="React logo" src="/images/react-logo.svg" />
-            <img alt="React logo" src="/images/react-logo.svg" />
-          </div>
-          <div class="div-3">
-            <img alt="React logo" src="/images/react-logo.svg" />
-            <img alt="React logo" src="/images/react-logo.svg" />
-          </div>
+          <ReactLogos className="div-1" numberCopies="1" />
+          <ReactLogos className="div-2" numberCopies="3" />
+          <ReactLogos className="div-3" numberCopies="2" />
         </div>
       </main>
       <div className="benefits">
