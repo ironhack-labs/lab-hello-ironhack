@@ -1,0 +1,40 @@
+.react-logo-1 {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+
+.react-logo-2 {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    width: 250px;
+}
+
+.react-logo-3 {
+    position: absolute;
+    top: 400px;
+    right: 600px;
+    width: 250px;
+}
+
+.react-logo-small-1 {
+    position: absolute;
+    width: 150px;
+    right: 0;
+    top: 150px;
+}
+
+.react-logo-small-2 {
+    position: absolute;
+    width: 150px;
+    right: 0;
+    top: 325px;
+}
+
+.react-logo-small-3 {
+    position: absolute;
+    width: 150px;
+    right: 0;
+    top: 500px;
+}
