@@ -1,11 +1,76 @@
+.nav{
+  background-color: #282c34;
+  max-width:90%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 150px 10px 150px ;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-logo{
+  flex-grow: 4;
+}
+
+.nav-menu{
+  flex-grow: 1;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.react-logos{
+  position: relative;
+}
+
+.react-logo{
+  position: relative;
+  
+}
+
+.text-header{
+  position: absolute;
+}
+
+.title-header{
+  font-size: 100px;
+  padding: 0px 50px 0px 50px;
+  margin-right: 50px;
+}
+
+.subtitle-header{
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+
+.button-header{
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 50px;
+  padding: 20px;
+  
+}
+
+.body{
+  display: flex;
+}
+
+.body-container{
+  padding: 25px 50px 25px 50px;
+}
+
+.body-icon{
+width: 140px;
+}
+
+
+
 

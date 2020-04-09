@@ -10,7 +10,7 @@ class Nav extends Component {
           </div>
 
           <div className="nav-menu">
-              <img alt="menu-top" src="menu-top.svg"/>
+              <img alt="menu-top" src="images/menu-top.svg"/>
           </div>
 
       </nav>
