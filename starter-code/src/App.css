@@ -1,0 +1,87 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-image: url("http://localhost:3000/images/bg-react.png");
+  background-color: #1f2535;
+  color: white;
+  height: 900px;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 20px 100px;
+  padding-top: 30px;
+}
+
+.header-img-size {
+  width: 6%;
+}
+
+.header-img-size2 {
+  width: 4%;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100px;
+  padding-top: 100px;
+  padding-left: 100px;
+  margin: 0;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-left: 100px;
+  margin: 0;
+}
+
+.space {
+  padding-top: 150px;
+}
+
+#btn {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  margin: 100px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.second-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  margin: 10px, 10px;
+  color: #2d3748;
+  font-weight: 500;
+}
+
+span {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  color: #2d3748;
+  font-weight: lighter;
+}
