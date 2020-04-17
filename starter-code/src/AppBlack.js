@@ -7,23 +7,32 @@ import MainTitle from "./MainTitle";
 import ValueProp from "./ValueProp";
 import Awesome from "./Awesome";
 
+// La siguiente línea crea un error:
+// import logo from "../public/images/react-logo.svg";
+
 class AppBlack extends Component {
-    render() {
+  render() {
+    const upperIcons = {
+      left: "./images/ironhack-logo.svg",
+      right: "./images/menu-top.svg",
+    };
 
-        const upperIcons = {
-            left: "./images/ironhack-logo.svg",
-            right: "./images/menu-top.svg"
-        };
+    return (
+      <div className="AppBlack" >
+        <img src={"/images/react-logo.svg"} className="AppBlackBackgroundLogo1" />
+        <img src={"/images/react-logo.svg"} className="AppBlackBackgroundLogo2" />
+        <img src={"/images/react-logo.svg"} className="AppBlackBackgroundLogo3" />
+        <img src={"/images/react-logo.svg"} className="AppBlackBackgroundLogo4" />
+        <img src={"/images/react-logo.svg"} className="AppBlackBackgroundLogo5" />
+        <img src={"/images/react-logo.svg"} className="AppBlackBackgroundLogo6" />
 
-        return(
-            <div className="AppBlack">
-               <UpperIcons {...upperIcons} />
-               <MainTitle />
-               <ValueProp />
-               <Awesome />
-            </div>
-        );
-    }
+        <UpperIcons {...upperIcons} />
+        <MainTitle />
+        <ValueProp />
+        <Awesome />
+      </div>
+    );
+  }
 }
 
 export default AppBlack;

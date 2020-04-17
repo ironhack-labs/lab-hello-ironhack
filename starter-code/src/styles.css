@@ -6,9 +6,54 @@
     background-color: #1F2535;
     color: white;
     padding: 0px 0px 20px 100px;
-    background-image: url('../public/images/react-logo.svg');
 }
 
+.AppBlack {
+    /* ATENCIÓN: NO FUNCIONA SI SE LE PONEN COMILLAS A RELATIVE */
+    position: relative;
+}
+
+.AppBlackBackgroundLogo1 {
+    position: absolute;
+    right: 170px;
+    top: 10px;
+    transform: scale(.9)
+}
+
+.AppBlackBackgroundLogo2 {
+    position: absolute;
+    right: 60px;
+    bottom: 110px;
+    transform:scale(0.75);
+}
+
+.AppBlackBackgroundLogo3 {
+    position: absolute;
+    right: 220px;
+    bottom: -30px;
+    transform: scale(0.75);
+}
+
+.AppBlackBackgroundLogo4 {
+    position: absolute;
+    right: -90px;
+    top: 10%;
+    transform: scale(0.4);
+}
+
+.AppBlackBackgroundLogo5 {
+    position: absolute;
+    right: -90px;
+    top: 40%;
+    transform: scale(0.4);
+}
+
+.AppBlackBackgroundLogo6 {
+    position: absolute;
+    right: -90px;
+    top: 65%;
+    transform: scale(0.4);
+}
 .AppWhite {
     background-color: white;
     color: #1F2535;
