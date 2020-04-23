@@ -64,3 +64,17 @@ p {
     justify-content: space-around;
     margin: 10% 5%;
 }
+
+.ironLogo {
+    z-index: 1;
+    position: absolute; 
+    margin-left: 50%;
+}
+
+.ironLogotwo {
+    z-index: 1;
+    position: absolute; 
+    margin-left: 45%;
+    margin-top: 20%;
+    width: 250px;
+}

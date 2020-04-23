@@ -11,9 +11,11 @@ export default function app() {
             <img src="/images/menu-top.svg"></img>
         </navbar>
         
+        <img className="ironLogo" src="/images/react-logo.svg"></img>
+        <img className="ironLogotwo" src="/images/react-logo.svg"></img>
+
         <h1>Say hello to <br></br>ReactJS</h1>
         <p>You will learn a Frontend<br></br> framework from scratch, to <br></br>become a Ninja Developer.</p>
-
         <button className="button">Awesome!</button>
         </div>
 
