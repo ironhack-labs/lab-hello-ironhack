@@ -1,0 +1,93 @@
+body {
+/* background-color: rgb(4, 9, 26);
+background-image: url("/images/react-logo.svg");  */
+    background: rgb(4, 9, 26) url("/images/react-logo.svg");
+}
+
+h1 {
+
+font-size: 80px;
+margin-right: 400px;
+margin-bottom: 0px;
+
+}
+
+h2 {
+
+margin-right: 700px;
+
+}
+
+.h2 {
+    margin-right: 0px !important; 
+    }
+
+.navbar {
+
+margin: 5px 10px 5p 10px;
+height: 100px;
+padding: 10px 30px 10px 30xp;
+
+}
+
+
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 5px 60px 50px 200px;
+    
+    
+}
+
+.content-top {
+
+margin: 10px 150px 0px 60px;
+
+}
+.content-middle {
+
+    margin: 0px 10px 10px 60px;
+    
+    }
+
+.content-bottom {
+
+    margin: 10px 10px 10px 60px;
+        
+        }
+
+.sectionWhite {
+    background-color: white !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards {
+    padding: 150px 20px 150px 20px;
+}
+
+img.logo {
+
+margin: 10px 60px 0px 60px;
+
+}
+
+button {
+
+background-color: white;
+color: black;
+padding: 20px 10px 20px 10px;
+font-size: 17px;
+font-weight: 300;
+
+}
+
+.navFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
