@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heroBg {
+    background-color: #1F2535;
+    background-image: url('/images/react-logo.svg');
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.heroTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+    width: 500px;
+}
+
+.h1 {
+    font-size: 5rem;
+}
+
+.p {
+    font-size: 1.5rem;
+    color: lightgray;
+    margin-top: 25px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 50px 0 50px 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: #1F2535;
+}
+
+.sectionWhite {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards {
+    padding: 150px 50px 150px 50px;
+    color: #1F2535;
+}
+
+.h2 {
+    margin-bottom: 10px;
+}
