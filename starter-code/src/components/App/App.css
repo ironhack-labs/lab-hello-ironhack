@@ -24,6 +24,30 @@ body {
 
   color: #fff;
   height: 80vh;
+
+  background-image: url('/images/react-logo.svg'), 
+                    url('/images/react-logo.svg'),
+                    url('/images/react-logo.svg'),
+                    url('/images/react-logo.svg'),
+                    url('/images/react-logo.svg'),
+                    url('/images/react-logo.svg');
+                    
+  background-repeat: no-repeat;
+                  
+  background-position: 80% 90%,
+                       80% 50%,
+                       80% 10%,
+                       50% 0%,
+                       60% 60%,
+                       50% 90%;
+  background-size:150px, 
+                  150px,
+                  150px,
+                  250px,
+                  200px,
+                  200px;
+
+  
 }
 
 .title {
