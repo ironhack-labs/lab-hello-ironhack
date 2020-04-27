@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-total {
+    display: flex;
+    background-color: #1f2535;
+}
+
+.banner {
+
+    height: 40rem;
+    padding: 2rem 5rem;
+    width: 60%;
+
+}
+
+.banner h1 {
+    font-size: 6rem;
+    color: white;
+    font-weight: 900;
+
+}
+
+.banner p {
+    font-size: 1.3rem;
+    color: white;
+    margin-top: -3rem;
+}
+
+.banner button {
+    width: 10rem;
+    height: 3rem;
+    color: rgb(6, 13, 34);
+    border-radius: 0.2rem;
+    border-style: none;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.infos {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10rem 5rem;
+}
+
+.infos img {
+    width: 7rem;
+}
+
+.infos h4 {
+font-size: 2rem;
+margin: 0 0.8rem;
+}
+
+.infos p {
+    font-size: 1.1rem;
+    margin: 0 0.8rem;
+    color: rgb(117, 117, 117);
+    font-weight: 500;
+}
+
+.box {
+    width: 15rem;
+}
+
+/* ------- BG --------- */
+
+.allBackground {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.background {
+    width: 72%;
+}
+
+.bg1 {
+    width: 50rem;
+    height: 20rem;
+    background-image: url('/images/react-logo.svg');
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+
+.bg2 {
+    width: 100%;
+    height: 15rem;
+    background-size: 15rem;
+    background-image: url('/images/react-logo.svg');
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    width: 15rem;
+    height: 15rem;
+    background-size: 15rem;
+    background-image: url('/images/react-logo.svg');
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.bg4 {
+    width: 50rem;
+    height: 26rem;
+    background-size: 10rem;
+    background-image: url('/images/react-logo.svg');
+    background-position: 90% 50%;
+
+
+}
+
+
