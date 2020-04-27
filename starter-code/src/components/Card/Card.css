@@ -1,0 +1,23 @@
+.card {
+  width: 25%;
+}
+
+.card img {
+  width: 60%;
+  margin-bottom: 5px;
+}
+
+.card h2, .card p {
+  margin-left: 15px;
+}
+
+.card h2 {
+  color: #1e2435;
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  line-height: 20px;
+  color: #999999;
+}
