@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-geral{
+    background-image: url("/images/react-logo.svg");
+    background-color: #222838;
+}
+.navBar {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:60px;
+}
+
+.title{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    padding: 60px;
+    width:500px;
+
+}
+.title-h1{
+
+    font-size:40px;
+    font-weight: 700;
+}
+.title-p{
+margin-top:20px;
+font-size: 30px;
+font-weight:300;
+}
+
+button {
+    border-radius:5px;
+    width:140px;
+    height:70px;
+    font-size:20px;
+    color:#222838;
+    margin-top:40px;
+}
+
+.div-geral-body {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 8px;
+    color:#222838;
+}
+
+.icon-text {
+    padding-left: 20px;
+    color:gray;
+    font-weight: 300;
+}
+.icon-title{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    padding:50px 50px;
+}
