@@ -1,4 +1,58 @@
 .App {
-    color: white;
+    border: 0px;
+    padding: 0px;
 }
 
+body {
+    border: 0px;
+}
+
+.upper-section {
+    background-color: #1F2536;
+    padding: 30px 80px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.react-logo {
+    text-align: right;
+}
+
+.main-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+}
+
+button {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    border-radius: 5px;
+    color: #1F2536;
+    margin: 20px;
+    padding: 22px 35px;
+}
+
+.main-text h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    margin: -10px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #1F2536;;
+}
