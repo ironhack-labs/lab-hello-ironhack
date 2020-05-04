@@ -7,6 +7,6 @@
 
 .bg-img {
     background-color: #24292e;
-    /* background-image: url("/images/react-logo.svg"); */
+    background-image: url("/images/react-logo.svg");
     height: 100vh;
 }
