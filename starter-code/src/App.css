@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body,
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  width: 100vw;
+  background-color: rgb(31, 37, 53);
+  background-image: url('/images/react-logo.svg');
+  background-repeat: no-repeat;
+  background-position: 80% 20%;
+  background-size: 40vw;
+}
+
+.navbar {
+  padding: 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-copy {
+  color: white;
+  padding: 5vw;
+  font-size: 4rem;
+  width: 50vw;
+}
+
+.hero-copy button {
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-top: 5vh;
+}
+
+.cards {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.card-item img {
+  width: 60%;
+}
+
+.card-item h1 {
+  font-size: 3rem;
+}
+
+.card-item p {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
