@@ -1,0 +1,71 @@
+header {
+    background-color: #1f2433;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav figure img {
+    width: 60px;
+    padding: 25px 0px;
+}
+
+section {
+    color: white;
+    margin-top: 225px;
+    /* margin-left: 25px; */
+    text-align: left;
+}
+
+section h1, p {
+    padding: 0px;
+}
+
+h1 { 
+    font-size: 5em;
+    font-weight: 600;
+}
+p { 
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+button {
+    color: #1f2433;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.small-react-logos-container {
+    display: flex;
+}
+.react-logo-small {
+    width: 160px;
+    filter: brightness(20%);
+}
+.react-logo-big-1,.react-logo-big-2,.react-logo-big-3 {
+    filter: brightness(20%);
+}
+
+.react-logo-big-1 {
+    position: absolute;
+    left: 1000px;
+    top: 75px;
+}
+
+.react-logo-big-2 {
+    position: absolute;
+    left: 1150px;
+    top: 400px;
+    width: 250px;
+}
+
+.react-logo-big-3 {
+    position: absolute;
+    left: 900px;
+    top: 600px;
+    width: 250px;
+}
