@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  background: darkblue;
+  background-image: url("/images/react-logo.svg");
+}
+
+.navbar {
+  margin-left: 6%;
+  margin-right: 6%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-wrapper {
+  width: 100%;
+  height: 40vh;
+}
+
+.content {
+  margin-left: 6%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.content h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  width: 25%;
+  padding: 5% 15% 5% 15%;
+  margin-top: 10%;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.info-area {
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-text {
+  width: 60%;
+}
+
+.box-text p {
+  text-align: center;
+}
