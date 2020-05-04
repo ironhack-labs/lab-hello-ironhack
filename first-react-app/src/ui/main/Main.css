@@ -1,0 +1,25 @@
+.main-icon{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container {
+    width: 20%;
+}
+
+.icon-container img{
+    width: 100px;
+    display: block;
+}
+
+
+.icon-container h3 {
+    font-size: 1.8em;
+    margin: 0 0 15px;
+}
+.icon-container p {
+    color: #666665;
+    margin: 0;
+}
