@@ -1,0 +1,67 @@
+  .App {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .main {
+      background-color: rgb(35, 41, 59);
+      background-image: url('/images/react-logo.svg');
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .overlayTop {
+      display: flex;
+      flex-direction: column;
+      padding: 5rem;
+      width: 35vw;
+  }
+
+  h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+  .text {
+      color:white;
+      font-size: 1.6em;
+      width: 20vw;
+  }
+
+  button{
+    width: 10vw;
+    height: 7vh;
+    margin: 50px 0 50px 0;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    color: rgb(35, 41, 59);
+    background-color: white;
+  }
+
+  .cardsHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+  }
+
+  .card {
+      margin: 2vh;
+      color: rgb(35, 41, 59);
+  }
