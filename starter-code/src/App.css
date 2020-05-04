@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 10vh;
+    background-color: darkslategray;
+}
+.mainSection{
+    height: 90vh;
+    background-color: darkslategray;
+}
+
+.mainSection h1{
+    color: white;
+    font-size: 5em;
+}
+
+.mainSection p{
+    color: white;
+    font-size: 1.5em;
+} 
+
+.mainSection button {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color:darkslategray ;
+    font-size: 1.3em;
+    
+}
+.main{
+    height: 100vh;
+}
+
+.assets{
+    display: flex;
+    background-color: white;
+}
+.reactAssest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
