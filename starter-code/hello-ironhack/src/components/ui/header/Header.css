@@ -1,0 +1,6 @@
+.menu {
+    background-color: #1f2535;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
