@@ -1,0 +1,27 @@
+.features{
+display:flex;
+justify-content: space-around;
+margin-top: 150px;
+}
+.features article{
+width: 17%;
+display:flex;
+flex-direction: column;
+}
+.features img{
+    width: 60%;
+}
+h3{
+     color: #1f2535;
+     font-size: 1.5em;
+     font-weight: 800;
+     font-family: sans-serif;
+     padding-left: 10px;
+     margin-bottom: 5px;
+}
+p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    padding-left: 10px
+}

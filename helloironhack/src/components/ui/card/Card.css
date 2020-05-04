@@ -1,0 +1,27 @@
+ .card article {
+     width: 17%;
+     display: flex;
+     flex-direction: column;
+ }
+
+.card img {
+     width: 60%;
+ }
+
+ .card h3 {
+     color: #1f2535;
+     font-size: 1.5em;
+     font-weight: 800;
+     font-family: sans-serif;
+     padding-left: 10px;
+     margin-bottom: 5px;
+     width: 100%;
+ }
+
+ .card p {
+     font-family: sans-serif;
+     font-weight: 100;
+     font-size: 1.1em;
+     padding-left: 10px;
+     width: 60%;
+ }
