@@ -5,9 +5,18 @@
 
 .header {
   background-color: #181630;
+  display: flex;
+  justify-content: space-between;
 }
 .intro {
   background-color: #181630;
+  background-image: url("/images/react-logo.svg");
+}
+
+.logo {
+  height: 40;
+  width: 40;
+  margin: 2vh;
 }
 
 .box {
@@ -48,6 +57,7 @@
   margin-top: 10vh;
   width: 25vh;
   height: 40vh;
+  margin-bottom: 20vh;
 }
 
 .card > h3 {

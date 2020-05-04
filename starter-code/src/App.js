@@ -6,9 +6,11 @@ class App extends Component {
   render() {
     const header = (
       <div className="header">
-        <img src="../public/images/ironhack-logo.svg" />
+        <img className="logo" src="/images/ironhack-logo.svg"></img>
+        <img className="logo" src="/images/menu-top.svg" />
       </div>
     );
+
     const intro = (
       <div className="intro">
         <div className="box">
@@ -25,22 +27,22 @@ class App extends Component {
     const bottomDiv = (
       <div className="bottom-div">
         <div className="card">
-          <img src="../public/images/icon1.png" attr="icon" />
+          <img src="/images/icon1.png" attr="icon" />
           <h3>Declarative</h3>
           <p>React makes it painless to create interactive UIs</p>
         </div>
         <div className="card">
-          <img src="../public/images/icon2.png" attr="icon" />
+          <img src="/images/icon2.png" attr="icon" />
           <h3>Components</h3>
           <p>Build encapsulated components that manage their state.</p>
         </div>
         <div className="card">
-          <img src="../public/images/icon3.png" attr="icon" />
+          <img src="/images/icon3.png" attr="icon" />
           <h3>Single-Way</h3>
           <p>A set of immutable values are poassed to the components.</p>
         </div>
         <div className="card">
-          <img src="../public/images/icon4.png" attr="icon" />
+          <img src="/images/icon4.png" attr="icon" />
           <h3>JSX</h3>
           <p>Statically-typed, designed to run on modern browsers.</p>
         </div>
