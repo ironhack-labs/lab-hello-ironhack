@@ -1,0 +1,27 @@
+.card__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__item{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.card__img{
+  width: 120px;
+  margin: 0 ;
+}
+
+.card__title{
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.card__text{
+  font-weight: 300;
+  margin: 0;
+  font-size: 1rem;
+}

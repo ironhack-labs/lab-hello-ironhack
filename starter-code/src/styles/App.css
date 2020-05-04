@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.main{
+  background-color: #1f2436;
+  height: 100vh;
+  padding:0 50px;
+  background-image: url('/images/react-logo.svg');
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+}
+
+.showcase{
+  padding: 75px 50px;
+}

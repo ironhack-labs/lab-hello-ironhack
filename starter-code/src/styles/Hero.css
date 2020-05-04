@@ -1,0 +1,22 @@
+.hero{
+  color: white;
+  padding-top: 200px;
+  /* display: flex;
+  flex-direction: column;
+  align-content: center; */
+}
+
+.hero__title{
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 5rem;
+  width: 470px;
+  margin: 0;
+}
+
+.hero__text{
+  font-weight: 300;
+  font-size: 1.3rem;
+  width: 300px;
+  margin: 20px 0 75px;
+}
