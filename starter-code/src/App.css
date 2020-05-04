@@ -1,0 +1,60 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #181630;
+}
+.intro {
+  background-color: #181630;
+}
+
+.box {
+  height: 60vh;
+  width: 40vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vh;
+}
+.intro > h1 {
+  font-size: 54px;
+}
+
+.intro > h2 {
+  font-size: 18px;
+}
+
+.intro > button {
+  padding: 2vh;
+  background-color: white;
+  color: #181630;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+}
+
+.bottom-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 10vh;
+  width: 25vh;
+  height: 40vh;
+}
+
+.card > h3 {
+  color: black;
+  font-size: 28px;
+}
+
+.card > p {
+  font-size: 18px;
+}
