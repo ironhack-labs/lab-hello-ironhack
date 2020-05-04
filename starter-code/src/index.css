@@ -1,0 +1,61 @@
+body{
+  padding:0px;
+  margin:0px;
+  width:100vw;
+}
+.App{
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  color:white;
+    background-color: #1F2535;
+    background-position: top 220px right 10px, top 420px right 120px,
+      top 120px right 620px, top 620px left 410px;
+    background-repeat: no-repeat;
+    background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"),
+      url("/images/react-logo.svg"), url("/images/react-logo.svg");
+  }
+.nav{
+    padding:40px;
+}
+#logo{
+  height:80px;
+}
+#menu{
+  height:20px;
+  padding:40px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+}
+.test{
+  padding:40px;
+}
+.title{
+  font-size:60px;
+  width:400px;
+}
+.subText{
+  font-size:30px;
+  width:500px;
+  padding-bottom:40px;
+}
+.items{
+  border:7px solid white;
+}
+.bottom{
+  display:flex;
+}
+.image{
+  border-radius: 7px;
+  width:10vw;
+}
+#button{
+border-radius: 7px;
+  padding:15px;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: bold;
+}
+
