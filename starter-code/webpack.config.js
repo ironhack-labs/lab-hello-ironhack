@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const bundlePath = path.resolve(__dirname, "dist/");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.jsx",
   module: {
     rules: [
       {
@@ -15,6 +15,7 @@ module.exports = {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader' ]
       }
+      
     ]
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
