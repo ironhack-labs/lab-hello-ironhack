@@ -1,0 +1,17 @@
+.advantages-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.title-advantages {
+ font-weight: 800;
+}
+
+.sub-title-advantages {
+    font-weight: 200;
+    width: 50%;
+    margin: 0 auto;
+}
