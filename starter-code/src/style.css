@@ -1,0 +1,48 @@
+body {}
+
+.container {
+    margin: 2rem;
+    border: 5px solid;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+    color: blanchedalmond;
+}
+
+.container img:nth-child(2) {
+    float: right;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 2.5rem;
+}
+
+p {
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: blanchedalmond;
+}
+
+.react {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: darkslategrey;
+}
+
+.react img {
+    margin: 0 1.8rem
+}
