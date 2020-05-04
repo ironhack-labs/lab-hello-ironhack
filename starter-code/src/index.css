@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.nav-bar,
+.header,
+.main {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top {
+  background: #1f2535;
+  background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"),
+    url("/images/react-logo.svg"), url("/images/react-logo.svg");
+  background-position: 70% 30%, 70% 30%, 95% 80%, 95% 80%;
+  background-size: 30%, 30%, 20%, 20%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.nav-bar {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.header {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header h2 {
+  font-size: 4em;
+  font-weight: 700;
+  max-width: 400px;
+  margin-top: 80px;
+  /* padding-bottom: ; */
+}
+
+.header p {
+  font-weight: 300;
+  max-width: 300px;
+  font-size: 1.3em;
+  margin-bottom: 60px;
+}
+
+.header button {
+  font-weight: 600;
+  border: none;
+  padding: 20px 0px;
+  border-radius: 4px;
+  font-size: 1.5em;
+  font-family: unset;
+  max-width: 180px;
+  margin-bottom: 60px;
+}
+
+.main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.info-card {
+  margin: 20px;
+  max-width: 150px;
+}
+
+.info-card img {
+  width: 100%;
+  height: auto;
+}
+
+.info-card h2 {
+  font-weight: 600;
+}
