@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap");
+body {
+  font-family: "UnifrakturCook", cursive;
+}
+.landing {
+  background: url("/images/bg.gif") repeat;
+  /* the real background */
+  /* background-color: #1f2535;
+  background-position: top 220px right 10px, top 420px right 120px,
+    top 120px right 620px, top 620px left 410px;
+  background-repeat: no-repeat;
+  background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"),
+    url("/images/react-logo.svg"), url("/images/react-logo.svg"); */
+  padding: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background: url("/images/candy.jpg") repeat;
+}
+.hero {
+  margin-top: 7rem;
+  color: coral;
+  font-family: "Beth Ellen", cursive;
+}
+
+.hero-title {
+  font-size: 5rem;
+  width: 35vw;
+}
+.hero-description {
+  font-size: 2rem;
+  font-weight: lighter;
+  width: 25vw;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  margin-top: 20px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 2rem;
+}
+.btn-white {
+  background-color: white;
+  color: #1f2535;
+}
+
+.btn-blue {
+  background-color: #414d6e;
+  color: white;
+}
+.content {
+  padding: 50px;
+  /* height: 100%; */
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+.card-img {
+  max-height: 182px;
+  max-width: 182px;
+}
+.card h2 {
+  color: red;
+}
+.card p {
+  color: fuchsia;
+}
