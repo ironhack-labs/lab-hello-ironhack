@@ -1,0 +1,11 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    margin-left: 5vw;
+    margin-top: 1vw;
+    margin-right: 5vw;
+}
