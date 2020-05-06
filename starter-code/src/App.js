@@ -5,16 +5,31 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section>
+        <section className="section-1">
           <nav>
-            <img src="./images/ironhack-logo.svg"></img>
-            <img src="./images/menu-top.svg"></img>
+            <img className="logo" src="./images/ironhack-logo.svg"></img>
+            <img className="menu" src="./images/menu-top.svg"></img>
           </nav>
-          <h1> Say hello to ReactJS </h1>
-          <h2> You will learn a Frontend framework from scratch, to become a Ninja Developer</h2>
-          <button>Awesome</button>
+          <div className="container">
+            <div>
+              <h1> Say hello to ReactJS </h1>
+              <h2> You will learn a Frontend framework from scratch, to become a Ninja Developer</h2>
+              <button>Awesome!</button>
+            </div>
+            <div className="reacts">
+              <div className="react-container-1">
+                <img className="logo-react-1" src="./images/react-logo.svg"></img>
+              </div>
+              <div className="react-container-2">
+                <img className="logo-react-2" src="./images/react-logo.svg"></img>
+              </div>
+              <div className="react-container-3">
+                <img className="logo-react-3" src="./images/react-logo.svg"></img>
+              </div>
+            </div>
+          </div>
         </section>
-        <section>
+        <section className="section-2">
           <article>
             <img src="./images/icon1.png"></img>
             <h3>Declarative</h3>
