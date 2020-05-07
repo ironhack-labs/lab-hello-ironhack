@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,16 +19,23 @@ body{
 .mainSection{
     height: 90vh;
     background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .mainSection h1{
     color: white;
     font-size: 5em;
+    margin-left: 10vw;
 }
 
 .mainSection p{
     color: white;
     font-size: 1.5em;
+    margin-left: 10vw;
+    margin-top:2.5vh
 } 
 
 .mainSection button {
@@ -35,6 +44,9 @@ body{
     border: none;
     color:darkslategray ;
     font-size: 1.3em;
+    width:15vw;
+    margin-left: 10vw;
+    margin-top:10vh
     
 }
 .main{
@@ -44,11 +56,22 @@ body{
 .assets{
     display: flex;
     background-color: white;
+    justify-content: space-evenly;
 }
 .reactAssest{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    margin: 100px 0;
+    margin: 15vh 0;
+}
+.reactAssest img {
+    width:10vw;
+    margin-bottom: 3vh;
+    
+}
+
+.reactAssest p{
+    margin-top: 2vh;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
 }
