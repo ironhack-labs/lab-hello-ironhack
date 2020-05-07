@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+        font-family: 'Roboto', sans-serif;
+}
+
+
 * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main {
@@ -28,7 +34,7 @@
         font-weight: 700;
         width: 400px;
         top: 200px;
-    
+
 }
 
 .titleSpeech {
@@ -40,7 +46,7 @@
 }
 
 .awesomeBtn {
-        position : absolute;
+        position: absolute;
         width: 150px;
         height: 70px;
         font-size: 18px;
@@ -51,6 +57,11 @@
         top: 500px;
 }
 
+.reactLogo {
+        position: absolute;
+        margin-right: 0px;
+}
+
 .whiteFooter {
         display: flex;
         flex-wrap: wrap;
@@ -58,17 +69,25 @@
 }
 
 .whiteFooter div {
-        position: relative;
         /* border:1px dotted red; */
-        width: 150px;
-        height: 200px;
+        position: relative;
+        width: 160px;
+        height: 300px;
         margin-top: 90px;
         margin-left: auto;
         margin-right: auto;
 }
 
 .whiteFooter img {
+        /* border: 1px dotted green; */
         margin-bottom: 20px;
+        width: 100%;
+        margin-left: 0px;
+}
+
+.whiteFooter h3,
+p {
+        margin-left: 20px;
 }
 
 .whiteFooter h3 {

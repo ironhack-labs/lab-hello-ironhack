@@ -8,8 +8,8 @@ class Main extends React.Component {
     return (
       <article className="main">
         <nav className="topBar">
-          <img src="/starter-code/public/images/ironhack-logo.svg" />
-          <img src="../../public/images/menu-top.svg" />
+          <img src="/images/ironhack-logo.svg" />
+          <img src="/images/menu-top.svg" />
         </nav>
 
         <p className="titleText">Say hello to ReactJS</p>
@@ -17,6 +17,8 @@ class Main extends React.Component {
         <p className="titleSpeech">You will lear a Frontend framework from scratch, to become a Ninka Developer.</p>
 
         <Button className="awesomeBtn"/>
+
+        <img src="/images/react-logo.svg" className="reactLogo" />
       </article>
     );
   }
