@@ -5,7 +5,7 @@ function Footer(props) {
     <div>
       <img src={props.image} />
       <div>
-        <title>{props.title}</title>
+        <h2>{props.subtitle}</h2>
         <p>{props.text}</p>
       </div>
     </div>

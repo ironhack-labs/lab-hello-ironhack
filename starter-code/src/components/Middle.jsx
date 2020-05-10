@@ -3,8 +3,8 @@ import React from "react";
 function Middle(props) {
   return (
     <div>
-      <title>{props.title}</title>
-      <p>{props.paragraphe}</p>
+      <div className="title">{props.title}</div>
+      <div className="paragraphe">{props.paragraphe}</div>
     </div>
   );
 }
