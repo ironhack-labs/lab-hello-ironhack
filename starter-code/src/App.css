@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.react-logo {
+  float: right;
+  margin-top: 5rem;
+}
+
+.ih-logo {
+  margin-bottom: 5rem;
+}
+
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #1d233a;
+  padding: 70px;
+}
+.App p {
+  width: 200px;
+}
+
+.burger {
+  list-style: none;
+  float: right;
+}
+.line1 {
+  color: white;
+  background-color: white;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 10px;
+}
+.line2 {
+  color: white;
+  background-color: white;
+  width: 20px;
+  height: 3px;
+}
+.App button {
+  margin-top: 4rem;
+  width: 12rem;
+  height: 5.5rem;
+  border-radius: 5px;
+  color: #202536;
+  font-size: 20px;
+  background-color: white;
+  font-size: 2rem;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 150px 0;
+}
+.sections section {
+  width: 15%;
+}
+h1 {
+  font-size: 100px;
+  width: 50%;
+}
+p {
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+}
