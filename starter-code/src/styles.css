@@ -1,0 +1,11 @@
+*{
+    background-color: blue;
+}
+.body {
+    background-color: #1F2535;
+    background-position: top 220px right 10px, top 420px right 120px,
+      top 120px right 620px, top 620px left 410px;
+    background-repeat: no-repeat;
+    background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"),
+      url("/images/react-logo.svg"), url("/images/react-logo.svg");
+  }
