@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    /* margin: 1rem; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+}
+
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 99vw;
+}
+
+.background {
+    display: flex;
+    height: 100vh;
+    color: white;
+    background-color: #1F2535;
+    background-image: url(/images/react-logo.svg);
+    background-repeat: no-repeat;
+    background-position: right 35% bottom 45%;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* border: 1px solid purple; */
+}
+
+.text-box {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/images/react-logo.svg);
+    background-repeat: no-repeat;
+    background-position: right 15% top 95%;
+    /* border: 1px solid red; */
+}
+
+.title {
+    font-size: 6em;
+    /* border: 1px solid yellow; */
+}
+
+.text {
+    font-size: 3em;
+    /* background-image: url("/images/react-logo.svg"); */
+    /* border: 1px solid green; */
+}
+
+.btn {
+    font-size: 40px;
+    margin: 120px 150px 0 0;
+    max-width: 380px;
+    border-radius: 8px;
+    /* border: 1px solid purple; */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
