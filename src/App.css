@@ -2,3 +2,20 @@ body {
     background-color: black;
     color: white;
 }
+
+.bg-dark {
+    background-color: black !important;
+}
+
+#welcome-screen {
+    min-height: 60vh;
+    padding-bottom: 2rem;
+}
+
+#welcome-screen h1, button {
+    margin-left: 1rem;
+}
+
+#what-it-does {
+    background-color: white;
+}
