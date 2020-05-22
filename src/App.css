@@ -1,6 +1,11 @@
-.App {
+body {
     background-color: rgb(42, 48, 73);
-    height: 100vh;
     color: white;
-    /* background-image: url(../images/react-logo.svg); */
+}
+
+.App {
+    height: 100vh;
+    background-image: url("/images/react-logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
