@@ -42,6 +42,7 @@ class App extends Component {
                     <Header />
                     <div>
                         <h1 style={hStyle}> Say hello to <br />ReactJs!</h1>
+                        {/* <img style={{ float: "right" }} src="/images/react-logo.svg" alt="" /> */}
                         <p style={pStyle}>You will learn a Frontend<br /> framework from scratch,<br /> to become an Ninka Developer. </p>
                     </div>
                     <button style={btnStyle}>Awesome!</button>

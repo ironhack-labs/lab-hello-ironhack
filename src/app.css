@@ -1,7 +1,8 @@
 .App {
-    background-color: gray;
-    background-image: url("/images/react-logo.svg");
-    background-position: center;
+    background-color: #282c34;
+    background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg");
+    background-position: top left 50vw, left 60vw top 45vh, bottom left 50vw, top 25vh left 90vw, top 50vh left 90vw, top 75vh left 90vw;
+    background-size: 350px, 250px, 250px, 150px, 150px, 150px;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
