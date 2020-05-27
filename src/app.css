@@ -1,0 +1,64 @@
+.top {
+    margin: 10px;
+    padding: 40px;
+    background-color: rgb(31, 31, 46);
+    color: white;
+}
+.menu-top{
+    float: right;
+}
+
+.top-container {
+    font-size: 25px;
+    width: 350px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 100px;
+    line-height: 65px;
+}
+
+.top-p {
+    color: rgb(185, 185, 185);
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: white;
+    color: rgb(31, 31, 46);
+    margin: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-icons {
+    width: 24%;
+    font-size: 20px;
+}
+
+.icons {
+    width: 40%;
+    height: 35%;
+    align-self: ;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+p {
+    width: 65%;
+}
