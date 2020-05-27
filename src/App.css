@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container{
+    background-color: #181c2e;
+    box-sizing: border-box;
+    padding: 20px 80px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    /* background-color: darkcyan; */
+    padding-top: 15%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-logos{
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    height: 93vh;
+    width: 30vw;
+    margin-top: -11em;
+}
+
+.react-logos img{
+    mix-blend-mode: multiply;
+}
+.react-logos #react-1{
+    width: 80%;
+    margin-top: -60px;
+}
+
+.react-logos #react-2{
+    width: 50%;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.react-logos #react-3{
+    width: 50%;
+    margin-left: -50px;
+    margin-top: -25px;
+}
+
+.react-logos #react-4{
+    width: 30%;
+    margin-top: 45%;
+    margin-left: 60px;
+}
+
+.react-logos #react-5{
+    width: 30%;
+    margin-top: 8%;
+    margin-left: 70px;
+}
+.react-logos #react-6{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 55px;
+}
+
+
+
+h1{
+    /* background-color: darkcyan; */
+    width: 500px;
+    /* color: white; */
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.intro p{
+    margin-top: 5px;
+    width: 13em;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+button{
+    background-color: white;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+.cards-container{
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+}
+
+.card{
+    width: 15%;
+}
+.card img{
+    width: 90%;
+    margin-left: -10px;
+}
+
+.card h2{
+    margin: 10px 0 5px;
+}
+
+.card p{
+    color: grey;
+    font-weight: 300;
+}
