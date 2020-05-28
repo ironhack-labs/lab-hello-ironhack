@@ -1,0 +1,127 @@
+body {
+    width: 80%;
+    margin: 200px;
+}  
+
+h1 {
+    color: blanchedalmond;   
+    font-size: 110px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: white;
+    width: 40%;
+    font-weight: 1;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 15%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.dark-bkg {
+    background-color:rgb(39, 33, 65);
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px red; */
+    height: 700px;
+}
+
+.say-hello {
+    /* border: solid 1px red; */
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.react-logos {
+    /* border: solid 1px red; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.light-bkg {
+    /* border: solid 1px red; */
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* img {
+    border: solid 1px red;
+} */
+
+.img-react-logo {
+    background-color: rgb(39, 33, 65);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* border: solid 1px white; */
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+    justify-content: flex-end;
+}
+
+.big {
+    position: relative;
+    left: 200px;
+    top:50px;
+}
+
+.medium-1 {
+    position: relative;
+    left: 350px;
+    top:100px;
+}
+
+.medium-2 {
+    position: relative;
+    left: 100px;
+}
+
+.small {
+    margin: 15px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom:  0px;
+}
+
+h4 {
+    margin-top:  0px;
+}
