@@ -2,100 +2,110 @@
 
 * {
     font-family: 'Lato', sans-serif;
-    color: #fff;
     margin: 0;
     padding: 0;
 }
 
-.root {
-    width: 780px;
+.App {
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
 }
 
-.App {
-    width: 100%;
+.top,
+.bottom {
+    margin: 0 auto;
+}
+
+.top {
+    width: 780px;
+    height: 635px;
+    margin-top:20px;
+    color: #fff;
     background-color:#1f2535;
-    background-image: url('/public/images/react-logo.svg');
-    background-size: cover;
-    background-repeat: repeat;
+    background-image: url('/images/react-logo.svg');
     padding-left: 75px;
     padding-right: 55px;
     padding-bottom: 95px;
     position: relative;
 }
 
-.Header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    width: 100%;
     height: 75px;
 }
 
-.Header #logo {
+.header #logo {
     width: 47px;
 }
 
-.Header #menu {
+.header #menu {
     width: 28px;
 }
 
-.Article {
-    /* height: 390px; */
+.caption {
+    height: 390px;
     width: 420px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 75px;
+    bottom: 95px;
 }
 
-.Article h1 {
-    font-size: 66px;
+.caption h1 {
+    font-size: 76px;
     font-weight: 800;
-    margin-bottom: 20px;
 }
 
-.Article p,
-.Article a {
+.caption p,
+.caption a {
     font-size: 22px;
 }
 
-.Article p {
+.caption p {
+    width: 270px;
     font-weight: 100;
     margin-bottom: 75px;
 }
 
-.Article a {
-    font-weight: 500;
+.caption a {
+    font-weight: 600;
     text-decoration: none;
     background-color: #fff;
     padding: 26px;
     border: none;
     border-radius: 5px;
+    color: #000;
+    cursor: pointer;
 }
 
-.Card {
-    width: 100%;
+.bottom {
+    width: 910px;
+    height: 370px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 120px;
 }
 
-.eachCard {
+.theCard {
     width: 160px;
     display: block;
     text-align: left;
 }
 
-.eachCard img {
+.theCard img {
     width: 95px;
+    margin-bottom: 20px;
 }
 
-.eachCard h2 {
-    font-size: 20px;
+.theCard h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
-.eachCard p {
-    font-size: 14px;
+.theCard p {
+    font-size: 19px;
 }

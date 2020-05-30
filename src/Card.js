@@ -28,11 +28,14 @@ class Card extends Component {
 
         const showCard = (cards) => {
             cards.forEach(card => {
+                console.log(card.imgSrc);
+                console.log(card.h2);
+                console.log(card.p);
                 return (
                     <div className='eachCard'>
-                        <img src={imgSrc} />
-                        <h2>{h2}</h2>
-                        <p>{p}</p>
+                        <img src={card.imgSrc} />
+                        <h2>{card.h2}</h2>
+                        <p>{card.p}</p>
                     </div>
                 );
             });
