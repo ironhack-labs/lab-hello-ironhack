@@ -1,0 +1,37 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background:#1f2635;
+    color:white;
+}
+
+.top-nav .logo{
+    background: url(/images/ironhack-logo.svg) no-repeat center;
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.main{
+    max-width: 60%;
+}
+
+h1 {
+    font-size: 3rem;
+    max-width: 400px;
+}
+
+.textThin{
+    line-height: 2em;
+    font-weight:400;
+}
+
+button{
+    margin:20px 0;
+    font-size:1.5rem;
+    padding: 20px;
+    font-weight:700;
+}
