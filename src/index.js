@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import "./app.css"
+
+class Titulo extends Component {
+    render() {
+        return <h1>Hola {this.props.texto}</h1>
+    }
+}
 
 const myElement = <div>
     <div>
@@ -13,6 +19,7 @@ const myElement = <div>
         <p className="p1">Hello</p>
         <p className="p2">Hello</p>
     </div>
+    <Titulo texto="Alex" />
 </div>
 
 ReactDOM.render(myElement, document.getElementById('root'))
