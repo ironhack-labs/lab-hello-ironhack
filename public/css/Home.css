@@ -1,82 +1,83 @@
-body{
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .Home {
-  background-color:#1b2e5c;
-  background-image: url('../images/react-logo.svg');
-  background-repeat: repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
+	background-color: #1f2535;
+	background-image: url('/images/react-logo.svg');
+	background-repeat: space;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
 }
 
-.Menu{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+.Menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.Content{
-  margin-left:20px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
+.Content {
+	margin-left: 20px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
 }
 .Content span {
-  color: white;
-  font-weight: bold;
-  font-size: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
 }
-.Content p{
-  width: 300px;
-  color: white;
-  font-size: large;
+.Content p {
+	width: 300px;
+	color: white;
+	font-size: large;
 }
-.Content button{
-  width: 140px;
-  padding: 20px;
-  background-color: white;
-  color: #20232a;
-  border: 1px solid #20232a;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: large;
+.Content button {
+	width: 140px;
+	padding: 20px;
+	background-color: white;
+	color: #20232a;
+	border: 1px solid #20232a;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: large;
 }
-.Services{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  background-color: white;
-  color: #1b2e5c;
-  margin-top: 100px;
+.Services {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	background-color: white;
+	color: #1b2e5c;
+	margin-top: 100px;
 }
 
 @media screen and (min-width: 520px) {
-  .Content{
-    height: 600px;
-  }
-  .Content span {
-    font-size: 80px;
-  }
-  .Content p{
-    width: 300px;
-    font-size: x-large;
-  }
+	.Content {
+		height: 600px;
+	}
+	.Content span {
+		font-size: 80px;
+	}
+	.Content p {
+		width: 300px;
+		font-size: x-large;
+	}
 }
 
 @media screen and (min-width: 660px) {
-  .Menu{
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-  .Content{
-    margin-left:80px;
-  }
+	.Menu {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	.Content {
+		margin-left: 80px;
+	}
 }
