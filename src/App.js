@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Card from "./components/Card.js";
  
 class App extends Component {
   render() {
@@ -18,22 +19,10 @@ class App extends Component {
         </div>
         <div className="Bottom">
           <ul className="list">
-            <li><img src="/images/icon1.png"></img>
-              <h4>Declarative</h4>
-              <p>Some text</p>
-            </li>
-            <li><img src="/images/icon2.png"></img>
-              <h4>Components</h4>
-              <p>Some text</p>
-            </li>
-            <li><img src="/images/icon3.png"></img>
-              <h4>Single-way</h4>
-              <p>Some text</p>
-            </li>
-            <li><img src="/images/icon4.png"></img>
-              <h4>JSX</h4>
-              <p>Some text</p>
-            </li>
+            <Card pic="/images/icon1.png" title="Declarative" text="Some text"/>
+            <Card pic="/images/icon2.png" title="Components" text="Some text"/>
+            <Card pic="/images/icon3.png" title="Single-way" text="Some text"/>
+            <Card pic="/images/icon4.png" title="JSX" text="Some text"/>
           </ul>
         </div>
       </div>
