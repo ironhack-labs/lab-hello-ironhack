@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+#top {
+    background-color: black;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6em;
+    padding: 1.5em 0;
+}
+#text-zone {
+    padding: 4em 6em;
+}
+.title-top {
+    font-size: 6em;
+}
+.p-top {
+    font-size: 1.3em;
+}
+.button-top {
+    padding: 1em;
+    margin-top: 3em;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+}
+#bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em 5em 0 5em;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.card-text {
+    padding: 1em;
+}
