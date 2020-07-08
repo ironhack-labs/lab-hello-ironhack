@@ -5,8 +5,8 @@ import React, { Component } from 'react'
         return (
             <div>
                 <img src={this.props.cardImg}/>
-                <p>{this.props.cardTitle}</p>
-                <p>{this.props.cardBody}</p>
+                <p className="card-title">{this.props.cardTitle}</p>
+                <p className="card-text">{this.props.cardBody}</p>
 
             </div>
         )

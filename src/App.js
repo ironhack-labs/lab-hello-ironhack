@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import React, { Component } from "react";
 import Card from './components/Card.js'
 
@@ -8,9 +6,22 @@ class App extends Component {
 
     render(){
         return (
-                   <div className="card-container">
-                        <img src="/images/ironhack-logo.svg"/>
-                        <img src="/images/menu-top.svg"/>
+            
+            <div className="body">
+                <div>
+                <img className="menu" src="/images/menu-top.svg"/>
+                </div>
+                <div>
+                <img className="logo" src="/images/ironhack-logo.svg"/>
+                </div>
+                
+                <div>
+               
+                <h1 className="p1">Say hello to ReactJS</h1>
+                <h2 className="p2">You will learn a Frontend framework from scratch, to become a Ninja Developer</h2>
+                </div>
+                
+                <div className="card-container">
                         <Card 
                         cardTitle="Declarative"
                         cardBody="React makes it paitnless..." 
@@ -28,7 +39,9 @@ class App extends Component {
                         cardBody="STATICALLY-TYPED DESIGNED TO RUN ON MODERN BROWSERS" 
                         cardImg="/images/icon4.png"/>  
             
-                     </div>
+                </div>
+            </div>
+                        
             
         )
     }

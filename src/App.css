@@ -1,10 +1,52 @@
+.body {
+    background-color: #0f0620a8;
+    justify-content: center;
+
+
+}
+.menu{
+    padding-left: 35px;
+    padding-top: 20px;
+
+
+}
+
+
+.logo{
+    width: 50px;
+    padding-top: 20px;
+
+}
 .p1 {
-    font-size: large;
+    font-weight: 400px;  
+    width: 200px;
+    color: snow;
+
+
 
 }
 .p2 {
     font-size: medium;
+    width: 200px;
+    color: snow;
+
 }
 .card-container {
     display: flex;
+    font-size: 25px;
+    padding: 40px;
+
+
+}
+.card-title{
+    font-weight: bold;
+
+
+}
+
+.card-text{
+    color: snow;
+    width: 45%;
+
+
 }
