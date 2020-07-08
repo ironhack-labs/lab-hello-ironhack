@@ -1,0 +1,35 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menuLogo {
+    
+    text-align: right;
+    margin-right: 70px;
+}
+.ironLogo {
+    
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.textDiv {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.title {
+    font-size: 72px;
+}
+.paragraph {
+    font-size: 20px;
+}
+.awesomeButton {
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card {
+    width: 15%;
+}
