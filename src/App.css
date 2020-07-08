@@ -1,0 +1,10 @@
+.p1 {
+    font-size: large;
+
+}
+.p2 {
+    font-size: medium;
+}
+.card-container {
+    display: flex;
+}
