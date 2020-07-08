@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import "./app.css"
+import Card from './components/Card'
 
 class Titulo extends Component {
     render() {
@@ -9,17 +10,42 @@ class Titulo extends Component {
 }
 
 const myElement = <div>
-    <div>
-        <img src="/images/ironhack-logo.svg" />
+    <div className="banner"> 
+        <div className="navbar">
+            <img src="/images/ironhack-logo.svg" />
+            <img src="/images/menu-top.svg" />
+        </div>
+        <div className="banner-content">
+            <p className="p1">Hello</p>
+            <p className="p2">You will learn</p>
+            <button>Submit</button>
+        </div>
     </div>
-    <div>
-        <img src="/images/menu-top.svg" />
+    <div className="card-container">
+        <div className="card">
+            <Card cardTitle="Declarative" 
+            cardBody="React makes it painless to create inter UIs" 
+            cardImg="/images/icon1.png"/>
+        </div>
+
+        <div className="card">
+        <Card cardTitle="Components" 
+        cardBody="React makes it painless to create inter UIs" 
+        cardImg="/images/icon2.png"/>
+</div>
+
+<div className="card">
+        <Card cardTitle="Single way" 
+        cardBody="React makes it painless to create inter UIs" 
+        cardImg="/images/icon3.png"/>
+  </div>
+  <div className="card">
+        <Card cardTitle="JSX" 
+        cardBody="React makes it painless to create inter UIs" 
+        cardImg="/images/icon4.png"/>
+ </div>
     </div>
-    <div>
-        <p className="p1">Hello</p>
-        <p className="p2">Hello</p>
-    </div>
-    <Titulo texto="Alex" />
+    
 </div>
 
 ReactDOM.render(myElement, document.getElementById('root'))

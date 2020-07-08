@@ -6,3 +6,34 @@
     font-size: 48px;
 
 }
+.banner {
+    color: #fff;
+    background-color: rgb(24, 24, 53);
+    padding: 20px 40px;
+}
+.banner button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img {
+    height: 50px;
+    width: 50px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    
+}
