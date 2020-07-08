@@ -3,12 +3,6 @@ import ReactDOM from 'react-dom'
 import "./app.css"
 import Card from './components/Card'
 
-class Titulo extends Component {
-    render() {
-        return <h1>Hola {this.props.texto}</h1>
-    }
-}
-
 const myElement = <div>
     <div className="banner"> 
         <div className="navbar">
@@ -16,36 +10,34 @@ const myElement = <div>
             <img src="/images/menu-top.svg" />
         </div>
         <div className="banner-content">
-            <p className="p1">Hello</p>
-            <p className="p2">You will learn</p>
-            <button>Submit</button>
+            <p className="p1">Say hello to ReactJS</p>
+            <p className="p2">You will learn a Frontend framework from scratch, to become an Ninka Developer!</p>
+            <button>Awesome!</button>
         </div>
     </div>
     <div className="card-container">
-        <div className="card">
-            <Card cardTitle="Declarative" 
-            cardBody="React makes it painless to create inter UIs" 
-            cardImg="/images/icon1.png"/>
-        </div>
-
-        <div className="card">
+    
+        <Card cardTitle="Declarative" 
+        cardBody="React makes it painless to create inter UIs" 
+        cardImg="/images/icon1.png"
+        />
+     
         <Card cardTitle="Components" 
         cardBody="React makes it painless to create inter UIs" 
-        cardImg="/images/icon2.png"/>
-</div>
+        cardImg="/images/icon2.png"
+        />
 
-<div className="card">
         <Card cardTitle="Single way" 
-        cardBody="React makes it painless to create inter UIs" 
-        cardImg="/images/icon3.png"/>
-  </div>
-  <div className="card">
+        cardBody="React makes it painless to create inter UIs"
+        cardImg="/images/icon3.png"
+        /> 
+
+ 
         <Card cardTitle="JSX" 
         cardBody="React makes it painless to create inter UIs" 
-        cardImg="/images/icon4.png"/>
- </div>
+        cardImg="/images/icon4.png"
+        />    
     </div>
-    
 </div>
 
 ReactDOM.render(myElement, document.getElementById('root'))

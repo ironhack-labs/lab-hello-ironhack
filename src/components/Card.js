@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class Card extends Component {
     render() {
         return (
-            <div>
+            <div className="card">
                 <img src={this.props.cardImg} />
-                <p>{this.props.cardTitle}</p>
+                <h2>{this.props.cardTitle}</h2>
                 <p>{this.props.cardBody}</p>
             </div>
         )
