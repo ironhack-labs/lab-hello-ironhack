@@ -1,0 +1,12 @@
+.titulo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #18385C;
+    margin-left: 25px;
+}
+
+.texto{
+    color:#485B7D;
+    width: 45%;
+    margin-left: 25px;
+}

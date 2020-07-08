@@ -1,0 +1,39 @@
+.arriba{
+    background-color: #18385C;;
+    color: white;
+    padding-bottom: 35px;
+    padding-left: 35px;
+   
+}
+
+.navBar{
+    display: flex;
+    padding-top: 15px;
+}
+
+.p1{
+    font-size: 50px;
+    width: 300px;
+}
+
+.p2{
+    font-size: 24px;
+    width: 250px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.boton{
+    background-color: white;
+    color: #18385C;
+    border-radius: 3px;
+    border: none;
+    padding: 16px;
+    font-weight: bold;
+
+
+}
