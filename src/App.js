@@ -3,6 +3,24 @@ import "./App.css"
 import Card from "./components/Card"
 import Boton from "./components/Boton"
 
+const cards = [
+    {
+        cardTitle:"Declarative",
+        cardBody:"React makes it painless to create interactive UIs",
+        cardImage:"/images/icon1.png",
+    },
+    {
+        cardTitle:"Components" ,
+        cardBody:"Build encapsulated components that manage their state", 
+        cardImage:"/images/icon2.png"
+    },
+    {
+        cardTitle:"JSX",
+        cardBody:"Statically-typed, designed to run on modern browsers",
+        cardImage:"/images/icon4.png"
+    }
+]
+
 class App extends Component {
     render() {
         return (<div>
@@ -18,22 +36,9 @@ class App extends Component {
             </div>
             </div>
             <div className="card-container">
-                <Card 
-                    cardTitle="Declarative" 
-                    cardBody="React makes it painless to create interactive UIs" 
-                    cardImage="/images/icon1.png"/>
-                <Card 
-                    cardTitle="Components" 
-                    cardBody="Build encapsulated components that manage their state" 
-                    cardImage="/images/icon2.png"/>
-                <Card 
-                    cardTitle="Single-Way" 
-                    cardBody="A set of immutable values are passed to the components" 
-                    cardImage="/images/icon3.png"/>
-                <Card 
-                    cardTitle="JSX" 
-                    cardBody="Statically-typed, designed to run on modern browsers" 
-                    cardImage="/images/icon4.png"/>
+                {
+                    cards.map(card => <Card cardTitle={card.cardTitle} cardBody={card.cardBody} cardImage={card.cardImage}/>)
+                }
             </div>
         </div>);
     }
