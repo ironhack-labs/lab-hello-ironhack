@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './app.css';
+import Card from './components/Card';
 
 const mydiv = (
     <div className="main">
@@ -23,26 +24,22 @@ const mydiv = (
         </section>
 
         <div className="boxes">
-            <div className="component">
-                <img src="/images/icon1.png" />
-                <h4>Declarative</h4>
-                <p>React makes it <br></br>painless to create <br></br>interactive UIS.</p>
-            </div>
-            <div className="component">
-                <img src="/images/icon2.png" />
-                <h4>Components</h4>
-                <p>Build encapsulated <br></br>components that <br></br>manage their state.</p>
-            </div>
-            <div className="component">
-                <img src="/images/icon3.png" />
-                <h4>Single-Way</h4>
-                <p>A set of immutable <br></br>values are passed to <br></br>the component's.</p>
-            </div>
-            <div className="component">
-                <img src="/images/icon1.png" />
-                <h4>JSX</h4>
-                <p>Statically-typed,<br></br>designed to run on<br></br>modern browsers.</p>
-            </div>
+            <Card
+                cardTitle="Declarative"
+                cardBody="React makes it painless to create painlessinteractive UIS."
+                cardImg="/images/icon1.png" />
+            <Card
+                cardTitle="Components"
+                cardBody="Build encapsulated components that manage their state."
+                cardImg="/images/icon2.png" />
+            <Card
+                cardTitle="Single-Way"
+                cardBody="A set of immutable values are passed to the component's."
+                cardImg="/images/icon1.png" />
+            <Card
+                cardTitle="JSX"
+                cardBody="Statically-typed, designed to run on modern browsers."
+                cardImg="/images/icon1.png" />
         </div>
     </div>
 
