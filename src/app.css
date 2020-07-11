@@ -1,0 +1,24 @@
+.p1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    line-height: 1em;
+    padding-top: 30px;
+}
+
+.p2 {
+    font-size: medium;
+    color: white;
+    font-size: 26px;
+    font-weight: 200;
+    max-width: 300px;
+    line-height: 1.2em;
+}
+
+.cards {
+    display: flex;
+}
+
+.one-card {
+    padding: 30px;
+}
