@@ -1,0 +1,44 @@
+
+.hero{
+    height: 70%;
+    width:100%;
+    background-color: rgb(31,37,53);
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.msg{
+    width:50%;
+    margin-left: 100px;
+    padding: 5%;
+}
+.p1{
+    font-size: 72px;
+}
+.p2{
+    font-size: 30px;
+}
+.btn{
+    background-color: white;
+    padding:20px;
+    margin: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.card-container{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 30vh;
+}
+
+.card{
+ width: 20%;
+margin: 20px;
+}
