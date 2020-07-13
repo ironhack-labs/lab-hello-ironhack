@@ -1,0 +1,27 @@
+.background-icons{
+    background-color: white;
+}
+
+.icons{
+    display: flex;
+	justify-content: space-between;
+    color: black;
+    margin: 20px 80px;
+      
+}
+
+.icons img{
+    justify-content: center;
+    align-items: center;
+}
+
+.icons h2{
+    justify-content: center;
+    align-items: center;
+}
+
+.icons p{
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
