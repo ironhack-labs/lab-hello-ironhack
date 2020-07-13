@@ -1,0 +1,38 @@
+.hero {
+    background-color: #1f2736;
+    height: 80vh;
+    padding: 0 50px;
+    background-image: url("./react-logo.svg");
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.white {
+    color: white
+}
+
+.button {
+    background-color: white;
+    padding: 15px 30px;
+}
+
+.navbar {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+
+.main-title h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+    width: 40%;
+}
+
+.main-title p {
+    margin-bottom: 80px;
+    font-size: 1.2em;
+    font-weight: 100;
+    width: 70%;
+}
