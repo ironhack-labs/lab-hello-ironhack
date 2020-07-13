@@ -1,0 +1,53 @@
+.top-logos {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+h1{
+    padding-top: 80px;
+    width: 450px;
+    padding-left: 40px;
+    font-size: 5rem;
+    color: white;
+}
+
+p{
+    padding-left: 40px;
+    color: white;
+    width: 300px;
+    font-size: 1.5rem;
+
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    
+}
+
+.images-bot{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.text-bot{
+    margin-top: 50px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+small{
+    font-size: 1.2rem;
+    text-align: center;
+    color: grey;
+}
+
