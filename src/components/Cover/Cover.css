@@ -1,0 +1,21 @@
+.cover {
+    text-align: left;
+    width: 50%;
+    margin-right: auto;
+    padding-left: 150px;
+    margin-top: 0;
+}
+
+.cover h1 {
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.cover button {
+    padding: 20px;
+    border-radius: 10%;
+    color: #282c34;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
