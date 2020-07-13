@@ -1,0 +1,7 @@
+.nav-style {
+
+    background-color: #1c2845;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 65px;
+}

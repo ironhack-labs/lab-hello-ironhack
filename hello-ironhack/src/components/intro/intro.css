@@ -1,0 +1,19 @@
+.intro-style {
+
+    background-color: #1c2845;
+    color: white;
+    padding-top: 85px;
+    padding-left: 65px;
+    padding-right: 400px;
+    padding-bottom: 75px;
+}
+
+.intro-h1 {
+
+    width: 280px;
+    font-size: 50px;
+}
+
+.intro-p {
+    width: 200px;
+}
