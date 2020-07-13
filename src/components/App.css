@@ -1,0 +1,29 @@
+.App {
+    min-height: 90vh;
+}
+
+body{
+    background-color: #282c34;
+    margin: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+
+.foot{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    color: black;
+
+}
+
+.foot img{
+    width: 5%;
+}
