@@ -1,0 +1,12 @@
+nav {
+    background-color:rgb(31, 37, 53);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+
+}

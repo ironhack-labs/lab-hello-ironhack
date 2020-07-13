@@ -1,0 +1,14 @@
+section {
+    margin-top: 150px;
+}
+
+h4 {
+    color: rgb(31,37,53);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.2em;
+    width: 70%;
+}
