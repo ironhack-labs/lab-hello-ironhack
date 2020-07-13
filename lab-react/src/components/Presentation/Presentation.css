@@ -1,0 +1,53 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgNav {
+    margin: 50px 100px;
+    width: 3.5em;
+}
+
+.background {
+    background-color: #322C42;
+    height: 100vh;
+}
+
+.pr {
+    display: flex;
+}
+
+.textPr {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 100px;
+}
+
+.textWhite {
+    color: white;
+}
+
+.title {
+    font-size: 6em;
+}
+
+.subtitle {
+    font-size: 3em;
+}
+
+.button{
+    display: inline-block;
+    width: 170px;
+    font-size: 1.5em;
+    padding: 5px 25px;
+    background-color: white;
+    color: #322C42;
+    font-weight: 3em; 
+}
+.reactLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}

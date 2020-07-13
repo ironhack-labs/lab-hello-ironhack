@@ -1,0 +1,23 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.imgArt {
+    width: 100px;
+}
+
+.cardsSection {
+    margin: 100px 20px;
+}
