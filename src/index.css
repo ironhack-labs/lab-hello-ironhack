@@ -1,0 +1,58 @@
+#content {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  background: #1e2536;
+  color: white;
+  padding: 30px 5% 30px;
+  height: 600px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 0.9;
+  margin: 100px 0 20px;
+}
+
+#awesome {
+  padding: 20px;
+  background: white;
+  color: #1e2536;
+  width: fit-content;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+#hello {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#advantages {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 30px 100px;
+}
+
+.advantage-block {
+  width: 20%;
+}
+
+.advantage-block p {
+  font-weight: lighter;
+  color: #1e2536;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #1e2536;
+}
