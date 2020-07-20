@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.sp-btw {
+	justify-content: space-between;
+}
+
+.centered {
+	justify-content: center;
+}
+
+/* TOP SECTION */
+
+.main {
+	height: 650px;
+	width: 100%;
+	padding: 2% 6%;
+}
+
+.bg-dark {
+	background-image: url("/images/react-logo.svg");
+	background-color: rgb(35, 38, 63);
+	background-repeat: repeat;
+}
+
+.main .box-title {
+	margin: 100px 0px 60px;
+	width: 50%;
+	color: white;
+}
+
+.main .title {
+	font-size: 70px;
+	line-height: 70px;
+}
+
+.main .box-subtitle {
+	width: 70%;
+	font-size: 25px;
+	font-weight: 200;
+}
+
+.main .btn {
+	padding: 20px;
+	width: fit-content;
+	background-color: white;
+	border-radius: 5px;
+	color: rgb(35, 38, 63);
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* LOW SECTION */
+
+.articles {
+	padding: 100px 50px;
+}
+
+.articles .box {
+	width: 200px;
+	margin: 0 25px;
+}
+
+.articles .illustration {
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.articles .subtitle {
+	margin-bottom: 10px;
+}
+
+.articles .content {
+	font-size: 18px;
+	font-weight: 300;
+}
