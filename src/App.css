@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(3, 2, 27);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.toto {
+  color: red;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+#main_container {
+    position: relative;
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main {
+  box-sizing: border-box;
+  padding-top: 10vh;
+  padding-right: 20vw;
+  width: 50vw;
+
+  height: 60vh;
+  color: white;
+}
+
+#react_background { 
+  box-sizing: border-box;
+  width: 40vw;
+  height: 60vh;
+}
+
+#react_top {
+position: absolute;
+width: 35vw;
+top: 0vh;
+left: 35vw;
+
+}
+
+#react_middle {
+    position: relative;
+    top: 30vh;
+    left: 7vw;
+    width: 20vw;
+}
+
+#react_bottom {
+    position: relative;
+    top: 50vh;
+    left: -25vw;
+    width: 15vw;
+}
+.column {
+    height: 60vh;
+    position: relative;
+    top: 10vh;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+}
+
+.column img {
+    width: 10vw;
+}
+
+
+.btn_awesome {
+  margin-top: 10vh;
+  height: 2.5rem;
+  width: 10rem;
+}
+
+#features {
+  padding-left: 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+  background: white;
+  color: black;
+}
+
+.feature_item {
+  width: 15vw;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.feature_item img {
+  width: 15vw;
+}
