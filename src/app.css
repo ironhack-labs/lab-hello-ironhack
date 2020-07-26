@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+#root, .appContainer {
+    height: 100%;
+}
+
+.ironNavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ironHero {
+    background-color: #20232A;
+    height: 70%;
+    
+}
+
+.awesomeBtn {
+    padding: 10px;
+    width: 128px;
+    height: 60px;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ironCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 20%;
+}
+
+.cardTitle{
+    color: black;
+    width: 50%;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.textoCard {
+    width: 50%;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+
+
