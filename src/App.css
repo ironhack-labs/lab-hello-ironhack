@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 855px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+header{
+    height: 100px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.top-section{
+    background-color: #1F2635;
+    min-height: 705px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-bottom: 92px;
+    position: relative;
+}
+
+.top-section:after{
+    content: "";
+    width: 14%;
+    height: 61%;
+    background-image: url(/images/react-logo.svg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.top-section [class*="bgLogo"]{
+    position: absolute;
+    background-image: url(/images/react-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.top-section .bgLogo1{
+    width: 350px;
+    height: 318px;
+    top: 50px;
+    right: 22%;
+}
+
+.top-section .bgLogo2{
+    width: 237px;
+    height: 204px;
+    bottom: 25%;
+    right: 15%;
+}
+
+.top-section .bgLogo3{
+    width: 237px;
+    height: 204px;
+    bottom: 10%;
+    right: 31%;
+}
+
+.heroBanner{
+    max-width: 492px;
+    position: relative;
+    z-index: 1;
+}
+
+.heroBanner_box h1{
+    font-size: 7.8rem;
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 5px;
+    font-family: 'PT Sans Caption', serif;
+}
+
+.heroBanner_box p{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: #fff;
+    margin: 0 0 5px;
+    font-weight: 300;
+}
+.heroBanner_box button{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    color: #1F2635;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 60px;
+}
+
+main{
+    padding: 161px 94px;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features .card{
+    justify-content: flex-start;
+    margin-right: 64px;
+    width: calc(25% - 64px);
+}
+
+.features .card_icon{
+    width: 105px;
+    height: 105px;
+    overflow: hidden
+}
+
+.features .card_icon img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transform: scale(1.25);
+}
+
+.features .card_title{
+    font-size: 2.4rem;
+    color: #1F2635;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.features .card_description{
+    font-size: 1.5rem;
+    color: #1F2635;
+}
+
+@media (max-width: 667px){
+    .container{
+        max-width: 300px;
+    }
+
+    main{
+        padding: 80px 42px
+    }
+
+    .features{
+        flex-flow: column;
+    }
+
+    .features .card{
+        justify-content: flex-start;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .features .card:last-child{
+        margin-bottom: 0;
+    }
+
+    .features .card_icon{
+        width: 100%;
+        height: auto;
+        margin-bottom: -21px;
+    }
+
+    .features .card_content{
+        padding-left: 5px;
+    }
+
+    .features .card_description{
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    .features .card_title{
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+}
