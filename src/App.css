@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+.Banner {
+  background-color: #031d40;
+  padding: 0 30px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+}
+
+.Banner h1 {
+  color: white;
+  font-size: 60px;
+  width: 30%;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.Banner p {
+  color: white;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.Banner button {
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  color: #031d40;
+}
+
+.Info {
+  border: 2px solid yellow;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Box {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid red;
+}
+
+.Box img {
+  width: 120px;
+}
+
+.Box h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Box p {
+  color: grey;
+  width: 70%;
+  margin: 10px 0;
+}
