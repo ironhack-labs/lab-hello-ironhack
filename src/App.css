@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+#blue-container {
+  background-color: #1F2635;
+  color: white;
+  margin: 0;
+  padding: 1rem 2rem 3rem 3rem
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 5rem 0rem;
+}
+
+#title {
+  margin-bottom: 0;
+}
+
+#message {
+  margin-top: 7px;
+  margin-bottom: 2rem
+}
+
+#message-container {
+  width: 30%;
+}
+
+#awesome-button {
+  padding: 0.7rem;
+}
+
+#concept-container {
+  display: flex;
+  margin: 6rem 4rem;
+}
+
+#concept-container img {
+  width: 100px;
+}
+
+#concept-container div {
+  margin: 30px
+}
+
+#concept-container p {
+  color: grey;
+}

@@ -1,0 +1,15 @@
+i1
+npm install
+create folder dist and src
+do /public/index.html
+
+i2
+npm install react@16.3.2 react-dom@16.3.2
+do /src/index.js
+
+i3 
+add Read, ReactDOM & App(div id root) => index.js
+do /src/App.js and /src/App.css
+import React, components & css->App.js and .ccs
+create a class extending from components all "html" that we need and "ccs" to style and render
+
