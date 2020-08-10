@@ -1,0 +1,74 @@
+html {
+
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-papa {
+    display: flex;
+   flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    background-color: #252850;
+    color: white;
+    width: 100%;
+    height: 75vh;
+}
+.p-container {
+    width: 200px;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.top-part {
+    line-height: 1.3;
+}
+
+.ih-img {
+    width: 25px;
+    padding-top: 1rem;
+}
+
+.navbar-menu {
+    width: 15px;
+    padding-left: 47.5rem;
+}
+.awesome {
+    width: 95px;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1.3rem;
+    border-radius: 3px;
+    border-style: none;
+    font-weight: 500;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.card-container {
+    margin-top: 5rem;
+    background-color: white;
+    width: 20%;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+.card-container>img{
+    height: 75px;
+    width: 75px;
+}
