@@ -1,0 +1,45 @@
+body {
+  margin: 2% 5%;
+  background-color: #031e3a;
+  font-family: "Roboto", sans-serif;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main h1 {
+  color: white;
+  font-size: 5em;
+  width: 50%;
+  margin-bottom: 0;
+}
+.main p {
+  color: white;
+  width: 20%;
+  font-style: normal;
+  font-size: 1.2em;
+}
+.main button {
+  height: 50px;
+  font-weight: bold;
+  width: 8%;
+}
+.info {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.info :first-child {
+  margin-left: 6%;
+}
+.info p {
+  text-align: left;
+  width: 75%;
+  color: grey;
+}
+.info h5 {
+  font-size: 1.5em;
+  margin: 1%;
+}
