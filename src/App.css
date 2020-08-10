@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  margin-bottom: 10%;
+  margin-left: 11%;
+}
+
+#title h1 {
+  font-size: 70px;
+  margin-right: 70%;
+}
+
+#title p {
+  font-size: 30px;
+  margin-right: 75%;
+}
+
+#title button {
+  padding: 23px;
+  background-color: white;
+  border: 1px solid lightslategray;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+#container-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.article {
+  margin-right: 10%;
+}
+
+.article img {
+  width: 80%;
+  height: 48%;
+}
+
+.article p {
+  margin-top: 5px;
+}
+.article h2 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
