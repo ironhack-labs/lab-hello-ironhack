@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+.presentation-container{
+  background-color: #1F2635;
+  color: white;
+  margin: 0;
+  padding: 1rem 2rem 3rem 3rem
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 5rem 0rem;
+}
+
+#title {
+  margin-bottom: 0;
+}
+
+#message {
+  margin-top: 7px;
+  margin-bottom: 2rem
+}
+
+#message-container {
+  width: 30%;
+}
+
+#awesome-button {
+  padding: 0.7rem;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.card {
+  border: 0px;
+  margin: 0 5px;
+}
+
+.card img{
+  width: 100px;
+}
