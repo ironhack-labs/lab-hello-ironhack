@@ -1,0 +1,48 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .PartI {
+      width: 1500px;
+      height: 550px;
+      background-color: rgb(29, 33, 47);
+      color: white;
+      text-decoration: bold;
+      margin-left: 50px;
+  }
+
+  .Text {
+    margin-left: 150px;
+    padding-top: 150px;
+    font-size: 75px;
+    width: 400px;
+  }
+
+  .SubText {
+    margin-left: 150px;
+    width: 300px;
+    text-decoration: none;
+  }
+
+  .Button {
+    margin-left: 150px;
+    height: 50px;
+    width: 90px;
+    font-size: 15px;
+   
+    }
+  
+
+  .PartII {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 30px;
+}
+
+  .Component {
+    width: 200px;
+  }
