@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: dimgray;
+  color: white;
+  font-family: 'roboto';
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  justify-content: space-between; 
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 640px;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+p {
+  font-size: xx-large;
+}
+
+button {
+  padding: 1rem 2rem;
+  background: white;
+  border: none;
+  border-radius: .5rem;
+}
+
+/* 
+.text {
+  display: inherit;
+  gap: 1rem;
+} */
