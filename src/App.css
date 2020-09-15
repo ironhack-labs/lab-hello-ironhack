@@ -1,0 +1,93 @@
+.flex
+{
+  background-color: #0d2b4fd1; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex > div
+{
+  margin: 0 300px 0 350px
+}
+
+.mainSection{
+  background-color: #0d2b4fd1; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.textReact
+{ 
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+.textReact > h1{
+  font-size:4rem;
+  margin-left: 13%;
+  width: 380px;
+}
+
+.textReact > p{
+  width:250px;
+}
+
+.textReact > a{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-left:-12%;
+}
+
+.logoReact
+{
+  width:50%;
+  height: 500px;
+  background-image: url("/images/react-logo.svg");
+}
+
+.features
+{
+  background-color: white;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features > div{
+  margin: 100px 0px 100px 0;
+  padding: 40px;
+  width:200px;
+  display:flex;
+  flex-direction: column;
+}
+
+.features > div > img{
+  width:100px;
+  align-self: center;
+}
+
+.features div > h3{
+  color:gray;
+  font-size:30px;
+}
+
+.features div > p{
+  width:200px;
+  font-size:20px;
+  color: black;
+}
