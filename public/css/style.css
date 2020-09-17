@@ -1,12 +1,60 @@
 body {
-  background-color: brown;
+  padding: 0 2% 0 2%;
+}
+
+#btn {
+  height: max-content;
+  font-size: xxx-large;
+  padding: 10px;
 }
 
 #main-content {
+  height: 500px;
+  padding: 20px;
+  background-color: #000000d1;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#left-text {
+  padding: 75px;
+}
+
+#left-text h1 {
+  color: white;
+  font-size: xxx-large;
+}
+
+#left-text p {
+  color: white;
+  font-size: x-large;
 }
 
 #right {
   background: url("../images/react-logo.svg");
-  background-repeat: repeat-y;
+  background-repeat: round;
+  width: 40%;
+}
+
+#picture-row {
+  display: flex;
+  flex-flow: row;
+  align-items: normal;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#picture-row h3 {
+  font-size: xx-large;
+  margin-top: auto;
+}
+
+.pic-div {
+  width: min-content;
+}
+
+#picture-row p {
+  font-size: larger;
+  margin-top: -20px;
 }
