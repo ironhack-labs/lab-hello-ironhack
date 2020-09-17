@@ -1,0 +1,12 @@
+body {
+  background-color: brown;
+}
+
+#main-content {
+  display: flex;
+}
+
+#right {
+  background: url("../images/react-logo.svg");
+  background-repeat: repeat-y;
+}
