@@ -1,7 +1,7 @@
 body{
     width: 80%;
     margin: 0 auto;
-    /* background-color: rgb(24,28,40); */
+    background-color: rgb(38, 44, 63);
 }
 
 nav{
@@ -16,6 +16,36 @@ main{
     height: 500px;
     margin: 25px, auto;
 }
+
+.logo1{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    width: 15%;
+}
+
+.logo2{
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    width: 20%;
+}
+
+.logo3{
+    position: absolute;
+    right: 500px;
+    top: 300px;
+    width: 20%;
+}
+
+.logo4{
+    position: absolute;
+    right: 50px;
+    top: 500px;
+    width: 10%;
+}
+
+
 
 h1{
     width: 50%;
