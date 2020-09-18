@@ -1,0 +1,67 @@
+
+body{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-center;
+    background-color: rgb(38, 44, 63);
+
+}
+
+main{
+    color: rgb(232, 232, 232);
+    background-color: rgb(38, 44, 63);
+    height: 500px;
+    margin: 25px, auto;
+    justify-content: center;
+}
+
+
+
+
+h1{
+    width: 50%;
+    font-size: 5rem;
+    word-wrap: wrap;
+}
+
+h3{
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+button{
+    padding: 20px;
+    margin-top: 5%;
+}
+
+button a{
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+.container{
+    
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box{
+    width:20%;
+    margin: 30px;
+    color: grey;
+}
+
+
+  
