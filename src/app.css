@@ -1,67 +1,78 @@
 
 body{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
 }
 
 nav{
     margin-top: 10px;
     display: flex;
-    justify-content: space-center;
+    justify-content: space-between;
     background-color: rgb(38, 44, 63);
 
 }
-
+/* Main section*/
 main{
     color: rgb(232, 232, 232);
     background-color: rgb(38, 44, 63);
-    height: 500px;
+    height: 45%;
     margin: 25px, auto;
-    justify-content: center;
+    justify-content: center; 
+    padding: 2% 5%;
 }
-
-
-
 
 h1{
     width: 50%;
     font-size: 5rem;
     word-wrap: wrap;
+    line-height: 0.9;
 }
 
-h3{
-    width: 30%;
+h4 {
+    width: 20%;
     font-size: 1.5rem;
+    word-wrap: wrap;
 }
 
 button{
-    padding: 20px;
-    margin-top: 5%;
+    padding: 15px;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    font-weight: 3.5em;
 }
 
-button a{
-    font-weight: bold;
-    font-size: 1rem;
-    color: black;
-    text-decoration: none;
+.header {
+    width: 400px;
 }
+
+/*Section*/
+
 .container{
-    
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 10% auto;
     display: flex;
-    flex-direction: row;
-
+    padding: 10% 5%;
+    justify-content: space-around;
 }
 
 .box{
-    width:20%;
-    margin: 30px;
-    color: grey;
+    letter-spacing: 2px;
+    max-width: 180px;
+    
 }
 
-
-  
+.box > p {
+    font-weight: lighter;
+    max-width: 180px;
+    color : rgb(128,128,128)
+    
+  }
+.box > img {
+    max-width: 150px;
+   
+}
+.box-heading {
+    margin-bottom: 5px;
+    line-height:0.9 ;
+    padding:-0.9%;
+}
