@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: rgb(46, 46, 46);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+/* Hero Section */
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-color: #1F2635;
+  background-image: url('/images/react-logo.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero__text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #fff;
+}
+
+.hero__text-heading {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 0.9;
+  margin-bottom: 10px;
+}
+
+.hero__text-subheading {
+  font-size: 2rem;
+  font-weight: 300;
+  width: 400px;
+}
+
+.hero__btn {
+  position: absolute;
+  top: 85%;
+  transform: translate(0, -85%);
+  background: #fff;
+  padding: 20px 25px;
+  color: #1F2635;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.hero__btn:hover {
+  background: rgb(207, 207, 207);
+  cursor: pointer;
+}
+
+/* Featured Section */
+
+.featured-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.feature__box {
+  flex: 0 1 200px;
+}
+
+.feature__box-img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.feature__box-info {
+  padding-left: 10px;
+}
+
+.feature__box-heading {
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  margin-bottom: 10px;
+}
+
+.feature__box-text {
+  color: rgb(131, 131, 131);
+  letter-spacing: .1rem;
+}
