@@ -1,9 +1,11 @@
 {
   "name": "starter-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
     "webpack": "webpack-dev-server --progress --color",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,9 +19,23 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "style-loader": "^0.23.0",
     "webpack": "^4.6.0",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynn-w-b/lab-hello-ironhack.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lynn-w-b/lab-hello-ironhack/issues"
+  },
+  "homepage": "https://github.com/lynn-w-b/lab-hello-ironhack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1"
   }
 }

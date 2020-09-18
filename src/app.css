@@ -1,0 +1,146 @@
+
+body {
+  font-family: "Roboto Black 900", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #1f2635;
+  padding: 2% 5%;
+}
+
+.jumbo {
+  display: flex;
+}
+.mainContent {
+  width: 50%;
+}
+
+.mainContent > div {
+  margin: 10% 0;
+}
+
+.mainContent > div > h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+.mainContent > div > p {
+  color: white;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+.mainContent > button {
+  padding: 3% 4%;
+  font-size: medium;
+  font-weight: bold;
+  background: white;
+  color: #1f2635;
+  border: none;
+  border-radius: 0.6rem;
+  margin-bottom: 10%;
+}
+
+nav {
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageBottom {
+  padding: 10% 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.description > h2 {
+  color: #1f2635;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}
+
+.description > p {
+  font-weight: lighter;
+  line-height: 1.5rem;
+  max-width: 13rem;
+}
+
+.description > img {
+  max-width: 75%;
+}
+
+.logoPositioning {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.backgroundLogos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo1 {
+  width: 100%;
+  height: 150%;
+  background-image: url("/images/react-logo.svg");
+  background-size: 18rem;
+  background-position: 0% 100 %;
+  background-repeat: no-repeat;
+}
+
+.logo2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/react-logo.svg");
+  background-size: 12rem;
+  background-position: 110% 85%;
+  background-repeat: no-repeat;
+}
+
+.logo3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/react-logo.svg");
+  background-size: 12rem;
+  background-position: 10% 80%;
+  background-repeat: no-repeat;
+}
+
+.backgroundLogos2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo4 {
+  width: 100%;
+  height: 100%;
+  background-size: 8rem;
+  background-image: url("/images/react-logo.svg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.logo5 {
+    width: 100%;
+    height: 100%;
+    background-size: 8rem;
+    background-image: url("/images/react-logo.svg");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+.logo6 {
+    width: 100%;
+    height: 100%;
+    background-size: 8rem;
+    background-image: url("/images/react-logo.svg");
+    background-position: 100% 70%;
+    background-repeat: no-repeat;
+  }
