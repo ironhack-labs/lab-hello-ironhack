@@ -1,0 +1,112 @@
+body {
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+}
+
+.title-screen {
+    background-color: rgb(31, 36, 51);
+    padding: 10px 50px;
+    width: calc(100vw - 100px);
+    height: 80vh;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#logo {
+    margin: 5px;
+}
+
+#menu-top {
+    margin: 5px;
+}
+
+.title {
+    max-width: 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    line-height: 90px;
+    letter-spacing: -0.025em;
+    margin: 0;
+    drop-shadow: 10px 10px 30px -20px rgba(0,0,0,0.75);
+}
+
+h2 {
+    color: white;
+    font-weight: 200;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    drop-shadow: 10px 10px 30px -20px rgba(0,0,0,0.75);
+    width: 60%;
+}
+
+.button {
+    display: inline-block;
+    background-color: white;
+    padding: 20px 40px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(37, 41, 61);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    drop-shadow: 10px 10px 20px -10px rgba(0,0,0,0.75);
+}
+
+.feature-screen {
+    padding: 120px 50px;
+    width: calc(100vw - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-card {
+    min-width: 250px;
+    max-width: 300px;
+}
+
+h3 {
+    color: rgb(82, 82, 82);
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 0em;
+}
+
+p {
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+    letter-spacing: 0.045em;
+    line-height: 1.3em;
+}
+
+#icon {
+    margin-bottom: 0;
+}
+
+#background-logo-1 {
+    position: absolute;
+    height: 30%;
+    right: 80px;
+}
+#background-logo-2 {
+    position: absolute;
+    height: 20%;
+    right: 40px;
+    top: 280px;
+}
+#background-logo-3 {
+    position: absolute;
+    height: 30%;
+    right: 140px;
+    top: 440px;
+}
