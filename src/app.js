@@ -73,7 +73,7 @@ const App = () => {
           </h1>
           <div style={subTitle}>
             You will learn Frontend <br />
-            framework from scracht, to <br />
+            framework from scratch, to <br />
             become a Ninja Developer.
           </div>
         </div>
