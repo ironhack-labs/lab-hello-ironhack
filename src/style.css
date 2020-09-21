@@ -1,0 +1,22 @@
+.background_logo {
+    background-color:darkblue;
+    background-image: url('/images/react-logo.svg');
+    height:80vh;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn{
+    height:10vh;
+    width:20vh;
+}
