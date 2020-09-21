@@ -1,13 +1,16 @@
 body {
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 button{
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
     font-size: large;
     margin-top: 50px;
     margin-left: 40px;
+    border-radius: 5px;
+    border: none;
 }
 
 nav {
@@ -15,13 +18,19 @@ nav {
     justify-content: space-between;
 }
 
+.container1{
+    height: 700px;
+    
+    
+}
+
 h1 {
-    font-size: 100px;
+    font-size: 75px;
     margin-left: 40px;
 }
 
 #parrafo{
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 40px;
 }
 
@@ -35,3 +44,19 @@ h1 {
     padding-top: 30px;
 }
 
+.container{
+    background-color: white;
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes {
+    padding: 50px;
+}
+
+.container img{
+    width: 125px;
+}
