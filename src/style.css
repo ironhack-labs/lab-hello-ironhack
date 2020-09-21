@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 2%;
+}
+.images{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    display: inline-block;
+    color: black;
+    height: 50px;
+    width: 15%;
+    font-size: large;
+    border-radius: 12px;
+}
+.up {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.down {
+margin: 5%;
+}
