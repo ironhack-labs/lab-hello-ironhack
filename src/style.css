@@ -1,0 +1,26 @@
+body {
+    color: white;
+    height: 70vh;
+    width: 70vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 10%
+}
+.container {
+    background-color: #1F2635;
+    height: 70vh;
+    width: 80vh;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    
+}
