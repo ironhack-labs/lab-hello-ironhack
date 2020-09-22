@@ -1,0 +1,48 @@
+.main {
+    background-color: #1e2333;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-around;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 50px 0 0 40px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    padding: 0 40px;
+    margin-top: 0;
+}
+
+.btn-div {
+    padding: 50px 40px;
+}
+
+button {
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.textcard, h3 {
+    text-align: left;
+    padding: 0 25px;
+}
+
