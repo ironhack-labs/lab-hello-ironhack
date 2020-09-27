@@ -1,54 +1,68 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# React | React Landing Page
+## Available Scripts
 
-## Introduction
+In the project directory, you can run:
 
-We just learned the basics about creating a **Hello World** app in React, so we will use this exercise to re-do what we just learned (and hopefully to add some style :blossom: ).
+### `yarn start`
 
-<!--  ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3e87cc1f09c32a09911a65d94c1bd4f0.png) -->
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Requirements
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-- Fork this repo
-- Clone this repo
+### `yarn test`
 
-## Submission
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Upon completion, run the following commands:
+### `yarn build`
 
-  ```
-  git add .
-  git commit -m "done"
-  git push origin master
-  ```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Create Pull Request so your TAs can check up your work.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Instructions
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Iteration 1 | Initial set up
+### `yarn eject`
 
-Let's start with the basics: as you can see `public` folder is already there and it has some images in it. Let's add the folders you will need for the project: `dist` and `src`. Also, remember to create an `index.html` file, where you will have the entry point of the application. (Refer to the lesson to see where `index.html` suppose to be.)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### Babel and Webpack
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Our project needs to have two important packages that are necessary for compiling: `Babel` and `Webpack`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-But don't worry, we took care of it. As well as of `webpack.config.js` file. :heavy_check_mark:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Iteration 2 | Create the app
+## Learn More
 
-You are ready to start creating your React app. First, add the packages you need (**react@16.3.2 react-dom@16.3.2**). And then create an `index.js` file (refer to the lesson to see where this file suppose to be).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Iteration 3 | First Landing Page
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Finally, let's create our landing page. In the `public` folder, you will find all the assets you need to recreate the following landing page:
+### Code Splitting
 
-<!-- ![home](https://user-images.githubusercontent.com/23629340/43718926-863a3c7a-998c-11e8-803b-7c9bc87425bb.png) -->
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_2c5c24ee05aa5fa68a76eee564ad44ee.png)
+### Analyzing the Bundle Size
 
-For now, don't worry about creating more than one component, we will cover that in the following lessons!
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-Happy coding! :heart:
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
