@@ -1,0 +1,58 @@
+
+.App-header {
+  background-color: #282c34;
+  height: 600px; 
+  color: white;
+}
+
+.App-header h1 {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 5em; 
+}
+.App-header h3 {
+  margin-top: -50px;
+  margin-left: 50px;  
+  font-size: 1.5em; 
+  font-weight: normal;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.nav-center {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin-left: 50px;
+  padding: 25px 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  color: #282c34;
+}
+
+.features {
+  display: flex;
+  margin-left: 50px;
+}
+.features img {
+  margin-left: -20px;
+}
+
+.features div{
+  width: 25%;
+}
+
+
+
+.features p{
+  width: 150px;
+  text-align: justify;
+}
