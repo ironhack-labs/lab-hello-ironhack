@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.Button {
+  margin-left: 40px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.Button h1 {
+  font-size: 100px;
+  width: 50%;
+  margin-bottom: 0;
+}
+
+.Button p {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.Button button {
+  padding: 30px 50px;
+  margin-top: 40px;
+}
+.Features {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px;
+}
