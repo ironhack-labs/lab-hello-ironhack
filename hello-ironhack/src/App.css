@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.main-text {
+    display: flex;
+    background-image: url('../public/react-logo.svg');
+    backdrop-filter: invert(80%); 
+    color: white;
+    height: 650px;
+}
+
+.App-logo {
+  height: 60px;
+}
+
+a {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+    width: 40%;
+    margin-left: 40px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+section>article {
+    text-align: center;
+}
+
+section>article>p {
+    width: 95%
+}
+
+.App-intro {
+  font-size: large;
+}
