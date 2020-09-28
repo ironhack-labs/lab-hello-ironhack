@@ -1,0 +1,73 @@
+*{
+    font-family: sans-serif;
+}
+
+.firstSection {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+    padding: 0 100px;
+    margin-top: 100px;
+   
+}
+
+h1 {
+    font-size: 5.5em;
+    width: 25%;
+    margin: 0;
+}
+
+.welcome p {
+    width: 20%;
+    line-height: 40px;
+    font-size: 1.7em;
+    padding-bottom: 50px;
+}
+
+.welcome a{
+    width: 10%;
+    text-align: center;
+    padding: 35px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.secondSection {
+    background-color: lightgray;
+    color: black;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.secondSection article {
+    width: 16%;
+    padding: 30px;
+}
+
+.secondSection p {
+    font-size: 1.4em;
+    width: 60%;
+}
+
+.secondSection h2 {
+    font-size: 2em;
+}
