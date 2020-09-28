@@ -1,0 +1,52 @@
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+nav {
+background-color:#1f2535;
+padding: 2% 2% 5% 5%;
+display: flex;
+justify-content: space-between;
+}
+
+.nav-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.main {
+  background-color:#1f2535;
+  padding-left: 5%;
+  padding-bottom: 50px;
+}
+
+.main p {
+  font-size: 1.2em;
+}
+
+.main button {
+  padding: 10px 15px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 0.25em;
+}
+
+.features {
+  padding: 10% 0;
+  background-color: white;
+  color: #1f2535;
+  padding-left: 5%;
+}
+
+.features p {
+ color: grey;
+}
