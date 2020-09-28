@@ -1,0 +1,76 @@
+
+.top-content{
+
+  background-color: #273446;
+  background-image: url("/images/react-logo.svg");
+  
+  background-repeat: repeat-y;
+  background-position: right;
+  padding-bottom: 100px;
+
+
+}
+.navbar {
+
+ display:flex;
+ justify-content: space-between;
+ padding: 25px 40px 20px 80px
+}
+.button-sec{
+
+  margin-top: 150px;
+  margin-left: 80px;
+  
+  color: white;
+}
+.button-sec h1{
+  margin:0;
+  font-size: 80px;
+  width: 60%;
+}
+.button-sec p{
+  margin:0;
+  width: 40%;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.button-sec a{
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 14px;
+  color:#282c34;
+  font-weight: bold;
+  background-color: white;
+  text-decoration: none;
+  
+}
+.features{
+
+  background-color: white;
+  margin-top: 100px;
+  
+  padding-left: 90px;
+  display: flex;
+  flex-direction: row;
+
+}
+.features img{
+
+  width:120px
+}
+.features h4{
+  margin-top: 8px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.features p{
+  margin-top: 8px;
+  padding-top: 0px;
+  margin-bottom: 150px;
+  padding-left: 10px;
+  color: grey;
+  width: 60%;
+
+}
