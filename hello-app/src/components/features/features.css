@@ -1,0 +1,22 @@
+.featureDesign  {
+    width: 25%;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.featureDesign img {
+    width: 130px;
+    
+}
+
+.featureDesign h3 {
+   color: #1f2635;
+   font-size: 1.3rem;
+   
+   margin-bottom: 5px;
+}
+
+.featureDesign p {
+    color: grey;
+    margin-top: 0;
+}
