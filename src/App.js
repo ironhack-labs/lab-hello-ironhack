@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/styles.css";
-
 import Header from "./Header";
 import HeroText from "./HeroText";
 import Feature from "./Feature";
@@ -56,5 +55,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
