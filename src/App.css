@@ -1,0 +1,68 @@
+html body{
+    margin:0px;
+    border: 0px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navy{
+    background-color: rgb(31, 31, 51);
+    /* background-image: url('../public/images/react-logo.svg'); */
+    color: white;
+    padding: 20px 70px 70px 70px;
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+
+.superBold{
+    font-size: 78px;
+    font-weight: 700;
+}
+
+.titlePosition{
+    width:60%;
+   
+}
+.titlePosition>p{
+    font-size: 20px;
+    width:70%;
+   
+}
+
+.titlePosition>button{
+  width: 30%;
+  height: 50px; 
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(31, 31, 51); 
+   
+}
+
+.miniDivs{
+   
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.eachDiv{
+   width: 23%;
+   padding: 10px;
+}
+.eachDiv>h4{
+    font-size: 24px;
+    margin:5px 15px;
+ }
+ .eachDiv>p{
+   
+    margin:5px 15px;
+    color: rgb(129, 129, 129);
+ }
+
+ .eachDiv>img{
+    width: 150px;
+ }
