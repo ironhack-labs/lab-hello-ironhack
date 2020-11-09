@@ -1,0 +1,72 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .wrapper {
+    padding: 0px;
+    margin:0px;
+    background-color: #242937;
+  }
+
+  .toprow {
+    padding: 25px auto;
+
+  }
+
+  .flexTop {
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .mainh1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    margin-top:75px;
+  }
+
+  .mainp {
+    color: white;
+    font-weight: 100;
+  }
+
+.btn-awe {
+    padding:15px 20px;
+    border: 1px solid #242937;
+    color: #242937;
+    background-color: white;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    transition: all 0.3s ease-in-out;
+  }
+
+.btn-awe:hover {
+  background-color: #242937;
+  color: white;
+  border: 1px solid white;
+}
+
+img.box {
+  max-width:80%;
+  margin-top:100px;
+  margin-bottom:20px;
+}
+
+.title, .description {
+  padding-left:20px;
+}
+
+.title {
+  color: #1b1f2e;
+}
+
+.description {
+  color: #979797;
+}
+
+.root {
+  margin-bottom: 100px;
+}
