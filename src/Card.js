@@ -31,16 +31,15 @@ const cardList = data.map( element => {
 
 })
 
-class Card extends Component {
-    render() {
+const Card = ({img, title, description}) =>  {
         return (
-            <div className="on-line">
+            // <div className="on-line">
                 <div>
-                    <img src="/images/icon1.PNG" />
-                    <h2>Declarative</h2>
-                    <p>React makes it painless to create interactive UIs</p>
+                    <img src={img} />
+                  <h2>{title}</h2>
+                    <p>{description}</p>
                 </div>
-                <div>
+                /* <div>
                     <img src="/images/icon2.PNG" />
                     <h2>Components</h2>
                     <p>Build encapsulted components that manage their state.</p>
@@ -54,11 +53,10 @@ class Card extends Component {
                     <img src="/images/icon4.PNG" />
                     <h2>JSX</h2>
                     <p>Statically-typed, designed to run on modern browsers.</p>
-                </div>
+                </div> */
 
-            </div>
+            // </div>
         )
-    }
 }
 
 export default Card
