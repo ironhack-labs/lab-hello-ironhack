@@ -1,0 +1,43 @@
+.header{
+    background-color: #1B2631;
+    padding: 0 60px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.textoImagen{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    float: left;
+    width: 28%;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.boton{
+    padding-bottom: 40px;
+}
