@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0px
+}
+
+.child {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 0;
+}
+
+.child img {
+    width: 140px;
+}
+
+.child h2{
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.child p{
+    font-size: 20px;
+  
+}
+.textdiv {
+    width: 65%;
+}
+
+nav {
+    background-color: rgb(32, 37, 52);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.ihlogo{
+    margin: 20px 60px;
+    width: 50px
+}
+.barritas{
+    margin: 20px 60px;
+    
+}
+
+main {
+    height:550px;
+    /* background-color: rgb(32, 37, 52); */
+    background: url(/images/react-logo.svg) rgb(32, 37, 52) bottom center space ;
+}
+
+h1{
+    font-size: 94px;
+    font-weight: bold;
+    color:white;
+    padding: 60px 0 30px;
+    
+}
+
+.h1div{
+    width:30%;
+    margin: 0px 90px
+}
+main p{
+    color: white;
+    font-size: 26px;
+   
+}
+
+.textodiv{
+    margin: 0px 90px;
+    width:20%;
+}
+
+.botondiv {
+    margin: 70px 90px 0;
+}
+
+.botondiv a{
+    padding: 20px;
+    background-color: white;
+    color: rgb(32, 37, 52);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    border-radius: 6px;
+}
+
