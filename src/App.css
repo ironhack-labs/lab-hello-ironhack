@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto';
+}
+
+.section1{
+    margin: 20px;
+    padding: 10px;
+    height: 100%;
+    border: 2px solid #1f2535;
+    background-color: #1f2535;
+    background-image: url("/menuBarImage");
+}
+
+.section1 h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.topVar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.details-top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details-top-div{
+    width: 400px;
+
+}
+
+.details1{
+    width: 450px;
+    margin: 50px;
+}
+
+.details2{
+    width: 550px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.details-top-div h2{
+    font-size: 80px;
+    color: white;
+}
+
+.details2 h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+}
+
+.details-top-div3{
+    width: 400px;
+}
+
+.details2 button{
+    width: 150px;
+    height: 70px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1f2535;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-section2 img{
+    width: 120px;
+    height: 120px;
+}
+
+.div-section2 h3{
+    font-size: 25px;
+    color: #1f2535;
+}
+
+.div-section2 p{
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.div-section2{
+    padding: 80px;
+    padding-top: 30px;
+    margin: 10px;
+    text-align: center;
+}
