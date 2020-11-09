@@ -1,0 +1,55 @@
+header {
+    background-color: rgb(43, 45, 82);
+    padding: 30px;
+}
+
+h1{
+    color:white;
+    width: 50%;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+h2 {
+    color:white;
+    width: 50%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+p{ 
+    font-size: 12px;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: white;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+button a {
+    color: rgb(43, 45, 82);
+}
+
+.card img{
+   width: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: right;
+    padding: 20px 0 40px 0;
+    margin:15px;
+}
+
+.card.container {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
