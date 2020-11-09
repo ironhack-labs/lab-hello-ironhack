@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.backgroundMain{
+    display: flex;
+    flex-direction: column;
+   background-color: #1A223D ;
+   color: #fff;
+   width: 100%;
+   height: 87vh;
+   padding: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.contaierText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 240px;
+    height: 80vh;
+}
+.h1{
+    font-size: 60px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.btnContainer{
+    margin-top: 40px;
+}
+
+.btn{
+    width: 50%;
+    padding: 17px;
+}
+.logoReact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.logo1{
+    display: flex;
+    align-self: center;
+    width: 80%;
+    margin-right: 100px;
+}
+.logo2{
+    display: flex;
+    width: 50%;
+    align-self: flex-end;
+    margin-right: 60px;
+}
+.logo3{
+    display: flex;
+    height: 70px;
+    align-self: center;
+    margin-right: 200px;
+}
+
+.cardsContainer{
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    color: black;
+    margin: 90px;
+}
+
+.cards{
+    display: flex;
+}
+
+
