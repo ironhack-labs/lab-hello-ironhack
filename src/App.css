@@ -1,0 +1,43 @@
+.sectionbackground{
+  
+    background: url("/images/react-logo.svg") #1F2535;
+    height: 500px;
+} 
+
+.nav{
+    background-color:#1F2535;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.divsection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0; 
+    height: 300px;
+}
+
+.divsection div{
+    width: 250px;
+    margin: 20px;
+}
+
+h1  {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+p {
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.button{
+    font-size: 30px;
+    margin: 50px;
+}
