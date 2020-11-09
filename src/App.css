@@ -1,0 +1,67 @@
+* {
+    font-family: Cera Bold, Texta Narrow, Monrad Grotesk Bold,sans-serif;
+}
+
+.background {
+    color: white;
+    background-color: #1E2333;
+    background-image: url("/images/react-logo.svg");
+
+ }
+ 
+ .features {
+     display: flex;
+     padding-top: 100px;
+     justify-content: space-evenly;
+ }
+ 
+ nav {
+     display: flex;
+     justify-content: space-between;
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 15px;
+ }
+ 
+ h1  {
+     font-size: 90px;
+     padding-left: 40px;
+ }
+ 
+ h3 {
+     padding-left: 40px;
+     text-align: left;
+     letter-spacing: 2px;
+ }
+
+ .features h3 {
+    padding: 0px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+ 
+
+
+ button {
+    margin-left: 40px;
+    padding: 11px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border-radius: 2px;
+    border: #1E2333;
+    background-color: white;
+    color: #1E2333;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+ 
+p {
+    width: 170px;
+    margin-top: -10px;
+    color: gray;
+    text-align: left;
+    letter-spacing: 1px;
+
+}
