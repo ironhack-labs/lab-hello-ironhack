@@ -1,0 +1,46 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.background {
+    background-color: rgb(32,37,52);
+    height: 650px;
+}
+.nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 15px
+}
+.landingPage {
+    display:flex;
+    flex-direction: row;
+}
+.section {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    margin-left: 50px;
+}
+.img1 {
+    width: 350px;
+}
+.img2 {
+    width: 200px;
+}
+.img3 {
+    width: 80px
+}
+.title {
+    color: white;
+
+}
+h1 {
+    font-size: 72px;
+}
+p {
+    font-size: 25px;
+}
+.img_box {
+    width: 140px;
+}
+
