@@ -1,0 +1,14 @@
+.on-line p {
+    color: black
+}
+
+.on-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px
+}
+
+.on-line div {
+    padding: 30px;
+}

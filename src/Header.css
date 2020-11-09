@@ -1,0 +1,36 @@
+.background-header {
+    background-image: url("/images/react-logo.svg");
+    background-color: #465375;
+    background-repeat: repeat;
+    padding: 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    width: 50%
+}
+
+.background-header p {
+    color: white;
+    width: 50%;
+    padding-bottom: 30px
+}
+
+button {
+   background-color: white; 
+   border: none;
+   width: 100px;
+   height: 40px;
+   border-radius: 4px;
+}
+
+.top-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
