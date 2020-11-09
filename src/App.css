@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+
+#root{
+    background-color: darkblue;
+    width: 100wh;
+    height: 600px;
+}
+
+.textos{
+    color: white;
+    padding: 3rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+.boton {
+    margin-bottom: 20px;
+}
+
+.segundo div{
+    background-color: white;
+}
