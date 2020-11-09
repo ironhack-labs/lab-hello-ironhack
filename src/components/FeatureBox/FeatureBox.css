@@ -1,0 +1,21 @@
+.featureBox{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+    align-content: stretch;
+    margin:20px;
+margin-bottom:100px;
+}
+.featureBox>p{
+    max-width: 150px;
+    color:grey;
+    margin:0px;
+}
+.featureBox>h2{
+    margin-bottom:10px;
+}
+.featureBox>img{
+    width: 150px;
+}

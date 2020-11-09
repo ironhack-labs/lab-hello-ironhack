@@ -1,0 +1,13 @@
+.FeaturesPanel{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+body{
+    margin:0px;
+    font-family: Helvetica, Arial, sans-serif;
+}

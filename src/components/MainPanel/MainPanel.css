@@ -1,0 +1,29 @@
+.MainPanel {
+    background-color: rgb(31,37,53);
+    margin:10px;
+    padding:30px 50px 70px 100px;
+    color:white;
+    margin-bottom:100px;
+
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+
+}
+.MainPanel>button{
+    padding: 10px 20px;
+    color:rgb(31,37,53);
+    font-size: larger;
+    font-weight:700;
+}
+.MainPanel>p{
+    max-width: 250px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+.MainPanel>h1{
+    margin-top:100px;
+    max-width: 400px;
+    font-size: 50pt;
+}
