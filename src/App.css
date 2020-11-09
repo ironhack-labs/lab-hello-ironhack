@@ -1,0 +1,18 @@
+body{
+    background-color: orange;
+    margin: 0;
+}
+.intro{
+    padding: 2rem;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    height: 20px; 
+
+}
