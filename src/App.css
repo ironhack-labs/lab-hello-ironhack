@@ -1,0 +1,59 @@
+body{
+    color: white;
+    font-family: sans-serif;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .section {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    width: 150px;
+  }
+
+  .section img{
+    width: 100px;
+  }
+
+  .top{
+      background-image: url('/images/react-logo.svg');
+      background-color: #242A38;
+      margin: 20px 30px;
+  }
+
+  .top nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .top img{
+      width: 50px;
+      margin: 30px 60px;
+      color: white;
+  }
+
+  .topTop{
+      display: flex;
+      flex-direction: column;
+      font-size: 3rem;
+      margin: 0px 60px;
+      width: 900px;
+  }
+
+
+  button{
+      margin: 0px 0px 50px 60px;
+      background-color: white;
+      font-size: 1rem;
+      color: #242A38;
+      height: 80px;
+      width: 150px;
+      border-radius: 1em;
+  }
