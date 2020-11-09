@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-intro{
+    padding-left: 5%;
+    background: #1f2535 url("/images/react-logo.svg");
+    
+}
+
+.section-intro h1{
+    padding-top: 7%;
+    color:white;
+    font-size: 60px;
+}
+
+.section-intro h2{
+    padding-top: 2%;
+    color:white;
+    font-size: 18px;
+    padding-right: 80%;
+    text-decoration: none;
+
+}
+
+.button{
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color:#1f2535;
+    margin-bottom: 5%;
+}
+
+.section-logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.section-logos h3{
+    font-size: 30px;
+    color: grey;
+}
+
+.section-logos p{
+    font-size: 20px;
+    color: grey;
+}
+
+.logos-container{
+
+}
+
+.logos-container p{
+    padding-right: 100px;
+}
