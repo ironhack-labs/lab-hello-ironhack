@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #1f2535;
+    position: fixed;
+    width: 100%;
+}
+
+#header > nav {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 4vw;
+}
+
+#banner {
+    background-color: #1f2535;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+    color: #fff;
+    padding: 20px 4vw;
+}
+
+#banner > h1 {
+    font-size: 6em;
+    max-width: 550px;
+    margin: 0;
+}
+
+#banner > p {
+    max-width: 550px;
+    font-size: 1.4em;
+}
+
+#banner > a {
+    color: #1f2535;
+    background-color: #fff;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: transform .3s;
+}
+
+#banner > a:hover {
+    transform: scale(1.05);
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 85px 0;
+}
+
+#features > div {
+    width: 25%;
+    max-width: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#features > div > img {
+    margin: -15px;
+    width: 95%;
+}
+
+#features > div > h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+#features > div > p {
+    margin: 0;
+    color: #777;
+}
+
+@media only screen and (max-width: 768px) {
+    #banner > h1 {
+        font-size: 4em;
+    }
+    
+    #banner > p {
+        font-size: 1.2em;
+    }
+
+    #features > div {
+        width: 50%;
+    }
+}
