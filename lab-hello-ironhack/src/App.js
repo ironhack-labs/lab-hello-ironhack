@@ -37,7 +37,7 @@ function App() {
           <div className='card-container'>
             <img src='/images/icon4.png' alt=""/>
             <h3>JSX</h3>
-            <p>Statucakky typed designed to run on modern browsers.</p>
+            <p>Statically typed designed to run on modern browsers.</p>
           </div>
 
 
