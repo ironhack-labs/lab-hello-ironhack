@@ -1,0 +1,35 @@
+.NavBar{
+    background-color: #282c34;
+    padding: 25px 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 100px;
+    line-height: .9em;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.col{
+    width:40%;
+}
+
+button{
+    color: #282c34;
+    height: 4em;
+    width: 8em;
+    border-radius: 10%;
+    font-weight: 600;
+    background-color: white;
+    margin: 10% 0 10%;
+}
+

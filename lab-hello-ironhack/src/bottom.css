@@ -1,0 +1,21 @@
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+.logo-top{
+    width: 120px;
+}
+.card{
+    margin: 10% 4%;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    color: gray;
+}
