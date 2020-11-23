@@ -8,12 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <img src={image} style={{width: '300px',
-        border: '2px solid red'}}/>
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={image} style={{width: '500px'
+        }}/>
 
       </header>
     </div>
