@@ -1,0 +1,10 @@
+.jumbotron {
+  background-color: #1f2535 !important;
+  color: white;
+  background-image: url("../assets/react-logo.svg");
+}
+
+.btn-primary {
+  background-color: white;
+  color: #1f2535;
+}
