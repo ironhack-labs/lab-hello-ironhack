@@ -1,0 +1,12 @@
+.Content{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardStyles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    
+}

@@ -1,11 +1,45 @@
 // 1.- importaciones
 import React, { Component } from "react";
+import "./App.css"
+import Cardlist from "./components/Cardlist"
 
 export default class App extends Component{
     render(){
+        const logo = "./images/icon1.png"
+        const logo_uno = "./images/icon2.png"
+        const logo_dos = "./images/icon3.png"
+        const logo_tres = "./images/icon4.png"
         return(
-            <h1> LABORATORIO IRON HACK REACT </h1>
+            <div>
+            <h1> Say hello to ReactJS</h1>
+
+            
+            
+            <Cardlist
+            title= "IMAGEN_1"
+            descript="Componente de pagina"
+            img={logo}
+            />
+            <Cardlist
+            title= "IMAGEN_2"
+            descript="Componente de pagina"
+            img={logo}
+            />
+            <Cardlist
+            title= "IMAGEN_3"
+            descript="Componente de pagina"
+            img={logo}
+            />
+            <Cardlist
+            title= "IMAGE_4"
+            descript="Componente de pagina"
+            img={logo}
+            />
+            </div>
             )
+            
+            
+        
     }
 }
 
