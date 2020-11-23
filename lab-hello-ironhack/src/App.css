@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 39);
+}
+.header img {
+  padding: 15px 30px
+}
+.section-one {
+  color: white;
+  background-color: rgb(0, 0, 39);
+  min-height: 90vh;
+  padding: 100px;
+}
+.section-one h1{
+  width: 20rem;
+}
+.section-one p{
+  width: 17rem;
+}
+.section-one button {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.section-two {
+  padding: 100px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-container {
+  padding: 5px 30px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
