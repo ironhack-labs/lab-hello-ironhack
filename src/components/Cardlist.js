@@ -7,7 +7,7 @@ export default class Cardlist extends Component{
             <div className ="cardStyles">
             <img src={img}/>
             <h3> {title}</h3>
-            <span> {descrip} </span>
+            <h5> {descrip} </h5>
             </div>
             
             )

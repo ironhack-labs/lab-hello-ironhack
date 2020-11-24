@@ -9,31 +9,35 @@ export default class App extends Component{
         const logo_uno = "./images/icon2.png"
         const logo_dos = "./images/icon3.png"
         const logo_tres = "./images/icon4.png"
+        const iron_logo = "./images/ironhack-logo.svg"
+
         return(
             <div>
+            
+            <div className="logo">
             <h1> Say hello to ReactJS</h1>
-
+           <img src={iron_logo} width="300" height="300" />
             
-            
+            </div>
             <Cardlist
-            title= "IMAGEN_1"
+            title= "Declarative"
             descript="Componente de pagina"
             img={logo}
             />
             <Cardlist
-            title= "IMAGEN_2"
+            title= "Components"
             descript="Componente de pagina"
-            img={logo}
+            img={logo_uno}
             />
             <Cardlist
-            title= "IMAGEN_3"
+            title= "Single - Way"
             descript="Componente de pagina"
-            img={logo}
+            img={logo_dos}
             />
             <Cardlist
-            title= "IMAGE_4"
+            title= "JSX"
             descript="Componente de pagina"
-            img={logo}
+            img={logo_tres}
             />
             </div>
             )
