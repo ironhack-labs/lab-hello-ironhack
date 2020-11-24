@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <img src={image} style={{width: '500px'
         }}/>
-
+        
       </header>
     </div>
   );
