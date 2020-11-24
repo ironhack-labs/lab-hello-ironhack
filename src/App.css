@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.App {
+    font-family: Helvetica, sans-serif;
+}
+
+#menu {
+    background-color: #1e2741;
+    position: fixed;
+    width: 100%;
+}
+
+#menu > nav {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30 px;
+}
+
+#banner {
+    background-color: #1e2741;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 750px;
+    color: white;
+    padding: 30px;
+}
+
+#banner > h1 {
+    margin: 0;
+    font-size: 5.5em;
+    max-width: 600px;
+}
+
+#banner > p {
+    max-width: 400px;
+    font-size: 1.5em;
+}
+
+#banner > a {
+    font-weight: 800;
+    font-size: 1.5em;
+    font-variant-caps: all-petite-caps;
+    text-decoration: none;
+    color: #1f2535;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 20px;
+}
+
+#features > div {
+    width: 25%;
+    max-width: 150px;
+    padding: 15px;
+}
+
+#features > div > img {
+    width: 80%;
+}
+
+#features > div > h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #1e2741;
+}
+
+#features > div > p {
+    margin: 0;
+    color: gray;
+}
