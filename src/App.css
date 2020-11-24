@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+  h1,
+  h2,
+  h3,
+  p {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  img {
+    width: 22%;
+    object-fit: contain;
+    padding: 1rem;
+  }
+
+  #blueRect {
+    background-image: url("./images/blue.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60em;
+    height: 40em;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    color: white;
+  }
+
+  h1 {
+    font-size: 80px;
+    line-height: 65px;
+    margin-top: 40px;
+  }
+
+  #blueRect {}
+
+  h2 {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+
+  #letrasBlancas {
+    display: flex;
+    align-items: left;
+
+  }
+
+  #parrafosBlancos {
+    display: flex;
+    align-items: left;
+
+  }
+
+  #button4 {
+    background-color: #e7e7e7;
+    color: black;
+  }
