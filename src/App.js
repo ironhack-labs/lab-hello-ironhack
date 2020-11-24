@@ -31,25 +31,34 @@ function App() {
      <section id="threeElements">
        <div class="h2-wrapper">
          <div class="container">
-           <img src={icon1} alt="Millions of Songs on Spotify"/>
+           <img src={icon1} alt="pic"/>
            <h3> Declarative</h3>
-           <p> There are millions of songs on Spotify</p>
+           <p> React makes it</p>
+           <p> painless to create</p>
+           <p> interactive UIs</p>
+
          </div>
          <div class="container">
-         <img src={icon2} alt="Millions of Songs on Spotify"/>
+         <img src={icon2} alt="pic"/>
 
            <h3> Components</h3>
-           <p>Listen to music as if you were listening live</p>
+           <p>Build encapsulated</p>
+           <p>components that</p>
+           <p>manage their state</p>
          </div>
          <div class="container">
-         <img src={icon3} alt="Millions of Songs on Spotify"/>
+         <img src={icon3} alt="pic"/>
            <h3>Single Ways</h3>
-           <p> Stream music on your smartphone, tablet or computer</p>
+           <p> A set of inmutable</p>
+           <p> values are passed to </p>
+           <p>the component</p>
          </div>
          <div class="container">
-         <img src={icon4} alt="Millions of Songs on Spotify"/>
+         <img src={icon4} alt="pic"/>
            <h3>JSX</h3>
-           <p> Stream music on your smartphone, tablet or computer</p>
+           <p> Statucally-typed</p>
+           <p> designed to run on </p>
+           <p> modern browsers</p>
          </div>
        </div>
      </section>
