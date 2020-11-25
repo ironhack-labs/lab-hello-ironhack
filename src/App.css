@@ -1,0 +1,60 @@
+header {
+    background-color: rgb(35, 35, 61);
+    background-image: url('/images/react-logo.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    color:white;
+    width: 50%;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+h2 {
+    color:white;
+    width: 50%;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+p{ 
+    font-size: 12px;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: white;
+    padding: 20px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button a {
+    color: rgb(43, 45, 82);
+}
+
+.card img{
+   width: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: right;
+    padding: 20px 0 40px 0;
+    margin:15px;
+}
+
+.card.container {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
