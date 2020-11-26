@@ -13,7 +13,20 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ]
+        loader: "style-loader!css-loader!resolve-url-loader"
+      },
+      {
+        test: /.(jpg|jpeg|png|svg)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            publicPath: bundlePath,
+            esModule: false,
+          },
+        },{
+          loader: 'url-loader'
+        }],
       }
     ]
   },
