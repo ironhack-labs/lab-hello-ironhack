@@ -1,0 +1,21 @@
+.header{
+  background-color:  #1F2535;
+  height: 700px;
+  margin: 60px
+}
+.header h1{
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.article-list{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px
+}
+
+.article-list img{
+  width: 120px;
+}
