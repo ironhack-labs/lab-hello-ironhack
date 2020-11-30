@@ -1,5 +1,6 @@
 import React from 'react'
 import icon from '../../../public/images/icon3.png'
+import '../styles/Card.css'
 
 const singleWayCard = () => {
     return (

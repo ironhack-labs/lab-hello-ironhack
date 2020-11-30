@@ -1,6 +1,8 @@
+const svgToTinyDataUri = require("mini-svg-data-uri");
 const path = require("path");
 const webpack = require("webpack");
 const bundlePath = path.resolve(__dirname, "dist/");
+const svgToMiniDataURI = require('mini-svg-data-uri')
 
 module.exports = {
   entry: "./src/index.js",
@@ -14,6 +16,41 @@ module.exports = {
       {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader' ]
+      },
+      {
+        test:/\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              generator: (content, mimetype, encoding, resourcePath) => {
+                return `data:${mimetype}${encoding ? `;${encoding}` : ''},${content.toString(encoding)}`
+              }
+            }
+          }
+        ]
+      },
+      // {
+      //   test: /\.svg$/,
+      //   use: [
+      //     {
+      //       loader: 'svg-url-loader',
+      //       options: {
+      //         limit: 10000,
+      //       }
+      //     }
+      //   ]
+      // }
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              generator: (content) => svgToMiniDataURI(content.toString())
+            }
+          }
+        ]
       }
     ]
   },

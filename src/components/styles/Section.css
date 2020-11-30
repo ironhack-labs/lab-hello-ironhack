@@ -1,0 +1,17 @@
+.Section {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10rem 5% 5rem 5%;
+    
+}
+.Section > div{
+    width: 25%;
+    margin: 0 2rem
+}
+.Section img {
+    width: 80%
+}
+.Section p {
+    margin: .5rem 0 0 0;
+}

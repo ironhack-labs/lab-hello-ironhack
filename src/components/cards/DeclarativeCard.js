@@ -1,5 +1,6 @@
 import React from 'react'
 import icon from '../../../public/images/icon1.png'
+import '../styles/Card.css'
 
 const declarativeCard = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import icon from '../../../public/images/icon2.png'
+import '../styles/Card.css'
 
 const componentsCard = () => {
     return (
