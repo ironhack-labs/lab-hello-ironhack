@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.top-half {
+  background-color: #262e42;
+  color: white;
+  margin: 2vw;
+  padding: 0 0 5vw;
+}
+
+h1 {
+  font-size: 8vw;
+  margin: 0;
+}
+
+.top-half p {
+  font-size: 2vw;
+  margin: 2vw 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+}
+
+.top-info {
+  width: 50vw;
+  padding: 0 10vw;
+}
+
+button {
+  background-color: white;
+  color: #262e42;
+  border: none;
+  width: 20vw;
+  height: 10vw;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  margin: 5vw 0;
+}
+
+.bottom-half {
+  color: #262e42;
+  margin: 3vw;
+  padding: 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-container {
+  width: 18vw;
+  font-size: 1.5vw;
+}
+
+.react-logo {
+    width: 20vw;
+}
+
+.info-and-background {
+    display: flex;
+}
