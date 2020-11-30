@@ -1,0 +1,30 @@
+.top-half {
+  background-color: #1f2535;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+.top-half button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bottom-container {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottom-container div {
+  width: 200px;
+}
+h1 {
+  color: #fff;
+}
+
+.top-half p {
+  color: #fff;
+}
