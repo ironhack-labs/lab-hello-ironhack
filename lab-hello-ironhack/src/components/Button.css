@@ -1,0 +1,11 @@
+.button {
+    text-decoration: none;
+    color: rgb(19, 19, 56);
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    display:block;
+    width: 8%;
+    text-align: center;
+    
+}

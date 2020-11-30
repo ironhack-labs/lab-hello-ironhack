@@ -1,0 +1,15 @@
+.navBar {
+    display: flex;
+    display: inline;
+    max-width: 80vw;
+    justify-content: space-between;
+    padding-right: 50px;
+    align-items: center;  
+}
+
+.menu {
+    justify-content: end;
+    margin-left: 1300px;
+    padding-bottom: 100px;
+}
+
