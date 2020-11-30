@@ -1,0 +1,49 @@
+.App {
+    font-family: 'Helvetica';
+}
+
+.section1 {
+    
+    background-image: url('/images/react-logo.svg');
+    background-color: #1F2535;
+    color: white;
+    height: 500px;
+    padding: 30px 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.header {
+    width: 35%;
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin-bottom: -10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+.header button {
+    margin: 25px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+.section2 div{
+    margin: 60px;
+}
+
