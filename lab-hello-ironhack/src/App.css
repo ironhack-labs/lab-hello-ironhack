@@ -1,0 +1,38 @@
+.App header{
+  margin: 10px;
+  background-color: #282c34;
+  padding-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App h1{
+  font-size: 3.4em;
+margin-right: 1000px;
+margin-left: 20px;
+}
+
+
+.App p{
+  font-size: .8em;
+margin-right: 900px;
+margin-left: 20px;
+margin-bottom: 40px;
+}
+
+.App button{
+  margin-left: 20px;
+  background-color: white;
+  color: #282c34;
+  width: 250px;
+  height: 80px;
+  font-size: 1em;
+  padding: 20px;
+  border: none;
+  border-radius: 10%;
+  font-weight: bolder;
+
+}
+

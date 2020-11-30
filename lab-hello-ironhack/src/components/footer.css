@@ -1,0 +1,21 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    margin: 0 100px 0 100px;
+}
+
+.Footer h3{
+    display: flex;
+    align-items: center;
+    margin: 0 100px 0 100px;
+}
+
+.Footer p{
+        margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Footer img{
+        margin-left: 80px;
+    width: 50%;
+}

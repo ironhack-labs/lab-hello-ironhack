@@ -1,0 +1,9 @@
+.Navbar img{
+  width: 5%;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.Navbar .image-menu{
+    margin-left: 1400px;
+}
