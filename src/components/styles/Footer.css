@@ -1,0 +1,24 @@
+.Footer {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer div{
+    width: 20%;
+    text-align: left;
+}
+.Footer div img{
+    position: relative;
+    left: -18px;
+}
+.Footer div h2{
+    color: #1F2536;
+    font-size: 30px;
+}
+
+.Footer div p{
+    color: gray;
+    font-size: 20px;
+    width: 80%;
+}
