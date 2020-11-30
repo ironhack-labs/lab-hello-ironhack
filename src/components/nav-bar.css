@@ -1,0 +1,16 @@
+.nav-logo img{
+    width: 100px;
+    
+}
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+background-color: #1f2535;
+}
+
+.log1{
+    margin-left: 5%;
+}
+.log2{
+    margin-right: 5%;
+}

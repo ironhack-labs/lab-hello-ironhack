@@ -1,0 +1,29 @@
+.section1{
+    background-color: #1f2535;
+    color: white;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    Align-items: flex-start;
+    height: 400px;
+    padding-top: 100px;
+  
+    
+}
+
+.section1 h1{
+    font-size: 72px;
+    margin-left: 5%;
+}
+
+.section1 p{
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.section1 button{
+    font-size: 20px;
+    padding: 10px 5px ;
+    margin-left: 5%;
+}
+
