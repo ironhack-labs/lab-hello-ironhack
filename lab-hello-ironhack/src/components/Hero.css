@@ -1,0 +1,25 @@
+header {
+    background-color: #1f2535;
+    color: white;
+    height: 700px;
+    padding: 150px 90px;  
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #1f2535;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+

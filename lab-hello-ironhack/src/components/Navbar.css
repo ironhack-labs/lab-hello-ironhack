@@ -1,0 +1,10 @@
+nav {
+    height: 100px;
+    background-color: #1f2535;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 20px 50px;
+}
