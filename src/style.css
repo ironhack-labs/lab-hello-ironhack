@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    color: white;
+    background-color:rgb(31,37,53);
+    /* background-image: url('./images/react-logo.svg'); */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 3em;
+}
+
+h1{
+    font-size: 5em;
+}
+
+#message{
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+
+#awesome{
+    background-color: white;
+    color:rgb(31,37,53);
+    font-weight: bold;
+    margin-bottom: 5em;
+    text-align: center;
+    width: 7em;
+    border-radius: 3%;
+    font-size: 1.5em;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.card{
+    margin:200px 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card img{
+    width: 70%;
+}
+
+.card h2{
+    color: rgb(31,37,53);
+    font-size: 1em;
+}
+
+.card p{
+    color:rgb(133,133,133);
+}
