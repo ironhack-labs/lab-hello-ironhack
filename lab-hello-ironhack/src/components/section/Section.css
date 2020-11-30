@@ -1,0 +1,15 @@
+.articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 100px 50px;
+}
+
+.articles article{
+    flex-basis: 23%;
+    font-weight: 100
+}
+
+.articles img {
+    width: 100px
+}

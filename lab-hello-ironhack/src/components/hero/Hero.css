@@ -1,0 +1,27 @@
+.hero{
+    background: rgb(31, 37, 53);
+    padding: 120px 50px 60px 50px;
+}
+
+.hero .heroText {
+    margin-bottom: 50px;
+    color: white;
+    width: 50%
+}
+
+.hero h1{
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 10px
+}
+
+.hero p{
+    font-size: 1.2em;
+    font-weight: light;
+}
+
+.react1{
+    position: fixed;
+    top: 5%;
+    left: 50%
+}
