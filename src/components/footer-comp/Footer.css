@@ -1,0 +1,85 @@
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 100px;
+}
+
+.individual {
+  flex-direction: column;
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.individual p {
+  font-size: 12px;
+  color: purple;
+}
+
+.individual h3 {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.blossom {
+  color: hotpink;
+  background-color: white;
+}
+
+.bubbles {
+  color: lightskyblue;
+  background-color: white;
+}
+
+.buttercup {
+  color: lightgreen;
+  background-color: white;
+}
+
+.blossom-btn {
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid hotpink;
+  color: black;
+  padding: 5px;
+}
+
+.blossom-btn:hover {
+  background-color: hotpink;
+  border: 2px solid white;
+  color: white;
+}
+
+.bubbles-btn {
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid lightskyblue;
+  color: black;
+  padding: 5px;
+}
+
+.bubbles-btn:hover {
+  background-color: lightskyblue;
+  border: 2px solid white;
+  color: white;
+}
+
+.buttercup-btn {
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid lightgreen;
+  color: black;
+  padding: 5px;
+}
+
+.buttercup-btn:hover {
+  background-color: lightgreen;
+  border: 2px solid white;
+  color: white;
+}

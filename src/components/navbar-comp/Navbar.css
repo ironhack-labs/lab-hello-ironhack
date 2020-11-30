@@ -1,0 +1,45 @@
+.nav-logo {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-menu li a {
+  padding: 0 10px;
+}
+
+.pink:hover {
+  background-color: hotpink;
+  color: white;
+  border-radius: 25px;
+}
+
+.blue:hover {
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 25px;
+}
+
+.green:hover {
+  background-color: lightgreen;
+  color: white;
+  border-radius: 25px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: purple;
+  justify-content: space-evenly;
+}
