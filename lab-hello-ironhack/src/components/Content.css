@@ -1,0 +1,20 @@
+.content{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-text{
+    margin-right: 60px;
+}
+.content-title{
+    font-size: 25px;
+    color: #1F2535
+}
+
+.image{
+ width: 100px;
+}
+
+
