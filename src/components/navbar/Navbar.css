@@ -1,0 +1,11 @@
+.navbar {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.App-logo {
+  width: 100px;
+}
+.menu {
+  width: 60px;
+}

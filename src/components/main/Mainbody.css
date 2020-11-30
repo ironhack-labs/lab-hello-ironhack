@@ -1,0 +1,25 @@
+.main {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+h1 {
+  padding-top: 100px;
+  font-weight: 900;
+  font-size: 6rem;
+  max-width: 500px;
+}
+p {
+  font-size: 2rem;
+  max-width: 500px;
+}
+
+button {
+  padding: 25px;
+  color: #1f2535;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+}
