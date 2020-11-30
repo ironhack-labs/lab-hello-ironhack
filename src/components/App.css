@@ -1,0 +1,68 @@
+body {
+  color: white;
+  font-family: sans-serif;
+}
+
+.blueBG {
+  background-color: rgb(31, 38, 53);
+}
+
+.cards h3 {
+  color: rgb(31, 38, 53);
+}
+
+.cards p {
+  color: rgba(31, 38, 53, 0.5);
+}
+
+.navbar nav{
+  margin: 0 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 100vh;
+  margin-left: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  width: 300px;
+  margin-bottom: 0;
+  font-size: 5rem;
+}
+
+.hero p {
+  width: 200px;
+  font-size: 0.85rem;
+}
+
+.hero button {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: white;
+  color: rgb(31, 38, 53);
+  padding: 10px;
+  border: none;
+  border-radius: 2.5px;
+  font-size: 1rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 60px;
+}
+
+.cards img {
+  width: 50%;
+  height: 100px;
+}
+
+.cards p {
+  width: 150px;
+}
