@@ -1,0 +1,36 @@
+nav {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-bar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+
+}
+.nav-bar-link {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+button {
+    background-color:rgba(71, 117, 242, 0.99);
+    padding: 10px;
+    border-radius: 13px;
+    border: none;
+
+}
+
+button:hover {
+    background-color:rgba(71, 117, 242, 0.433);
+}
