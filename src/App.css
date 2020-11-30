@@ -1,0 +1,119 @@
+/* .App {
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn{
+  background-color:white;
+  border-color: white;
+  padding: 20px 40px;
+  border-style: none;
+  margin-bottom:20px;
+  border-radius: 4px;
+  font-size:20px;
+  margin-top:40px
+}
+p{
+  font-size:15px
+}
+.logoIron{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 30px;
+
+}
+.flexdiv{
+  width: 40%;
+}
+h1{
+  font-size:2.5em;
+    margin-block-end: 0.33em;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.right{
+  text-align:right;
+  width:40%;
+  color:white
+}
+.menu{
+  width: 30px;
+  height: 30px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+margin-right: 10px;}
+.header {
+  background-color: #1f2535;
+  min-height: 70vh;
+  flex-direction: start;
+  padding:10px 0px 0px 50px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display:flex
+}
+.logo{
+  -webkit-filter: invert(50%);
+  filter: invert(30%);
+}
+.logo1{
+  text-align: left;
+  margin-right: 300px;
+  width: 300px;
+  position:s
+}
+.logo2{
+  text-align: left;
+  margin-right: 100px;
+  width: 150px;
+}
+.logo3{
+  text-align: left;
+  margin-right: 400px;
+  width: 100px;
+}
+.App-link {
+  color: #61dafb;
+}
+.body{
+  display:flex;
+  width: 80%;
+  justify-content: space-between;
+  margin:0 auto;
+  margin-top:100px
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.body img{
+  width:100px;
+}
+.body div{
+  width: 130px;
+}
+.body h4{
+  color:#1f2535;
+  font-size:1.3em;
+  margin-bottom: 0px;
+  margin-top:10px
+}
+.body p {
+  color:grey;
+  margin-bottom:300px
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
