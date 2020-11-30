@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.Section {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 50px;
+}
+
+.App {
+  background-image: url("/images/react-logo.svg");
+  background-color: rgb(32, 37, 53);
+  font-family: Roboto;
+}
+
+.container {
+  padding: 20px 40px 60px 40px;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Header {
+  padding-top: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.Description {
+  color: white;
+  font-size: 18px;
+}
+
+.Button {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  color: rgb(32, 37, 53);
+  font-weight: 800;
+}
+
+.Section > div {
+  padding: 40px;
+}
+
+.Section img {
+  width: 80px;
+}
+
+.Section h2 {
+  color: rgb(32, 37, 53);
+}
+
+.Section p {
+  color: rgb(164, 164, 164);
+  font-size: 18px;
+}
