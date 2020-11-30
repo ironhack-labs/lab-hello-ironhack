@@ -1,0 +1,51 @@
+.App{
+    font-family: 'Lucida Sans';
+}
+
+.header{
+    margin: 0px;
+    padding: 10px;
+    background-image: url("/images/react-logo.svg");
+    background-color: #1F2535;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav{
+    display:flex; 
+    justify-content: space-between;
+}
+
+.title{
+    max-width: 300px;
+    margin-left: 40px;
+    margin-bottom: 40px
+}
+
+.title h1{
+    font-size: 50px
+}
+
+.title button{
+    padding: 15px;
+    font-weight: 700;
+}
+
+.section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 20px
+}
+
+.article{
+    max-width: 200px;
+    margin: 20px
+}
+
+.article img{
+    width: 100px
+}
