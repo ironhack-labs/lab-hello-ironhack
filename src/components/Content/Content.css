@@ -1,0 +1,31 @@
+.boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.box h3 {
+  font-size: 24px;
+}
+
+.box p {
+  font-size: 16px;
+  color: grey;
+}
+
+.box img {
+  width: 150px;
+  height: 150px;
+}

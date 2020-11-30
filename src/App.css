@@ -1,0 +1,14 @@
+.App {
+  height: 90vh;
+  width: 900px;
+}
+
+.border {
+  background-color: white;
+  width: 950px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

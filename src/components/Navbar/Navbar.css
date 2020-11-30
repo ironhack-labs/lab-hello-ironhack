@@ -1,0 +1,19 @@
+.nav {
+  background-color: #1f2536;
+  height: 40px;
+  width: 860px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.ironhack-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.menu {
+  width: 30px;
+}
