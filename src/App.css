@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 100px;
+}
+
+.card {
+  width: 200px;
+}
+
+.card img {
+  height: 100px;
+  width: auto;
+}
+
+h1 {
+  font-size: 50px;
+  width: 300px;
+}
+
+button {
+  background-color: white;
+  padding: 10px;
+  color: #1f2535;
+}
+
+#header {
+  background-color: #1f2535;
+  height: 300px;
+  color: white;
+  font-family: Arial;
+  padding: 150px 20px 20px 40px;
+}
+
+#header img {
+  position: absolute;
+  top: 10px;
+}
