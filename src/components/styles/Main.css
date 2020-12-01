@@ -1,0 +1,21 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    color: white;
+    width: 50%;
+    padding: 2rem;
+}
+
+.Main h1{
+    font-weight: bolder;
+}
+
+.Main p {
+    width: 50%;
+}
+
+.Main button {
+    padding: 1rem;
+}

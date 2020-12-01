@@ -1,0 +1,7 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2rem;
+}
