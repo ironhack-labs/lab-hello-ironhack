@@ -1,6 +1,7 @@
 // src/app.js
 
-import React from 'react'; // <== import React
+import React from 'react';
+import './App.css' // <== import React
 
 const App = () => {
   return (
