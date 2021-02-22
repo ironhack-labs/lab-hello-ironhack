@@ -1,0 +1,28 @@
+.header {
+    background-color: #39355F;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+article {
+    width: 150px;
+}
+
+/*h1 {
+
+}
+
+h4 {
+
+}*/
+
+
+
