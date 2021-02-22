@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+.div1 {
+    background-color: midnightblue;
+    height: 800px;
+    color: white;
+    width: 100%;
+    margin-top: -80px;
+    padding-top: 130px;
+    padding-right: 50px;
+}
+
+.div1 h1 {
+    font-size: 80px;
+} 
+
+.div1 p {
+    font-size: 25px;
+} 
+
+.div1 h1,
+.div1 p,
+.div1 button {
+    margin-right: 1000px;
+    margin-left: 25px;
+    padding-top: 40px;
+}
+
+.div1 button {
+    width: 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.navbar {
+    background-color: midnightblue;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu {
+    width: 3%;
+    padding-right: 50px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.section {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.section p {
+    font-size: 20px;
+}
