@@ -1,0 +1,21 @@
+.background {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.text {
+  padding: 25px;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  margin: 10px;
+}
