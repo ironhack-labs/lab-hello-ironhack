@@ -1,0 +1,27 @@
+body{
+font-family: sans-serif;
+}
+
+
+.landing-section{
+background: rgb(36,41,46) url('./react-logo.svg'); 
+color:white;
+height: 600px;
+padding: 0px 50px;
+}
+
+h1{
+ font-size: 6em;   
+}
+
+.landing-section p{
+font-size: 1.5em; 
+width: 350px;
+margin-bottom: 40px;
+}
+
+
+.cards-section{
+ display:flex;   
+ justify-content: space-around;
+}
