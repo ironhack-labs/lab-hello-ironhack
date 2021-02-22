@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1F2435;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1rem;
+    color: white;
+    /* background: url('./images/react-logo.svg') repeat; */
+}
+
+h1{
+    font-size: 4rem;
+    padding-left: 40px;
+    width: 350px;
+}
+
+p{
+    padding-left: 40px;
+    width: 350px;
+    padding-bottom: 40px;
+}
+
+
+.btn{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    color: #1F2435;
+    background-color: white;
+    font-size: 1rem;
+    line-height: 0.6;
+    padding: 0;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.i-logo{
+    height: 4rem;
+    padding: 20px;
+}
+
+.i-sec{
+    height: 200px;
+    padding: 20px;
+}
