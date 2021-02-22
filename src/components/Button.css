@@ -1,0 +1,9 @@
+a {
+    padding: 30px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100px;
+    margin: 60px auto;
+    text-align: center;
+}

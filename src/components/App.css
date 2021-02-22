@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+.iconCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fullHeader {
+  background-color: rgb(0, 0, 114);
+  color:white;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.reactLogo {
+  background-image: url("./react-logo.svg");
+  background-repeat: repeat;
+  width: 50%;
+}
