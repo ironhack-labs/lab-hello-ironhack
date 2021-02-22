@@ -1,0 +1,19 @@
+.intro {
+  color: white;
+  background-color: #000065;
+}
+
+#features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.class mktg {
+  display: flex;
+  order: column;
+  justify-content: space-evenly;
+}
+
+.class mktg div {
+  font-size: 8pt;
+}
