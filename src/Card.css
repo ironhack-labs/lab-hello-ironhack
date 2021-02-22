@@ -1,0 +1,8 @@
+.card {
+  text-align: left;
+  width: 200px;
+}
+.card h2,
+.card p {
+  padding: 0px 15px;
+}

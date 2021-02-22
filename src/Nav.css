@@ -1,0 +1,8 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav img {
+  margin: 10px 80px;
+}
