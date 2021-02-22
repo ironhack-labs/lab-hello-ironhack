@@ -1,0 +1,11 @@
+article{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    width: 180px;
+}
+article img{
+    height:100px;
+    width: 100px;
+    object-fit: contain;
+}
