@@ -1,0 +1,36 @@
+:root {
+  --primary-clr: #202534;
+  --grey-text: #b1b1b1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2em 0 4em;
+  width: 90%;
+  max-width: 1400px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  display: inline-block;
+}

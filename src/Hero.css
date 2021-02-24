@@ -1,0 +1,28 @@
+.hero {
+  width: 100%;
+  height: 80vh;
+  background: var(--primary-clr);
+  color: white;
+}
+
+.hero-container {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.hero-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-btn {
+  border: none;
+  padding: 0.75em;
+  border-radius: 0.12em;
+  text-decoration:none;
+  text-align: center;
+  background: white;
+  color: var(--primary-clr);
+  font-size: 2rem;
+}
