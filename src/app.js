@@ -11,7 +11,7 @@ const App = () => {
              </nav>
              <div className="topSectionText">
                  <h1>Say hello to React JS</h1>
-                 <p>You will learn how to use the most popular frontEnd library , and become a super ninja developer. </p>
+                 <p>You will learn how to use <br />the most popular frontEnd library , <br/>and become a super ninja developer. </p>
                  <button>Awsome!</button>
              </div>
           </div>
