@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 5vw 0;
+}
+
+button {
+  color: #1F2535;
+  font-size: 1em;
+  padding: 1.3vw 1.5vw;
+  border-radius: 10px;
+}
+
+/* .appMain {
+  
+
+}; */
+
+.topSection {
+  background-color: #1F2535;
+  width: 98vw;
+  height: 60vw;
+}
+
+.topSectionText {
+  color: white;
+  width: 50%;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 30%;
+    font-size: 2em;
+}
+
+.bottomSection{
+    width: 40vw;
+    height: 98vw;
+
+}
