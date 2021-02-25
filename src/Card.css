@@ -3,7 +3,6 @@
   flex-direction: column;
   flex: 1;
   margin-right: 2em;
-  border: 1px solid black;
 }
 
 .card__col:last-child {
