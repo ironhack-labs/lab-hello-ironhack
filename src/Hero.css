@@ -1,28 +1,51 @@
 .hero {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: var(--primary-clr);
   color: white;
 }
 
-.hero-container {
+.hero__container {
   height: 100%;
   justify-content: space-between;
 }
 
-.hero-menu {
+.hero__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.hero-btn {
-  border: none;
-  padding: 0.75em;
-  border-radius: 0.12em;
-  text-decoration:none;
-  text-align: center;
+.hero__info {
+  display: flex;
+}
+
+.hero__info-left,
+.hero__info-right {
+  flex: 1;
+}
+
+.hero__info-header {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.2em;
+}
+
+.hero__info-subtext {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.hero__btn {
   background: white;
   color: var(--primary-clr);
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-decoration:none;
+  text-align: center;
+  padding: 0.8em;
+  border: none;
+  border-radius: 0.12em;
 }

@@ -1,47 +1,22 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Features.css'
-// import icon1 from "./icon1.png"
-// import icon2 from "./icon2.png"
-// import icon3 from "./icon3.png"
-// import icon4 from "./icon4.png"
+import Card from './Card'
 
-export class Features extends Component {
-  render() {
-    return (
+const Features = () => {
+  return (
+    <div>
       <section className='features'>
-        <div className="row">
-          <div className="col">
-            <article>
-              <img src='./images/icon1.png' alt="icon 1" />
-              <h4>Declarative</h4>
-              <p>React makes it painless to create interactive UIs</p>
-            </article>
-          </div>
-          <div className="col">
-            <article>
-              <img src='./images/icon1.png' alt="icon 1" />
-              <h4>Declarative</h4>
-              <p>React makes it painless to create interactive UIs</p>
-            </article>
-          </div>
-          <div className="col">
-            <article>
-              <img src='./images/icon1.png' alt="icon 1" />
-              <h4>Declarative</h4>
-              <p>React makes it painless to create interactive UIs</p>
-            </article>
-          </div>
-          <div className="col">
-            <article>
-              <img src='./images/icon1.png' alt="icon 1" />
-              <h4>Declarative</h4>
-              <p>React makes it painless to create interactive UIs</p>
-            </article>
+        <div className="container">
+          <div className="row">
+            <Card image='./images/icon1.png' title='Declarative' text='React makes it painless to create interactive UIs' />
+            <Card image='./images/icon2.png' title='Components' text='Build encapsulated components that manage their state' />
+            <Card image='./images/icon3.png' title='Single-Way' text='A set of immutable values are passed to the components' />
+            <Card image='./images/icon4.png' title='JSX' text='Statically-typed, designed to run on modern browsers' />
           </div>
         </div>
       </section>
-    )
-  }
+    </div>
+  )
 }
 
 export default Features

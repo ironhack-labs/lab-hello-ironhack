@@ -1,0 +1,36 @@
+.card__col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 2em;
+  border: 1px solid black;
+}
+
+.card__col:last-child {
+  margin-right: 0;
+}
+
+.card-image {
+  width: 180px;
+  height: auto;
+}
+
+.card-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-clr);
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.2em;
+}
+
+.card-text {
+  color: #747474;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 1000px) {
+  .card__col {
+    margin-bottom: 2em;
+  }
+}
