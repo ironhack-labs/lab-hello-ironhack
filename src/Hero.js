@@ -1,7 +1,7 @@
 
 import React from 'react'
 // import IronhackLogo from './ironhack-logo.svg'
-// import MenuBtn from './menu-top.svg'
+// import MenuBtn from  './menu-top.svg'
 import './Hero.css'
 
 export const Hero = () => {
