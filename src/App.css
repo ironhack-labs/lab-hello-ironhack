@@ -1,0 +1,17 @@
+.appMain {
+display: flex;
+flex-direction: column;
+}
+.topSection {
+    background-color: #1f2535;
+    height: 40vw;
+}
+.bottomSection ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
