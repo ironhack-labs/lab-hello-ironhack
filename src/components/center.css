@@ -1,0 +1,11 @@
+center{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    width: 180px;
+}
+center img{
+    height:100px;
+    width: 100px;
+    object-fit: contain;
+}

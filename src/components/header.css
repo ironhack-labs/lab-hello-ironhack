@@ -1,0 +1,29 @@
+.header{
+    background-color: #1f2535;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 50px 5px;
+}
+
+.header button{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+
+}
+
+.header p{
+    width: 50%;
+    margin-bottom: 80px;
+}
