@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    height: 600px;
+    background-color: #1F2535;
+    padding: 40px;
+    background-image: url(/images/react-logo.svg),url(/images/react-logo.svg),url(/images/react-logo.svg),url(/images/react-logo.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 300px, 200px, 200px, 150px;
+    background-position: 65% 5%, 70% 60%, 55% 90%, 100% 50%;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro > h1{
+    color: white;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    width: 450px;
+}
+
+.intro > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+}
+
+.intro > button{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    margin-top: 40px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.info-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 60px;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.info-section > div{
+    width: 200px;
+    height: 300px;
+}
+
+
+
+.info-section > div > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262B3B;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.info-section > div > p {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #848484;
+    padding-left: 20px;
+}
