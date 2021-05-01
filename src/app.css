@@ -2,4 +2,70 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-section-container {
+  height: 400px;
+  background-color: #1f2535;
+  padding: 0 60px;
+  background-image: url('/images/react-logo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.main-title {
+  color: #fff;
+  width: 300px;
+  font-size: 50px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 40%;
+  height: 300px;
+}
+
+.intro-description {
+  color: #fff;
+}
+
+.card-container {
+  margin: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+  padding: 0 10px;
+}
+
+.awesome-button {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1f2535;
+}
+
+.card-image {
+  height: 100px;
+  width: auto;
 }
