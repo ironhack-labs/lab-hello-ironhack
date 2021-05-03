@@ -1,0 +1,12 @@
+.landing{
+margin: 20px;
+padding: 30px;
+background-color: rgb(9, 9, 71);
+height: 500px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
