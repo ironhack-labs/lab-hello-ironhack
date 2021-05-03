@@ -8,10 +8,11 @@ const Landing = () => {
         <img src="/images/ironhack-logo.svg" />
         <img src="/images/menu-top.svg"/>
     </nav>
+        <div className="landing-items">
       <h1>Say hello to ReactJS</h1>
       <h3>You will learn how to use the most popular frontend library, and become a super Ninja Developer</h3>
       <button>Awesome!</button>
-
+        </div>
 
     </div>
   )

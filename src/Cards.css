@@ -1,3 +1,15 @@
 .cards{
     display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 15%;
+    margin: 40px;
+    align-items: center;
+    
+}
+.img-card{
+    width: 90%;
+}
+p{
+    color:gray
 }
