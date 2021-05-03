@@ -1,0 +1,8 @@
+.secondpart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondpart article {
+    padding: 25px;
+}

@@ -1,0 +1,9 @@
+.logo {
+    width: 50px;
+}
+
+.burger {
+    width: 40px;
+    position: absolute;
+    right: 50px;
+}
