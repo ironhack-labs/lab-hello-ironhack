@@ -1,0 +1,9 @@
+.App {
+  margin: 30px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
