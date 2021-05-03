@@ -1,0 +1,152 @@
+.page {
+    margin: 0 auto;
+    width: 96%;
+    font-family: 'Times New Roman';
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    background-color: #1F2535;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+}
+
+header {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    margin-left: 5rem;
+    max-width: 500px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0 0 1rem;
+    font-size: 5rem;
+}
+
+header p {
+    max-width: 350px;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: #1F2535;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.card {
+    width: 23%;
+}
+
+.card img {
+    width: auto;
+    height: 180px;
+}
+
+.card .text {
+    height: 150px;
+    opacity: .95;
+}
+
+.card h3 {
+    margin: 1rem 0 .5rem;
+    font-size: 2.2rem;
+    color: #1F2535;
+}
+
+.card p {
+    width: 65%;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #293146;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    .card {
+        margin: 0 auto 4rem;
+        width: 40%;
+    }
+
+    .card p {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 699px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .text-container {
+        margin: 0 3rem;
+    }
+
+    .text-container h1 {
+        font-size: 3rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    .card {
+        justify-content: center;
+        margin: 0 auto 4rem;
+        width: 70%;
+        text-align: center;
+    }
+
+    .card p {
+        width: 100%;
+    }
+
+}
