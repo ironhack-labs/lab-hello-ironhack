@@ -1,0 +1,49 @@
+
+.intro {
+    background-color: black;
+    color:blanchedalmond;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+ 
+    
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+
+.button{
+    width: 100px;
+    margin-left: 80px;
+
+}
+
+.introtext{
+    margin-left: 80px;
+}
+
+.intro2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 350px;
+    justify-content: center;
+
+}
+
