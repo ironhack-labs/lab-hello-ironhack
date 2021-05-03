@@ -1,0 +1,16 @@
+
+
+.blue-div{
+  background-color: #325288;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inside{
+  padding: 20px 100px 40px;
+}
