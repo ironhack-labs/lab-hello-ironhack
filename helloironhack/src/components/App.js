@@ -1,22 +1,19 @@
 import './App.css';
 import Navbar from './Navbar'
-import logo from './ironhack-logo.svg'
-import menu from './menu-top.svg'
+
 import Header from './Header'
+import Footer from './Footer';
 
 const App = () => {
   return (
     <main>
     
       <Navbar
-      image={logo}
-      description="logo"
-      />
-      <Navbar
-      image={menu}
-       description="menu"
+      description1="logo"
+      description2="menu"
       />
       <Header/>
+      <Footer/>
     </main>
   
     

@@ -1,25 +1,59 @@
 .navigator {
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
+margin-right: 60px;
+margin-left: 60px;
+}
+
+.footer {
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+  
+}
+
+.footer img {
+width: 100px;
+height: 100px;
+margin: 0px 35px;
+}
+
+.footer p {
+  color: #aaaaaa;
+  margin-left: 35px;
+}
+
+h3 {
+  margin-left: 35px;
+  margin-top: 0;
 }
 
 body {
-  background-color: #1e2333;
+background-color: #1e2333;
+}
+
+h1 {
+font-size: 60px;
 }
 
 header {
-  color: white;
-  font-size: 60px;
-  margin-left: 60px;
+color: white;
+font-size: 60px;
+margin-left: 60px;
+  
 }
 
 header p {
-  margin-left: 60px;
-  font-size: 20px;
+font-size: 18px;
 }
 
 header button {
-  width: 100px;
-  height: 45px;
-  margin-left: 60px;
+width: 120px;
+height: 53px;
+font-weight: 600;
+border-radius: 5%;
+font-size: 20px;
+margin-bottom: 60px;
 }

@@ -1,4 +1,6 @@
 import './App.css'
+import logo from './ironhack-logo.svg'
+import menu from './menu-top.svg'
 
 
 
@@ -7,8 +9,8 @@ const Navbar = props => {
     const fullComponent = (
         <>
             <nav className={className}>
-             <img src={props.image} alt={props.description} />
-            
+            <img src={logo} alt={props.description1} />
+            <img src={menu} alt={props.description2} />
             </nav>
         </>
     )
