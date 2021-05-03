@@ -1,0 +1,13 @@
+.headerName {
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    width: 25%;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.headerName > p {
+    font-size: 0.7em; 
+}
+
