@@ -1,0 +1,25 @@
+.navigator {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #1e2333;
+}
+
+header {
+  color: white;
+  font-size: 60px;
+  margin-left: 60px;
+}
+
+header p {
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+header button {
+  width: 100px;
+  height: 45px;
+  margin-left: 60px;
+}
