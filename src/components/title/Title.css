@@ -1,0 +1,14 @@
+#title-container{
+    color: white;
+    width: 500px;
+}
+#title-container h1{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+#title-container p{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
