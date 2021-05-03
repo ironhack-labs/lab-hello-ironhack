@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+.hero {
+    background-color: #1F2535;
+    height: 75vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.titles {
+    color: white;
+    margin: 150px 0 0 100px;
+    width: 300px;
+}
+
+.titles h1 {
+    font-size: 3.3rem;
+}
+
+.titles p {
+    white-space: pre-line;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.titles button {
+    padding: 20px 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #1F2535;
+    font-size: 1.4rem;
+}
+
+.cards {
+    width: 80%;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10rem;
+}

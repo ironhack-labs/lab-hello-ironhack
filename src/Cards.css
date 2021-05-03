@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 180px;
+}
+
+.card h2 {
+    letter-spacing: 2px;
+}
+
+.card p {
+    width: 180px;
+    color: #999999;
+}
