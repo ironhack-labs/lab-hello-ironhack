@@ -1,3 +1,19 @@
+.sectionItem {
+    box-sizing: border-box;
+    border: none;
+    margin: 50px;
+}
+
 img {
     width: auto;
+}
+
+h2 {
+    font-size: 3em;
+    color: #1f2535;
+}
+
+p {
+    font-size: 2em;
+    color:#1f2535;
 }

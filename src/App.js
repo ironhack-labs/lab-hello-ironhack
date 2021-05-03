@@ -10,8 +10,8 @@ const App = () => {
                     <img src='/public/images/ironhack-logo.svg' alt="Logo" />
                     <img src='/public/images/menu-top.svg' alt='menu-top' />
                 </div>
-                <h1>Say Hello to ReactJS</h1>
-                <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
+                <h1>Say hello to <br/> ReactJS</h1>
+                <p>You will learn how to use<br/>the most popular frontend library,<br/>and become a super Ninja developer.</p>
                 <a src='#'>Awesome!</a>
             </div>
             <div className='bottomDiv'>
