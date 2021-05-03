@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack-dev-server --progress --color",
-    "start": "react-scripts start",
+    "start": "webpack serve --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "author": "",
@@ -24,7 +24,7 @@
     "react-scripts": "^4.0.3",
     "style-loader": "^0.23.0",
     "webpack": "^4.6.0",
-    "webpack-cli": "^3.1.0",
+    "webpack-cli": "^4.3.0",
     "webpack-dev-server": "^3.1.8"
   },
   "devDependencies": {
