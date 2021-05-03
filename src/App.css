@@ -1,0 +1,62 @@
+/* RESET STYLES */
+body{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+.page-header{
+    background-color: #202534;
+    color: #FFFFFF;
+    padding: 20px 40px 70px 60px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;    
+}
+.header-banner{
+    width: 40%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.page-title{
+    font-size: 4rem;
+}
+.page-resume{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.button{
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.page-content{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+.card-item{
+    width: 150px;
+    color: #444855;
+    padding: 50px 40px;
+}
+.card-item img{
+    width: 100px;
+}
+.card-item h3{
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+.card-item p{
+    padding-left: 10px;
+    font-size: 1.15rem;
+}
