@@ -1,0 +1,13 @@
+.body__description{
+    display: flex;
+    margin: 100px 0;
+    padding: 10px;
+}
+.body__description h3{
+    color: #111;
+    font-size: 2rem;
+}
+.body__description p{
+    color: gray;
+    font-size: 1.5rem;
+}
