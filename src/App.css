@@ -7,29 +7,28 @@
 
 .main-container {
     background-color: #1F2535;
-    height: 700px;
+    height: 600px;
     padding: 10px 30px 30px 50px;
-    background-image: url('/images/react-logo.svg'), url('/images/react-logo.svg'), url('/images/react-logo.svg'), url('/images/react-logo.svg'); 
+    background-image: url('/images/react-logo.svg'), url('/images/react-logo.svg'), url('/images/react-logo.svg');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 300px, 250px, 250px ;
-    background-position: 60% 5%, 70% 60%, 50% 90% 
+    background-position: 50% 5%, 70% 60%, 50% 90% 
 }
 
 .main-container > nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
 }
 
 h1 {
     color: white;
-    font-size: 80px;
-    width: 500px;
-    margin: 100px 20px 10px 0;
+    font-size: 60px;
+    width: 400px;
+    margin: 80px 20px 10px 0;
 }
 
-.main-container > div > p {
+.main-container p {
     color: white;
     font-size: 20px;
     width: 300px;
@@ -49,12 +48,12 @@ button {
 .section-container {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 80px;
+    margin: 50px 100px;
+
 }
 
 .section-container > div {
     width: 150px;
-    padding-bottom: 50px;
 }
 
 h3 {
@@ -62,6 +61,11 @@ h3 {
     margin-bottom: 10px;
 }
 
-.section-container > div > p {
+.section-container p {
     color: gray;
+}
+
+.section-container img {
+    width: 100px;
+    height: auto;
 }
