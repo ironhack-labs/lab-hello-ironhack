@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.background{
+  background-color: #282c34;
+  min-height: 80vh;
+}
+
+.centrar{
+  display: flex;
+  justify-content: space-around;
+}
+.texto{
+  color: white !important; 
+  padding-top: 10mm !important;
+  font-size:40px !important;
+  text-align: left !important;
+  width: 30% !important;
+}
+.parrafo{
+  font-size:20px !important;
+  text-align: left !important;
+  width: 60% !important;
+
+font-weight: lighter !important;
+
+}
+.boton{
+  color: #282c34;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  width: 25%;
+  height: 10%;
+  font-size: 50%;
+  font-weight: bold;
+}
+.left{
+  text-align: left !important;
+}
+.parrafoBody{
+  width: 50%;
+  color: grey;
+}
+.centarBody{
+  padding: 10mm ;
+  padding-top: 20mm !important;
+  padding-left: 50mm !important;
+}
