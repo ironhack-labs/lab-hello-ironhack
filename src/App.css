@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.App{
+    font-family: 'Open Sans';
+}
+
+.head > img{
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.head{
+    background-image: url("/images/react-logo.svg");
+    height: 600px;
+    background-color: #1F2635;
+    color: white;
+}
+
+.head > h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 5%;
+    margin-right: 60%;
+}
+
+.head > h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-right: 70%;
+    margin-top: -60px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin: 50px;
+}
+
+button{
+    margin-left: 5%;
+    margin-top: 30px;
+}
