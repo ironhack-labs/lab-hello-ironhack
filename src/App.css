@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+    padding: 20px 50px 20px 50px;
+}
+
+.top {
+    background-color: #202635 ;
+}
+
+.bot {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.awsome {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    margin: 0px 2px 200px 2px;
+    cursor: pointer; 
+}
+
+.card {
+    margin: 10px 50px 0px 50px
+}
