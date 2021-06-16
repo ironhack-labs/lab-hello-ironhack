@@ -34,11 +34,18 @@ class App extends Component {
     );
 
     const body = (
-      <section>
-        <h1>Say hello to ReactJS</h1>
-        <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
-        <button class = "awsome">Awesome!</button>
-      </section>
+      <div class ="page">
+        <section class = "body">
+          <h1>Say hello to ReactJS</h1>
+          <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
+          <button class = "awsome">Awesome!</button>
+        </section>
+        <section class="reactLogo">
+          <img src='../images/react-logo.svg'></img>
+          <img src='../images/react-logo.svg'></img>
+          <img src='../images/react-logo.svg'></img>
+        </section>
+      </div>
     )
     return (
       <section>
