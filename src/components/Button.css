@@ -1,0 +1,13 @@
+.myButton {
+    float: left;
+    color: #1F2535;
+    height: 40px;
+    width: 110px;
+    font-weight: 800;
+    margin: 0 0 80px 0;
+}
+
+a {
+    float: left;
+    margin: 30px 0 0 0;
+}
