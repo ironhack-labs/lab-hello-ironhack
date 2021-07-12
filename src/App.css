@@ -1,0 +1,18 @@
+
+body {
+  background-color: #1f2535;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color:black;
+}
+
+div {
+  margin: 20px, 0;
+}
+
+.space {
+  margin: 0, 15px;
+}
