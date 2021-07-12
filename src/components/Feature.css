@@ -1,0 +1,21 @@
+.eachUnit {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.divImage {
+    width: 100px;
+    position: relative;
+    right: 10px;
+}
+
+.divHeader {
+    text-align: left;
+    margin: 10px 0 0 0;
+}
+
+.divPar {
+    text-align: left;
+    margin: 7px 0 0 0;
+}
