@@ -1,0 +1,24 @@
+.dark{
+    background-color: hsla(0, 9%, 27%, 0.637);
+    /* background-image: url('react-logo.svg'); */
+    color: white;
+}
+
+h1{
+    font-size: 5em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.leftColumn{
+    width: 45%;
+}
+
+.rightColumn{
+    position: relative;
+    width: 50%;
+}
