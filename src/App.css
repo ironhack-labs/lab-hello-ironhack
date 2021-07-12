@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: #1f2535;
+    height: 500px;
+    color: white;
+    padding:100px 0px 0px  50px
+}
+h1{
+
+ font-size: 5em;
+ margin: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+section{
+    display: flex;
+    margin: 30px;
+
+}
+article{
+    padding: 20px;
+}
