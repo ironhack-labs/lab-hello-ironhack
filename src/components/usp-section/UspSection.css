@@ -1,0 +1,9 @@
+.usp-section-container {
+  padding: 100px 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.usp-container {
+  width: 20%;
+}
