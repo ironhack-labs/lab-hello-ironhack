@@ -1,0 +1,13 @@
+.user-card {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: calc(20% - 40px);
+}
+
+.user-card img {
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
