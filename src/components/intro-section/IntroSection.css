@@ -1,0 +1,13 @@
+.intro-section-container {
+  background-color: blue;
+  padding-left: 50px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.intro-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
