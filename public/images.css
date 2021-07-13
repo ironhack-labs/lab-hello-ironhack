@@ -1,0 +1,9 @@
+.Container {
+    background: url('./images/react-logo.svg') top 50px right 300px no-repeat, 
+    url('./images/react-logo.svg') top 400px right 250px no-repeat,
+    url('./images/react-logo.svg') top 580px right 450px no-repeat,
+    url('./images/react-logo.svg') top 200px right -35px no-repeat,
+    url('./images/react-logo.svg') top 400px right -35px no-repeat,
+    url('./images/react-logo.svg') top 600px right -35px no-repeat;
+    background-size: 380px, 300px, 300px, 200px, 200px, 200px;
+}
