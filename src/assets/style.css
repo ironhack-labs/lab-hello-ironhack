@@ -1,0 +1,60 @@
+#headerConteiner {
+    background-color: #1f2535;
+    height: 500px;
+}
+
+#barraDeNavegacao {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:3%;
+    margin-left:3%;
+}
+
+#coluna1{
+    background-image: url('C:\Users\thiag\Documents\IronHack\M2\hello-ironhack2\src\assets\images\react-logo.svg');
+
+}
+
+#coluna1 h1{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    padding-top: 60px;
+    font: sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    margin-right:3%;
+    margin-left:3%;
+}
+
+#coluna1 p{
+    display: flex;
+    flex-direction: column;
+    margin-left:3%;
+    font-size: 14px;
+    color: #FFF;
+    font: sans-serif;
+}
+
+#btnStart{
+    display: flex;
+    flex-direction: column;
+    margin-left:3%;
+    background-color: #fff; 
+    color: #000;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#body{
+    display: flex;
+    margin-left:3%;
+    margin-top:3%;
+}
