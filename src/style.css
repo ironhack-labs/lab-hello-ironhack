@@ -1,0 +1,86 @@
+#bgDark{
+    width: 100%;
+    height: 680px;
+    background-color: rgb(0, 0, 22);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.menu{
+    margin-right: 80px;
+    margin-top: 0px;
+}
+.container-principal{
+    margin-left: 80px;
+    height: 600px;
+    display: flex;
+}
+.container-principal > div > div > h1{
+    color: white;
+    font-size: 5.5em;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+.container-principal > div > div > p{
+    color: white;
+    font-size: 1.2em;
+    margin-bottom:70px;
+}
+.container-principal > div > a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 15px;
+    border-radius: 5%;
+}
+.react-logos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+}
+
+.react1{
+    width:300px ;
+}
+.react2{
+    width:100px ;
+    margin-left: 200px;
+}
+.react3{
+    width:150px ;
+    margin-left: -100px;
+}
+.react4{
+    width:100px ;
+    margin-left: 450px;
+}
+.react5{
+    width:150px ;
+}
+.react6{
+    width:100px ;
+    margin-left: 350px;
+}
+#itens{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+}
+#itens > div > h2{
+    font-size: 2em;
+    margin-left: 25px;
+}
+#itens > div > p {
+    color: rgb(110, 109, 109);
+    margin-left: 25px;
+    font-size: 22px;
+    margin-top: -20px;
+}
