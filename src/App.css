@@ -1,4 +1,4 @@
-.Header {
+/*.Header {
 	background-color: #1f2535;
 	width: 100vw;
 	min-height: 60vh;
@@ -16,4 +16,124 @@
 }
 body {
 	margin: 0;
+} */
+
+html{
+    font-family: 'Cantarell', sans-serif;
+    
+}
+.Header {
+    background-color: #1F2535;
+    width: 100vw;
+    min-height: 60vh;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+
+}
+.Elements {
+    background-color: white;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 200px 0;
+    padding: 1rem; 
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 90px;
+}
+
+h3{
+    color: #1F2535;
+    font-size: 40px;
+}
+
+.Header p{
+    font-size: 35px;
+}
+
+.Header button{
+    padding: 20px;
+    font-size: 35px;
+    color: #1F2535;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.navbar{
+    margin: 20px;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    width: 0;
+    position: absolute;
+    margin-right: 50vw;
+}
+
+.imagesColum{
+    position: absolute;
+    margin-top: 20vh;
+}
+
+.Elements p{
+    font-size: 20px;
+    color: rgb(97, 96, 96);
+    margin-right: 30px;
+}
+
+.textheader{
+    width: 40vw;
+    margin:0 20px;
+    
+}
+
+.imageP{
+    margin: 2vh 0 auto 90vw;
+    width: 5vw;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.imageM {
+    margin: 0 0 auto 50vw;
+    width: 50vw;
+    height: 20vh;
+    position: relative;
+    
+}
+
+.imageM2 {
+    margin: 0 0 auto 40vw;
+    width: 50vw;
+    height: 20vh;
+    position: relative;
+    
+}
+
+.imageG {
+    margin: 0 0 auto 35vw;
+    width: 55vw;
+    height: 25vh;
+    position: relative;
+}
+
+.elementdiv{
+    margin-left: 4vw;
+}
+
+body {
+    margin: 0;
 }
