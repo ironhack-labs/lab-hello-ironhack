@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  display: flex;
+  background-color: rgb(36, 51, 82);
+  color: white;
+  justify-content: space-around;
+}
+
+.text-container .menu {
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+
+.text-container .logo {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.text-container h1 {
+  font-size: 4em;
+  width: 350px;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+
+.text-container p {
+  margin-top: 10px;
+  width: 300px;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.text-container button {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(36, 51, 82);
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 125px;
+  margin: 50px auto 100px 0;
+}
+
+.button-container {
+  background-color: rgb(36, 51, 82);
+}
+
+.img-container .first {
+  width: 300px;
+  position: absolute;
+  top: 25px;
+  right: 140px;
+}
+
+.img-container .second {
+  width: 200px;
+  position: absolute;
+  top: 300px;
+  right: 120px;
+}
+
+.img-container .third {
+  width: 200px;
+  position: absolute;
+  top: 420px;
+  right: 270px;
+}
+
+.img-container .fourthy {
+  width: 120px;
+  position: absolute;
+  top: 400px;
+  right: 0;
+}
+
+.img-container .fivity {
+  width: 115px;
+  position: absolute;
+  top: 280px;
+  right: 0;
+}
+
+.img-container .sixty {
+  width: 110px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+}

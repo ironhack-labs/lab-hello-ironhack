@@ -1,0 +1,18 @@
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.features-container div {
+  width: 150px;
+  text-align: start;
+}
+
+.features-container h3 {
+  margin-top: 50px;
+}
+
+.featuers-container p {
+  margin: 0;
+}
