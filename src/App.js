@@ -3,13 +3,13 @@ import React from 'react';
 const App = () => {
     return(
         <main>
-        <section>
+        <section className="main-section-container">
         <div>
-            <img src="../public/images/ironhack-logo.svg" alt="Ironhack Logo"></img>
-            <img src="../public/images/menu-top.svg" alt="Ícone de menu"></img>
+            <img src="/images/ironhack-logo.svg" alt="Ironhack Logo"></img>
+            <img src="/images/menu-top.svg" alt="Ícone de menu"></img>
         </div>
 
-        <div>
+        <div className="main-content">
             <h1>Say hello to ReactJS</h1>
             <p>You will learn how to use the most popular frontend library and become a Super Ninja developer</p>
             <button>Awesome!</button>
