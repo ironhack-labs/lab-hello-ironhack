@@ -1,15 +1,21 @@
-import "./styles.css";
-import Navbar from "./components/Navbar.js"; // <== We import a component like this
-import Icon1 from "./components/icon1.js";
+import "./App.css";
+import Icon1 from "./components/Icon1.js"; // <== We import a component like this
+import Icon2 from "./components/Icon2.js";
+import Navbar from "./components/Navbar.js";
+import Menu from "./components/Menu.js";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <div className="navBar">
+        {<Navbar />} {<Menu />}
+      </div>
 
-      {/*  <Headline /> */}
+      <div className="bottomIcons">
+        {<Icon1 />} {<Icon2 />}{" "}
+      </div>
 
-      {/* <Icon1 /> */}
+      {/* < /> */}
 
       {/* <ButtonYellow /> */}
 

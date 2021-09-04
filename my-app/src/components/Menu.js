@@ -1,12 +1,12 @@
 import React from "react";
 
-function Icon1() {
+function Menu() {
   return (
     <nav>
-      <img src="/images/icon1.png" alt="workIcon" />
+      <img src="/images/menu-top.svg" alt="menu" />
     </nav>
   );
 }
 
 // 2. Export the function:
-export default Icon1;
+export default Menu;
