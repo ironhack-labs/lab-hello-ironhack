@@ -1,0 +1,53 @@
+.main {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: white;
+    color: rgb(31, 37, 51);
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.top {
+    background-color: rgb(31, 37, 51);
+    color: white;
+    padding: 1rem 3rem 4rem 4rem;
+    margin-left: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-text {
+    padding-top: 4rem;
+    width: 50%;
+}
+
+.headline-text {
+    font-size: 2rem;
+}
+
+.bottom {
+    color:rgb(31, 37, 51);
+    padding: 8rem 3rem 3rem 3rem;
+    display: flex;
+}
+.bottom > div {
+    margin: 1.5rem;
+}
+
+
+
