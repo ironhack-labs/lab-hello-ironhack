@@ -1,0 +1,18 @@
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons p{
+color: #999999;
+}
+
+article {
+  text-align: left;
+}
+
+.icons h3{
+  font-size: 2em;
+ color: #202436;
+ 
+}
