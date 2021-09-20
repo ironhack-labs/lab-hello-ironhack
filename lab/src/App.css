@@ -1,0 +1,77 @@
+
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+#top {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+h1 {
+  font-size: 72px;
+}
+
+nav {
+  padding-top:20px;
+  padding-left:40px;
+  padding-right:40px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#title {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 50%;
+  padding-left: 40px;
+
+
+}
+
+.bottom-item{
+
+  padding: 20px;
+
+}
+
+#bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
