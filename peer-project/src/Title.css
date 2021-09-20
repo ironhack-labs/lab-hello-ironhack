@@ -1,0 +1,14 @@
+.title-container {
+  height: 100vh;
+}
+
+.body-container {
+  width: 50%;
+  color: white;
+  padding-left: 50px;
+}
+
+.body-container h1 {
+  font-size: 7rem;
+  text-align: start;
+}

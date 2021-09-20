@@ -1,0 +1,12 @@
+.button-container {
+  display: flex;
+  padding: 50px;
+}
+
+.button-container a {
+  background-color: white;
+  color: #282c34;
+  padding: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
