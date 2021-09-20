@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.margin {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10%;
+  padding-top: 1%;
+}
+
+.App header {
+  background-image: url("./images/react-logo.svg");
+  background-color: #1F2535;
+}
+
+.white-text {
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+
+}
+
+p {
+  font-size: 1.3rem;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
