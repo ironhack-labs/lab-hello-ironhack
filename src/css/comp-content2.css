@@ -1,0 +1,30 @@
+.section2 {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ background-color: white;
+    z-index: 1;
+}
+h4 {
+    width:fit-content;
+    display: block;
+    position: relative;
+    font-size: 50px;
+    margin-left: 16px;
+    color:black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+p {
+    width: fit-content;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    margin-left: 20px;
+    color:#f2f2f2;
+    text-align: left;
+    margin-bottom: 40px;
+}
