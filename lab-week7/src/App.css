@@ -1,0 +1,55 @@
+.App {
+  
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.principal {
+ margin-top: 70px;
+ margin-left: 40px;
+
+
+}
+
+
+.App-header {
+  background-color: #282c34;
+  background-image: url("./images/react-logo.svg");
+  background-repeat: repeat;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #282c34;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
