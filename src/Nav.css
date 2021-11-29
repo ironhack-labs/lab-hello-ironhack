@@ -1,0 +1,7 @@
+.navBox {
+  display: flex;
+  justify-content: space-between;
+}
+.navBox img {
+  margin: 10px 50px 0 50px;
+}

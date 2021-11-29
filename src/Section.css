@@ -1,0 +1,27 @@
+.contentBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.contentBox h1 {
+  font-size: 60px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+.contentBox p {
+  max-width: 250px;
+  text-align: start;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.contentBox button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  background-color: white;
+}
