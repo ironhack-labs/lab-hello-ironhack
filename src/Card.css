@@ -1,0 +1,14 @@
+.cards {
+    margin: 20px 50px;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 150px;
+}
+
+.card > img {
+    width: 100px;
+}

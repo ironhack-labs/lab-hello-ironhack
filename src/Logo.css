@@ -1,0 +1,17 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    height: 400px;
+    margin: 20px 50px;
+    padding: 20px 50px;
+    color: white;
+    background-color: rgb(31, 37, 53);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
