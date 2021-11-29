@@ -1,0 +1,75 @@
+.App-logo {
+  height: 50px;
+  width: auto;
+  margin: 1% 6%;
+}
+
+.nav-img {
+  height: 15px;
+  width: auto;
+  margin-right: 2%;
+  margin-left: 78%;
+  margin-bottom: 20px;
+}
+
+.App-header {
+  background-color: #1f2535;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.section1 {
+  background-color: #1f2535;
+  background-image: "./images/react-logo.svg";
+  background-repeat: repeat;
+  color: aliceblue;
+  margin: 0%;
+  height: 80vh;
+}
+
+.section1 h1 {
+  width: 45%;
+  height: auto;
+  margin: 0%;
+  padding: 10% 6% 0% 6%;
+  font-size: 100px;
+}
+
+.section1 p {
+  font-size: 20px;
+  width: 30%;
+  height: auto;
+  margin: 0%;
+  margin-bottom: 80px;
+  padding: 0% 6% 0% 6%;
+}
+
+.button-awesome {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5%;
+  font-weight: bold;
+  margin: 6%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10%;
+}
+
+.section2 div {
+  text-align: left;
+  margin: 5%;
+}
+
+.section2 img {
+  width: 150px;
+  height: auto;
+  margin: 0%;
+}
