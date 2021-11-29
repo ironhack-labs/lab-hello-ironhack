@@ -1,0 +1,14 @@
+.card {
+    width: 320px;
+    margin: 6px auto;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .card .title {
+    font-size: 24px;
+  }
+  
+  .card img {
+    width: 140px;
+  }
