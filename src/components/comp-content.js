@@ -6,7 +6,7 @@ const Content = (props) => {
     return (
     <section className="section1">
         <h1>Say hello to ReactJS</h1>
-        <p>
+        <p className="txt-titu">
             You will learnhow to use
             the most popular frontend library,
             and become a super Ninja Developer. 

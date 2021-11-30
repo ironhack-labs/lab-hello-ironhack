@@ -1,30 +1,37 @@
 .section2 {
- width: 100vw;
- height: 100vh;
+ width: 90%;
  display: flex;
  flex-direction: row;
- justify-content: space-around;
+ justify-content: space-between;
  align-items: center;
  background-color: white;
-    z-index: 1;
+ padding: 150px 50px;
+ margin: 0 auto;
+z-index: 1;
+}
+.section2 img {
+    width: 120px;
+    height: 120px;
+    display: block;
 }
 h4 {
     width:fit-content;
     display: block;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 16px;
     color:black;
     text-align: left;
     margin-bottom: 20px;
 }
-p {
+.section2 p {
+    max-width: 150px;
     width: fit-content;
     display: block;
     position: relative;
     font-size: 14px;
     margin-left: 20px;
-    color:#f2f2f2;
+    color:#b9b9b9;
     text-align: left;
     margin-bottom: 40px;
 }
