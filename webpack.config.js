@@ -14,7 +14,19 @@ module.exports = {
       {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader' ]
-      }
+      },
+      { // added to png, svg, jpg...
+        // install webpack url loader
+        test: /\.(png|svg|jpe?g|gif)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            name: "[name].[ext]",
+            outputPath: "img",
+            esModule: false // for svg
+          }
+        },
+      },
     ]
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
