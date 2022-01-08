@@ -10,15 +10,100 @@ body{
     padding: 15px;
     background-color: rgb(31, 37, 53);
     color: white;
-    height: 600px;
+    height: 800px;
 }
 
-.section1 > h1 {
-    font-size: 60px;
+.text-section1{
+    text-align: left;
+    padding: 10px;
+    padding-top: 80px;
+    width: 450px;
+    margin-left: 100px;
+    float: left; 
 }
 
-.section1 > p {
-    font-size: 20px;
+
+.text-section1 > h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.text-section1 > p {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.btn-awesome{
+    height: 80px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color:  rgb(31, 37, 53);
 }
 
 
+.logoReact-section1{
+    text-align: right;
+    width: 450px;
+    float: left;
+    /*
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;*/
+    
+}
+
+.logoReact-section1-a{
+    text-align: right;
+    width: 200px;
+    float: right;
+    
+}
+
+.img-maior{
+    width: 300px;
+    margin-right: 200px;   
+}
+
+.img-media{
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.img-menor{
+    width: 200px;
+    margin-right: 200px;
+}
+
+
+.img-menor-a{
+    width: 200px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.menu{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.icons-section2{
+    width: 250px;
+}
