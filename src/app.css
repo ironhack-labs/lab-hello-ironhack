@@ -1,0 +1,24 @@
+
+body{
+    margin: 0; 
+    text-align: center;
+    font-family: 'arial', sans-serif;
+}
+
+.section1 {
+    margin: 15px 30px;
+    padding: 15px;
+    background-color: rgb(31, 37, 53);
+    color: white;
+    height: 600px;
+}
+
+.section1 > h1 {
+    font-size: 60px;
+}
+
+.section1 > p {
+    font-size: 20px;
+}
+
+
