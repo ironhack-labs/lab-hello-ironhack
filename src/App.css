@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2e394f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: calc(15px + 2vmin);
+  color: white;
+
+}
+
+.App-header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-top: 20px;
+  margin-right: 55px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-header section {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-left: 55px;
+  padding-top: 90px;
+  
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  font-size: .9em;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  color:#2e394f
+}
+
+.App-header section p {
+  font-size: .8em;
+  font-weight: 100;
+}
+
+.App-icons {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content:space-between;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: left;
+  
+}
+
+.App-icons p {
+  text-align: left;
+
+}
+.App-icons img {
+  width: 75%;
+  position: relative;
+left: -13px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
