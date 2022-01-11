@@ -52,18 +52,6 @@ body {
     font-size: 30px;
 }
 
-.container1 {
-    display: flex;
-}
-
-.div1 {
-    background-image: url(/images/react-logo.svg);
-}
-
-.div2 {
-    background-image: url(/images/react-logo.svg);
-}
-
 .container {
     color: #3f4452;
     display: flex;
