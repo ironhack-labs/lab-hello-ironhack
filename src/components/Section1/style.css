@@ -1,0 +1,20 @@
+/* #1E2333 */
+
+
+
+.navbar{
+    background-color: #1E2333;
+    display: flex;
+    margin: 15px 30px;
+    padding: 15px;
+    color: white;
+    height: 600px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
