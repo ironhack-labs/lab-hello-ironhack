@@ -1,20 +1,25 @@
 body {
     margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .section1 {
     background-color: #1f2535;
+    background-image: url("/images/react-logo.svg");
 }
 
 .navbar {
     margin-left: 100px;
     padding-top: 50px;
     padding-right: 50px;
-}
-
-.logoRight {
-    float: right;
+    display: flex;
+    justify-content: space-between
 }
 
 .landingPage {
