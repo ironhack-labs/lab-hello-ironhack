@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-color: #1f2535;
+}
+
+.navbar {
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.logoRight {
+    float: right;
+}
+
+.landingPage {
+    color: white;
+    width: 700px;
+    margin-left: 100px;
+    position: relative;
+
+}
+
+.landingPage h1 {
+    font-size: 120px;
+}
+
+.landingPage p {
+    font-size: 32px;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+.landingPage button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: white;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.div1 {
+    background-image: url(/images/react-logo.svg);
+}
+
+.div2 {
+    background-image: url(/images/react-logo.svg);
+}
+
+.container {
+    color: #3f4452;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 250px;
+}
+
+.container div {
+    padding-right: 30px;
+    margin: 0px 50px 100px 0px;
+}
+
+.container h3 {
+    font-size: 35px;
+}
+
+.container p {
+    font-size: 20px;
+}
