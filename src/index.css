@@ -1,28 +1,52 @@
 html {
   margin: 0;
   font-size: 10px;
-  border: 1px solid red;
 }
 
-body {
-  border: 2px solid red;
+.App {
+  display: flex;
+  flex-direction: column;
 }
 
 .upper-container{
-  /* background-image: url('./public/images/react-logo.svg'); */
+  background-image: url("/images/react-logo.svg");
+  background-color: #1F2535;
+  background-repeat: space;
+  color: whitesmoke;
+  padding: 20px 40px 60px 80px;
+  margin: 20px 20px 100px 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+h1{
+  font-size: 8rem;
+}
+
+p{
+  font-size: 2.5rem;
+}
+
+button {
+  padding: 1.5rem 3rem;
+  margin-top: 80px;
 }
 
 .features-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  margin: 0px 5px;
+  justify-content: space-around;
+  margin-left: 20px;
 }
 
 .features-container > section > img {
-  width: 80px;
+  width: 15rem;
   height: auto;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 .features{
@@ -30,10 +54,14 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin: 0px 10px;
+}
+
+h2{
+  font-size: 2.5rem;
 }
 
 li{
   list-style-type: none;
   margin-left: -40px;
+  font-size: 1.8rem;
 }

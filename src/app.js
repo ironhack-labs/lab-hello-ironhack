@@ -6,7 +6,10 @@ const App = () => {
   return (
     <div className = "App">
       <div className = "upper-container">
-        <header>Aqui tem que ficar o logo e o menu</header>
+        <header>
+         <img src="./images/ironhack-logo.svg"></img>
+         <img src="./images/menu-top.svg"></img>
+        </header>
         <div className = "landing-text"> 
           <h1> Say hello to <br></br>
           ReactJS</h1>
@@ -15,7 +18,7 @@ const App = () => {
           and become a super Ninja developer.</p>
         </div>
         <button>Awesome!</button>
-
+        </div>
         <section className="features-container">
           <section className="features">
             <img src="./images/icon1.png" />
@@ -57,7 +60,6 @@ const App = () => {
 
           </section>
         </section>
-      </div>
     </div>
   )
 };
