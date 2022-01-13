@@ -1,7 +1,14 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  height: 100vh;
+}
+
+.darkApp {
+  background-color: rgb(52, 52, 77);
+  padding: 30px 50px 100px 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .App-logo {
@@ -34,14 +41,80 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-size: 100px;
+  color: #fff;
+  text-align: left;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  margin: 0;
+}
+
+.imageAbs {
+  position: absolute;
+}
+
+.image1 {
+  top: 20px;
+  right: 15%;
+  height: 300px;
+}
+.image2 {
+  top: 250px;
+  right: 0;
+  height: 130px;
+}
+.image3 {
+  top: 410px;
+  right: 0;
+  height: 130px;
+}
+.image4 {
+  top: 570px;
+  right: 0;
+  height: 130px;
+}
+.image5 {
+  top: 370px;
+  right: 15%;
+  height: 220px;
+}
+.image6 {
+  top: 540px;
+  right: 30%;
+  height: 220px;
+}
+
+button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+}
+
+h2 {
+  margin: 0;
 }
