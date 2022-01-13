@@ -10,13 +10,42 @@ import Button from "./Components/Button"
 import MessageHeader from "./Components/MessageHeader";
 import Card from "./Components/Card";
 
+
+const students = [
+  {
+    imgSource: icon1,
+    title: "Declarative",
+    description: "React makes it painless to create interactive UIs."
+
+  },
+  {
+    imgSource: icon2,
+    title: "Components",
+    description: "Build encapsulated components that manage their state."
+
+  },
+  {
+    imgSource: icon3,
+    title:"Single-Way",
+    description: "A set of immutable values are passed to the compoments."
+
+  },
+  {
+    imgSource: icon4,
+    title:"JSX",
+    description: "Statically-typed, designed to run on modern browsers."
+  },
+]
+
+
 //<React.StrictMode>
-// StrictMode is a tool for highlighting potential problems in an application. Like Fragment, StrictMode does not render any visible UI. It activates additional checks and warnings for its descendants.
+// StrictMode is a tool for highlighting potential problems in an application. 
+// Like Fragment, StrictMode does not render any visible UI. 
+// It activates additional checks and warnings for its descendants.
 //https://reactjs.org/docs/strict-mode.html
 const App = () => {
   return (
-    <React.StrictMode>
-    <section>
+    <div>
       <div className="header-section">
         <Navbar />
         {/* <div className="navbar-wrapper">
@@ -30,7 +59,25 @@ const App = () => {
         {/* <a href="#" className="button"> Awesome!</a> */}
       </div>
     <div className="features-icons">
-        <Card // props-> imgSource, title, description
+    {/* {
+      students.map((student, title) => {
+        return <Card key={student.title} {...student} />
+      })
+    } */}
+
+    {
+      students.map((student, title) => {
+        return (
+          <Card 
+            key={student.title} 
+            imgSource={student.imgSource}
+            title={student.title}
+            description={student.description}
+          />
+        );
+      })
+    }
+        {/* <Card // props-> imgSource, title, description
           imgSource={icon1}
           title="Declarative"
           description="React makes it painless to create interactive UIs."
@@ -49,7 +96,7 @@ const App = () => {
           imgSource={icon4}
           title="JSX"
           description="Statically-typed, designed to run on modern browsers."
-        />
+        /> */}
       {/* <div className="card-feature">
         <img src={icon1} alt="declarative icon" />
         <h3>Declarative</h3>
@@ -72,8 +119,7 @@ const App = () => {
         <p>Statically-typed, designed to run on modern browsers.</p>
       </div> */}
     </div>
-  </section>
-  </React.StrictMode>
+  </div>
   )
 }
 // const App = () => {
