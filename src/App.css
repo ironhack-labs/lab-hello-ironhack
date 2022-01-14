@@ -1,0 +1,47 @@
+.App {
+  text-align: left;
+  background-image: url("/public/images/react-logo.svg"),
+  url("/public/images/react-logo.svg"),
+  url("/public/images/react-logo.svg"),
+  url("/public/images/react-logo.svg"),
+  url("/public/images/react-logo.svg"),
+  url("/public/images/react-logo.svg");
+  background-repeat: no-repeat;
+  background-position-x: 70%, 80%, 55%, 103%, 103%, 103%;
+  background-position-y: 10%, 70%, 95%, 40%, 70%, 100%;
+  background-size: 25%, 20%, 20%, 12%, 12%, 12%;
+  background-color: #282c34;
+
+
+  }
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  padding: 0px 5%;
+  color: white;
+}
+
+.App-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.App-text {
+  width: 50%;
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 800; 
+  color: #282c34;
+  margin-top: 20px;
+}
