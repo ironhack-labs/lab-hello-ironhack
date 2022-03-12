@@ -1,0 +1,36 @@
+.section1{
+    background-color: #1f2535;
+    padding: 20px 50px 35px;
+    color: #FEFEFE;
+    height: 500px;
+    background-image: url("/images/react-logo.svg"), url("/images/react-logo.svg"), url("/images/react-logo.svg");
+    background-position: top 20px right 100px, top 250px right 80px, top 380px right 200px;
+    background-repeat: no-repeat;
+    background-size: 230px, 200px, 180px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div > h1 {
+    font-size: 4rem;
+    width: 350px;
+}
+
+.main-div > h3 {
+    width: 300px;
+}
+
+.main-div > button {
+    background-color:#FEFEFE;
+    color: #1f2535;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.section2 {
+    display: flex;
+}
