@@ -7,7 +7,7 @@ const App = () => {
     return (
         <React.Fragment>
             <Section1 />
-            <Section2 />
+            <Section2 />            
         </React.Fragment>
     )
   };
