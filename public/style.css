@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Titillium+Web:wght@300&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+header {
+    background-color: #1f2535;
+    background-image: url("/images/react-logo.svg");
+}
+
+nav {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div {
+    padding: 1rem 10%;
+    width: 40%;
+}
+
+h1,
+h3 {
+    color: aliceblue;
+}
+
+h1 {
+    margin: 1rem auto;
+    font-size: 5rem;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+button {
+    margin: 2rem;
+    padding: 1rem;
+    color: #1f2535;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    border-radius: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    margin: 5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+article {
+    width: 20%;
+}
